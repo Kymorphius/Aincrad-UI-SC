@@ -1,12 +1,12 @@
-# Aincrad UI SC
+# 艾恩葛朗特字体 · Aincrad UI SC
 
 **A condensed Chinese UI typeface with an SAO-inspired character.**
 
 English · [简体中文](README.zh-CN.md) · [Download v0.3.0](https://github.com/kymorphius/Aincrad-UI-SC/releases/tag/v0.3.0)
 
-![Aincrad UI SC interface specimen](media/preview.png)
+![艾恩葛朗特字体 / Aincrad UI SC interface specimen](media/preview.png)
 
-Aincrad UI SC derives from **Source Han Sans SC v1.004**. Condensed proportions, restrained rounding and chamfered corners come in two styles: **Regular** for interface text and **Display** for headings. This edition covers **30,437 encoded characters**: all **30,186 Han codepoints** mapped by the project's local Source Han inputs, plus **251 Latin letters, digits, punctuation and other symbols**.
+艾恩葛朗特字体 (Aincrad UI SC) derives from **Source Han Sans SC v1.004**. Condensed proportions, restrained rounding and chamfered corners come in two styles: **Regular** for interface text and **Display** for headings. This edition covers **30,437 encoded characters**: all **30,186 Han codepoints** mapped by the project's local Source Han inputs, plus **251 Latin letters, digits, punctuation and other symbols**.
 
 The **`wao-symbols`** edition completes all 24 symbols requested for the WAO interface, including the six box-drawing characters:
 
