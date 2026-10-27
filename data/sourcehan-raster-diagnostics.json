@@ -1,0 +1,2752 @@
+{
+  "non_gating": true,
+  "policy": "Coverage, exact old outlines/hmtx/points/line, aliases and source preservation are mandatory. Pixel identity across expanded character coverage is an explicit diagnostic, not a mandatory requirement.",
+  "method": "Pillow/FreeType BASIC native L masks, common baseline, fixed integer physical pixels; no resampling. Alpha64/128 crossings are diagnostics, not readability pass thresholds.",
+  "environment": {
+    "pillow": "12.3.0",
+    "freetype": "2.14.3"
+  },
+  "ttf_control_samples": [
+    {
+      "variant": "Regular",
+      "size_physical_px": 11,
+      "control_text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+      "whole_control": {
+        "changed_pixels": 40,
+        "absolute_gray_difference_sum": 657,
+        "maximum_alpha_change": 82,
+        "old_gray_ink_sum": 157145,
+        "new_gray_ink_sum": 157378,
+        "old_nonzero_pixels": 1198,
+        "new_nonzero_pixels": 1195,
+        "old_ink_bbox": [
+          0,
+          -10,
+          180,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -10,
+          180,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -10
+        ],
+        "new_mask_offset": [
+          0,
+          -10
+        ],
+        "old_mask_size": [
+          180,
+          12
+        ],
+        "new_mask_size": [
+          180,
+          12
+        ],
+        "old_advance": 180.0,
+        "new_advance": 180.0,
+        "threshold64_crossings": 2,
+        "threshold128_crossings": 1,
+        "mask_and_offset_equal": false
+      },
+      "affected_characters": [
+        {
+          "character": "角",
+          "codepoint": 35282,
+          "changed_pixels": 22,
+          "absolute_gray_difference_sum": 453,
+          "maximum_alpha_change": 82,
+          "old_gray_ink_sum": 9136,
+          "new_gray_ink_sum": 9381,
+          "old_nonzero_pixels": 61,
+          "new_nonzero_pixels": 62,
+          "old_ink_bbox": [
+            0,
+            -10,
+            9,
+            2
+          ],
+          "new_ink_bbox": [
+            0,
+            -10,
+            9,
+            2
+          ],
+          "old_mask_offset": [
+            0,
+            -10
+          ],
+          "new_mask_offset": [
+            0,
+            -10
+          ],
+          "old_mask_size": [
+            10,
+            12
+          ],
+          "new_mask_size": [
+            10,
+            12
+          ],
+          "old_advance": 10.0,
+          "new_advance": 10.0,
+          "threshold64_crossings": 2,
+          "threshold128_crossings": 0,
+          "mask_and_offset_equal": false
+        },
+        {
+          "character": "螣",
+          "codepoint": 34723,
+          "changed_pixels": 18,
+          "absolute_gray_difference_sum": 204,
+          "maximum_alpha_change": 43,
+          "old_gray_ink_sum": 12268,
+          "new_gray_ink_sum": 12256,
+          "old_nonzero_pixels": 94,
+          "new_nonzero_pixels": 90,
+          "old_ink_bbox": [
+            0,
+            -10,
+            10,
+            2
+          ],
+          "new_ink_bbox": [
+            0,
+            -10,
+            10,
+            1
+          ],
+          "old_mask_offset": [
+            0,
+            -10
+          ],
+          "new_mask_offset": [
+            0,
+            -10
+          ],
+          "old_mask_size": [
+            10,
+            12
+          ],
+          "new_mask_size": [
+            10,
+            12
+          ],
+          "old_advance": 10.0,
+          "new_advance": 10.0,
+          "threshold64_crossings": 0,
+          "threshold128_crossings": 1,
+          "mask_and_offset_equal": false
+        }
+      ],
+      "angle_U89D2": {
+        "changed_pixels": 22,
+        "absolute_gray_difference_sum": 453,
+        "maximum_alpha_change": 82,
+        "old_gray_ink_sum": 9136,
+        "new_gray_ink_sum": 9381,
+        "old_nonzero_pixels": 61,
+        "new_nonzero_pixels": 62,
+        "old_ink_bbox": [
+          0,
+          -10,
+          9,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -10,
+          9,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -10
+        ],
+        "new_mask_offset": [
+          0,
+          -10
+        ],
+        "old_mask_size": [
+          10,
+          12
+        ],
+        "new_mask_size": [
+          10,
+          12
+        ],
+        "old_advance": 10.0,
+        "new_advance": 10.0,
+        "threshold64_crossings": 2,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": false
+      }
+    },
+    {
+      "variant": "Regular",
+      "size_physical_px": 12,
+      "control_text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+      "whole_control": {
+        "changed_pixels": 46,
+        "absolute_gray_difference_sum": 2078,
+        "maximum_alpha_change": 224,
+        "old_gray_ink_sum": 184219,
+        "new_gray_ink_sum": 184687,
+        "old_nonzero_pixels": 1346,
+        "new_nonzero_pixels": 1346,
+        "old_ink_bbox": [
+          0,
+          -11,
+          195,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -11,
+          195,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -11
+        ],
+        "new_mask_offset": [
+          0,
+          -11
+        ],
+        "old_mask_size": [
+          196,
+          13
+        ],
+        "new_mask_size": [
+          196,
+          13
+        ],
+        "old_advance": 196.0,
+        "new_advance": 196.0,
+        "threshold64_crossings": 10,
+        "threshold128_crossings": 8,
+        "mask_and_offset_equal": false
+      },
+      "affected_characters": [
+        {
+          "character": "角",
+          "codepoint": 35282,
+          "changed_pixels": 22,
+          "absolute_gray_difference_sum": 1854,
+          "maximum_alpha_change": 224,
+          "old_gray_ink_sum": 9913,
+          "new_gray_ink_sum": 10385,
+          "old_nonzero_pixels": 70,
+          "new_nonzero_pixels": 74,
+          "old_ink_bbox": [
+            0,
+            -10,
+            10,
+            2
+          ],
+          "new_ink_bbox": [
+            0,
+            -11,
+            10,
+            2
+          ],
+          "old_mask_offset": [
+            0,
+            -10
+          ],
+          "new_mask_offset": [
+            0,
+            -11
+          ],
+          "old_mask_size": [
+            11,
+            12
+          ],
+          "new_mask_size": [
+            11,
+            13
+          ],
+          "old_advance": 11.0,
+          "new_advance": 11.0,
+          "threshold64_crossings": 9,
+          "threshold128_crossings": 8,
+          "mask_and_offset_equal": false
+        },
+        {
+          "character": "螣",
+          "codepoint": 34723,
+          "changed_pixels": 24,
+          "absolute_gray_difference_sum": 224,
+          "maximum_alpha_change": 35,
+          "old_gray_ink_sum": 14343,
+          "new_gray_ink_sum": 14339,
+          "old_nonzero_pixels": 101,
+          "new_nonzero_pixels": 97,
+          "old_ink_bbox": [
+            0,
+            -11,
+            11,
+            2
+          ],
+          "new_ink_bbox": [
+            0,
+            -11,
+            11,
+            2
+          ],
+          "old_mask_offset": [
+            0,
+            -11
+          ],
+          "new_mask_offset": [
+            0,
+            -11
+          ],
+          "old_mask_size": [
+            11,
+            13
+          ],
+          "new_mask_size": [
+            11,
+            13
+          ],
+          "old_advance": 11.0,
+          "new_advance": 11.0,
+          "threshold64_crossings": 1,
+          "threshold128_crossings": 0,
+          "mask_and_offset_equal": false
+        }
+      ],
+      "angle_U89D2": {
+        "changed_pixels": 22,
+        "absolute_gray_difference_sum": 1854,
+        "maximum_alpha_change": 224,
+        "old_gray_ink_sum": 9913,
+        "new_gray_ink_sum": 10385,
+        "old_nonzero_pixels": 70,
+        "new_nonzero_pixels": 74,
+        "old_ink_bbox": [
+          0,
+          -10,
+          10,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -11,
+          10,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -10
+        ],
+        "new_mask_offset": [
+          0,
+          -11
+        ],
+        "old_mask_size": [
+          11,
+          12
+        ],
+        "new_mask_size": [
+          11,
+          13
+        ],
+        "old_advance": 11.0,
+        "new_advance": 11.0,
+        "threshold64_crossings": 9,
+        "threshold128_crossings": 8,
+        "mask_and_offset_equal": false
+      }
+    },
+    {
+      "variant": "Regular",
+      "size_physical_px": 13,
+      "control_text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+      "whole_control": {
+        "changed_pixels": 21,
+        "absolute_gray_difference_sum": 189,
+        "maximum_alpha_change": 27,
+        "old_gray_ink_sum": 208321,
+        "new_gray_ink_sum": 208320,
+        "old_nonzero_pixels": 1474,
+        "new_nonzero_pixels": 1470,
+        "old_ink_bbox": [
+          0,
+          -12,
+          215,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -12,
+          215,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -12
+        ],
+        "new_mask_offset": [
+          0,
+          -12
+        ],
+        "old_mask_size": [
+          216,
+          14
+        ],
+        "new_mask_size": [
+          216,
+          14
+        ],
+        "old_advance": 216.0,
+        "new_advance": 216.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": false
+      },
+      "affected_characters": [
+        {
+          "character": "螣",
+          "codepoint": 34723,
+          "changed_pixels": 21,
+          "absolute_gray_difference_sum": 189,
+          "maximum_alpha_change": 27,
+          "old_gray_ink_sum": 14843,
+          "new_gray_ink_sum": 14842,
+          "old_nonzero_pixels": 101,
+          "new_nonzero_pixels": 97,
+          "old_ink_bbox": [
+            0,
+            -11,
+            11,
+            2
+          ],
+          "new_ink_bbox": [
+            0,
+            -11,
+            11,
+            2
+          ],
+          "old_mask_offset": [
+            0,
+            -11
+          ],
+          "new_mask_offset": [
+            0,
+            -11
+          ],
+          "old_mask_size": [
+            12,
+            13
+          ],
+          "new_mask_size": [
+            12,
+            13
+          ],
+          "old_advance": 12.0,
+          "new_advance": 12.0,
+          "threshold64_crossings": 0,
+          "threshold128_crossings": 0,
+          "mask_and_offset_equal": false
+        }
+      ],
+      "angle_U89D2": {
+        "changed_pixels": 0,
+        "absolute_gray_difference_sum": 0,
+        "maximum_alpha_change": 0,
+        "old_gray_ink_sum": 11962,
+        "new_gray_ink_sum": 11962,
+        "old_nonzero_pixels": 73,
+        "new_nonzero_pixels": 73,
+        "old_ink_bbox": [
+          0,
+          -11,
+          10,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -11,
+          10,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -11
+        ],
+        "new_mask_offset": [
+          0,
+          -11
+        ],
+        "old_mask_size": [
+          12,
+          13
+        ],
+        "new_mask_size": [
+          12,
+          13
+        ],
+        "old_advance": 12.0,
+        "new_advance": 12.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": true
+      }
+    },
+    {
+      "variant": "Regular",
+      "size_physical_px": 14,
+      "control_text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+      "whole_control": {
+        "changed_pixels": 26,
+        "absolute_gray_difference_sum": 146,
+        "maximum_alpha_change": 27,
+        "old_gray_ink_sum": 245381,
+        "new_gray_ink_sum": 245353,
+        "old_nonzero_pixels": 1673,
+        "new_nonzero_pixels": 1672,
+        "old_ink_bbox": [
+          0,
+          -13,
+          231,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -13,
+          231,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -13
+        ],
+        "new_mask_offset": [
+          0,
+          -13
+        ],
+        "old_mask_size": [
+          232,
+          15
+        ],
+        "new_mask_size": [
+          232,
+          15
+        ],
+        "old_advance": 232.0,
+        "new_advance": 232.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": false
+      },
+      "affected_characters": [
+        {
+          "character": "备",
+          "codepoint": 22791,
+          "changed_pixels": 4,
+          "absolute_gray_difference_sum": 30,
+          "maximum_alpha_change": 27,
+          "old_gray_ink_sum": 15757,
+          "new_gray_ink_sum": 15729,
+          "old_nonzero_pixels": 98,
+          "new_nonzero_pixels": 98,
+          "old_ink_bbox": [
+            0,
+            -13,
+            13,
+            2
+          ],
+          "new_ink_bbox": [
+            0,
+            -13,
+            13,
+            2
+          ],
+          "old_mask_offset": [
+            0,
+            -13
+          ],
+          "new_mask_offset": [
+            0,
+            -13
+          ],
+          "old_mask_size": [
+            13,
+            15
+          ],
+          "new_mask_size": [
+            13,
+            15
+          ],
+          "old_advance": 13.0,
+          "new_advance": 13.0,
+          "threshold64_crossings": 0,
+          "threshold128_crossings": 0,
+          "mask_and_offset_equal": false
+        },
+        {
+          "character": "螣",
+          "codepoint": 34723,
+          "changed_pixels": 22,
+          "absolute_gray_difference_sum": 116,
+          "maximum_alpha_change": 16,
+          "old_gray_ink_sum": 17048,
+          "new_gray_ink_sum": 17048,
+          "old_nonzero_pixels": 123,
+          "new_nonzero_pixels": 122,
+          "old_ink_bbox": [
+            0,
+            -12,
+            12,
+            2
+          ],
+          "new_ink_bbox": [
+            0,
+            -12,
+            12,
+            2
+          ],
+          "old_mask_offset": [
+            0,
+            -12
+          ],
+          "new_mask_offset": [
+            0,
+            -12
+          ],
+          "old_mask_size": [
+            13,
+            14
+          ],
+          "new_mask_size": [
+            13,
+            14
+          ],
+          "old_advance": 13.0,
+          "new_advance": 13.0,
+          "threshold64_crossings": 0,
+          "threshold128_crossings": 0,
+          "mask_and_offset_equal": false
+        }
+      ],
+      "angle_U89D2": {
+        "changed_pixels": 0,
+        "absolute_gray_difference_sum": 0,
+        "maximum_alpha_change": 0,
+        "old_gray_ink_sum": 13617,
+        "new_gray_ink_sum": 13617,
+        "old_nonzero_pixels": 85,
+        "new_nonzero_pixels": 85,
+        "old_ink_bbox": [
+          0,
+          -13,
+          10,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -13,
+          10,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -13
+        ],
+        "new_mask_offset": [
+          0,
+          -13
+        ],
+        "old_mask_size": [
+          13,
+          15
+        ],
+        "new_mask_size": [
+          13,
+          15
+        ],
+        "old_advance": 13.0,
+        "new_advance": 13.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": true
+      }
+    },
+    {
+      "variant": "Regular",
+      "size_physical_px": 32,
+      "control_text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+      "whole_control": {
+        "changed_pixels": 0,
+        "absolute_gray_difference_sum": 0,
+        "maximum_alpha_change": 0,
+        "old_gray_ink_sum": 1240404,
+        "new_gray_ink_sum": 1240404,
+        "old_nonzero_pixels": 6925,
+        "new_nonzero_pixels": 6925,
+        "old_ink_bbox": [
+          2,
+          -28,
+          517,
+          3
+        ],
+        "new_ink_bbox": [
+          2,
+          -28,
+          517,
+          3
+        ],
+        "old_mask_offset": [
+          0,
+          -28
+        ],
+        "new_mask_offset": [
+          0,
+          -28
+        ],
+        "old_mask_size": [
+          520,
+          31
+        ],
+        "new_mask_size": [
+          520,
+          31
+        ],
+        "old_advance": 520.0,
+        "new_advance": 520.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": true
+      },
+      "affected_characters": [],
+      "angle_U89D2": {
+        "changed_pixels": 0,
+        "absolute_gray_difference_sum": 0,
+        "maximum_alpha_change": 0,
+        "old_gray_ink_sum": 71390,
+        "new_gray_ink_sum": 71390,
+        "old_nonzero_pixels": 424,
+        "new_nonzero_pixels": 424,
+        "old_ink_bbox": [
+          2,
+          -28,
+          26,
+          3
+        ],
+        "new_ink_bbox": [
+          2,
+          -28,
+          26,
+          3
+        ],
+        "old_mask_offset": [
+          0,
+          -28
+        ],
+        "new_mask_offset": [
+          0,
+          -28
+        ],
+        "old_mask_size": [
+          29,
+          31
+        ],
+        "new_mask_size": [
+          29,
+          31
+        ],
+        "old_advance": 29.0,
+        "new_advance": 29.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": true
+      }
+    },
+    {
+      "variant": "Display",
+      "size_physical_px": 11,
+      "control_text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+      "whole_control": {
+        "changed_pixels": 3,
+        "absolute_gray_difference_sum": 31,
+        "maximum_alpha_change": 29,
+        "old_gray_ink_sum": 167069,
+        "new_gray_ink_sum": 167040,
+        "old_nonzero_pixels": 1170,
+        "new_nonzero_pixels": 1170,
+        "old_ink_bbox": [
+          0,
+          -10,
+          164,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -10,
+          164,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -10
+        ],
+        "new_mask_offset": [
+          0,
+          -10
+        ],
+        "old_mask_size": [
+          164,
+          12
+        ],
+        "new_mask_size": [
+          164,
+          12
+        ],
+        "old_advance": 164.0,
+        "new_advance": 164.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": false
+      },
+      "affected_characters": [
+        {
+          "character": "备",
+          "codepoint": 22791,
+          "changed_pixels": 3,
+          "absolute_gray_difference_sum": 31,
+          "maximum_alpha_change": 29,
+          "old_gray_ink_sum": 8932,
+          "new_gray_ink_sum": 8903,
+          "old_nonzero_pixels": 60,
+          "new_nonzero_pixels": 60,
+          "old_ink_bbox": [
+            0,
+            -9,
+            9,
+            2
+          ],
+          "new_ink_bbox": [
+            0,
+            -9,
+            9,
+            2
+          ],
+          "old_mask_offset": [
+            0,
+            -9
+          ],
+          "new_mask_offset": [
+            0,
+            -9
+          ],
+          "old_mask_size": [
+            9,
+            11
+          ],
+          "new_mask_size": [
+            9,
+            11
+          ],
+          "old_advance": 9.0,
+          "new_advance": 9.0,
+          "threshold64_crossings": 0,
+          "threshold128_crossings": 0,
+          "mask_and_offset_equal": false
+        }
+      ],
+      "angle_U89D2": {
+        "changed_pixels": 0,
+        "absolute_gray_difference_sum": 0,
+        "maximum_alpha_change": 0,
+        "old_gray_ink_sum": 10338,
+        "new_gray_ink_sum": 10338,
+        "old_nonzero_pixels": 62,
+        "new_nonzero_pixels": 62,
+        "old_ink_bbox": [
+          0,
+          -10,
+          9,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -10,
+          9,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -10
+        ],
+        "new_mask_offset": [
+          0,
+          -10
+        ],
+        "old_mask_size": [
+          9,
+          12
+        ],
+        "new_mask_size": [
+          9,
+          12
+        ],
+        "old_advance": 9.0,
+        "new_advance": 9.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": true
+      }
+    },
+    {
+      "variant": "Display",
+      "size_physical_px": 12,
+      "control_text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+      "whole_control": {
+        "changed_pixels": 2,
+        "absolute_gray_difference_sum": 11,
+        "maximum_alpha_change": 10,
+        "old_gray_ink_sum": 199898,
+        "new_gray_ink_sum": 199887,
+        "old_nonzero_pixels": 1358,
+        "new_nonzero_pixels": 1358,
+        "old_ink_bbox": [
+          0,
+          -11,
+          180,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -11,
+          180,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -11
+        ],
+        "new_mask_offset": [
+          0,
+          -11
+        ],
+        "old_mask_size": [
+          180,
+          13
+        ],
+        "new_mask_size": [
+          180,
+          13
+        ],
+        "old_advance": 180.0,
+        "new_advance": 180.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": false
+      },
+      "affected_characters": [
+        {
+          "character": "备",
+          "codepoint": 22791,
+          "changed_pixels": 2,
+          "absolute_gray_difference_sum": 11,
+          "maximum_alpha_change": 10,
+          "old_gray_ink_sum": 12526,
+          "new_gray_ink_sum": 12515,
+          "old_nonzero_pixels": 74,
+          "new_nonzero_pixels": 74,
+          "old_ink_bbox": [
+            0,
+            -10,
+            11,
+            2
+          ],
+          "new_ink_bbox": [
+            0,
+            -10,
+            11,
+            2
+          ],
+          "old_mask_offset": [
+            0,
+            -11
+          ],
+          "new_mask_offset": [
+            0,
+            -11
+          ],
+          "old_mask_size": [
+            11,
+            13
+          ],
+          "new_mask_size": [
+            11,
+            13
+          ],
+          "old_advance": 10.0,
+          "new_advance": 10.0,
+          "threshold64_crossings": 0,
+          "threshold128_crossings": 0,
+          "mask_and_offset_equal": false
+        }
+      ],
+      "angle_U89D2": {
+        "changed_pixels": 0,
+        "absolute_gray_difference_sum": 0,
+        "maximum_alpha_change": 0,
+        "old_gray_ink_sum": 11721,
+        "new_gray_ink_sum": 11721,
+        "old_nonzero_pixels": 68,
+        "new_nonzero_pixels": 68,
+        "old_ink_bbox": [
+          0,
+          -11,
+          9,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -11,
+          9,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -11
+        ],
+        "new_mask_offset": [
+          0,
+          -11
+        ],
+        "old_mask_size": [
+          10,
+          13
+        ],
+        "new_mask_size": [
+          10,
+          13
+        ],
+        "old_advance": 10.0,
+        "new_advance": 10.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": true
+      }
+    },
+    {
+      "variant": "Display",
+      "size_physical_px": 13,
+      "control_text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+      "whole_control": {
+        "changed_pixels": 0,
+        "absolute_gray_difference_sum": 0,
+        "maximum_alpha_change": 0,
+        "old_gray_ink_sum": 226243,
+        "new_gray_ink_sum": 226243,
+        "old_nonzero_pixels": 1525,
+        "new_nonzero_pixels": 1525,
+        "old_ink_bbox": [
+          0,
+          -12,
+          199,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -12,
+          199,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -12
+        ],
+        "new_mask_offset": [
+          0,
+          -12
+        ],
+        "old_mask_size": [
+          200,
+          14
+        ],
+        "new_mask_size": [
+          200,
+          14
+        ],
+        "old_advance": 200.0,
+        "new_advance": 200.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": true
+      },
+      "affected_characters": [],
+      "angle_U89D2": {
+        "changed_pixels": 0,
+        "absolute_gray_difference_sum": 0,
+        "maximum_alpha_change": 0,
+        "old_gray_ink_sum": 12852,
+        "new_gray_ink_sum": 12852,
+        "old_nonzero_pixels": 88,
+        "new_nonzero_pixels": 88,
+        "old_ink_bbox": [
+          0,
+          -11,
+          10,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -11,
+          10,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -11
+        ],
+        "new_mask_offset": [
+          0,
+          -11
+        ],
+        "old_mask_size": [
+          11,
+          13
+        ],
+        "new_mask_size": [
+          11,
+          13
+        ],
+        "old_advance": 11.0,
+        "new_advance": 11.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": true
+      }
+    },
+    {
+      "variant": "Display",
+      "size_physical_px": 14,
+      "control_text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+      "whole_control": {
+        "changed_pixels": 0,
+        "absolute_gray_difference_sum": 0,
+        "maximum_alpha_change": 0,
+        "old_gray_ink_sum": 266036,
+        "new_gray_ink_sum": 266036,
+        "old_nonzero_pixels": 1781,
+        "new_nonzero_pixels": 1781,
+        "old_ink_bbox": [
+          0,
+          -13,
+          215,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -13,
+          215,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -13
+        ],
+        "new_mask_offset": [
+          0,
+          -13
+        ],
+        "old_mask_size": [
+          216,
+          15
+        ],
+        "new_mask_size": [
+          216,
+          15
+        ],
+        "old_advance": 216.0,
+        "new_advance": 216.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": true
+      },
+      "affected_characters": [],
+      "angle_U89D2": {
+        "changed_pixels": 0,
+        "absolute_gray_difference_sum": 0,
+        "maximum_alpha_change": 0,
+        "old_gray_ink_sum": 14133,
+        "new_gray_ink_sum": 14133,
+        "old_nonzero_pixels": 98,
+        "new_nonzero_pixels": 98,
+        "old_ink_bbox": [
+          0,
+          -12,
+          10,
+          2
+        ],
+        "new_ink_bbox": [
+          0,
+          -12,
+          10,
+          2
+        ],
+        "old_mask_offset": [
+          0,
+          -12
+        ],
+        "new_mask_offset": [
+          0,
+          -12
+        ],
+        "old_mask_size": [
+          12,
+          14
+        ],
+        "new_mask_size": [
+          12,
+          14
+        ],
+        "old_advance": 12.0,
+        "new_advance": 12.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": true
+      }
+    },
+    {
+      "variant": "Display",
+      "size_physical_px": 32,
+      "control_text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+      "whole_control": {
+        "changed_pixels": 20,
+        "absolute_gray_difference_sum": 297,
+        "maximum_alpha_change": 79,
+        "old_gray_ink_sum": 1374805,
+        "new_gray_ink_sum": 1374654,
+        "old_nonzero_pixels": 7238,
+        "new_nonzero_pixels": 7239,
+        "old_ink_bbox": [
+          2,
+          -28,
+          486,
+          3
+        ],
+        "new_ink_bbox": [
+          2,
+          -28,
+          486,
+          3
+        ],
+        "old_mask_offset": [
+          0,
+          -28
+        ],
+        "new_mask_offset": [
+          0,
+          -28
+        ],
+        "old_mask_size": [
+          488,
+          31
+        ],
+        "new_mask_size": [
+          488,
+          31
+        ],
+        "old_advance": 488.0,
+        "new_advance": 488.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": false
+      },
+      "affected_characters": [
+        {
+          "character": "角",
+          "codepoint": 35282,
+          "changed_pixels": 20,
+          "absolute_gray_difference_sum": 297,
+          "maximum_alpha_change": 79,
+          "old_gray_ink_sum": 79780,
+          "new_gray_ink_sum": 79629,
+          "old_nonzero_pixels": 399,
+          "new_nonzero_pixels": 400,
+          "old_ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "new_ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "old_mask_offset": [
+            0,
+            -28
+          ],
+          "new_mask_offset": [
+            0,
+            -28
+          ],
+          "old_mask_size": [
+            27,
+            31
+          ],
+          "new_mask_size": [
+            27,
+            31
+          ],
+          "old_advance": 27.0,
+          "new_advance": 27.0,
+          "threshold64_crossings": 0,
+          "threshold128_crossings": 0,
+          "mask_and_offset_equal": false
+        }
+      ],
+      "angle_U89D2": {
+        "changed_pixels": 20,
+        "absolute_gray_difference_sum": 297,
+        "maximum_alpha_change": 79,
+        "old_gray_ink_sum": 79780,
+        "new_gray_ink_sum": 79629,
+        "old_nonzero_pixels": 399,
+        "new_nonzero_pixels": 400,
+        "old_ink_bbox": [
+          2,
+          -28,
+          24,
+          3
+        ],
+        "new_ink_bbox": [
+          2,
+          -28,
+          24,
+          3
+        ],
+        "old_mask_offset": [
+          0,
+          -28
+        ],
+        "new_mask_offset": [
+          0,
+          -28
+        ],
+        "old_mask_size": [
+          27,
+          31
+        ],
+        "new_mask_size": [
+          27,
+          31
+        ],
+        "old_advance": 27.0,
+        "new_advance": 27.0,
+        "threshold64_crossings": 0,
+        "threshold128_crossings": 0,
+        "mask_and_offset_equal": false
+      }
+    }
+  ],
+  "official_sources": [
+    {
+      "title": "FreeType2.14.3 CJK bottom blue reference characters",
+      "url": "https://github.com/freetype/freetype/blob/VER-2-14-3/src/autofit/afblue.dat#L515-L523",
+      "supports": "進過還 are in the CJK_BOTTOM reference-character list."
+    },
+    {
+      "title": "FreeType2.14.3 CJK global blue-zone initialization",
+      "url": "https://github.com/freetype/freetype/blob/VER-2-14-3/src/autofit/afcjk.c#L248-L505",
+      "supports": "Available mapped reference glyphs supply extrema; implementation sorts samples and chooses central values. Internal values were not instrumented here."
+    },
+    {
+      "title": "FreeType2.14.3 default automatic hint selection",
+      "url": "https://github.com/freetype/freetype/blob/VER-2-14-3/src/base/ftobjs.c#L908-L946",
+      "supports": "A TrueType font without fpgm and with a sufficiently short prep table can use runtime autohint under default loading."
+    }
+  ],
+  "limits": "The sampled control text does not exhaust every old glyph at every size/platform. These native FreeType results do not establish Chromium or device readability.",
+  "in_memory_causal_probe": {
+    "scope": "Display TTF angle U89D2 at32px; every modified font exists only in BytesIO and is discarded.",
+    "old_default": {
+      "mask_alpha_sha256": "61f011d1840ed79b25f4c4d450508967a2d943050e075579267058831feedf85",
+      "mask_size": [
+        27,
+        31
+      ],
+      "mask_offset": [
+        0,
+        -28
+      ],
+      "ink_bbox": [
+        2,
+        -28,
+        24,
+        3
+      ],
+      "gray_ink_sum": 79780,
+      "advance": 27.0
+    },
+    "new_default": {
+      "mask_alpha_sha256": "7494263c7ac0b538b0327ce68031349b07a03d3254dac8e1a55d5622cac6ffb4",
+      "mask_size": [
+        27,
+        31
+      ],
+      "mask_offset": [
+        0,
+        -28
+      ],
+      "ink_bbox": [
+        2,
+        -28,
+        24,
+        3
+      ],
+      "gray_ink_sum": 79629,
+      "advance": 27.0
+    },
+    "metadata_before": {
+      "head_bbox": {
+        "xMin": -30,
+        "yMin": -281,
+        "xMax": 832,
+        "yMax": 894
+      },
+      "hhea_extents": {
+        "advanceWidthMax": 850,
+        "minLeftSideBearing": -30,
+        "minRightSideBearing": -18,
+        "xMaxExtent": 832
+      },
+      "unicode_ranges": {
+        "ulUnicodeRange1": 2147483779,
+        "ulUnicodeRange2": 134344800,
+        "ulUnicodeRange3": 16,
+        "ulUnicodeRange4": 8
+      },
+      "first_last_char": {
+        "usFirstCharIndex": 32,
+        "usLastCharIndex": 65509
+      }
+    },
+    "metadata_after": {
+      "head_bbox": {
+        "xMin": -30,
+        "yMin": -281,
+        "xMax": 839,
+        "yMax": 894
+      },
+      "hhea_extents": {
+        "advanceWidthMax": 850,
+        "minLeftSideBearing": -30,
+        "minRightSideBearing": -18,
+        "xMaxExtent": 839
+      },
+      "unicode_ranges": {
+        "ulUnicodeRange1": 2147483779,
+        "ulUnicodeRange2": 704770144,
+        "ulUnicodeRange3": 16,
+        "ulUnicodeRange4": 8
+      },
+      "first_last_char": {
+        "usFirstCharIndex": 32,
+        "usLastCharIndex": 65535
+      }
+    },
+    "maxp_before_after": {
+      "numGlyphs": [
+        6995,
+        30414
+      ],
+      "maxPoints": [
+        308,
+        448
+      ],
+      "maxContours": [
+        18,
+        40
+      ],
+      "maxSizeOfInstructions": [
+        0,
+        0
+      ],
+      "maxStackElements": [
+        0,
+        0
+      ]
+    },
+    "cases": [
+      {
+        "case": "new_memory_roundtrip",
+        "signature": {
+          "mask_alpha_sha256": "7494263c7ac0b538b0327ce68031349b07a03d3254dac8e1a55d5622cac6ffb4",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79629,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": true,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "restore_old_head_bbox",
+        "signature": {
+          "mask_alpha_sha256": "7494263c7ac0b538b0327ce68031349b07a03d3254dac8e1a55d5622cac6ffb4",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79629,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": true,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 832,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "restore_old_hhea_extents",
+        "signature": {
+          "mask_alpha_sha256": "7494263c7ac0b538b0327ce68031349b07a03d3254dac8e1a55d5622cac6ffb4",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79629,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": true,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 832
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "restore_old_unicode_ranges",
+        "signature": {
+          "mask_alpha_sha256": "7494263c7ac0b538b0327ce68031349b07a03d3254dac8e1a55d5622cac6ffb4",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79629,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": true,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 134344800,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "restore_old_first_last_char",
+        "signature": {
+          "mask_alpha_sha256": "7494263c7ac0b538b0327ce68031349b07a03d3254dac8e1a55d5622cac6ffb4",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79629,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": true,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65509
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "restore_all_old_metadata",
+        "signature": {
+          "mask_alpha_sha256": "7494263c7ac0b538b0327ce68031349b07a03d3254dac8e1a55d5622cac6ffb4",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79629,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": true,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 832,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 832
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 134344800,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65509
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "new_glyphs_old_cmap_only",
+        "signature": {
+          "mask_alpha_sha256": "61f011d1840ed79b25f4c4d450508967a2d943050e075579267058831feedf85",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79780,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": true,
+        "equals_new_default_mask": false,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "drop_only_added_nonBMP",
+        "signature": {
+          "mask_alpha_sha256": "7494263c7ac0b538b0327ce68031349b07a03d3254dac8e1a55d5622cac6ffb4",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79629,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": true,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "drop_only_added_compatibility",
+        "signature": {
+          "mask_alpha_sha256": "7494263c7ac0b538b0327ce68031349b07a03d3254dac8e1a55d5622cac6ffb4",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79629,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": true,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "old_cmap_plus_none",
+        "signature": {
+          "mask_alpha_sha256": "61f011d1840ed79b25f4c4d450508967a2d943050e075579267058831feedf85",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79780,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": true,
+        "equals_new_default_mask": false,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "old_cmap_plus_進",
+        "signature": {
+          "mask_alpha_sha256": "61f011d1840ed79b25f4c4d450508967a2d943050e075579267058831feedf85",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79780,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": true,
+        "equals_new_default_mask": false,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "old_cmap_plus_過",
+        "signature": {
+          "mask_alpha_sha256": "61f011d1840ed79b25f4c4d450508967a2d943050e075579267058831feedf85",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79780,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": true,
+        "equals_new_default_mask": false,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "old_cmap_plus_還",
+        "signature": {
+          "mask_alpha_sha256": "61f011d1840ed79b25f4c4d450508967a2d943050e075579267058831feedf85",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79780,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": true,
+        "equals_new_default_mask": false,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "old_cmap_plus_進過",
+        "signature": {
+          "mask_alpha_sha256": "61f011d1840ed79b25f4c4d450508967a2d943050e075579267058831feedf85",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79780,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": true,
+        "equals_new_default_mask": false,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "old_cmap_plus_進還",
+        "signature": {
+          "mask_alpha_sha256": "61f011d1840ed79b25f4c4d450508967a2d943050e075579267058831feedf85",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79780,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": true,
+        "equals_new_default_mask": false,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "old_cmap_plus_過還",
+        "signature": {
+          "mask_alpha_sha256": "61f011d1840ed79b25f4c4d450508967a2d943050e075579267058831feedf85",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79780,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": true,
+        "equals_new_default_mask": false,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "old_cmap_plus_進過還",
+        "signature": {
+          "mask_alpha_sha256": "7494263c7ac0b538b0327ce68031349b07a03d3254dac8e1a55d5622cac6ffb4",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79629,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": true,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "full_cmap_drop_進過還",
+        "signature": {
+          "mask_alpha_sha256": "61f011d1840ed79b25f4c4d450508967a2d943050e075579267058831feedf85",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79780,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": true,
+        "equals_new_default_mask": false,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "full_cmap_drop_only_進",
+        "signature": {
+          "mask_alpha_sha256": "7494263c7ac0b538b0327ce68031349b07a03d3254dac8e1a55d5622cac6ffb4",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79629,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": true,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "full_cmap_drop_only_過",
+        "signature": {
+          "mask_alpha_sha256": "7494263c7ac0b538b0327ce68031349b07a03d3254dac8e1a55d5622cac6ffb4",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79629,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": true,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "full_cmap_drop_only_還",
+        "signature": {
+          "mask_alpha_sha256": "7494263c7ac0b538b0327ce68031349b07a03d3254dac8e1a55d5622cac6ffb4",
+          "mask_size": [
+            27,
+            31
+          ],
+          "mask_offset": [
+            0,
+            -28
+          ],
+          "ink_bbox": [
+            2,
+            -28,
+            24,
+            3
+          ],
+          "gray_ink_sum": 79629,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": true,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "old_plus_balanced_dummy_fpgm",
+        "signature": {
+          "mask_alpha_sha256": "cf4928de7c0828923a3343acc96260a16606e23f4606c244937cafc97435c6e1",
+          "mask_size": [
+            27,
+            30
+          ],
+          "mask_offset": [
+            0,
+            -27
+          ],
+          "ink_bbox": [
+            2,
+            -27,
+            24,
+            3
+          ],
+          "gray_ink_sum": 80106,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": false,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": null,
+        "numGlyphs": 6995,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 832,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 832
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 134344800,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65509
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      },
+      {
+        "case": "new_plus_balanced_dummy_fpgm",
+        "signature": {
+          "mask_alpha_sha256": "cf4928de7c0828923a3343acc96260a16606e23f4606c244937cafc97435c6e1",
+          "mask_size": [
+            27,
+            30
+          ],
+          "mask_offset": [
+            0,
+            -27
+          ],
+          "ink_bbox": [
+            2,
+            -27,
+            24,
+            3
+          ],
+          "gray_ink_sum": 80106,
+          "advance": 27.0
+        },
+        "equals_old_default_mask": false,
+        "equals_new_default_mask": false,
+        "new_glyf_loca_hmtx_maxp_post_bytes_preserved": true,
+        "numGlyphs": 30414,
+        "effective_metadata_fields": {
+          "head_bbox": {
+            "xMin": -30,
+            "yMin": -281,
+            "xMax": 839,
+            "yMax": 894
+          },
+          "hhea_extents": {
+            "advanceWidthMax": 850,
+            "minLeftSideBearing": -30,
+            "minRightSideBearing": -18,
+            "xMaxExtent": 839
+          },
+          "unicode_ranges": {
+            "ulUnicodeRange1": 2147483779,
+            "ulUnicodeRange2": 704770144,
+            "ulUnicodeRange3": 16,
+            "ulUnicodeRange4": 8
+          },
+          "first_last_char": {
+            "usFirstCharIndex": 32,
+            "usLastCharIndex": 65535
+          }
+        },
+        "requested_metadata_fields_verified_after_serialization": true
+      }
+    ],
+    "minimal_sufficient_subset_with_old_cmap": {
+      "characters": "進過還",
+      "codepoints": [
+        36914,
+        36942,
+        36996
+      ],
+      "all_eight_subsets": [
+        {
+          "added_codepoints": [],
+          "equals_old": true,
+          "equals_new": false
+        },
+        {
+          "added_codepoints": [
+            36914
+          ],
+          "equals_old": true,
+          "equals_new": false
+        },
+        {
+          "added_codepoints": [
+            36942
+          ],
+          "equals_old": true,
+          "equals_new": false
+        },
+        {
+          "added_codepoints": [
+            36996
+          ],
+          "equals_old": true,
+          "equals_new": false
+        },
+        {
+          "added_codepoints": [
+            36914,
+            36942
+          ],
+          "equals_old": true,
+          "equals_new": false
+        },
+        {
+          "added_codepoints": [
+            36914,
+            36996
+          ],
+          "equals_old": true,
+          "equals_new": false
+        },
+        {
+          "added_codepoints": [
+            36942,
+            36996
+          ],
+          "equals_old": true,
+          "equals_new": false
+        },
+        {
+          "added_codepoints": [
+            36914,
+            36942,
+            36996
+          ],
+          "equals_old": false,
+          "equals_new": true
+        }
+      ]
+    },
+    "coverage_change_causally_isolated": true,
+    "default_difference_observed": true,
+    "dummy_old_new_masks_equal": true,
+    "maxp_restoration_not_attempted": "Actual new glyph maxima and numGlyphs are retained; reducing them would contradict real outlines. The cmap-only restoration already keeps these fields unchanged.",
+    "interpretation": "On this measured FreeType build, changing only mapped character coverage can restore the old mask. 進過還 is a sufficient minimal combination on top of the old cmap; none of the three is individually necessary within the full new cmap. Official CJK-bottom sampling data contains these characters. Exact internal blue-zone values were not instrumented.",
+    "not_a_delivery_change": "Dropping requested mappings would defeat coverage. Dummy fpgm changes the renderer path and offset/size; it is diagnostic only and is never written to a font file."
+  },
+  "different_ttf_control_samples": 7,
+  "total_ttf_control_samples": 10,
+  "raster_differences_present": true,
+  "formal_font_sha256": {
+    "Regular.otf": "57b31e3f11b93ca2f27272546066664ea00a1238813329a9bc57117ad910660d",
+    "Regular.ttf": "110433c9f4a58c0bff2dde1cb907e1d6bd1771786795fb7fe2bafc72605d3ae5",
+    "Regular.woff2": "b31e8cead4b79081e4ecc3926a126d6412a32810b64f45304a4b1cb527f22350",
+    "Display.otf": "a2408514a9ba9dcf9c19f02480d2daefff07cb29345ff7f4b2e05f98e098548e",
+    "Display.ttf": "6a712cdcff3c3c25d9f1cae36a1e8c394c6591a541975d12208b0e3b39270eb2",
+    "Display.woff2": "e419d587650b573e4cf1cfc75b9452f8520c39662dbbd8cc1ef331a3650ac9ba"
+  },
+  "checker": {
+    "file": "scripts/verify_aincrad_sourcehan.py",
+    "sha256": "fe65a7ad5add72b77d9ae06ba694737f069eea72e3d1ce3a5ba1dd2c166522de"
+  }
+}

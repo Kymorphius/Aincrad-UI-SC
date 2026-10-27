@@ -1,0 +1,6226 @@
+{
+  "timestamp_utc": "2026-10-27T14:06:10.933031+00:00",
+  "scope": "Current WOFF2 representative glyph smoke test, desktop Chromium, 14 CSS px, DPR1/2; not all-character readability acceptance",
+  "charset_summary": {
+    "version": "0.3.0",
+    "han_count": 30186,
+    "character_count": 30437
+  },
+  "sources": {
+    "regular": {
+      "file": "fonts/AincradUISc-Regular.woff2",
+      "sha256": "5eb4c0d4ca23b1e4153a5bc9b07b7515125e580e866508a47f26c99b8cd037e7",
+      "bytes": 5590552,
+      "family": "Aincrad UI SC",
+      "postscript_name": "AincradUISC-Regular",
+      "version": "Version 0.300; common Chinese UI vocabulary",
+      "unicode_cmap_formats": [
+        4,
+        12
+      ],
+      "compatibility_alias_reference": {
+        "codepoints": [
+          "U+66F4",
+          "U+F901"
+        ],
+        "glyph_names": [
+          "uni66F4",
+          "uniF901"
+        ],
+        "shared_glyph": false,
+        "note": "Codepoint identity is preserved even when the font intentionally shares one glyph."
+      }
+    },
+    "display": {
+      "file": "fonts/AincradUISc-Display.woff2",
+      "sha256": "bccc229d3ba3d99ee6d80913bdaf1b0ecc1dce432aef78b1cc6a5725d47c8f1f",
+      "bytes": 5641632,
+      "family": "Aincrad UI SC Display",
+      "postscript_name": "AincradUISCDisplay-Regular",
+      "version": "Version 0.300; common Chinese UI vocabulary",
+      "unicode_cmap_formats": [
+        4,
+        12
+      ],
+      "compatibility_alias_reference": {
+        "codepoints": [
+          "U+66F4",
+          "U+F901"
+        ],
+        "glyph_names": [
+          "uni66F4",
+          "uniF901"
+        ],
+        "shared_glyph": false,
+        "note": "Codepoint identity is preserved even when the font intentionally shares one glyph."
+      }
+    }
+  },
+  "font_files": {
+    "AincradUISc-Regular.otf": {
+      "sha256": "dd78e6b5be5c02ae74a3e28cf8b4f226c4ffe19e02358973f1143e119dd1d99a",
+      "bytes": 11179472,
+      "browser_rendered": false
+    },
+    "AincradUISc-Regular.ttf": {
+      "sha256": "12e413327401edd4c1381852f449218e3f7f82967c77cc64ae57083c218287ce",
+      "bytes": 12685476,
+      "browser_rendered": false
+    },
+    "AincradUISc-Regular.woff2": {
+      "sha256": "5eb4c0d4ca23b1e4153a5bc9b07b7515125e580e866508a47f26c99b8cd037e7",
+      "bytes": 5590552,
+      "browser_rendered": true
+    },
+    "AincradUISc-Display.otf": {
+      "sha256": "09c4a6f332ab024c7d976995d0187449c03322763c6d3d69e052043ee37b9e63",
+      "bytes": 10757156,
+      "browser_rendered": false
+    },
+    "AincradUISc-Display.ttf": {
+      "sha256": "1ad5a28777b814eb336bbaa56514fdd8f1ec2f8e2984c824c75ce20746440c0e",
+      "bytes": 12471868,
+      "browser_rendered": false
+    },
+    "AincradUISc-Display.woff2": {
+      "sha256": "bccc229d3ba3d99ee6d80913bdaf1b0ecc1dce432aef78b1cc6a5725d47c8f1f",
+      "bytes": 5641632,
+      "browser_rendered": true
+    }
+  },
+  "blocks": [
+    {
+      "id": "unified",
+      "title": "统一汉字 · BMP",
+      "available_count": 20945,
+      "samples": [
+        {
+          "character": "一",
+          "codepoint": 19968,
+          "label": "U+4E00",
+          "utf16_code_units": 1,
+          "nfkc_identity_reference_only": [
+            "U+4E00"
+          ]
+        },
+        {
+          "character": "更",
+          "codepoint": 26356,
+          "label": "U+66F4",
+          "utf16_code_units": 1,
+          "nfkc_identity_reference_only": [
+            "U+66F4"
+          ]
+        },
+        {
+          "character": "鿐",
+          "codepoint": 40912,
+          "label": "U+9FD0",
+          "utf16_code_units": 1,
+          "nfkc_identity_reference_only": [
+            "U+9FD0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extension-a",
+      "title": "扩展 A · BMP",
+      "available_count": 6582,
+      "samples": [
+        {
+          "character": "㐀",
+          "codepoint": 13312,
+          "label": "U+3400",
+          "utf16_code_units": 1,
+          "nfkc_identity_reference_only": [
+            "U+3400"
+          ]
+        },
+        {
+          "character": "䃛",
+          "codepoint": 16603,
+          "label": "U+40DB",
+          "utf16_code_units": 1,
+          "nfkc_identity_reference_only": [
+            "U+40DB"
+          ]
+        },
+        {
+          "character": "䶵",
+          "codepoint": 19893,
+          "label": "U+4DB5",
+          "utf16_code_units": 1,
+          "nfkc_identity_reference_only": [
+            "U+4DB5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extension-b",
+      "title": "扩展 B · 非 BMP",
+      "available_count": 2051,
+      "samples": [
+        {
+          "character": "𠀋",
+          "codepoint": 131083,
+          "label": "U+2000B",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+2000B"
+          ]
+        },
+        {
+          "character": "𤥣",
+          "codepoint": 149859,
+          "label": "U+24963",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+24963"
+          ]
+        },
+        {
+          "character": "𪚲",
+          "codepoint": 173746,
+          "label": "U+2A6B2",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+2A6B2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extension-c",
+      "title": "扩展 C · 非 BMP",
+      "available_count": 46,
+      "samples": [
+        {
+          "character": "𪟝",
+          "codepoint": 174045,
+          "label": "U+2A7DD",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+2A7DD"
+          ]
+        },
+        {
+          "character": "𫓧",
+          "codepoint": 177383,
+          "label": "U+2B4E7",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+2B4E7"
+          ]
+        },
+        {
+          "character": "𫛭",
+          "codepoint": 177901,
+          "label": "U+2B6ED",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+2B6ED"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extension-d",
+      "title": "扩展 D · 非 BMP",
+      "available_count": 33,
+      "samples": [
+        {
+          "character": "𫝆",
+          "codepoint": 177990,
+          "label": "U+2B746",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+2B746"
+          ]
+        },
+        {
+          "character": "𫞯",
+          "codepoint": 178095,
+          "label": "U+2B7AF",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+2B7AF"
+          ]
+        },
+        {
+          "character": "𫠜",
+          "codepoint": 178204,
+          "label": "U+2B81C",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+2B81C"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extension-e",
+      "title": "扩展 E · 非 BMP",
+      "available_count": 108,
+      "samples": [
+        {
+          "character": "𫢸",
+          "codepoint": 178360,
+          "label": "U+2B8B8",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+2B8B8"
+          ]
+        },
+        {
+          "character": "𬩽",
+          "codepoint": 182909,
+          "label": "U+2CA7D",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+2CA7D"
+          ]
+        },
+        {
+          "character": "𬺓",
+          "codepoint": 183955,
+          "label": "U+2CE93",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+2CE93"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extension-f",
+      "title": "扩展 F · 非 BMP",
+      "available_count": 0,
+      "samples": []
+    },
+    {
+      "id": "compatibility",
+      "title": "兼容汉字 · BMP",
+      "available_count": 366,
+      "samples": [
+        {
+          "character": "豈",
+          "codepoint": 63744,
+          "label": "U+F900",
+          "utf16_code_units": 1,
+          "nfkc_identity_reference_only": [
+            "U+8C48"
+          ]
+        },
+        {
+          "character": "更",
+          "codepoint": 63745,
+          "label": "U+F901",
+          "utf16_code_units": 1,
+          "nfkc_identity_reference_only": [
+            "U+66F4"
+          ]
+        },
+        {
+          "character": "舘",
+          "codepoint": 64109,
+          "label": "U+FA6D",
+          "utf16_code_units": 1,
+          "nfkc_identity_reference_only": [
+            "U+8218"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility-supplement",
+      "title": "补充兼容汉字 · 非 BMP",
+      "available_count": 55,
+      "samples": [
+        {
+          "character": "你",
+          "codepoint": 194564,
+          "label": "U+2F804",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+4F60"
+          ]
+        },
+        {
+          "character": "拔",
+          "codepoint": 194742,
+          "label": "U+2F8B6",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+62D4"
+          ]
+        },
+        {
+          "character": "嶲",
+          "codepoint": 195060,
+          "label": "U+2F9F4",
+          "utf16_code_units": 2,
+          "nfkc_identity_reference_only": [
+            "U+5DB2"
+          ]
+        }
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "dpr": 1,
+      "glyphs": [
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+4E00",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "一",
+          "points": [
+            19968
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            20,
+            69,
+            22
+          ],
+          "raster_sha256": "04302928872a4f88f6f9bfa9db50101c191c63d9204bcb608d66a4ba3743a32a"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+66F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            26356
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            15,
+            69,
+            27
+          ],
+          "raster_sha256": "08d3f9fe4472f89c1fe0251a81c6f4e32eb3e5d15920dfcccfc9c09fccfa3659"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+9FD0",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "鿐",
+          "points": [
+            40912
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "d12003040753519fccd02729904c53247c8c3069d36c9683be0c37ba4c8ffe26"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+3400",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "㐀",
+          "points": [
+            13312
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "a0aa0d13ad522ba7cc6ded17fba536076f3df4ba2342db34a26a4ef219cbf5f7"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+40DB",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䃛",
+          "points": [
+            16603
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "03e93ae18fbe70d87c37da61666b291641bb572dc14ff5d2db99db8173727354"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+4DB5",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䶵",
+          "points": [
+            19893
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            70,
+            27
+          ],
+          "raster_sha256": "941334ef659c6a73c11316896f47d1567f7e408dde73bbd83c86ef4c693ecd00"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2000B",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𠀋",
+          "points": [
+            131083
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "fce9d15a9123f75d0d6e98ed8df81926ef69bd6947d632619a57e84d3877503c"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+24963",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𤥣",
+          "points": [
+            149859
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "4cb132b24b1f882efcbed97dc5f48f1253aa19c61e071f20bc85aae883afd268"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2A6B2",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪚲",
+          "points": [
+            173746
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "e04d483e98bc115eae8ff4067c9175d91ca7b78b492a5f0a7cb47013ea7f10b7"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2A7DD",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪟝",
+          "points": [
+            174045
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "40785c98a0e58d27cd7b6d165a586f2e81028f4de65cea6610d18f937ffaa0e6"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2B4E7",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫓧",
+          "points": [
+            177383
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "e94970f1e948332633513b95c044a30525f56753424518c9f8b3155ec468539a"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2B6ED",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫛭",
+          "points": [
+            177901
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "dc108cf125df3d57d85a420b95b9ba93bee99e73b7b9112c6542f3c9f399ecf4"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2B746",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫝆",
+          "points": [
+            177990
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "0ee8d55b7853b594340ae7e4086e1fb192cdbd3e436fc3ae58bc4e244fcd37f5"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2B7AF",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫞯",
+          "points": [
+            178095
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "05b37ad665347e597082e95468267ca41c188beaf78a8760b0794d5ab08bec89"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2B81C",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫠜",
+          "points": [
+            178204
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "f1f77d43115d0f7f3f90ff257f7f7de7e8748276a52d86855083c4d3235c6257"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2B8B8",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫢸",
+          "points": [
+            178360
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "d5db76433dfd155d235051ba947e3ddeafe298a30ee27d2f88f5a43418d6f8e1"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2CA7D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬩽",
+          "points": [
+            182909
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            15,
+            69,
+            27
+          ],
+          "raster_sha256": "4abdf84031e2036377573cfe7ed1a966b1de430d80f1c033be3233de2694ca76"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2CE93",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬺓",
+          "points": [
+            183955
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "97efffe738c31f087df1512d3ec400ddb56736e1e896ee281431967e4e05ccaa"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+F900",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "豈",
+          "points": [
+            63744
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "383e0bdf1c8071d3e7ead2881dd6131224778fa76a7154e2f4ccd09216ec7739"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+F901",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            63745
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            15,
+            69,
+            27
+          ],
+          "raster_sha256": "08d3f9fe4472f89c1fe0251a81c6f4e32eb3e5d15920dfcccfc9c09fccfa3659"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+FA6D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "舘",
+          "points": [
+            64109
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "d365889a4791127c7a3601c5f074f2950deda1c5a7dacc89c6d81b923e9de330"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2F804",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "你",
+          "points": [
+            194564
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "5d989130c29ca0064881ef30f3fa9e3f6200786549426946e501fa156d7bc5df"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2F8B6",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "拔",
+          "points": [
+            194742
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "a0047b613c2b14052ac038a10ab74a1fe588d1186dde0c2b17a63c19b57a704c"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2F9F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "嶲",
+          "points": [
+            195060
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "cab1315a25102bae1b883a6c705d5832a463694f067d4145b94f67e971930adf"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+4E00",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "一",
+          "points": [
+            19968
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            20,
+            69,
+            22
+          ],
+          "raster_sha256": "c4c65e70e9affe21bce5fca42f3d438f67238dfbf03e3231c0782a907f2b36a0"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+66F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            26356
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            15,
+            70,
+            27
+          ],
+          "raster_sha256": "1849e71a25ad52c89616f7830ec0a89d8cb9998dd807261ad083aaf8a593a613"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+9FD0",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "鿐",
+          "points": [
+            40912
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "70dfb0e4d9a28a8c4d0c64cf5505f711099681772e3836a603d73b4f6f5c7420"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+3400",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "㐀",
+          "points": [
+            13312
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "631e5b5ac94e188ef1836d01815c53fae63b133b95f9b8b1a663aba663752058"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+40DB",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䃛",
+          "points": [
+            16603
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            70,
+            27
+          ],
+          "raster_sha256": "caf0d092129a5fbd390475614b2fb826800b393e82ab9fd9edb623b29c140e7e"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+4DB5",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䶵",
+          "points": [
+            19893
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            70,
+            27
+          ],
+          "raster_sha256": "f54800dac29f4dcc5f4f6f3a138cc30aad68d4f877950521da49549427d046eb"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2000B",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𠀋",
+          "points": [
+            131083
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            70,
+            27
+          ],
+          "raster_sha256": "e2a3c4ceb61cbeb5a003afc371fdc06ffcfc2e92b12dd85daaa52532fab446c3"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+24963",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𤥣",
+          "points": [
+            149859
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "ce7fe0bff51811530f748049b24db8598429ab385934882e41c2b0728641f36c"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2A6B2",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪚲",
+          "points": [
+            173746
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            70,
+            28
+          ],
+          "raster_sha256": "0b01216cc5a16fcb4dd6bfc34b0ee0c279a60f189e215dad5cdb2e52f596303a"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2A7DD",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪟝",
+          "points": [
+            174045
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "ad91629792f2a640fc32aa1efc7332629d3a66c453ffdda439fda86dae2dd89b"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2B4E7",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫓧",
+          "points": [
+            177383
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            70,
+            28
+          ],
+          "raster_sha256": "8b42cc64882aabf2786a4a66ea905af3a4d4a5b4b407816379f4214cb6f9beb0"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2B6ED",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫛭",
+          "points": [
+            177901
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "f3730014dfefca633af539e667e64a45c3911bc943980600ac615bd5987bf11d"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2B746",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫝆",
+          "points": [
+            177990
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            70,
+            28
+          ],
+          "raster_sha256": "04cf131e8fada89a83928f419356fd5368641a325d2cb4623fe8fb0376433d3e"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2B7AF",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫞯",
+          "points": [
+            178095
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "2ee2bb04a1db18b809e55f493b86d1a1a3587c32a77e49098de7c09ebc4e4034"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2B81C",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫠜",
+          "points": [
+            178204
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "3651b23951d8920f8e7711bc8c69036e272254d7cbf7c11d37125347f2a09503"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2B8B8",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫢸",
+          "points": [
+            178360
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "2dd7ebed52ec24be67de5113697ebc5d18a066fd0ca6a9770e34c3d0fd42e7d5"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2CA7D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬩽",
+          "points": [
+            182909
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            15,
+            69,
+            27
+          ],
+          "raster_sha256": "af5d75580d76c4a45e478e9a30509f3afb09c19826cf185287cf9de743ca4444"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2CE93",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬺓",
+          "points": [
+            183955
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            70,
+            27
+          ],
+          "raster_sha256": "af94482ba912f5fe9ba0608a9eb90528b2dabdde1fb3272a16d6a071d391bd99"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+F900",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "豈",
+          "points": [
+            63744
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "1728fe38e70a56e3afbeaf61d76f2ae37b2d7203e984d35768dfd38bedf4c7c9"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+F901",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            63745
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            15,
+            70,
+            27
+          ],
+          "raster_sha256": "1849e71a25ad52c89616f7830ec0a89d8cb9998dd807261ad083aaf8a593a613"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+FA6D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "舘",
+          "points": [
+            64109
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "002cae0e414aa4efe412152f5200a0517fbf5b2bed698ab14a70352750bc6ed1"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2F804",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "你",
+          "points": [
+            194564
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            70,
+            27
+          ],
+          "raster_sha256": "902c9be2a99de5cdabcc30df995e954be74d460cceda9375201ffd652dd82464"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2F8B6",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "拔",
+          "points": [
+            194742
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            70,
+            27
+          ],
+          "raster_sha256": "c7c61cb9db669f2fb46b8ec092ce9f7f757d130016ea4a013beeeb0de7c2a884"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2F9F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "嶲",
+          "points": [
+            195060
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "e51e1bd464824ecb527ecfa5162a49a51a4426c1360f3f8997da6d9f3e5c2572"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+4E00",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "一",
+          "points": [
+            19968
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            19,
+            69,
+            22
+          ],
+          "raster_sha256": "5187bf64a7153287586f5a383ad777dcde1418ffbf791498dc4a0594980da3d9"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+66F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            26356
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            15,
+            69,
+            28
+          ],
+          "raster_sha256": "7b29aa54e4002e9ac2e33495618a4dad929bd256ac7c2c42bcafe30b66c09661"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+9FD0",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "鿐",
+          "points": [
+            40912
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "db6ba195d1fe7dd52f2f2941f5cfb95502d9b9fa71ee4d164976b00be4c61259"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+3400",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "㐀",
+          "points": [
+            13312
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "a35490631d66447eec8f1a9bd5770a7354ce339f3291714c587cdb768b2b1d58"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+40DB",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䃛",
+          "points": [
+            16603
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "699f953c28aaaf5f701fd9b9e3294f6985ab84388baab907fabe395e7ef81ce3"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+4DB5",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䶵",
+          "points": [
+            19893
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "99d386f7d49191525b14112100b03c50460800edb2a496b9064a93d2c3d6da2d"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2000B",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𠀋",
+          "points": [
+            131083
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "ec19583d2868647b2d0f96a1a9d4309e6c97c2aadc029e9ac82cd225e188272c"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+24963",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𤥣",
+          "points": [
+            149859
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "5c476eb54c98e6a4e7c9fb940c0f177713bc9e9badacaa850ada09ecdea1773c"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2A6B2",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪚲",
+          "points": [
+            173746
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "72c4998cebcebe28aa2872c6e933831c83d8545c93785e1f29c6798f5f44eb5a"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2A7DD",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪟝",
+          "points": [
+            174045
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "0d80f0ebd973f69123b8b7e241affb0f8e5b38b350303efaee0aaab03d93decd"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2B4E7",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫓧",
+          "points": [
+            177383
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "4ead18a2cf35e20dae2d3b228f2193e3b68dcc226a5c8817fe8ad10228957db8"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2B6ED",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫛭",
+          "points": [
+            177901
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "68d4e69412996c3942db9abe08702aec1fc6a7095df42ee743a79c0ba4e244ed"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2B746",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫝆",
+          "points": [
+            177990
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "6c257522e8f0e7521812f7eab7268ec1b2746f8d3b4735a91d8ee9ef9075f4e9"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2B7AF",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫞯",
+          "points": [
+            178095
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "d03ed51fd5ecd8ada45e270e1610ae37bb7622d7de27e9fd2a1855f3e789e7f0"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2B81C",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫠜",
+          "points": [
+            178204
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "3287a312116aaf952ecce345fd29770750db76c0b05aacb7f8b55f360575be5f"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2B8B8",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫢸",
+          "points": [
+            178360
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "922c7810b8bed214fe22465dbe2e282cd4424bad1c9d33825c244e5ae7f9c76f"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2CA7D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬩽",
+          "points": [
+            182909
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            15,
+            69,
+            27
+          ],
+          "raster_sha256": "2db1c4c5b543ee97da94d6190193acbdf9bdb677150ed05703a39528b9be0202"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2CE93",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬺓",
+          "points": [
+            183955
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "dcc002fb96d4e58120340429cf954148ddd1e775344c1e1b0134ee54c9ae2249"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+F900",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "豈",
+          "points": [
+            63744
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "d241ddab0482921eaff690d4d5c298a0532560b259136b6e392facf343237027"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+F901",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            63745
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            15,
+            69,
+            28
+          ],
+          "raster_sha256": "7b29aa54e4002e9ac2e33495618a4dad929bd256ac7c2c42bcafe30b66c09661"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+FA6D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "舘",
+          "points": [
+            64109
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "a4c8f9b3c062a041786efe985d8de1cb8cce232b5412bdc1e8afcd80e6768b98"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2F804",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "你",
+          "points": [
+            194564
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "b11904a60148717e29116728aa68fa58804a32a53c4090d286fbc127ee9bd47f"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2F8B6",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "拔",
+          "points": [
+            194742
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "f558340af564941f79b2ba6e02da70e5af5307c6cd33a61433d202cc77bde865"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2F9F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "嶲",
+          "points": [
+            195060
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            68,
+            28
+          ],
+          "raster_sha256": "c4b61d3b4d82f085d4fd7c41e6bb61e845e90d7f92a8e93caa361dd247e074da"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+4E00",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "一",
+          "points": [
+            19968
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            19,
+            69,
+            22
+          ],
+          "raster_sha256": "84cb75cb8d5a88799b72ec14dd03fc5c598b926d1c944bbfb68604e7db078adb"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+66F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            26356
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            15,
+            69,
+            28
+          ],
+          "raster_sha256": "d8741e37308c3ba6320e59a3ee656a2edaadb9b3723b4daeab32c29e96f512ad"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+9FD0",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "鿐",
+          "points": [
+            40912
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "8620ae24ef44af31658f2674be7106f6a46c4a5733e806cefcac1c26bf63f5d7"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+3400",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "㐀",
+          "points": [
+            13312
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "874549ecb114dcbb698f99f744f77ebd3f16c532b6757eee04d3e098629af734"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+40DB",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䃛",
+          "points": [
+            16603
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "ffd773fa8a150480a7e7c58882f3b5f4553d13c7147a676847bc3fa31b6b3f9d"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+4DB5",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䶵",
+          "points": [
+            19893
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "10481911bd00fed5e087769adde27d71e9b9453d8ae48ee60de5d29c1a6f0026"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2000B",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𠀋",
+          "points": [
+            131083
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "435840683e5f3125ee075727034dbb4658bb6786f664932c3bf5be41124f6939"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+24963",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𤥣",
+          "points": [
+            149859
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "dcc8183c6061d1eee2da6a44d2055ddb1ff03f2f9d2dfe6130b9018f2a5649ca"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2A6B2",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪚲",
+          "points": [
+            173746
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "1296ba1aa9f94516700ca0f0e5bc8057374e91ca7ba87dca41d5ff7b6c76a49d"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2A7DD",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪟝",
+          "points": [
+            174045
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "6f4a6c8dd5438a69b161562c6ecac55e7f92f1c3a5f9a98c7b5b5b6e0d31c7b4"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2B4E7",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫓧",
+          "points": [
+            177383
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "7ba6de057bf8c4e4cd87dc1aad0f54dfc24e5cde6acde8a5c8a1adbe41345e0e"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2B6ED",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫛭",
+          "points": [
+            177901
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "58290f555392f30e6c8151135039fa829ec8c5ad598633f8552babddecac2552"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2B746",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫝆",
+          "points": [
+            177990
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "512edba0e608a0de12a8acda9abb29681a7ee30d45f53256f37f4efa02f7a391"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2B7AF",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫞯",
+          "points": [
+            178095
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "56cb33d937e65e9043724b949dc97a506964b81d03bd80af91d2ef8ab4bb2dfb"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2B81C",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫠜",
+          "points": [
+            178204
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "e7e917a4cf35e3f7e5f75446335565a46a7ffc26c655b323d958f5baee907f4e"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2B8B8",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫢸",
+          "points": [
+            178360
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "f09bb323224a9d2ad2501447456619b8e935e1ceff494615028ae4798eb15416"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2CA7D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬩽",
+          "points": [
+            182909
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            15,
+            69,
+            27
+          ],
+          "raster_sha256": "399a1f3d419493a6bcc0b1d3fe455594283f09ef964f8040f3903bcdf5f67f3a"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2CE93",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬺓",
+          "points": [
+            183955
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "e35f17db95d845c28c5f3738ce26d6308857882929486fb8d51a960e83d95e87"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+F900",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "豈",
+          "points": [
+            63744
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "d0495a36965436f60863f5548d8861c03adffe03faab0ee97ef16b9576326bf4"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+F901",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            63745
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            57,
+            15,
+            69,
+            28
+          ],
+          "raster_sha256": "d8741e37308c3ba6320e59a3ee656a2edaadb9b3723b4daeab32c29e96f512ad"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+FA6D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "舘",
+          "points": [
+            64109
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "fdbf5adf938eb589099e21f3ccd4673df2dbeca2beb9971c9b19da73a9e8e1a4"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2F804",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "你",
+          "points": [
+            194564
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            28
+          ],
+          "raster_sha256": "e3a2335bff97c02058accb55eaa74a92942806f4ca661afdacf8db3918910e96"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2F8B6",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "拔",
+          "points": [
+            194742
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            69,
+            27
+          ],
+          "raster_sha256": "08089a306bcd513698449c541326d49d81681919f10d3743a8afe78abf080959"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2F9F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "嶲",
+          "points": [
+            195060
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            56,
+            14,
+            68,
+            28
+          ],
+          "raster_sha256": "c95fdca881921e7e8374c937648e1fdd344717c906f51b9b85f518911387114d"
+        }
+      ],
+      "screenshot": "sourcehan-samples.png",
+      "specimen_unicode_input": {
+        "covered_input_codepoints": [
+          131083,
+          63744
+        ],
+        "covered_input_utf16_units": 3,
+        "covered_input_message": "这一行的字符均在样本字符表中。",
+        "supplementary_search_message": "搜索文字均在当前字表中",
+        "unsupported_supplementary_codepoint": "U+31350",
+        "repeated_missing_message": "未覆盖 1 字：𱍐。这些字正在使用系统字体。",
+        "raw_compatibility_codepoint_preserved": true,
+        "normalization_applied": false
+      }
+    },
+    {
+      "dpr": 2,
+      "glyphs": [
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+4E00",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "一",
+          "points": [
+            19968
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            40,
+            137,
+            43
+          ],
+          "raster_sha256": "0626c0ce55b90fd399930d61e2a169d373e5247fe2b299ee21d7afd4fda702bb"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+66F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            26356
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            30,
+            137,
+            55
+          ],
+          "raster_sha256": "e3504bd03b42183533e0c9b7c134b243ee32f179f86e6f4bc426df40ce984b4d"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+9FD0",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "鿐",
+          "points": [
+            40912
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            54
+          ],
+          "raster_sha256": "c37ef9ace7a84789161264fe15410e0e4834010000da9d1865b7f463ae688f1e"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+3400",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "㐀",
+          "points": [
+            13312
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            29,
+            137,
+            53
+          ],
+          "raster_sha256": "c97b70824766fefbac091b318866fa427b17bc99c84849ad1d81005952e7236a"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+40DB",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䃛",
+          "points": [
+            16603
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            54
+          ],
+          "raster_sha256": "8d258de61564b40fda1153fa86da336d3a18b945218bcb3ad335bc30cf3414d4"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+4DB5",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䶵",
+          "points": [
+            19893
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            138,
+            55
+          ],
+          "raster_sha256": "7606b325b5f4f461a44a42662ef309114829347575e91539b5e0436a0aa4b255"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2000B",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𠀋",
+          "points": [
+            131083
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "5fd00d1c038656e23065da68265e424f472c63763bfb5b879d6e189d7c783ae6"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+24963",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𤥣",
+          "points": [
+            149859
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "3f00098deb26a935f2973ba53f5757174d50760ba830109c9d0cec0d4c09e47a"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2A6B2",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪚲",
+          "points": [
+            173746
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            138,
+            55
+          ],
+          "raster_sha256": "45a051f43f4479611705949547127d03ede907e56efbaef9d4678d705ae7357c"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2A7DD",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪟝",
+          "points": [
+            174045
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "e6132829a5b192068ae34887c065a4eaa7fc55ba047d7a292b536b30fa08a2e6"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2B4E7",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫓧",
+          "points": [
+            177383
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "9f3b45f0b913ae5b4695c1c847f880d3b6a2e87c116c3bbf78fa3f4e94308b4e"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2B6ED",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫛭",
+          "points": [
+            177901
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "111b57bbb223a55e778852a33f601f0b9f047d1d9a84ea02488be4d8f6e4775b"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2B746",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫝆",
+          "points": [
+            177990
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "22b0ec3caa6abeef58d1f88bcb819f87c32124137c5d9ca3698ef49f0ecdac95"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2B7AF",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫞯",
+          "points": [
+            178095
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            29,
+            137,
+            54
+          ],
+          "raster_sha256": "be6588bd7fc0c9e63d6c9eb533303b980f4aeefc52e969a5f4bfdb233113ef27"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2B81C",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫠜",
+          "points": [
+            178204
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "362ac88bb5c1e3bc657f7a691c49d6571b1260bbb4abc4e11c58aa72ee9a7efb"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2B8B8",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫢸",
+          "points": [
+            178360
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "9aae30d073fbd71da3c9ecd5790d01e303e22b3eaabb01a4383f6448b7154d04"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2CA7D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬩽",
+          "points": [
+            182909
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            30,
+            137,
+            55
+          ],
+          "raster_sha256": "70ac52b035aba6e6ef1bc32a1c186c895940b0e1a31efbc1a376d9ddc8873199"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2CE93",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬺓",
+          "points": [
+            183955
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            54
+          ],
+          "raster_sha256": "dea014be9f03e63e52a8b8dd4a2b165c0818c48ce12d48c3672c0dd3624e0d6c"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+F900",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "豈",
+          "points": [
+            63744
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            137,
+            54
+          ],
+          "raster_sha256": "676064b5cd7081845e3d9ce943c9eb74a384c5f326cf74f9fd55791d16ac8257"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+F901",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            63745
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            30,
+            137,
+            55
+          ],
+          "raster_sha256": "e3504bd03b42183533e0c9b7c134b243ee32f179f86e6f4bc426df40ce984b4d"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+FA6D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "舘",
+          "points": [
+            64109
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "93857edb35b782dcf86c7b1361848f014ca470f3f7ad0ce69aca6b55e75bd78a"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2F804",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "你",
+          "points": [
+            194564
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "950493faa910eb69da4c88626e3a27b1d79de4d81e227321bae14006f466913d"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2F8B6",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "拔",
+          "points": [
+            194742
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "ce003af2e094c545d0726b45df1c08f68e7a5d3d1991728b1f699fba97e19323"
+        },
+        {
+          "font": "regular",
+          "theme": "light",
+          "codepoint": "U+2F9F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "嶲",
+          "points": [
+            195060
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "cfdb3397a0325543f8cab844c95a9f5a38f62ccb2d15169a7f53b0f704c820b7"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+4E00",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "一",
+          "points": [
+            19968
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            40,
+            137,
+            43
+          ],
+          "raster_sha256": "c3b3bca58f9cdd656fca1720da5cddfcb0513e2746d07ef521bce82d6d72223e"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+66F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            26356
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            30,
+            138,
+            55
+          ],
+          "raster_sha256": "661f0772a833385cb45a3343e8037c44857cc3e426cff67f9800988b0688d6c3"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+9FD0",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "鿐",
+          "points": [
+            40912
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            54
+          ],
+          "raster_sha256": "74890e25f19292473198f6c5894bfcbe9542db64bd89dbf49e8fbfad9e24bd6c"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+3400",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "㐀",
+          "points": [
+            13312
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            29,
+            137,
+            53
+          ],
+          "raster_sha256": "e1abeb131f0f272d71c5b28ccd927df6823e7d0c9c67c6df20d02d4e4e1c5bc2"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+40DB",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䃛",
+          "points": [
+            16603
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            138,
+            54
+          ],
+          "raster_sha256": "3d505d1a4698341630cd85baff05e4bb76a254ee07ea36d4fc6c9a5716566b25"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+4DB5",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䶵",
+          "points": [
+            19893
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            138,
+            55
+          ],
+          "raster_sha256": "ac99f791cbe86809a79beec04c74083ad49530e89c1c3a21c07b500fd1f0688c"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2000B",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𠀋",
+          "points": [
+            131083
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            138,
+            55
+          ],
+          "raster_sha256": "8657a7d006d9410d40288c37c26cf540e4132850f5c51838d7d3195ab5ff5bf6"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+24963",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𤥣",
+          "points": [
+            149859
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "5ba4df7208787235501293a988e716f51598d4e503f7dcee4d7bf0eae595e24f"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2A6B2",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪚲",
+          "points": [
+            173746
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            138,
+            55
+          ],
+          "raster_sha256": "c30d58e643af958dbbb6ad3a0aef19aab111c78acab6b685c85b2461e3c20eaa"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2A7DD",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪟝",
+          "points": [
+            174045
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "c8d8150c3250b3932725f6199c5ae11887eda92f5223295d71ef3cdc1b82941b"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2B4E7",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫓧",
+          "points": [
+            177383
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            138,
+            55
+          ],
+          "raster_sha256": "83fff934d0306252654b3f9c9fff89bfa09edc6cf3e07ddbc80e4787147e6847"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2B6ED",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫛭",
+          "points": [
+            177901
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "e4dc15a4d6a0930d91a635dbee8c5822d96579ee0327d7723a01e4bf13d260fa"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2B746",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫝆",
+          "points": [
+            177990
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            138,
+            55
+          ],
+          "raster_sha256": "e0cf35e115a6d7b395e8c33b3ea41ddf1564fc60f69f89d6feaa4c3a5af3e807"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2B7AF",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫞯",
+          "points": [
+            178095
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            29,
+            137,
+            54
+          ],
+          "raster_sha256": "fa9ed66f376c05b9b502967bb8eca03715666aee1be47f8a76aa60e7d7f31e20"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2B81C",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫠜",
+          "points": [
+            178204
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "b7b7100a9d256df107a11302aa39f5ad84ade60d1033d59be5e2044af973a5ee"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2B8B8",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫢸",
+          "points": [
+            178360
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "30d9f9ca45eb23dbc3980cef57cd5981cb5286b8f53018e4751e24eb12333c22"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2CA7D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬩽",
+          "points": [
+            182909
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            30,
+            137,
+            55
+          ],
+          "raster_sha256": "7a03cfbbf9fb68b3c5b1af47fb5a179365ce0e672bd9444b9c373f437ace833a"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2CE93",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬺓",
+          "points": [
+            183955
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            138,
+            54
+          ],
+          "raster_sha256": "ea0d21b80bfea60fce6267f459a11fcdfaede8e0b56ca7af0e4d976c1a404a39"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+F900",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "豈",
+          "points": [
+            63744
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            137,
+            54
+          ],
+          "raster_sha256": "c225676f78a2324c00b5f44230edd0f572160eb0d9c3a0c66b1117730de1a7d9"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+F901",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            63745
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            30,
+            138,
+            55
+          ],
+          "raster_sha256": "661f0772a833385cb45a3343e8037c44857cc3e426cff67f9800988b0688d6c3"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+FA6D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "舘",
+          "points": [
+            64109
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "bbe71d024eae1ddf94cf08575ebc8ba3447e360c5d3a3a1d48969f0307063608"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2F804",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "你",
+          "points": [
+            194564
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "f15c0ac98a9448476dcfe2f96a1066158bacca51143d90f74c63900328d46067"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2F8B6",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "拔",
+          "points": [
+            194742
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            138,
+            55
+          ],
+          "raster_sha256": "fa35dbaab230b5ff2c0e3695795099298e0198012fc3ce2a66e1a89c060d0922"
+        },
+        {
+          "font": "regular",
+          "theme": "dark",
+          "codepoint": "U+2F9F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "嶲",
+          "points": [
+            195060
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "630200d556fe9f10e0fd9ddecd1c548ca2a69a897b22b649a5444b560d99a360"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+4E00",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "一",
+          "points": [
+            19968
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            39,
+            136,
+            43
+          ],
+          "raster_sha256": "50ad22d66e33d672d4be455928f3ee4c101667e8d8761b0d6bfb9a2564b0d071"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+66F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            26356
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            30,
+            137,
+            55
+          ],
+          "raster_sha256": "03a52baf2dd27a41d96b7092d75db7d85ad5d6f836bb172276d625f57bb5153b"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+9FD0",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "鿐",
+          "points": [
+            40912
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "e872c6270f780eb125a378ad31612fdbbd4234be1f64fdd6aa3ab5e2449913e0"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+3400",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "㐀",
+          "points": [
+            13312
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            29,
+            136,
+            53
+          ],
+          "raster_sha256": "e5962d2509f687f685119bdeb36af968086c3154459345635b3ba4730cc86f6f"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+40DB",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䃛",
+          "points": [
+            16603
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "a0e22058f2cf2d4e8418306fea33003b54249ee0bb8ca4927ac7d3cb20a347fc"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+4DB5",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䶵",
+          "points": [
+            19893
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "71028ab13ee620c35c3d224bf542a8433b63452100a4b459f26beb4d4fdf7c4f"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2000B",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𠀋",
+          "points": [
+            131083
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "ce0b310b136086c816b5cfe7a87356c21fca3cf6843ecae57c389cbb9fbe7579"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+24963",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𤥣",
+          "points": [
+            149859
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "90eb0ea4843d0f61897e50b224e8268b04652afe13726d60743be421c8eb2d72"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2A6B2",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪚲",
+          "points": [
+            173746
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "593370c52262a538096e84a9e4cc71dbc337ce0cb4fda076ed664c0a8a5b0996"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2A7DD",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪟝",
+          "points": [
+            174045
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "a599bd56c94c55744ade149198170047b2ad02774cfb3423a7dfbf0b3e6915d8"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2B4E7",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫓧",
+          "points": [
+            177383
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "e6981546ded20d388114e1bd02c7c797e9b6b494fde3dd5ea8dab880d4c727dd"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2B6ED",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫛭",
+          "points": [
+            177901
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "416762aa1eef64bfeeaf2a6dd3bb3623df36d6c1e848381eb19d5ebf9cbe8b3c"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2B746",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫝆",
+          "points": [
+            177990
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "13bb998e6585603293e108e8eca1e16327f0d419790c18764bc46b5f6aa56c27"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2B7AF",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫞯",
+          "points": [
+            178095
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            29,
+            136,
+            54
+          ],
+          "raster_sha256": "2ceb12cdd50bcf3b6520d83dfdc247a2c60ce12b2e012002a0c6780789da28d8"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2B81C",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫠜",
+          "points": [
+            178204
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "c776e647cdd7be870842aae97f6bc6b61594cb1b71ea9c15013b79debc82363c"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2B8B8",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫢸",
+          "points": [
+            178360
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "316d3674e37585af6aa92e883fc01a007d9cdd807399a31f8e305a7c47bfecb9"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2CA7D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬩽",
+          "points": [
+            182909
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            29,
+            136,
+            55
+          ],
+          "raster_sha256": "c85d631e7be9045582d30600126fdd9666be258c0505eafd259247825eeedb98"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2CE93",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬺓",
+          "points": [
+            183955
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "edd1933ae77ff2ac3df9eb49b8cb299216bf006909e1e4e77fd59bc9c7bb073d"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+F900",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "豈",
+          "points": [
+            63744
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            54
+          ],
+          "raster_sha256": "45caebcbb653745b003aa137588b5fcfc4ffab2dd96a042940fee5e1e01fcc61"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+F901",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            63745
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            30,
+            137,
+            55
+          ],
+          "raster_sha256": "03a52baf2dd27a41d96b7092d75db7d85ad5d6f836bb172276d625f57bb5153b"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+FA6D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "舘",
+          "points": [
+            64109
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "850ab219790a264ba5e7d5a4c68df3eb31fa6eb9c8199d069c00c01cb54966c7"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2F804",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "你",
+          "points": [
+            194564
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "b96d3d2e956909788b0b4bcbc7371c66b5362ce2672785166de53b3b1f822cc7"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2F8B6",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "拔",
+          "points": [
+            194742
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "bef17b5c2992e2bfd9b5f49cc04335f1c2c7ebc9cf0fd58a1c3b766979be6c4a"
+        },
+        {
+          "font": "display",
+          "theme": "light",
+          "codepoint": "U+2F9F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "嶲",
+          "points": [
+            195060
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            135,
+            55
+          ],
+          "raster_sha256": "16f23625b6ba809048715f6d358de6ace0ba24ef520c25194e8238ee5fe23fdb"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+4E00",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "一",
+          "points": [
+            19968
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            39,
+            136,
+            43
+          ],
+          "raster_sha256": "b59ef12b973ea6a397876661e53f99a7086f81b5578477dd8ec9b257880f9ddd"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+66F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            26356
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            30,
+            137,
+            55
+          ],
+          "raster_sha256": "55e9cee6cb25b0bebbde93807ce75f649771d2c71dc052806647d29182125062"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+9FD0",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "鿐",
+          "points": [
+            40912
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "20246402d9da1e9067082eee6c8aaef4ea3c1f3ef4b9fbe877780b983068d294"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+3400",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "㐀",
+          "points": [
+            13312
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            29,
+            136,
+            53
+          ],
+          "raster_sha256": "576e27a28425d4df1be3fde1bafc408039b77e5761850d9f3ed1bd83c4a503d4"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+40DB",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䃛",
+          "points": [
+            16603
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "303c619e0f3e4192362e5bf3dc8d406d342795b4364a5cf56585d5a0f4674dbe"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+4DB5",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "䶵",
+          "points": [
+            19893
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "3d5ad948a5f1fb188254dbe557e38ae60d722c9cf3500c3a7acc2030e7693084"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2000B",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𠀋",
+          "points": [
+            131083
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "d3dd279849f69302ad142094cc532ca45ebd5bcc72ab00cb3fc279cd615e28ed"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+24963",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𤥣",
+          "points": [
+            149859
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "687f856d104a299da05255598e51c92f0eb90e113363f3c8a71bb810cdbbdab9"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2A6B2",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪚲",
+          "points": [
+            173746
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "4dfb9ea98e8793cc4b7eea1b490da637971916b378e9a88e2203f332b6a5a14b"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2A7DD",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𪟝",
+          "points": [
+            174045
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "e0294c419b84141404a487bc9198a4f65a07dc082d7839d1b45c6cbec0ec1a48"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2B4E7",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫓧",
+          "points": [
+            177383
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "69b4357185e540c0ed001e6a93b9c312c032fce5a3d927d12c0af4f548cfa93e"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2B6ED",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫛭",
+          "points": [
+            177901
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "51df94262b29392d726feb6e6afadd8f96a86ccb6f0faedb1ab40906a61c177a"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2B746",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫝆",
+          "points": [
+            177990
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "7bfbd9a9b02a7f185369573931af55b406570624046a42927e9f2d7fd12972a9"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2B7AF",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫞯",
+          "points": [
+            178095
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            29,
+            136,
+            54
+          ],
+          "raster_sha256": "1ef42bc378a54d8fea8b9602f3fce71c7c8cdf5455d63834e6ce77699cf3efbf"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2B81C",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫠜",
+          "points": [
+            178204
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "8122566c55b29fbcdaba9f5a67e8ec4ccac0157f86a2d8d57e5ca26069910646"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2B8B8",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𫢸",
+          "points": [
+            178360
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "3c19f99b66d980f553f2be40f6c9c5f6f4abad79c7fdb8c3033428f019dcdc76"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2CA7D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬩽",
+          "points": [
+            182909
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            29,
+            137,
+            55
+          ],
+          "raster_sha256": "f113648d829fe0d9d4d8ba99f7975422c4ad89e57b04f884f35ba4fa08a0b47b"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2CE93",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "𬺓",
+          "points": [
+            183955
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "a5c2677af4ef9066d5c1e19ef9fed870b804b77b172cb44f3a5972b3715ab556"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+F900",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "豈",
+          "points": [
+            63744
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            28,
+            136,
+            54
+          ],
+          "raster_sha256": "a6ba8ad6644bd8c1363d2a151d4986fd46bf58ac39103cc63b05feac48238b48"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+F901",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "更",
+          "points": [
+            63745
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            114,
+            30,
+            137,
+            55
+          ],
+          "raster_sha256": "55e9cee6cb25b0bebbde93807ce75f649771d2c71dc052806647d29182125062"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+FA6D",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "舘",
+          "points": [
+            64109
+          ],
+          "units": 1,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            136,
+            55
+          ],
+          "raster_sha256": "073dc3c4cf65adb2edbd3e3934bff4cc89dab5ec31c0d3316cbf5fa94e841f65"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2F804",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "你",
+          "points": [
+            194564
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "cee98f96483cca93de6aba8b44bff61c69a36433fe1f70c67b8aa36fbe0006e6"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2F8B6",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "拔",
+          "points": [
+            194742
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            137,
+            55
+          ],
+          "raster_sha256": "d37c8177d7201bb3ad46209bf5927628b26b22af8e0c542486de9223dd8ce34a"
+        },
+        {
+          "font": "display",
+          "theme": "dark",
+          "codepoint": "U+2F9F4",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 1
+            }
+          ],
+          "text": "嶲",
+          "points": [
+            195060
+          ],
+          "units": 2,
+          "fontSize": "14px",
+          "lineHeight": "28px",
+          "letterSpacing": "normal",
+          "transform": "none",
+          "filter": "none",
+          "ink_bounds_physical_px": [
+            113,
+            28,
+            135,
+            55
+          ],
+          "raster_sha256": "284ad5a0ec9fd96c1db4b5b06b268f7daef89bb3b216e5a579cf62ff213b47ff"
+        }
+      ],
+      "screenshot": "sourcehan-samples-dpr2.png",
+      "specimen_unicode_input": {
+        "covered_input_codepoints": [
+          131083,
+          63744
+        ],
+        "covered_input_utf16_units": 3,
+        "covered_input_message": "这一行的字符均在样本字符表中。",
+        "supplementary_search_message": "搜索文字均在当前字表中",
+        "unsupported_supplementary_codepoint": "U+31350",
+        "repeated_missing_message": "未覆盖 1 字：𱍐。这些字正在使用系统字体。",
+        "raw_compatibility_codepoint_preserved": true,
+        "normalization_applied": false
+      }
+    }
+  ],
+  "font_resources": [
+    {
+      "dpr": 1,
+      "file": "AincradUISc-Regular.woff2",
+      "status": 200,
+      "resource_type": "font",
+      "response_sha256": "5eb4c0d4ca23b1e4153a5bc9b07b7515125e580e866508a47f26c99b8cd037e7"
+    },
+    {
+      "dpr": 1,
+      "file": "AincradUISc-Display.woff2",
+      "status": 200,
+      "resource_type": "font",
+      "response_sha256": "bccc229d3ba3d99ee6d80913bdaf1b0ecc1dce432aef78b1cc6a5725d47c8f1f"
+    },
+    {
+      "dpr": 2,
+      "file": "AincradUISc-Regular.woff2",
+      "status": 200,
+      "resource_type": "font",
+      "response_sha256": "5eb4c0d4ca23b1e4153a5bc9b07b7515125e580e866508a47f26c99b8cd037e7"
+    },
+    {
+      "dpr": 2,
+      "file": "AincradUISc-Display.woff2",
+      "status": 200,
+      "resource_type": "font",
+      "response_sha256": "bccc229d3ba3d99ee6d80913bdaf1b0ecc1dce432aef78b1cc6a5725d47c8f1f"
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "failed_requests": [],
+  "http_errors": [],
+  "visual_review": {
+    "status": "reviewed-with-scope-limits",
+    "reviewed_at_utc": "2026-10-27T14:08:40.419231+00:00",
+    "reviewer": "Codex visual inspection",
+    "inspected_artifacts": [
+      "sourcehan-samples.png"
+    ],
+    "observations": [
+      "Representative BMP, supplementary and compatibility Han samples remain visible in both fonts and themes; distinct code points remain separately labelled."
+    ],
+    "limits": [
+      "Representative loading and display evidence, not a per-character readability verdict or Flutter/Android acceptance."
+    ]
+  },
+  "browser_version": "151.0.7922.34",
+  "artifact_hashes": {
+    "sourcehan-samples.html": "5a71e65d4c1fdb5af928745b2f3eeaab13292b28cb777096c4edadc5e1bc492f",
+    "sourcehan-samples.png": "58815086eb1f614f782c10876ec41e39d717c70346238380249d6ebb6d4c4a7e",
+    "sourcehan-samples-dpr2.png": "36c1ac1948165b1bf170c58c5c682a033a0a016da742a8497ca4b84a1f9d2fc4"
+  },
+  "passed": true
+}

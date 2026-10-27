@@ -1,0 +1,25 @@
+{
+  "version": "0.3.0",
+  "sources": {
+    "Regular": {
+      "file": "sources/AincradSeed-v030-Regular.otf",
+      "sha256": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+      "source_file": "collected-ui/SAO-Utils-2-Progressive/assets/Fonts/SourceHanSans-Regular.ttc",
+      "source_sha256": "f31d0a98b09380c11c72754bb85b74be488d0c5f1d3dbdf056f408c24cc50da3",
+      "face_index": 2,
+      "source_family": "Source Han Sans SC Regular",
+      "source_version": "Version 1.004;PS 1.004;hotconv 1.0.82;makeotf.lib2.5.63406",
+      "source_copyright": "Copyright © 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'."
+    },
+    "Medium": {
+      "file": "sources/AincradSeed-v030-Medium.otf",
+      "sha256": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+      "source_file": "collected-ui/SAO-Utils-2-Progressive/assets/Fonts/SourceHanSans-Medium.ttc",
+      "source_sha256": "28e9a792a7d57327c903e4cb70164c4fd093e5d9543265f819d505a6cfc049d5",
+      "face_index": 2,
+      "source_family": "Source Han Sans SC Medium",
+      "source_version": "Version 1.004;PS 1.004;hotconv 1.0.82;makeotf.lib2.5.63406",
+      "source_copyright": "Copyright © 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'."
+    }
+  }
+}

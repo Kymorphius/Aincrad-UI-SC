@@ -1,0 +1,70 @@
+{
+  "review_date": "2026-10-26",
+  "reviewed_version": "0.2.0",
+  "comparison_version": "0.1.0",
+  "status": "passed_within_stated_scope",
+  "characters": "角色装备技能确认",
+  "glyph_instances_reviewed": 16,
+  "method": {
+    "input": "Decoded shipped WOFF2 outlines; v0.1 is the prior comparison font, not the original Adobe source seed",
+    "contour_count": "Count each explicitly closed contour in the decomposed outline recordings",
+    "winding": "Compare exact Bezier signed area signs of corresponding contours; retain source contour order",
+    "self_crossings": "Adaptively subdivide cubic Beziers to polylines at 0.25 UPM chord-distance tolerance, maximum recursion depth 14; count strict proper segment crossings within each contour, excluding adjacent edges and the closing adjacent pair",
+    "strict_crossing_definition": "Both segment endpoint pairs must lie strictly on opposite sides of the other segment, with orientation-product threshold -1e-8",
+    "area_ratio": "Exact current contour signed area divided by prior contour signed area, rounded to five decimal places",
+    "implementation_review": "refine_source gathers replacements using original contour and edge indices, checks reviewed source topology and replacement anchors, then replays each original edge once; replacement endpoints must rejoin the edited contour"
+  },
+  "scope_limits": [
+    "Does not test overlaps or intersections between different contours",
+    "Strict proper crossing counts exclude endpoint touches and collinear overlapping segments",
+    "Polyline self-crossing checks are numerical checks at the stated flattening tolerance, not an exact algebraic proof for every curve position",
+    "Does not constitute professional type-design acceptance, small-size hinting acceptance, or subjective readability approval",
+    "Does not replace the separate character-coverage, metrics, format, native font-loading, or browser verification reports"
+  ],
+  "summary": {
+    "all_contour_counts_preserved": true,
+    "all_exact_area_signs_preserved": true,
+    "prior_strict_self_crossings_total": 0,
+    "current_strict_self_crossings_total": 0,
+    "new_strict_self_crossings": 0,
+    "color_glyph_body_contour_area_ratio": {
+      "Regular": 1.00009,
+      "Display": 0.99984
+    },
+    "color_glyph_other_three_contour_area_ratios": [1.0, 1.0, 1.0]
+  },
+  "variants": {
+    "Regular": {
+      "prior_font": "fonts/AincradUISc-v010-Regular.woff2",
+      "prior_sha256": "c0b0d8a19387af0687c9170efd27fd1e6c9533fd69ffa748ad3e17e46cebd53f",
+      "current_font": "fonts/AincradUISc-Regular.woff2",
+      "current_sha256": "2c7fa346ff9b8852dda57145600cf9e358ad1d1981eac5f0c6cbf2e5214e27db",
+      "glyphs": [
+        {"character": "角", "prior_contours": 6, "current_contours": 6, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [1.02326, 1.02322, 1.0, 1.02381, 1.02381, 0.99795]},
+        {"character": "色", "prior_contours": 4, "current_contours": 4, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [1.0, 1.0, 1.0, 1.00009]},
+        {"character": "装", "prior_contours": 4, "current_contours": 4, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [0.98934, 1.0, 1.0, 0.99389]},
+        {"character": "备", "prior_contours": 7, "current_contours": 7, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [1.08267, 1.08304, 1.06818, 1.06782, 1.0, 1.0, 1.00147]},
+        {"character": "技", "prior_contours": 3, "current_contours": 3, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [0.98486, 1.0, 0.99828]},
+        {"character": "能", "prior_contours": 6, "current_contours": 6, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [0.98439, 1.03297, 1.03529, 1.0, 1.0, 0.99641]},
+        {"character": "确", "prior_contours": 8, "current_contours": 8, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [1.0, 1.00077, 1.08377, 1.05468, 0.99824, 1.09123, 1.08802, 1.00075]},
+        {"character": "认", "prior_contours": 3, "current_contours": 3, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [0.99961, 0.95965, 1.00335]}
+      ]
+    },
+    "Display": {
+      "prior_font": "fonts/AincradUISc-v010-Display.woff2",
+      "prior_sha256": "7f2e4fe979e96118db243554c5f0f2294aaf93c1a811aa71bd58d07dc9fa7856",
+      "current_font": "fonts/AincradUISc-Display.woff2",
+      "current_sha256": "5fbbaeae1dba55418399372c650f71843906e9f9222d56b61b5c7449f02918af",
+      "glyphs": [
+        {"character": "角", "prior_contours": 6, "current_contours": 6, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [1.03571, 1.03567, 1.0, 1.0367, 1.0367, 0.99726]},
+        {"character": "色", "prior_contours": 4, "current_contours": 4, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [1.0, 1.0, 1.0, 0.99984]},
+        {"character": "装", "prior_contours": 4, "current_contours": 4, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [0.98929, 1.0, 1.0, 0.99494]},
+        {"character": "备", "prior_contours": 7, "current_contours": 7, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [1.13571, 1.13691, 1.1017, 1.10054, 1.0, 1.0, 1.00215]},
+        {"character": "技", "prior_contours": 3, "current_contours": 3, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [0.98126, 1.0, 0.99723]},
+        {"character": "能", "prior_contours": 6, "current_contours": 6, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [0.98396, 1.05333, 1.05634, 1.0, 1.0, 0.99536]},
+        {"character": "确", "prior_contours": 8, "current_contours": 8, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [0.98684, 0.99759, 1.13427, 1.10257, 1.00371, 1.14636, 1.14143, 0.99944]},
+        {"character": "认", "prior_contours": 3, "current_contours": 3, "exact_area_signs_preserved": true, "prior_strict_self_crossings": 0, "current_strict_self_crossings": 0, "contour_area_ratios": [0.99809, 0.96108, 1.00455]}
+      ]
+    }
+  }
+}

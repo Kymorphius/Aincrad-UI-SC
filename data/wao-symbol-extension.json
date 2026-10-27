@@ -1,0 +1,80 @@
+{
+  "version": "0.3.0",
+  "edition": "wao-ui-symbols-24",
+  "standard": "The exact twenty-four visible UI symbols requested for WAO; no other Unicode symbol blocks are implied.",
+  "characters": "◆◇●■□▲▼▶◀‹«»─│┌┐└┘‥⟨⟩※†‖",
+  "source_characters": "◆◇●■□▲▼▶◀‹«»‥※†‖",
+  "original_characters": "─│┌┐└┘⟨⟩",
+  "added_character_count": 24,
+  "source_character_count": 16,
+  "original_character_count": 8,
+  "baseline": {
+    "edition": "local-sourcehan-v1004-all-han",
+    "charset_file": "data/charset.json",
+    "charset_sha256": "72640af3ac74bbfe8792328558c9cf6759b8347574615320c3c13a845b4f1f77",
+    "han_count": 30186,
+    "character_count": 30413,
+    "source_character_count": 30335,
+    "custom_symbol_count": 78,
+    "sourcehan_manifest_file": "data/sourcehan-han-extension.json",
+    "sourcehan_manifest_sha256": "e94fdebe8d1605fe800befb6b296e6e3e5b0c998ab5b4b723d3a6a56dfa77762",
+    "gb2312_manifest_file": "data/gb2312-han-extension.json",
+    "gb2312_manifest_sha256": "d5b9cba1ba6b1912d7b4b0059eb2e97aedaf1a9173505a486f6d85025e6d501e"
+  },
+  "target": {
+    "han_count": 30186,
+    "character_count": 30437,
+    "source_character_count": 30351,
+    "custom_symbol_count": 86
+  },
+  "sources": {
+    "Regular": {
+      "file": "sources/AincradSeed-wao-Regular.otf",
+      "sha256": "26640c6aa68e1da04faa4ee8dfe156205c84788328df2dabce46401513b6ff15",
+      "bytes": 8591040,
+      "character_count": 30351,
+      "reviewed_seed_file": "sources/AincradSeed-v030-Regular.otf",
+      "reviewed_seed_sha256": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+      "previous_gb2312_seed_file": "sources/AincradSeed-gb2312-Regular.otf",
+      "previous_gb2312_seed_sha256": "66c3e8774b8419d4deb69bcd357edb3968c2354dffda642da40c75d03ddf2e1b",
+      "previous_sourcehan_seed_file": "sources/AincradSeed-sourcehan-Regular.otf",
+      "previous_sourcehan_seed_sha256": "bf1fb2123a67b5fe966b7309e7d1eb83877caad7284b2ff07fe9e9eab5b406ca",
+      "source_ttc_file": "collected-ui/SAO-Utils-2-Progressive/assets/Fonts/SourceHanSans-Regular.ttc",
+      "source_ttc_sha256": "f31d0a98b09380c11c72754bb85b74be488d0c5f1d3dbdf056f408c24cc50da3",
+      "face_index": 2,
+      "preserved_previous_source_characters": 30335,
+      "preserved_previous_outline_hmtx_sha256": "5d5aea5e09cf01f5982cf1f3c628a48fb8fc077156bea6619374f6ec60d57b14",
+      "all_previous_outlines_and_horizontal_metrics_identical": true
+    },
+    "Medium": {
+      "file": "sources/AincradSeed-wao-Medium.otf",
+      "sha256": "651fe612e7812539f5b24fbc52ce95603dfa98a682d0242092989c42cc5dcd37",
+      "bytes": 8627136,
+      "character_count": 30351,
+      "reviewed_seed_file": "sources/AincradSeed-v030-Medium.otf",
+      "reviewed_seed_sha256": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+      "previous_gb2312_seed_file": "sources/AincradSeed-gb2312-Medium.otf",
+      "previous_gb2312_seed_sha256": "d3002691a4829c1599ecd9e66bd227f1e35b84a58baa0aac4c5d732d3fc66aa9",
+      "previous_sourcehan_seed_file": "sources/AincradSeed-sourcehan-Medium.otf",
+      "previous_sourcehan_seed_sha256": "cd237d505f80cc37d1c20d933a378d6951773cd2731aed93cdc190fefffa0257",
+      "source_ttc_file": "collected-ui/SAO-Utils-2-Progressive/assets/Fonts/SourceHanSans-Medium.ttc",
+      "source_ttc_sha256": "28e9a792a7d57327c903e4cb70164c4fd093e5d9543265f819d505a6cfc049d5",
+      "face_index": 2,
+      "preserved_previous_source_characters": 30335,
+      "preserved_previous_outline_hmtx_sha256": "c16715388c29ffd88f989a538f012b228691c53fbb07c1eabbf4118ae0b87c3e",
+      "all_previous_outlines_and_horizontal_metrics_identical": true
+    }
+  },
+  "geometry": {
+    "file": "data/wao-symbols-v030.json",
+    "sha256": "963d9629536f2b7ffadb297dbc1f7dbd0d02bd834cb69de83d8c6c560177cffd",
+    "upm": 1000,
+    "license": "SIL Open Font License 1.1"
+  },
+  "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "OFL.txt",
+    "sha256": "8fe173ea7779c11e7375942088d36aa511bf7da954d67f86e9545fe4416cbbbc"
+  },
+  "scope_note": "Sixteen characters have real mappings in the hash-verified local Source Han Sans SC face2 fonts and in both newly prepared seed subsets. Six box-drawing characters and the two mathematical angle brackets use eight independently designed original geometries. All twenty-four final glyph plans are replayed directly without second stylization; prior Han, Latin, symbols, metrics, refinement plans, and reviewed seeds stay intact."
+}

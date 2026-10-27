@@ -1,0 +1,2 @@
+fonttools[woff]>=4.66,<5
+Pillow>=11,<13

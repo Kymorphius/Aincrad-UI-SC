@@ -1,0 +1,2 @@
+# Preserve hash-addressed inputs, fonts and validation records exactly.
+* -text whitespace=cr-at-eol

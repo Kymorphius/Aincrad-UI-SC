@@ -1,0 +1,229 @@
+{
+  "version": "0.3.0",
+  "origin": "Source Han Sans SC v1.004, local licensed TTC, SC face 2",
+  "license": "SIL Open Font License 1.1",
+  "sources": {
+    "Regular": {
+      "file": "sources/AincradSeed-wao-Regular.otf",
+      "sha256": "26640c6aa68e1da04faa4ee8dfe156205c84788328df2dabce46401513b6ff15",
+      "source_file": "collected-ui/SAO-Utils-2-Progressive/assets/Fonts/SourceHanSans-Regular.ttc",
+      "source_sha256": "f31d0a98b09380c11c72754bb85b74be488d0c5f1d3dbdf056f408c24cc50da3",
+      "face_index": 2,
+      "source_family": "Source Han Sans SC Regular",
+      "source_version": "Version 1.004;PS 1.004;hotconv 1.0.82;makeotf.lib2.5.63406",
+      "source_copyright": "Copyright © 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'."
+    },
+    "Display": {
+      "file": "sources/AincradSeed-wao-Medium.otf",
+      "sha256": "651fe612e7812539f5b24fbc52ce95603dfa98a682d0242092989c42cc5dcd37",
+      "source_file": "collected-ui/SAO-Utils-2-Progressive/assets/Fonts/SourceHanSans-Medium.ttc",
+      "source_sha256": "28e9a792a7d57327c903e4cb70164c4fd093e5d9543265f819d505a6cfc049d5",
+      "face_index": 2,
+      "source_family": "Source Han Sans SC Medium",
+      "source_version": "Version 1.004;PS 1.004;hotconv 1.0.82;makeotf.lib2.5.63406",
+      "source_copyright": "Copyright © 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'."
+    }
+  },
+  "fonts": {
+    "AincradUISc-Regular.otf": {
+      "bytes": 11179472,
+      "sha256": "dd78e6b5be5c02ae74a3e28cf8b4f226c4ffe19e02358973f1143e119dd1d99a"
+    },
+    "AincradUISc-Regular.ttf": {
+      "bytes": 12685476,
+      "sha256": "12e413327401edd4c1381852f449218e3f7f82967c77cc64ae57083c218287ce"
+    },
+    "AincradUISc-Regular.woff2": {
+      "bytes": 5590552,
+      "sha256": "5eb4c0d4ca23b1e4153a5bc9b07b7515125e580e866508a47f26c99b8cd037e7"
+    },
+    "Regular": {
+      "config": {
+        "family": "Aincrad UI SC",
+        "source": "Regular",
+        "han_scale": 0.88,
+        "han_width": 900,
+        "latin_scale": 0.79,
+        "radius": 7,
+        "chamfer": 0
+      },
+      "edited_glyphs": 30208,
+      "rounded_corners": 515672,
+      "chamfered_corners": 0,
+      "refined_characters": "仓件任伍传保修关冷列删刷加务励包化单却友取口同告命品回图地备失奖好存安完导属己已巴开强录御性息成打扫技抄抓投折抢护报抹拉拖择拷拽持挂指按挡振捆损捡换掉排探接推提插搜摘撤播操擦攥改攻文新晕更权标格步治消添物生疗登目眩确窗等索级纪经络网置羁背能色菜螣表装角警计订认让记许设访证识词话该语误请读课谁调谢败起载返连退选造错锻闭队防限除验黛更",
+      "refinement_operations": 1484,
+      "inherited_source_glyph_refinements": {
+        "更": "更"
+      }
+    },
+    "AincradUISc-Display.otf": {
+      "bytes": 10757156,
+      "sha256": "09c4a6f332ab024c7d976995d0187449c03322763c6d3d69e052043ee37b9e63"
+    },
+    "AincradUISc-Display.ttf": {
+      "bytes": 12471868,
+      "sha256": "1ad5a28777b814eb336bbaa56514fdd8f1ec2f8e2984c824c75ce20746440c0e"
+    },
+    "AincradUISc-Display.woff2": {
+      "bytes": 5641632,
+      "sha256": "bccc229d3ba3d99ee6d80913bdaf1b0ecc1dce432aef78b1cc6a5725d47c8f1f"
+    },
+    "Display": {
+      "config": {
+        "family": "Aincrad UI SC Display",
+        "source": "Medium",
+        "han_scale": 0.82,
+        "han_width": 850,
+        "latin_scale": 0.74,
+        "radius": 8,
+        "chamfer": 18
+      },
+      "edited_glyphs": 30203,
+      "rounded_corners": 373840,
+      "chamfered_corners": 135078,
+      "refined_characters": "仓件任伍传保修关冷列删刷加务励包化单却友取口同告命品回图地备失奖好存安完导属己已巴开强录御性息成打扫技抄抓投折抢护报抹拉拖择拷拽持挂指按挡振捆损捡换掉排探接推提插搜摘撤播操擦改攻文新晕更权标格步治消添物生疗登目眩确窗等索级纪经络网置背能色菜表装角警计订认让记许设访证识词话该语误请读课谁调谢败起载返连退选造错锻闭队防限除验更",
+      "refinement_operations": 1182,
+      "inherited_source_glyph_refinements": {
+        "更": "更"
+      }
+    }
+  },
+  "design_note": "UI-vocabulary expansion with local counter, component-gap and terminal refinements; v0.2 eight-glyph design retained.",
+  "refinement_plan": {
+    "file": "data/refinements-v030.json",
+    "sha256": "94402fa80bd8bd1e947b6ea786fde8c847eaf1b294934f8fbe0673a3a0ee5115"
+  },
+  "vocabulary": {
+    "file": "data/ui-vocabulary.json",
+    "sha256": "313be97acb3a78892fbae769833fee2b069fcdb868fc68f7526e7f64a17509be",
+    "categories": 30,
+    "phrases": 1730
+  },
+  "charset_extensions": {
+    "file": "data/charset-extensions.json",
+    "sha256": "569e1b06ec2f550014fd43132ca6893ca01147688c88f446d4d9e4094aa4aa09",
+    "han_count": 48,
+    "symbols": {
+      "file": "data/symbol-extensions.json",
+      "sha256": "f687bf730906d5179ba892e0265c882dfc67eb3fa826f16973d0834d771f1576",
+      "character_count": 32
+    },
+    "hexagrams": {
+      "file": "data/hexagrams.json",
+      "sha256": "3e51d1a4226e9f48dbbcb0d32e34d8efadd0698dacd98ce26d97bfdd5360bc48",
+      "symbol_count": 64
+    },
+    "gb2312_han": {
+      "file": "data/gb2312-han-extension.json",
+      "sha256": "d5b9cba1ba6b1912d7b4b0059eb2e97aedaf1a9173505a486f6d85025e6d501e",
+      "han_count": 6763,
+      "level_one_han_count": 3755,
+      "level_two_han_count": 3008,
+      "scope": "Han characters only, not every GB2312 symbol or encoding requirement"
+    },
+    "sourcehan_han": {
+      "file": "data/sourcehan-han-extension.json",
+      "sha256": "e94fdebe8d1605fe800befb6b296e6e3e5b0c998ab5b4b723d3a6a56dfa77762",
+      "han_count": 30186,
+      "coverage_file": "data/source-font-coverage.json",
+      "coverage_sha256": "ec9eaf00b589c0cb465627a440c49e525cdee0256cf6e66c21876aa810a07848",
+      "scope": "All unified and compatibility Han mapped by the local Source Han Sans SC v1.004 faces, including supplementary-plane characters"
+    },
+    "wao_symbols": {
+      "file": "data/wao-symbols-v030.json",
+      "sha256": "963d9629536f2b7ffadb297dbc1f7dbd0d02bd834cb69de83d8c6c560177cffd",
+      "extension_file": "data/wao-symbol-extension.json",
+      "extension_sha256": "0ba0a1f470e1aa2d1c50c33427f73033dbdb36ac33f18b912a542c8adfe91d25",
+      "characters": "◆◇●■□▲▼▶◀‹«»─│┌┐└┘‥⟨⟩※†‖",
+      "original_characters": "─│┌┐└┘⟨⟩",
+      "source_characters": "◆◇●■□▲▼▶◀‹«»‥※†‖",
+      "upm": 1000,
+      "license": "SIL Open Font License 1.1"
+    }
+  },
+  "custom_symbols": {
+    "file": "data/symbols-v030.json",
+    "sha256": "3568b057e3390f49a7c9a620adeed2e6ae126c43bc744a3a5ca7c76b89e81798",
+    "characters": "▬☰☱☲☳☴☵☶☷✢✱✶✻❋䷀䷁䷂䷃䷄䷅䷆䷇䷈䷉䷊䷋䷌䷍䷎䷏䷐䷑䷒䷓䷔䷕䷖䷗䷘䷙䷚䷛䷜䷝䷞䷟䷠䷡䷢䷣䷤䷥䷦䷧䷨䷩䷪䷫䷬䷭䷮䷯䷰䷱䷲䷳䷴䷵䷶䷷䷸䷹䷺䷻䷼䷽䷾䷿",
+    "count": 78,
+    "baseline_excluded_characters": "▬☰☱☲☳☴☵☶☷✢✱✶✻❋䷀䷁䷂䷃䷄䷅䷆䷇䷈䷉䷊䷋䷌䷍䷎䷏䷐䷑䷒䷓䷔䷕䷖䷗䷘䷙䷚䷛䷜䷝䷞䷟䷠䷡䷢䷣䷤䷥䷦䷧䷨䷩䷪䷫䷬䷭䷮䷯䷰䷱䷲䷳䷴䷵䷶䷷䷸䷹䷺䷻䷼䷽䷾䷿",
+    "additional_manifests": [
+      {
+        "file": "data/hexagram-outlines-v030.json",
+        "sha256": "c28bc019e4ef830fbd8b882b87d024eb31365a85dad4b17d45c68d1816af69eb",
+        "count": 64
+      }
+    ]
+  },
+  "wao_symbols": {
+    "file": "data/wao-symbols-v030.json",
+    "sha256": "963d9629536f2b7ffadb297dbc1f7dbd0d02bd834cb69de83d8c6c560177cffd",
+    "extension_file": "data/wao-symbol-extension.json",
+    "extension_sha256": "0ba0a1f470e1aa2d1c50c33427f73033dbdb36ac33f18b912a542c8adfe91d25",
+    "characters": "◆◇●■□▲▼▶◀‹«»─│┌┐└┘‥⟨⟩※†‖",
+    "original_characters": "─│┌┐└┘⟨⟩",
+    "source_characters": "◆◇●■□▲▼▶◀‹«»‥※†‖",
+    "upm": 1000,
+    "license": "SIL Open Font License 1.1"
+  },
+  "dense_refinements": {
+    "file": "data/dense-refinements-v030.json",
+    "sha256": "198a0d5b37f4d5fd30a6a0c65e683734b7ad697064a874b61531b7aa97bcb9aa",
+    "characters": "羁螣攥黛",
+    "variants": [
+      "Regular"
+    ]
+  },
+  "ttf14_refinements": {
+    "file": "data/ttf14-refinements-v030.json",
+    "sha256": "310dde67bed3fc20850b2f2838814cbfcabd557444a1b8dcde1bf493395fbd12",
+    "characters": "攥螣",
+    "variants": [
+      "Regular"
+    ],
+    "primary_validation_format": "ttf",
+    "primary_size_px": 14,
+    "primary_dpr": 1
+  },
+  "source_expansion_review": {
+    "Regular": {
+      "reviewed_seed_file": "sources/AincradSeed-v030-Regular.otf",
+      "reviewed_seed_sha256": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+      "expanded_seed_file": "sources/AincradSeed-wao-Regular.otf",
+      "expanded_seed_sha256": "26640c6aa68e1da04faa4ee8dfe156205c84788328df2dabce46401513b6ff15",
+      "preserved_source_characters": 3963,
+      "preserved_outline_advance_sha256": "c587a5afa73edd1078d4eedb8a569eb6a4814ed9f7b8e078979d38d9e12f6e45",
+      "all_reviewed_outlines_and_advances_identical": true,
+      "previous_gb2312_seed_file": "sources/AincradSeed-gb2312-Regular.otf",
+      "previous_gb2312_seed_sha256": "66c3e8774b8419d4deb69bcd357edb3968c2354dffda642da40c75d03ddf2e1b",
+      "preserved_previous_source_characters": 6916,
+      "preserved_previous_outline_hmtx_sha256": "0fce12a5f5ff7d967968b3abeb794dbeee0a1f27e2c6297f78399fdd74118d3d",
+      "all_previous_outlines_and_horizontal_metrics_identical": true,
+      "previous_sourcehan_seed_file": "sources/AincradSeed-sourcehan-Regular.otf",
+      "previous_sourcehan_seed_sha256": "bf1fb2123a67b5fe966b7309e7d1eb83877caad7284b2ff07fe9e9eab5b406ca",
+      "preserved_full_han_source_characters": 30335,
+      "preserved_full_han_outline_hmtx_sha256": "5d5aea5e09cf01f5982cf1f3c628a48fb8fc077156bea6619374f6ec60d57b14",
+      "all_full_han_source_outlines_and_horizontal_metrics_identical": true
+    },
+    "Display": {
+      "reviewed_seed_file": "sources/AincradSeed-v030-Medium.otf",
+      "reviewed_seed_sha256": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+      "expanded_seed_file": "sources/AincradSeed-wao-Medium.otf",
+      "expanded_seed_sha256": "651fe612e7812539f5b24fbc52ce95603dfa98a682d0242092989c42cc5dcd37",
+      "preserved_source_characters": 3963,
+      "preserved_outline_advance_sha256": "cb00ea3c17712f4bbc1823b443859bf859b01f3a3db28b4b2f8b3e2bcf1fbf3f",
+      "all_reviewed_outlines_and_advances_identical": true,
+      "previous_gb2312_seed_file": "sources/AincradSeed-gb2312-Medium.otf",
+      "previous_gb2312_seed_sha256": "d3002691a4829c1599ecd9e66bd227f1e35b84a58baa0aac4c5d732d3fc66aa9",
+      "preserved_previous_source_characters": 6916,
+      "preserved_previous_outline_hmtx_sha256": "2032ed890617e47248bf8c070bc703bb1c8d974dc981f6edc82024a69c290b37",
+      "all_previous_outlines_and_horizontal_metrics_identical": true,
+      "previous_sourcehan_seed_file": "sources/AincradSeed-sourcehan-Medium.otf",
+      "previous_sourcehan_seed_sha256": "cd237d505f80cc37d1c20d933a378d6951773cd2731aed93cdc190fefffa0257",
+      "preserved_full_han_source_characters": 30335,
+      "preserved_full_han_outline_hmtx_sha256": "c16715388c29ffd88f989a538f012b228691c53fbb07c1eabbf4118ae0b87c3e",
+      "all_full_han_source_outlines_and_horizontal_metrics_identical": true
+    }
+  },
+  "source_url": "https://github.com/adobe-fonts/source-han-sans"
+}

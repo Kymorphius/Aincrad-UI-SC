@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>Aincrad UI SC · 中文字体实验字样</title>
+  <style>
+    @font-face{font-family:"Aincrad UI SC";src:url("fonts/AincradUISc-Regular.woff2") format("woff2"),url("fonts/AincradUISc-Regular.otf") format("opentype");font-display:swap;font-weight:400}
+    @font-face{font-family:"Aincrad UI SC Display";src:url("fonts/AincradUISc-Display.woff2") format("woff2"),url("fonts/AincradUISc-Display.otf") format("opentype");font-display:swap;font-weight:400}
+    @font-face{font-family:"Aincrad Previous UI";src:url("fonts/AincradUISc-v020-Regular.woff2") format("woff2");font-display:swap;font-weight:400}
+    @font-face{font-family:"Aincrad Previous Display";src:url("fonts/AincradUISc-v020-Display.woff2") format("woff2");font-display:swap;font-weight:400}
+    @font-face{font-family:"Source Han Baseline";src:url("fonts/SourceHanSansSC-Baseline.woff2") format("woff2");font-display:swap;font-weight:400}
+    :root{color-scheme:light;--ink:#34424a;--muted:#71838c;--orange:#e49a31;--selected-font:"Aincrad UI SC";font-family:"Segoe UI","Microsoft YaHei",sans-serif;color:var(--ink);background:#d9e0df}
+    *{box-sizing:border-box}body{margin:0;min-width:340px;background:radial-gradient(ellipse at 24% 0,#eff2e8 0,transparent 50%),radial-gradient(ellipse at 96% 34%,#b8cdd0 0,transparent 58%),linear-gradient(132deg,#d7e0de,#dce4df 62%,#b6c6cd);font-size:14px}button,input,textarea{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible{outline:2px solid #d48c20;outline-offset:4px}a{color:inherit;text-underline-offset:4px}
+    .shell{max-width:1392px;margin:auto;padding:38px 44px 44px}.topline{display:flex;align-items:center;justify-content:space-between;padding-bottom:17px;border-bottom:1px solid #83979d7a;gap:18px}.brand{font-size:11px;letter-spacing:.23em;font-weight:600;display:flex;gap:13px;align-items:center}.brand:before{content:"";width:12px;height:12px;border:1px solid #7c8c91;transform:rotate(45deg);background:#f4f7f0aa}.edition{font-size:10px;letter-spacing:.16em;color:#637982}.intro{display:flex;align-items:flex-end;justify-content:space-between;gap:36px;padding:34px 0 29px}.eyebrow{font-size:10px;letter-spacing:.22em;color:#73878b;margin:0 0 12px}.intro h1{margin:0;font-size:36px;line-height:1.1;letter-spacing:-.035em;font-weight:400;color:#30414a}.intro h1 span{font-size:15px;letter-spacing:.06em;padding-left:18px;color:#71838a;white-space:nowrap}.intro .summary{max-width:430px;font-size:12px;line-height:1.85;color:#61757b;margin:0 0 1px}.status{display:inline-flex;align-items:center;gap:7px;font-size:10px;letter-spacing:.06em;color:#6b7c7b}.status-dot{width:5px;height:5px;border-radius:50%;background:#92a18d}.status.ready .status-dot{background:#609377}.status.error .status-dot{background:#bd7244}
+    .toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 22px}.switcher{display:flex;gap:1px;padding:3px;background:#bbc8c9a6;border:1px solid #aabbbc88}.switcher button{border:0;background:transparent;color:#64777e;padding:9px 15px;font-size:11px;min-width:126px}.switcher button[aria-pressed="true"]{background:#f4f5ef;box-shadow:0 1px 3px #23383c15;color:#3e4e54}.switcher small{font-size:9px;opacity:.65;padding-left:5px}.variant-note{color:#6a7f84;font-size:11px;margin:0;line-height:1.6}
+    .showcase{display:grid;grid-template-columns:238px 1fr;min-height:444px;background:linear-gradient(128deg,#f5f6efed,#eff3efe3);border:1px solid #f4f6f1;box-shadow:0 15px 40px #344d5314,0 2px 5px #31474b08;position:relative}.showcase:before{content:"";position:absolute;top:-1px;left:22px;width:46px;height:2px;background:var(--orange)}.menu{border-right:1px solid #b8c7c6a3;padding:29px 0 22px;background:linear-gradient(150deg,#e5eae4a1,#dfe9e41a)}.menu-caption{font-size:9px;letter-spacing:.2em;color:#8b9999;margin:0 24px 22px}.menu-item{display:flex;align-items:center;gap:14px;padding:13px 24px;border:0;width:100%;text-align:left;color:#53676c;background:none;position:relative}.menu-item .index{width:14px;font:9px "Segoe UI",sans-serif;letter-spacing:.06em;color:#899997}.menu-item .menu-text{font-family:var(--selected-font),"Microsoft YaHei",sans-serif;font-size:19px;line-height:1.4;letter-spacing:.08em;font-synthesis:none}.menu-item.active{background:linear-gradient(90deg,#e3a44b,#ecb35d);color:#fff;text-shadow:0 1px 1px #69410718}.menu-item.active .index{color:#fff8}.menu-item.active:after{content:"";width:5px;height:5px;border-right:1px solid #fff;border-top:1px solid #fff;transform:rotate(45deg);position:absolute;right:22px}.menu-foot{margin:26px 24px 0;font-size:9px;color:#8b9a98;line-height:1.7;letter-spacing:.12em}.profile{padding:29px 38px 27px}.profile-head{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:1px solid #b9c5c480;padding-bottom:18px}.profile-tag{margin:0 0 8px;color:#8a9898;font-size:9px;letter-spacing:.18em}.custom{font-family:var(--selected-font),"Microsoft YaHei",sans-serif;font-weight:400;font-synthesis:none}.profile h2{font-size:32px;letter-spacing:.1em;line-height:1.35;margin:0;color:#405257}.level{font-family:var(--selected-font),sans-serif;color:#788b8d;letter-spacing:.1em;font-size:16px;margin-top:25px}.avatar{display:flex;align-items:center;justify-content:center;margin-left:18px;width:54px;height:54px;border:1px solid #a4b7b39c;border-radius:50%;position:relative;background:#e1e8e187;color:#b3c2bd}.avatar:before{content:"";width:15px;height:15px;border:1px solid #9badad;transform:rotate(45deg)}.stats{display:grid;grid-template-columns:1fr 1fr;gap:20px 34px;margin:24px 0 25px}.stat-label{display:flex;justify-content:space-between;font-size:17px;color:#63777a;letter-spacing:.05em;margin-bottom:8px}.stat-label .number{font-size:16px;color:#80928e;letter-spacing:.07em}.bar{height:3px;background:#bdccc354}.bar span{display:block;height:100%;background:#8da68b;width:82%}.bar.exp span{width:48%;background:#adbeaa}.bar.sp span{width:68%;background:#92aeb3}.bar.load span{width:32%;background:#b5b9a0}.profile-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:23px;padding-top:18px;border-top:1px solid #b9c5c480}.profile-bottom p{margin:0;font-size:17px;letter-spacing:.07em;color:#7c8f8b}.actions{display:flex;gap:8px}.action{background:#eef1eac4;border:1px solid #b6c6c180;color:#71877d;padding:7px 18px;font-size:17px;letter-spacing:.1em}.action.primary{color:#bd8a3d;border-color:#c6af855e;background:#f4e8ce5e}.panel-caption{margin:12px 0 25px;font-size:10px;letter-spacing:.03em;color:#6f8488;display:flex;justify-content:space-between;gap:15px}.panel-caption span:last-child{font-size:9px;letter-spacing:.14em;white-space:nowrap}
+    .section-title{font-size:10px;letter-spacing:.18em;font-weight:500;color:#6e8388;margin:0 0 15px;display:flex;justify-content:space-between;gap:15px}.section-title span{letter-spacing:.03em;color:#8b9b9c;font-size:10px}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:9px}.compare-card{padding:23px 24px;border:1px solid #f0f3ed9e;background:#edf2eb9e;min-width:0}.compare-label{font-size:9px;letter-spacing:.16em;color:#8a9a96;display:flex;justify-content:space-between;gap:8px;margin:0 0 16px}.compare-label .badge{font-size:9px;letter-spacing:.05em;color:#b48138}.compare-text{font-size:27px;line-height:1.7;letter-spacing:.08em;margin:0;white-space:nowrap}.compare-text.small{font-size:16px;letter-spacing:.04em;color:#7f918a;margin-top:9px}.baseline{font-family:"Source Han Baseline","Microsoft YaHei",sans-serif;font-weight:400;font-synthesis:none}.compare-card.dark{background:linear-gradient(135deg,#35454b,#293e48);color:#e4e9e1;border-color:#41545b}.dark .compare-label{color:#95aaa9}.dark .compare-text.small{color:#a5b7af}.dark .badge{color:#dfb16a}
+    .lower{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:33px}.sizes{padding-top:1px}.size-row{display:grid;grid-template-columns:38px 1fr;align-items:baseline;gap:8px;margin:0 0 12px;min-height:21px}.size-value{font-size:9px;letter-spacing:.02em;color:#8b9a9b}.size-sample{line-height:1.5;letter-spacing:.07em;color:#4f6469;white-space:nowrap}.editor{border-left:1px solid #b3c4c36b;padding-left:28px}.editor label{display:block;font-size:10px;letter-spacing:.06em;color:#788d91;margin-bottom:11px}.editor textarea{width:100%;resize:vertical;min-height:112px;border:1px solid #aec0bf91;background:#eff3ec85;color:#455d63;padding:17px 18px;border-radius:0;font-size:28px;letter-spacing:.07em;line-height:1.6}.editor-tools{display:flex;align-items:center;gap:12px;font-size:10px;color:#758a8d;margin:11px 0 9px}.editor-tools input{accent-color:#c49249;width:120px}.editor-tools output{min-width:30px;font-size:10px;color:#6e8386}.coverage{font-size:10px;line-height:1.8;color:#6f8c7a;min-height:37px;margin:9px 0 0;overflow-wrap:anywhere}.coverage.missing{color:#a7743a}.note{font-size:10px;color:#819397;line-height:1.8;margin:10px 0 0}.footer{border-top:1px solid #9cb0b264;margin-top:27px;padding-top:17px;display:flex;align-items:flex-start;justify-content:space-between;gap:30px;font-size:10px;line-height:1.8;color:#7a8f93}.footer p{margin:0;max-width:600px}.footer .revision{font-size:9px;letter-spacing:.13em;text-align:right;white-space:nowrap}.toast{position:fixed;left:50%;bottom:30px;transform:translateX(-50%);background:#2f4248ef;border:1px solid #91a3a55e;box-shadow:0 8px 30px #23353a28;color:#e4eae3;padding:11px 22px;font-size:12px;opacity:0;transition:opacity .15s;pointer-events:none}.toast.visible{opacity:1}
+    @media(max-width:1000px){.shell{padding:28px}.intro{gap:25px}.intro h1{font-size:31px}.intro h1 span{display:block;margin-top:12px;padding-left:0;font-size:12px}.showcase{grid-template-columns:198px 1fr}.profile{padding:27px}.stats{gap:20px 24px}.compare-text{font-size:23px}.size-sample{letter-spacing:.03em}.menu-item{padding-left:21px;padding-right:21px}}
+    @media(max-width:730px){.shell{padding:24px 19px}.edition{font-size:8px;letter-spacing:.05em}.brand{font-size:9px;letter-spacing:.12em}.intro{display:block;padding-top:29px}.intro h1{font-size:35px}.intro h1 span{display:inline;font-size:12px;padding-left:10px}.intro .summary{margin-top:18px;max-width:none}.toolbar{align-items:flex-start}.variant-note{max-width:160px;font-size:10px}.switcher button{min-width:0;padding:9px 11px}.switcher small{display:none}.showcase{grid-template-columns:1fr}.menu{display:flex;flex-wrap:wrap;padding:10px;border:0;border-bottom:1px solid #b8c7c6a3;gap:2px}.menu-caption,.menu-foot,.menu-item .index,.menu-item.active:after{display:none}.menu-item{width:calc(33.333% - 2px);justify-content:center;padding:9px 5px}.menu-item .menu-text{font-size:16px;letter-spacing:.04em}.profile{padding:23px}.profile h2{font-size:29px}.level{font-size:15px}.stats{gap:21px}.stat-label{font-size:16px}.stat-label .number{font-size:14px}.profile-bottom{gap:9px}.profile-bottom p{font-size:15px}.action{padding:7px 12px;font-size:16px}.panel-caption{font-size:9px}.panel-caption span:last-child{display:none}.comparison{grid-template-columns:1fr}.compare-card{padding:21px 23px}.compare-text{font-size:28px}.lower{grid-template-columns:1fr;gap:23px}.editor{border-left:0;border-top:1px solid #b3c4c36b;padding:23px 0 0}.size-sample{white-space:normal}.footer{flex-direction:column;gap:10px}.footer .revision{text-align:left}.editor textarea{font-size:26px}}
+    @media(prefers-reduced-motion:reduce){.toast{transition:none}}
+    :root{--previous-font:"Aincrad Previous UI"}
+    .refinement{margin:8px 0 31px}.refinement-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.refinement-card{padding:23px 24px 24px;border:1px solid #f0f3ed9e;background:#edf2eb9e;min-width:0;color:#435b63}.refinement-label{display:flex;justify-content:space-between;gap:12px;margin:0 0 19px;color:#72898b;font-size:10px;letter-spacing:.09em}.refinement-label span{color:#72898b;font-size:9px;letter-spacing:.07em}.refinement-size{font:9px "Segoe UI",sans-serif;letter-spacing:.03em;color:#86999b;margin:0 0 7px}.refinement-words{display:grid;grid-template-columns:repeat(4,max-content);column-gap:.28em;margin:0;font-weight:400;font-synthesis:none;line-height:1.5;letter-spacing:.02em}.refinement-large{font-size:48px;margin-bottom:17px}.refinement-small{font-size:16px}.previous{font-family:var(--previous-font),"Microsoft YaHei",sans-serif;font-weight:400;font-synthesis:none}.refinement-note{margin:11px 0 0;font-size:10px;line-height:1.8;color:#71888b}.refinement .section-title span{letter-spacing:.03em}
+    .refinement-card{background:#e8eeea}
+    @media(max-width:1000px){.refinement-card{padding:21px 22px}.refinement-words{column-gap:.2em}.refinement-words.refinement-large{grid-template-columns:repeat(2,max-content)}}
+    @media(max-width:730px){.refinement-grid{grid-template-columns:1fr}.refinement-words.refinement-large{grid-template-columns:repeat(2,max-content);column-gap:.5em;row-gap:.08em}.refinement .section-title{align-items:flex-start}.refinement .section-title span{max-width:210px;text-align:right}.refinement-card{padding:21px 23px}.refinement-note{margin-top:12px}}
+    .vocabulary{margin:8px 0 31px}.vocabulary-shell{border:1px solid #eff3ed;background:#e8eeea;padding:24px}.catalog-stats{display:flex;flex-wrap:wrap;gap:8px 25px;color:#6f8587;font-size:11px;margin:0 0 21px}.catalog-stats strong{font-weight:500;color:#425e65;font-size:16px;margin-right:5px}.vocabulary-controls{display:grid;grid-template-columns:230px 1fr;gap:15px}.vocabulary-controls label{display:flex;flex-direction:column;gap:8px;font-size:10px;color:#748a8c}.vocabulary-controls select,.vocabulary-controls input{width:100%;min-width:0;border:1px solid #bccbc5;background:#f2f5ef;color:#456168;border-radius:0;padding:10px 12px;font-size:12px}.vocabulary-controls select{height:38px}.vocabulary-meta{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;margin:15px 0 12px;font-size:10px;color:#7a8e8e;line-height:1.7}.vocabulary-meta .missing{color:#a7743a}.vocabulary-pane{display:grid;grid-template-columns:1.4fr 1fr;gap:22px;align-items:start}.vocabulary-results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;min-width:0}.vocabulary-phrase{min-width:0;border:1px solid #c9d4cd;background:#f0f4ee;color:#4e686d;text-align:left;padding:11px 12px;font-size:19px;line-height:1.5;letter-spacing:.03em;overflow-wrap:anywhere;font-synthesis:none}.vocabulary-phrase[aria-pressed="true"]{border-color:#c89c5b;background:#f5ead5;color:#8b692f}.vocabulary-detail{padding:20px 22px;background:#dfe8e4;min-width:0;border-top:2px solid #c8a872}.vocabulary-detail .eyebrow{font-size:9px;margin-bottom:17px}.vocabulary-selected{margin:0 0 12px;font-size:36px;line-height:1.6;letter-spacing:.06em;overflow-wrap:anywhere;color:#3e5962}.vocabulary-detail p:last-child{margin:0;color:#7b8f8d;font-size:10px;line-height:1.8}.vocabulary-empty{grid-column:1/-1;font-size:12px;color:#7b8f8d;padding:25px 0;margin:0}.vocabulary-more{margin-top:13px;border:1px solid #bdccc5;padding:7px 15px;background:transparent;color:#6f8585;font-size:10px}.vocabulary-more[hidden]{display:none}.catalog-warning{color:#a7743a}.vocabulary-note{margin:14px 0 0;color:#71888b;font-size:10px;line-height:1.8}
+    @media(max-width:1000px){.vocabulary-pane{grid-template-columns:1.2fr 1fr;gap:16px}.vocabulary-results{grid-template-columns:repeat(2,minmax(0,1fr))}.vocabulary-detail{padding:18px}.vocabulary-selected{font-size:30px}}
+    @media(max-width:730px){.vocabulary-shell{padding:20px}.vocabulary-controls{grid-template-columns:1fr;gap:12px}.vocabulary-pane{grid-template-columns:1fr;gap:16px}.vocabulary-detail{grid-row:1}.vocabulary-selected{font-size:32px}.vocabulary-meta{flex-direction:column;gap:3px}.catalog-stats{gap:8px 16px}.vocabulary .section-title{align-items:flex-start}.vocabulary .section-title span{max-width:185px;text-align:right}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="topline"><div class="brand">AINCRAD TYPE STUDY</div><div class="edition">CHINESE INTERFACE · 003</div></header>
+    <section class="intro" aria-labelledby="page-title">
+      <div><p class="eyebrow">A FIRST ALPHABET FOR A FAMILIAR WORLD</p><h1 id="page-title">Aincrad UI SC <span>中文字体实验字样</span></h1></div>
+      <p class="summary">让中文与英文、数字在同一张面板里自然相处。<br>v0.3 沿现有风格扩展常用中文界面字，逐类检验真实词句。</p>
+    </section>
+    <div class="toolbar">
+      <div class="switcher" aria-label="字样变体"><button type="button" data-variant="regular" aria-pressed="true">界面体 <small>REGULAR</small></button><button type="button" data-variant="display" aria-pressed="false">标题体 <small>DISPLAY</small></button></div>
+      <p class="variant-note" id="variant-note">界面体 · 用于菜单、数值与常用提示</p>
+    </div>
+    <section class="showcase" aria-label="中文界面混排字样">
+      <nav class="menu" aria-label="字样菜单">
+        <p class="menu-caption">PLAYER MENU</p>
+        <button class="menu-item active" type="button" data-title="个人信息" aria-current="page"><span class="index">01</span><span class="menu-text">个人信息</span></button>
+        <button class="menu-item" type="button" data-title="角色状态"><span class="index">02</span><span class="menu-text">角色状态</span></button>
+        <button class="menu-item" type="button" data-title="技能装备"><span class="index">03</span><span class="menu-text">技能装备</span></button>
+        <button class="menu-item" type="button" data-title="物品背包"><span class="index">04</span><span class="menu-text">物品背包</span></button>
+        <button class="menu-item" type="button" data-title="好友队伍"><span class="index">05</span><span class="menu-text">好友队伍</span></button>
+        <button class="menu-item" type="button" data-title="系统设置"><span class="index">06</span><span class="menu-text">系统设置</span></button>
+        <p class="menu-foot">LINK ESTABLISHED<br>FONT SPECIMEN / 0.3</p>
+      </nav>
+      <div class="profile">
+        <div class="profile-head"><div><p class="profile-tag">CHARACTER INFORMATION</p><h2 class="custom" id="panel-title">个人信息</h2></div><div class="level">Lv. 42</div><div class="avatar" aria-hidden="true"></div></div>
+        <div class="stats custom">
+          <div><div class="stat-label"><span>生命值</span><span class="number">8,240 / 10,000</span></div><div class="bar"><span></span></div></div>
+          <div><div class="stat-label"><span>经验值</span><span class="number">48.0%</span></div><div class="bar exp"><span></span></div></div>
+          <div><div class="stat-label"><span>攻击力量</span><span class="number">680</span></div><div class="bar sp"><span></span></div></div>
+          <div><div class="stat-label"><span>装备负重</span><span class="number">32 / 100</span></div><div class="bar load"><span></span></div></div>
+        </div>
+        <div class="profile-bottom"><p class="custom">连接成功 · 安全</p><div class="actions"><button type="button" class="action custom" data-toast="已展示“返回”按钮字样">返回</button><button type="button" class="action primary custom" data-toast="已展示“确认”按钮字样">确认</button></div></div>
+      </div>
+    </section>
+    <p class="panel-caption"><span>浅色面板 · 菜单 19 px / 标题 32 px / 数值 16 px</span><span>INTERFACE CONTEXT / LIGHT</span></p>
+    <section class="vocabulary" aria-labelledby="vocabulary-title">
+      <h2 class="section-title" id="vocabulary-title">01 / 常用界面字库 <span>从实际界面词句查看扩字效果</span></h2>
+      <div class="vocabulary-shell">
+        <p class="catalog-stats" id="catalog-stats">正在读取当前字表与界面语料</p>
+        <div class="vocabulary-controls">
+          <label for="vocabulary-category">语料类别<select id="vocabulary-category"><option value="all">全部类别</option></select></label>
+          <label for="vocabulary-search">搜索词句<input type="search" id="vocabulary-search" placeholder="搜索：系统、文件、网络、装备…" autocomplete="off"></label>
+        </div>
+        <div class="vocabulary-meta"><span id="vocabulary-count">正在读取词句</span><span id="vocabulary-search-coverage" aria-live="polite"></span></div>
+        <div class="vocabulary-pane">
+          <div><div class="vocabulary-results" id="vocabulary-results" role="group" aria-label="匹配的界面词句"></div><button type="button" class="vocabulary-more" id="vocabulary-more" hidden>再显示 24 条</button></div>
+          <div class="vocabulary-detail"><p class="eyebrow">SELECTED PHRASE / CURRENT FONT</p><p class="vocabulary-selected custom" id="vocabulary-selected">系统设置</p><p id="vocabulary-selected-note">点击左侧词句，在这里查看当前字体的字形。这里只展示字体语料，不执行对应系统操作。</p></div>
+        </div>
+        <p class="vocabulary-note">本版包含基础常用字并覆盖所列中文界面语料，未承诺任意中文正文。未覆盖字仍由系统字体显示；分类、搜索和试字均以随字体生成的当前字符表为准。</p>
+      </div>
+    </section>
+    <section class="refinement" aria-labelledby="refinement-title">
+      <h2 class="section-title" id="refinement-title">02 / 风格连续性对照 <span>新旧同字号、同颜色、同背景；跟随上方变体切换</span></h2>
+      <div class="refinement-grid">
+        <article class="refinement-card">
+          <p class="refinement-label">v0.2 / 上一版 <span class="refinement-variant">REGULAR</span></p>
+          <p class="refinement-size">48 px</p>
+          <p class="refinement-words refinement-large previous"><span>设置</span> <span>保存</span> <span>取消</span> <span>返回</span></p>
+          <p class="refinement-size">16 px</p>
+          <p class="refinement-words refinement-small previous"><span>设置</span> <span>保存</span> <span>取消</span> <span>返回</span></p>
+        </article>
+        <article class="refinement-card">
+          <p class="refinement-label">v0.3 / 当前版 <span class="refinement-variant">REGULAR</span></p>
+          <p class="refinement-size">48 px</p>
+          <p class="refinement-words refinement-large custom"><span>设置</span> <span>保存</span> <span>取消</span> <span>返回</span></p>
+          <p class="refinement-size">16 px</p>
+          <p class="refinement-words refinement-small custom"><span>设置</span> <span>保存</span> <span>取消</span> <span>返回</span></p>
+        </article>
+      </div>
+      <p class="refinement-note">“设置 保存 取消 返回”8 字属于本轮局部规则处理范围；用同底、同色字样比较前后变化，再结合上方新增词句检查扩字效果。统一风格与局部规则处理不能视作专业整库逐字人工精修。</p>
+    </section>
+    <section aria-labelledby="comparison-title">
+      <h2 class="section-title" id="comparison-title">03 / 原字参照 <span>查看思源原始字形与当前实验方向</span></h2>
+      <div class="comparison">
+        <article class="compare-card"><p class="compare-label">SOURCE HAN SANS SC <span class="badge">原始字形参照</span></p><p class="compare-text baseline">欢迎来到艾恩葛朗特</p><p class="compare-text small baseline">技能装备 / Lv. 42 / 0123456789</p></article>
+        <article class="compare-card dark"><p class="compare-label">AINCRAD UI SC <span class="badge" id="compare-variant">REGULAR</span></p><p class="compare-text custom">欢迎来到艾恩葛朗特</p><p class="compare-text small custom">技能装备 / Lv. 42 / 0123456789</p></article>
+      </div>
+    </section>
+    <section class="lower">
+      <div class="sizes"><h2 class="section-title">04 / 字号检验 <span>查看细节在小字号下是否仍然清楚</span></h2>
+        <div class="size-row"><span class="size-value">12 px</span><span class="size-sample custom" style="font-size:12px">确认装备 · 返回任务 · 连接成功</span></div>
+        <div class="size-row"><span class="size-value">14 px</span><span class="size-sample custom" style="font-size:14px">个人信息 / 生命值 8,240</span></div>
+        <div class="size-row"><span class="size-value">16 px</span><span class="size-sample custom" style="font-size:16px">状态 · 技能 · 装备 · 设置</span></div>
+        <div class="size-row"><span class="size-value">20 px</span><span class="size-sample custom" style="font-size:20px">角色状态 / Lv. 42</span></div>
+        <div class="size-row"><span class="size-value">28 px</span><span class="size-sample custom" style="font-size:28px">刀剑神域</span></div>
+        <div class="size-row"><span class="size-value">40 px</span><span class="size-sample custom" style="font-size:40px">连接成功</span></div>
+      </div>
+      <div class="editor"><h2 class="section-title">05 / 自己试一行 <span id="charset-count">正在读取字符表</span></h2><label for="type-input">输入常用菜单文字，查看混排效果</label><textarea id="type-input" class="custom" spellcheck="false">个人信息 / Lv. 42&#10;确认装备，返回任务。</textarea><div class="editor-tools"><label for="font-size" style="margin:0">字号</label><input type="range" id="font-size" min="12" max="64" value="28"><output for="font-size" id="font-size-value">28 px</output></div><p class="coverage" id="coverage" aria-live="polite"></p><p class="note">这是有限字符的界面字库，未承诺任意中文正文。未覆盖字由系统字体显示，不能据此判断新字体的效果。标题体侧重展示，正文与小字号优先检查界面体。</p></div>
+    </section>
+    <footer class="footer"><p>v0.3 常用界面字实验版 / 开源字形改造。语料覆盖与屏幕检查不等于专业整库精修。字体许可与制作说明随文件提供。</p><div class="revision"><div class="status" id="font-status"><span class="status-dot"></span><span id="font-status-text">正在检查字体</span></div><br>AINCRAD UI SC / DESIGN PROTOTYPE</div></footer>
+  </main>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="data/font-catalog.js"></script>
+  <script>
+    const catalog=window.AINCRAD_CATALOG;
+    const dataReady=Boolean(catalog && catalog.charset && typeof catalog.charset.characters==='string' && catalog.vocabulary && Array.isArray(catalog.vocabulary.categories));
+    const supported=new Set(dataReady?catalog.charset.characters:'');
+    const hanCount=dataReady?new Set(catalog.charset.han_characters).size:0;
+    const characterCount=supported.size;
+    const categories=dataReady?catalog.vocabulary.categories:[];
+    const exampleOrder=['系统设置','文件管理','网络连接','账户安全','更新下载','任务进度','背包装备','消息通知'];
+    const phraseRank=phrase=>{const index=exampleOrder.indexOf(phrase);return index<0?exampleOrder.length:index};
+    const allPhrases=categories.flatMap(category=>category.phrases.map(phrase=>({phrase,category:category.id,title:category.title}))).sort((a,b)=>phraseRank(a.phrase)-phraseRank(b.phrase));
+    const input = document.getElementById('type-input');
+    const coverage = document.getElementById('coverage');
+    const count = document.getElementById('charset-count');
+    function missingCharacters(value) {
+      return [...new Set(Array.from(value).filter(c=>!supported.has(c)&&!(/\s/u.test(c))))];
+    }
+    function checkCoverage() {
+      if(!dataReady){coverage.classList.add('missing');coverage.textContent='当前字符表未加载，暂时无法检查覆盖。请确认 data/font-catalog.js 随页面一起保存。';count.textContent='字符表未加载';return;}
+      const missing=missingCharacters(input.value);
+      coverage.classList.toggle('missing', missing.length > 0);
+      coverage.textContent = missing.length ? '未覆盖 '+missing.length+' 字：'+missing.join(' ')+'。这些字正在使用系统字体。' : '这一行的字符均在样本字符表中。';
+      count.textContent = hanCount+' 个汉字 · 有限字集';
+    }
+    const categorySelect=document.getElementById('vocabulary-category');
+    const phraseSearch=document.getElementById('vocabulary-search');
+    const phraseResults=document.getElementById('vocabulary-results');
+    const searchCoverage=document.getElementById('vocabulary-search-coverage');
+    const moreButton=document.getElementById('vocabulary-more');
+    let phraseLimit=24;
+    let selectedPhrase=(allPhrases.find(item=>item.phrase==='系统设置')||allPhrases[0]||{phrase:'系统设置'}).phrase;
+    function selectPhrase(item) {
+      selectedPhrase=item.phrase;
+      document.getElementById('vocabulary-selected').textContent=item.phrase;
+      const missing=missingCharacters(item.phrase);
+      document.getElementById('vocabulary-selected-note').textContent=item.title+' · '+(missing.length?'未覆盖字：'+missing.join(' '):'字符均在当前字表中。点击其他词句可继续比较。');
+      document.querySelectorAll('.vocabulary-phrase').forEach(button=>button.setAttribute('aria-pressed',String(button.textContent===selectedPhrase)));
+    }
+    function renderVocabulary() {
+      phraseResults.replaceChildren();
+      if(!dataReady){document.getElementById('vocabulary-count').textContent='界面语料未加载';document.getElementById('catalog-stats').textContent='请确认 data/font-catalog.js 随页面一起保存';return;}
+      const query=phraseSearch.value.trim().toLocaleLowerCase();
+      const matches=allPhrases.filter(item=>(categorySelect.value==='all'||item.category===categorySelect.value)&&item.phrase.toLocaleLowerCase().includes(query));
+      const visible=matches.slice(0,phraseLimit);
+      visible.forEach(item=>{
+        const button=document.createElement('button');
+        button.type='button';button.className='vocabulary-phrase custom';button.textContent=item.phrase;
+        button.setAttribute('aria-pressed',String(item.phrase===selectedPhrase));
+        button.addEventListener('click',()=>selectPhrase(item));phraseResults.append(button);
+      });
+      if(!visible.length){const empty=document.createElement('p');empty.className='vocabulary-empty';empty.textContent='没有匹配词句，试试其他分类或关键词。';phraseResults.append(empty);}
+      document.getElementById('vocabulary-count').textContent='匹配 '+matches.length+' 条 · 已显示 '+visible.length+' 条';
+      moreButton.hidden=matches.length<=phraseLimit;
+      const missing=missingCharacters(phraseSearch.value);
+      searchCoverage.classList.toggle('missing',missing.length>0);
+      searchCoverage.textContent=phraseSearch.value?(missing.length?'搜索含未覆盖字：'+missing.join(' '):'搜索文字均在当前字表中'):'点击词句查看字样';
+    }
+    categories.forEach(category=>{const option=document.createElement('option');option.value=category.id;option.textContent=category.title+' / '+category.phrases.length;categorySelect.append(option)});
+    if(dataReady){
+      const stats=document.getElementById('catalog-stats');
+      stats.replaceChildren();
+      [[hanCount,'汉字'],[characterCount,'字符'],[categories.length,'类别'],[allPhrases.length,'词句']].forEach(([value,label])=>{
+        const item=document.createElement('span');const number=document.createElement('strong');number.textContent=String(value);item.append(number,document.createTextNode(label));stats.append(item);
+      });
+      selectPhrase(allPhrases.find(item=>item.phrase===selectedPhrase)||allPhrases[0]);
+    }
+    categorySelect.addEventListener('change',()=>{phraseLimit=24;renderVocabulary()});
+    phraseSearch.addEventListener('input',()=>{phraseLimit=24;renderVocabulary()});
+    moreButton.addEventListener('click',()=>{phraseLimit+=24;renderVocabulary()});
+    renderVocabulary();
+    input.addEventListener('input',checkCoverage);
+    document.getElementById('font-size').addEventListener('input',event=>{
+      input.style.fontSize=event.target.value+'px';
+      document.getElementById('font-size-value').textContent=event.target.value+' px';
+    });
+    document.querySelectorAll('[data-variant]').forEach(button=>button.addEventListener('click',()=>{
+      const display=button.dataset.variant==='display';
+      document.documentElement.style.setProperty('--selected-font',display?'"Aincrad UI SC Display"':'"Aincrad UI SC"');
+      document.documentElement.style.setProperty('--previous-font',display?'"Aincrad Previous Display"':'"Aincrad Previous UI"');
+      document.querySelectorAll('[data-variant]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));
+      document.getElementById('variant-note').textContent=display?'标题体 · 用于大字号标题与展示字样':'界面体 · 用于菜单、数值与常用提示';
+      document.getElementById('compare-variant').textContent=display?'DISPLAY':'REGULAR';
+      document.querySelectorAll('.refinement-variant').forEach(label=>label.textContent=display?'DISPLAY':'REGULAR');
+    }));
+    document.querySelectorAll('[data-title]').forEach(button=>button.addEventListener('click',()=>{
+      document.querySelectorAll('[data-title]').forEach(item=>{item.classList.toggle('active',item===button);item.removeAttribute('aria-current')});
+      button.setAttribute('aria-current','page');
+      document.getElementById('panel-title').textContent=button.dataset.title;
+      document.querySelector('.profile-tag').textContent='TYPE SPECIMEN / '+button.querySelector('.index').textContent;
+    }));
+    let toastTimer;
+    document.querySelectorAll('[data-toast]').forEach(button=>button.addEventListener('click',()=>{
+      const toast=document.getElementById('toast');
+      toast.textContent=button.dataset.toast;toast.classList.add('visible');
+      clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('visible'),2100);
+    }));
+    checkCoverage();
+    Promise.all([
+      document.fonts.load('20px "Aincrad UI SC"','个人信息'),
+      document.fonts.load('20px "Aincrad UI SC Display"','个人信息'),
+      document.fonts.load('20px "Source Han Baseline"','个人信息'),
+      document.fonts.load('20px "Aincrad Previous UI"','设置保存取消返回'),
+      document.fonts.load('20px "Aincrad Previous Display"','设置保存取消返回')
+    ]).then(fonts=>{
+      const ready=fonts.every(list=>list.length>0);
+      document.getElementById('font-status').classList.add(ready?'ready':'error');
+      document.getElementById('font-status-text').textContent=ready?'5 组字体已加载':'部分字体未加载，请检查 fonts 文件夹';
+    }).catch(()=>{
+      document.getElementById('font-status').classList.add('error');
+      document.getElementById('font-status-text').textContent='字体未加载，请检查 fonts 文件夹';
+    });
+  </script>
+</body>
+</html>

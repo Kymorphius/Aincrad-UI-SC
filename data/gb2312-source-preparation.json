@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "version": "0.3.0",
+  "timestamp_utc": "2026-10-27T12:27:53.469410+00:00",
+  "started_utc": "2026-10-27T12:27:12.435464+00:00",
+  "scope": "New GB2312 source subsets prepared independently. All reviewed old source subsets and three local-refinement plans remain byte-identical. No main output font or charset is built by this preparation.",
+  "manifest": {
+    "file": "data/gb2312-han-extension.json",
+    "sha256": "d5b9cba1ba6b1912d7b4b0059eb2e97aedaf1a9173505a486f6d85025e6d501e"
+  },
+  "frozen_acquire_seed_helper": {
+    "file": "scripts/build_aincrad_font.py",
+    "sha256": "88c707d69edddb0df49d183b7e5f5aa25842c3903fed3c61804add19ef0df387",
+    "called_function": "acquire_seed(isolated_project, weight, target_characters, refresh=True)",
+    "isolated_project_had_no_gb2312_manifest": true
+  },
+  "counts": {
+    "baseline_han": 3814,
+    "baseline_total": 4041,
+    "gb2312_level1": 3755,
+    "gb2312_level2": 3008,
+    "gb2312_han": 6763,
+    "added_han": 2953,
+    "retained_extra_han": 4,
+    "target_han": 6767,
+    "target_total": 6994,
+    "target_source_characters": 6916,
+    "retained_original_symbols": 78
+  },
+  "sources": {
+    "Regular": {
+      "reviewed_seed_file": "sources/AincradSeed-v030-Regular.otf",
+      "reviewed_seed_sha256": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+      "new_seed_file": "sources/AincradSeed-gb2312-Regular.otf",
+      "new_seed_sha256": "66c3e8774b8419d4deb69bcd357edb3968c2354dffda642da40c75d03ddf2e1b",
+      "old_source_codepoints_checked": 3963,
+      "new_source_codepoints": 6916,
+      "added_han_codepoints_checked": 2953,
+      "new_han_empty_outlines": [],
+      "all_old_recording_pen_values_and_advances_exact": true,
+      "comparison_method": "For each original cmap codepoint compare exact RecordingPen.value and glyph.width; renamed subset glyph IDs are deliberately ignored.",
+      "reviewed_old_recordings_and_widths_sha256": "624a071419eae9c0f70086fc89f729f560aa6536087b1a54dba736d29b97a6b8",
+      "new_seed_old_recordings_and_widths_sha256": "624a071419eae9c0f70086fc89f729f560aa6536087b1a54dba736d29b97a6b8",
+      "old_plan_pipeline_checks": {
+        "data/refinements-v030.json": {
+          "glyphs_checked": 161,
+          "all_exact_recordings_and_widths_match": true,
+          "strict_refine_source_anchors_passed": true
+        },
+        "data/dense-refinements-v030.json": {
+          "glyphs_checked": 4,
+          "all_exact_recordings_and_widths_match": true,
+          "strict_refine_source_anchors_passed": true
+        },
+        "data/ttf14-refinements-v030.json": {
+          "glyphs_checked": 2,
+          "all_exact_recordings_and_widths_match": true,
+          "strict_refine_source_anchors_passed": true
+        }
+      }
+    },
+    "Medium": {
+      "reviewed_seed_file": "sources/AincradSeed-v030-Medium.otf",
+      "reviewed_seed_sha256": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+      "new_seed_file": "sources/AincradSeed-gb2312-Medium.otf",
+      "new_seed_sha256": "d3002691a4829c1599ecd9e66bd227f1e35b84a58baa0aac4c5d732d3fc66aa9",
+      "old_source_codepoints_checked": 3963,
+      "new_source_codepoints": 6916,
+      "added_han_codepoints_checked": 2953,
+      "new_han_empty_outlines": [],
+      "all_old_recording_pen_values_and_advances_exact": true,
+      "comparison_method": "For each original cmap codepoint compare exact RecordingPen.value and glyph.width; renamed subset glyph IDs are deliberately ignored.",
+      "reviewed_old_recordings_and_widths_sha256": "68eb1536010e00a27797b79a3b549d3e790d1e16d7159bb976b9d087a882944c",
+      "new_seed_old_recordings_and_widths_sha256": "68eb1536010e00a27797b79a3b549d3e790d1e16d7159bb976b9d087a882944c",
+      "old_plan_pipeline_checks": {
+        "data/refinements-v030.json": {
+          "glyphs_checked": 161,
+          "all_exact_recordings_and_widths_match": true,
+          "strict_refine_source_anchors_passed": true
+        },
+        "data/dense-refinements-v030.json": {
+          "glyphs_checked": 0,
+          "all_exact_recordings_and_widths_match": true,
+          "strict_refine_source_anchors_passed": true
+        },
+        "data/ttf14-refinements-v030.json": {
+          "glyphs_checked": 0,
+          "all_exact_recordings_and_widths_match": true,
+          "strict_refine_source_anchors_passed": true
+        }
+      }
+    }
+  },
+  "protected_old_input_sha256": {
+    "data/charset.json": "40b0846bf42e47d6634c470332ea130bc221f70de473d4b63069731b5e6ed199",
+    "data/provenance.json": "1bdf41778c2827493af63fea4e4708fd08dc7d2a324d5b098a1d60952e880586",
+    "data/source-v030.json": "26175036948816e0c41c9f16974d1dadfc060762cc6fdd83dc5216cf4781c21b",
+    "data/refinements-v030.json": "94402fa80bd8bd1e947b6ea786fde8c847eaf1b294934f8fbe0673a3a0ee5115",
+    "data/dense-refinements-v030.json": "198a0d5b37f4d5fd30a6a0c65e683734b7ad697064a874b61531b7aa97bcb9aa",
+    "data/ttf14-refinements-v030.json": "310dde67bed3fc20850b2f2838814cbfcabd557444a1b8dcde1bf493395fbd12",
+    "data/symbols-v030.json": "3568b057e3390f49a7c9a620adeed2e6ae126c43bc744a3a5ca7c76b89e81798",
+    "data/hexagram-outlines-v030.json": "c28bc019e4ef830fbd8b882b87d024eb31365a85dad4b17d45c68d1816af69eb",
+    "data/symbol-extensions.json": "f687bf730906d5179ba892e0265c882dfc67eb3fa826f16973d0834d771f1576",
+    "data/hexagrams.json": "3e51d1a4226e9f48dbbcb0d32e34d8efadd0698dacd98ce26d97bfdd5360bc48",
+    "data/ui-vocabulary.json": "313be97acb3a78892fbae769833fee2b069fcdb868fc68f7526e7f64a17509be",
+    "data/charset-extensions.json": "569e1b06ec2f550014fd43132ca6893ca01147688c88f446d4d9e4094aa4aa09",
+    "sources/AincradSeed-Regular.otf": "b135434ab873baf7af5d89118e062ecfec1e13664a1cce4b4347a645a1ae9438",
+    "sources/AincradSeed-Medium.otf": "cc0b308b0a96eb9ee39dfb699ef956940a8ab3b5f1a400ffe09b35d5a3da8784",
+    "sources/AincradSeed-v030-Regular.otf": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+    "sources/AincradSeed-v030-Medium.otf": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727"
+  },
+  "all_protected_old_inputs_byte_identical": true,
+  "old_anchor_and_refinement_pipeline_preserved": true,
+  "all_added_han_outlines_nonempty": true,
+  "written_new_seed_files": [
+    "sources/AincradSeed-gb2312-Regular.otf",
+    "sources/AincradSeed-gb2312-Medium.otf"
+  ],
+  "written_new_data_files": [
+    "data/gb2312-han-extension.json",
+    "data/gb2312-source-preparation.json",
+    "data/source-font-coverage.json"
+  ],
+  "main_font_or_charset_build_performed": false,
+  "passed": true
+}

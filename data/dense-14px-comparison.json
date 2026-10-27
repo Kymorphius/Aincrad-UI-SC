@@ -1,0 +1,3461 @@
+{
+  "timestamp_utc": "2026-10-27T01:15:00.513549+00:00",
+  "scope": "Desktop headless Chromium; real 14 CSS px; not Flutter/Android acceptance",
+  "baseline": {
+    "archive": "Aincrad-UI-SC-v0.3-xingpan-symbols.zip",
+    "archive_sha256": "fc81120aac3a657a39d0adda9a41ba2b0533e355f2ec29c03f49f68f75a2b968",
+    "member": "Aincrad-UI-SC-v0.3-xingpan-symbols/fonts/AincradUISc-Regular.woff2",
+    "font": "fonts/AincradUISc-v030-before-dense-Regular.woff2",
+    "font_sha256": "c3a25c0064bd5b435f9b8b45f4f0b64323d05c5441869924f9aed93a1734224e",
+    "archive_preserved": true
+  },
+  "sources": {
+    "before": {
+      "file": "fonts/AincradUISc-v030-before-dense-Regular.woff2",
+      "sha256": "c3a25c0064bd5b435f9b8b45f4f0b64323d05c5441869924f9aed93a1734224e",
+      "bytes": 659616,
+      "css_family_alias": "Dense Before Regular",
+      "internal_family": "Aincrad UI SC",
+      "font_version": "Version 0.300; common Chinese UI vocabulary",
+      "upm": 1000,
+      "hhea": {
+        "ascent": 1160,
+        "descent": -320,
+        "lineGap": 0
+      },
+      "glyphs": {
+        "羁": {
+          "name": "uni7F81",
+          "advance": 900,
+          "lsb": 50
+        },
+        "螣": {
+          "name": "uni87A3",
+          "advance": 900,
+          "lsb": 41
+        },
+        "攥": {
+          "name": "uni6525",
+          "advance": 900,
+          "lsb": 46
+        },
+        "黛": {
+          "name": "uni9EDB",
+          "advance": 900,
+          "lsb": 47
+        }
+      },
+      "missing": []
+    },
+    "after": {
+      "file": "fonts/AincradUISc-v030-before-ttf14-Regular.woff2",
+      "sha256": "50d4114e3c11e2ece81775debd2595aed4ee4bd60ef297c706e1a22bc02b90b6",
+      "bytes": 661424,
+      "css_family_alias": "Dense After Regular",
+      "internal_family": "Aincrad UI SC",
+      "font_version": "Version 0.300; common Chinese UI vocabulary",
+      "upm": 1000,
+      "hhea": {
+        "ascent": 1160,
+        "descent": -320,
+        "lineGap": 0
+      },
+      "glyphs": {
+        "羁": {
+          "name": "uni7F81",
+          "advance": 900,
+          "lsb": 50
+        },
+        "螣": {
+          "name": "uni87A3",
+          "advance": 900,
+          "lsb": 41
+        },
+        "攥": {
+          "name": "uni6525",
+          "advance": 900,
+          "lsb": 46
+        },
+        "黛": {
+          "name": "uni9EDB",
+          "advance": 900,
+          "lsb": 47
+        }
+      },
+      "missing": []
+    }
+  },
+  "css_font_size": 14,
+  "letter_spacing": 0,
+  "dprs": [
+    1,
+    2
+  ],
+  "glyphs": [
+    "羁",
+    "螣",
+    "攥",
+    "黛"
+  ],
+  "phrases": [
+    "羁绊",
+    "螣蛇",
+    "手攥",
+    "黛色"
+  ],
+  "runs": [
+    {
+      "dpr": 1,
+      "themes": [
+        {
+          "theme": "light",
+          "single_glyphs": [
+            {
+              "selector": ".glyph-pair[data-theme=\"light\"][data-id=\"u7f81\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "羁",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 73,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    34
+                  ],
+                  "raster_sha256": "56025e5e45c59c89999d2cc73d2ba1e25a8d2dac998b317a81d9d0ee303f7df1"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "羁",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 177,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    34
+                  ],
+                  "raster_sha256": "e2e2e1ef4205c64aad5636c7747cd05abe1131c07c949eae6ab76252861dd1f8"
+                }
+              },
+              "changed_physical_pixels": 30,
+              "difference_bounds_physical_px": [
+                10,
+                22,
+                19,
+                31
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "羁",
+              "codepoint": "U+7F81"
+            },
+            {
+              "selector": ".glyph-pair[data-theme=\"light\"][data-id=\"u87a3\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "螣",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 309,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    35
+                  ],
+                  "raster_sha256": "44dd376cf5440fc2b0a4857045235251c8d50c09408aa7475f45bb5317eb1577"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "螣",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 413,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    35
+                  ],
+                  "raster_sha256": "10ec1ac65819ed8947dcd7f2a4759afae26b7a0446aaf21c4698a19f19ca3fbc"
+                }
+              },
+              "changed_physical_pixels": 20,
+              "difference_bounds_physical_px": [
+                10,
+                22,
+                18,
+                31
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "螣",
+              "codepoint": "U+87A3"
+            },
+            {
+              "selector": ".glyph-pair[data-theme=\"light\"][data-id=\"u6525\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "攥",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 545,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    34
+                  ],
+                  "raster_sha256": "eaec1005c3c78658e69d145f52ea6b40412eb11dfc0cf01b48ae2bfdc8d55d2f"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "攥",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 649,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    34
+                  ],
+                  "raster_sha256": "223a852716a43b1e65d6e54746866f3ba5d30c4391bdec8b8a47b01ac4bcf17f"
+                }
+              },
+              "changed_physical_pixels": 18,
+              "difference_bounds_physical_px": [
+                11,
+                24,
+                19,
+                28
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "攥",
+              "codepoint": "U+6525"
+            },
+            {
+              "selector": ".glyph-pair[data-theme=\"light\"][data-id=\"u9edb\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "黛",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 781,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    34
+                  ],
+                  "raster_sha256": "f4250b7ad569e9f861ad1c6deb2aec57d19ba3cb1eae31f8737cc56e0ccc34ca"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "黛",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 885,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    34
+                  ],
+                  "raster_sha256": "ab68ebb9ad9f0429182ff1846831b74acde1a27c6e929e5e9d4972a6426b8cb7"
+                }
+              },
+              "changed_physical_pixels": 42,
+              "difference_bounds_physical_px": [
+                8,
+                26,
+                21,
+                32
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "黛",
+              "codepoint": "U+9EDB"
+            }
+          ],
+          "phrases": [
+            {
+              "selector": ".phrase-pair[data-theme=\"light\"][data-id=\"0\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "羁绊",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 73,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    34
+                  ],
+                  "raster_sha256": "1d3635ff5162c660ae3e59ab7a2160344e18e0552cf20b713afe367b776fa50a"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "羁绊",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 177,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    34
+                  ],
+                  "raster_sha256": "7b9bce5edc27c1c9235448884afb1776f4d6401d07e2c3f367e4a482458121fa"
+                }
+              },
+              "changed_physical_pixels": 30,
+              "difference_bounds_physical_px": [
+                10,
+                22,
+                19,
+                31
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "羁绊"
+            },
+            {
+              "selector": ".phrase-pair[data-theme=\"light\"][data-id=\"1\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "螣蛇",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 309,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    35
+                  ],
+                  "raster_sha256": "d9e42aa4b962b55c8f28417204e67805f7c38000e7df332cbb096e0b6cc5f38c"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "螣蛇",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 413,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    35
+                  ],
+                  "raster_sha256": "a6d2c67e8fabcd9d26c1561cce631dd5d67a03d9ea85795bdcd0f4af4883a85e"
+                }
+              },
+              "changed_physical_pixels": 20,
+              "difference_bounds_physical_px": [
+                10,
+                22,
+                18,
+                31
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "螣蛇"
+            },
+            {
+              "selector": ".phrase-pair[data-theme=\"light\"][data-id=\"2\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "手攥",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 545,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    34
+                  ],
+                  "raster_sha256": "9b4b2dc8b514f3674264909e33ae9346371293f2772a80f23bc32cdf3f0ce086"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "手攥",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 649,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    34
+                  ],
+                  "raster_sha256": "75c9034d4c4e1623393a158e467fb7cbe4c0022eb617a79819dcbc710fef3b2b"
+                }
+              },
+              "changed_physical_pixels": 18,
+              "difference_bounds_physical_px": [
+                24,
+                24,
+                32,
+                28
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "手攥"
+            },
+            {
+              "selector": ".phrase-pair[data-theme=\"light\"][data-id=\"3\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "黛色",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 781,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    34
+                  ],
+                  "raster_sha256": "a2dba348ff1b4b495d9e0bb05f194ce5a406ac446ba4ce76e5a1a0cc1bdf9144"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "黛色",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 885,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    34
+                  ],
+                  "raster_sha256": "a8f978c0f6492b20ae315b9cd985e96a4a1a907854d20b3ae199fdbd42fd0ddc"
+                }
+              },
+              "changed_physical_pixels": 42,
+              "difference_bounds_physical_px": [
+                8,
+                26,
+                21,
+                32
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "黛色"
+            }
+          ],
+          "control": {
+            "selector": ".control-pair[data-theme=\"light\"]",
+            "versions": {
+              "before": {
+                "actual_fonts": [
+                  {
+                    "familyName": "Aincrad UI SC",
+                    "postScriptName": "AincradUISC-Regular",
+                    "isCustomFont": true,
+                    "glyphCount": 7
+                  }
+                ],
+                "text": "命宫 2026",
+                "fontFamily": "\"Dense Before Regular\", sans-serif",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "lineHeight": "28px",
+                "letterSpacing": "normal",
+                "color": "rgb(36, 52, 62)",
+                "filter": "none",
+                "transform": "none",
+                "opacity": "1",
+                "width": 53.046875,
+                "height": 28,
+                "x": 73,
+                "y": 711.984375,
+                "background": "rgb(241, 244, 238)",
+                "ink_bounds_physical_px": [
+                  8,
+                  21,
+                  62,
+                  34
+                ],
+                "raster_sha256": "9110fafc8800ac574452361d0fa918844e0e90bea63557648dc0ff11c6b5b66c"
+              },
+              "after": {
+                "actual_fonts": [
+                  {
+                    "familyName": "Aincrad UI SC",
+                    "postScriptName": "AincradUISC-Regular",
+                    "isCustomFont": true,
+                    "glyphCount": 7
+                  }
+                ],
+                "text": "命宫 2026",
+                "fontFamily": "\"Dense After Regular\", sans-serif",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "lineHeight": "28px",
+                "letterSpacing": "normal",
+                "color": "rgb(36, 52, 62)",
+                "filter": "none",
+                "transform": "none",
+                "opacity": "1",
+                "width": 53.046875,
+                "height": 28,
+                "x": 177,
+                "y": 711.984375,
+                "background": "rgb(241, 244, 238)",
+                "ink_bounds_physical_px": [
+                  8,
+                  21,
+                  62,
+                  34
+                ],
+                "raster_sha256": "9110fafc8800ac574452361d0fa918844e0e90bea63557648dc0ff11c6b5b66c"
+              }
+            },
+            "changed_physical_pixels": 0,
+            "difference_bounds_physical_px": null,
+            "same_css_width": true,
+            "unclipped": true
+          },
+          "four_glyph_rasters_distinct": true
+        },
+        {
+          "theme": "dark",
+          "single_glyphs": [
+            {
+              "selector": ".glyph-pair[data-theme=\"dark\"][data-id=\"u7f81\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "羁",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 73,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    34
+                  ],
+                  "raster_sha256": "1245bdb6a0cb045398174db9f0ec5e83cb3bfbba7d817bd69ef976f7e8f2b621"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "羁",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 177,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    34
+                  ],
+                  "raster_sha256": "ae3c2291229cbd2ef6f1d26ddc0441ee79112e4009366553ef2f5efb0992ba21"
+                }
+              },
+              "changed_physical_pixels": 29,
+              "difference_bounds_physical_px": [
+                10,
+                22,
+                19,
+                31
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "羁",
+              "codepoint": "U+7F81"
+            },
+            {
+              "selector": ".glyph-pair[data-theme=\"dark\"][data-id=\"u87a3\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "螣",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 309,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    35
+                  ],
+                  "raster_sha256": "b58fb825cf6ebf44d4f79a12481872346e7a3648cd5e7498eac73bd60f1aaa6b"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "螣",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 413,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    35
+                  ],
+                  "raster_sha256": "82b6aada26c5a9de8cef2cc5229332c3f0ed441164b763764b8730dcfe0b032d"
+                }
+              },
+              "changed_physical_pixels": 18,
+              "difference_bounds_physical_px": [
+                10,
+                22,
+                18,
+                31
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "螣",
+              "codepoint": "U+87A3"
+            },
+            {
+              "selector": ".glyph-pair[data-theme=\"dark\"][data-id=\"u6525\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "攥",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 545,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    34
+                  ],
+                  "raster_sha256": "fae0011fd295b242aaf663b462eb75404ce850f7f997f33f51761919160d1d8d"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "攥",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 649,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    34
+                  ],
+                  "raster_sha256": "979d211baa62e98cf9a35d226fa65b9e1b5ab00fefc8be01660ef4f7a0877f31"
+                }
+              },
+              "changed_physical_pixels": 17,
+              "difference_bounds_physical_px": [
+                12,
+                24,
+                19,
+                28
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "攥",
+              "codepoint": "U+6525"
+            },
+            {
+              "selector": ".glyph-pair[data-theme=\"dark\"][data-id=\"u9edb\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "黛",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 781,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    34
+                  ],
+                  "raster_sha256": "6f30cfb97cd3f7f451f8496e1196103bd233a7e0298dd6e4df38a969e8f8ba3a"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "黛",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 885,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    21,
+                    34
+                  ],
+                  "raster_sha256": "718628eeb19ad8d47d49fc31a7beb07020eaa82d3898f351fd4f6eab7688c9d4"
+                }
+              },
+              "changed_physical_pixels": 41,
+              "difference_bounds_physical_px": [
+                8,
+                26,
+                21,
+                32
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "黛",
+              "codepoint": "U+9EDB"
+            }
+          ],
+          "phrases": [
+            {
+              "selector": ".phrase-pair[data-theme=\"dark\"][data-id=\"0\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "羁绊",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 73,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    34
+                  ],
+                  "raster_sha256": "5b105ac4bd010fa36f571cdc876412d7b67953badd7d7a12b7b0f9c9c63f8a35"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "羁绊",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 177,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    34
+                  ],
+                  "raster_sha256": "1bf519a59a49747a9316aa939c8326680f3a595db2ad600f99e3dd89dace8f6b"
+                }
+              },
+              "changed_physical_pixels": 29,
+              "difference_bounds_physical_px": [
+                10,
+                22,
+                19,
+                31
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "羁绊"
+            },
+            {
+              "selector": ".phrase-pair[data-theme=\"dark\"][data-id=\"1\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "螣蛇",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 309,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    35
+                  ],
+                  "raster_sha256": "f6ccc85dd6dfaad4cc8fad757893c15b3f26621f668530bd2f25c1a80239e345"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "螣蛇",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 413,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    35
+                  ],
+                  "raster_sha256": "9fe675b2dac4015edf37fef89ac01c7a31a952a550d598e115f0b2184011209d"
+                }
+              },
+              "changed_physical_pixels": 18,
+              "difference_bounds_physical_px": [
+                10,
+                22,
+                18,
+                31
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "螣蛇"
+            },
+            {
+              "selector": ".phrase-pair[data-theme=\"dark\"][data-id=\"2\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "手攥",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 545,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    34
+                  ],
+                  "raster_sha256": "06e7d213a7b9eea9628d821350f4301bce0a7e4a15250fa661f705150d88189b"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "手攥",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 649,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    34
+                  ],
+                  "raster_sha256": "3dbe86c9b7e8405f4601f01883ad6cdcafdb779683b64162e825af5b15f3d196"
+                }
+              },
+              "changed_physical_pixels": 18,
+              "difference_bounds_physical_px": [
+                24,
+                24,
+                32,
+                28
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "手攥"
+            },
+            {
+              "selector": ".phrase-pair[data-theme=\"dark\"][data-id=\"3\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "黛色",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 781,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    34
+                  ],
+                  "raster_sha256": "9b0c93d1381e1539b945d21d9bf2aa74d1e1927957b1dc556ea1b5738eb2ea32"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "黛色",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 885,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    8,
+                    21,
+                    34,
+                    34
+                  ],
+                  "raster_sha256": "ed305f3437e3f2e405631ccf5f833c5b1d47ee72d4f58360fa32a2da735d7766"
+                }
+              },
+              "changed_physical_pixels": 41,
+              "difference_bounds_physical_px": [
+                8,
+                26,
+                21,
+                32
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "黛色"
+            }
+          ],
+          "control": {
+            "selector": ".control-pair[data-theme=\"dark\"]",
+            "versions": {
+              "before": {
+                "actual_fonts": [
+                  {
+                    "familyName": "Aincrad UI SC",
+                    "postScriptName": "AincradUISC-Regular",
+                    "isCustomFont": true,
+                    "glyphCount": 7
+                  }
+                ],
+                "text": "命宫 2026",
+                "fontFamily": "\"Dense Before Regular\", sans-serif",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "lineHeight": "28px",
+                "letterSpacing": "normal",
+                "color": "rgb(241, 244, 238)",
+                "filter": "none",
+                "transform": "none",
+                "opacity": "1",
+                "width": 53.046875,
+                "height": 28,
+                "x": 73,
+                "y": 1286.984375,
+                "background": "rgb(36, 52, 62)",
+                "ink_bounds_physical_px": [
+                  8,
+                  21,
+                  62,
+                  34
+                ],
+                "raster_sha256": "810d6f05e718b58fea62b19de40298912b5ed71680dddd27ab825565a56e6998"
+              },
+              "after": {
+                "actual_fonts": [
+                  {
+                    "familyName": "Aincrad UI SC",
+                    "postScriptName": "AincradUISC-Regular",
+                    "isCustomFont": true,
+                    "glyphCount": 7
+                  }
+                ],
+                "text": "命宫 2026",
+                "fontFamily": "\"Dense After Regular\", sans-serif",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "lineHeight": "28px",
+                "letterSpacing": "normal",
+                "color": "rgb(241, 244, 238)",
+                "filter": "none",
+                "transform": "none",
+                "opacity": "1",
+                "width": 53.046875,
+                "height": 28,
+                "x": 177,
+                "y": 1286.984375,
+                "background": "rgb(36, 52, 62)",
+                "ink_bounds_physical_px": [
+                  8,
+                  21,
+                  62,
+                  34
+                ],
+                "raster_sha256": "810d6f05e718b58fea62b19de40298912b5ed71680dddd27ab825565a56e6998"
+              }
+            },
+            "changed_physical_pixels": 0,
+            "difference_bounds_physical_px": null,
+            "same_css_width": true,
+            "unclipped": true
+          },
+          "four_glyph_rasters_distinct": true
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "themes": [
+        {
+          "theme": "light",
+          "single_glyphs": [
+            {
+              "selector": ".glyph-pair[data-theme=\"light\"][data-id=\"u7f81\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "羁",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 73,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    43,
+                    40,
+                    68
+                  ],
+                  "raster_sha256": "c260114b77be0d8e61292e4c1e9e3e0a521aaaeac9daf63b04c3dc40ac898e7a"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "羁",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 177,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    43,
+                    40,
+                    68
+                  ],
+                  "raster_sha256": "998e63b74acd763c9bb7ca71e3e903ca9c8db9b331d01f9aa75ef8acf2364684"
+                }
+              },
+              "changed_physical_pixels": 94,
+              "difference_bounds_physical_px": [
+                19,
+                45,
+                37,
+                64
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "羁",
+              "codepoint": "U+7F81"
+            },
+            {
+              "selector": ".glyph-pair[data-theme=\"light\"][data-id=\"u87a3\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "螣",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 309,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    41,
+                    69
+                  ],
+                  "raster_sha256": "e4322bc4b7581cc6a09e70bea47601420934c785550272cd81a014bf8d90c470"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "螣",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 413,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    41,
+                    69
+                  ],
+                  "raster_sha256": "21e5f0d59ae0c161dda53825a4871e60e163c5906b162fa44636bf14463cab4a"
+                }
+              },
+              "changed_physical_pixels": 84,
+              "difference_bounds_physical_px": [
+                20,
+                45,
+                37,
+                62
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "螣",
+              "codepoint": "U+87A3"
+            },
+            {
+              "selector": ".glyph-pair[data-theme=\"light\"][data-id=\"u6525\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "攥",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 545,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    41,
+                    68
+                  ],
+                  "raster_sha256": "1d23ad97a6aa08ca5cb472a23ee08c3f56c88fdfabe879c58e382e99e066bc25"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "攥",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 649,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    41,
+                    68
+                  ],
+                  "raster_sha256": "09c5869bd7788a1e9cb5a71e216e90056c21504c723deb4a76a2bc7d75e30b4f"
+                }
+              },
+              "changed_physical_pixels": 42,
+              "difference_bounds_physical_px": [
+                23,
+                48,
+                37,
+                55
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "攥",
+              "codepoint": "U+6525"
+            },
+            {
+              "selector": ".glyph-pair[data-theme=\"light\"][data-id=\"u9edb\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "黛",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 781,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    41,
+                    69
+                  ],
+                  "raster_sha256": "f208cfeb6f6079d08b5f4464283340feb51155ab7090c51191b9ca6424a2eea6"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "黛",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 885,
+                  "y": 361.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    41,
+                    69
+                  ],
+                  "raster_sha256": "024f42166573dc287e3f81f083fab6cd0ce8e912677b2bd6c1d1981fa096cfa4"
+                }
+              },
+              "changed_physical_pixels": 74,
+              "difference_bounds_physical_px": [
+                17,
+                52,
+                41,
+                64
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "黛",
+              "codepoint": "U+9EDB"
+            }
+          ],
+          "phrases": [
+            {
+              "selector": ".phrase-pair[data-theme=\"light\"][data-id=\"0\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "羁绊",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 73,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    69
+                  ],
+                  "raster_sha256": "78a9679fe84fa8441ab15854b40045ffb10953653de05c16ff41634f7275c9ca"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "羁绊",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 177,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    69
+                  ],
+                  "raster_sha256": "a957ad44b5e9ff67e324a874ff2928f845572e1f2cf5d6647a149a784a715d4e"
+                }
+              },
+              "changed_physical_pixels": 94,
+              "difference_bounds_physical_px": [
+                19,
+                45,
+                37,
+                64
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "羁绊"
+            },
+            {
+              "selector": ".phrase-pair[data-theme=\"light\"][data-id=\"1\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "螣蛇",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 309,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    69
+                  ],
+                  "raster_sha256": "aad7ea18cc5c2c298e239d24eed5758dcd62a16bf87505595f59368102928909"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "螣蛇",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 413,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    69
+                  ],
+                  "raster_sha256": "0d830476a8f1676ff3c0d305cc858d0d26a40d01ca077df7c8f0336d2d287bab"
+                }
+              },
+              "changed_physical_pixels": 84,
+              "difference_bounds_physical_px": [
+                20,
+                45,
+                37,
+                62
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "螣蛇"
+            },
+            {
+              "selector": ".phrase-pair[data-theme=\"light\"][data-id=\"2\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "手攥",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 545,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    68
+                  ],
+                  "raster_sha256": "e0f78951fb201ba892a7538185b09bbe5970ad26822287a0f08d652ba7af0a6e"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "手攥",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 649,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    68
+                  ],
+                  "raster_sha256": "4ee5b5d07d6b1ea9a899b60909f3c734651386240b67502e3d24eedf9911f59d"
+                }
+              },
+              "changed_physical_pixels": 41,
+              "difference_bounds_physical_px": [
+                49,
+                48,
+                63,
+                55
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "手攥"
+            },
+            {
+              "selector": ".phrase-pair[data-theme=\"light\"][data-id=\"3\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "黛色",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 781,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    69
+                  ],
+                  "raster_sha256": "84d0e04473604a975911f8177d7249490020ca0f1d76dc66912c310240a31cc3"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "黛色",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 885,
+                  "y": 536.984375,
+                  "background": "rgb(241, 244, 238)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    69
+                  ],
+                  "raster_sha256": "6d023553cd16af812ad46f5fb97a5c928a9ef4711e3258f7aa3afdd6c71da0ea"
+                }
+              },
+              "changed_physical_pixels": 74,
+              "difference_bounds_physical_px": [
+                17,
+                52,
+                41,
+                64
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "黛色"
+            }
+          ],
+          "control": {
+            "selector": ".control-pair[data-theme=\"light\"]",
+            "versions": {
+              "before": {
+                "actual_fonts": [
+                  {
+                    "familyName": "Aincrad UI SC",
+                    "postScriptName": "AincradUISC-Regular",
+                    "isCustomFont": true,
+                    "glyphCount": 7
+                  }
+                ],
+                "text": "命宫 2026",
+                "fontFamily": "\"Dense Before Regular\", sans-serif",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "lineHeight": "28px",
+                "letterSpacing": "normal",
+                "color": "rgb(36, 52, 62)",
+                "filter": "none",
+                "transform": "none",
+                "opacity": "1",
+                "width": 53.046875,
+                "height": 28,
+                "x": 73,
+                "y": 711.984375,
+                "background": "rgb(241, 244, 238)",
+                "ink_bounds_physical_px": [
+                  17,
+                  42,
+                  122,
+                  69
+                ],
+                "raster_sha256": "a65ccc90b00690896586741ade4700ed90985cfef4eb59c3ffb7bde2ec813889"
+              },
+              "after": {
+                "actual_fonts": [
+                  {
+                    "familyName": "Aincrad UI SC",
+                    "postScriptName": "AincradUISC-Regular",
+                    "isCustomFont": true,
+                    "glyphCount": 7
+                  }
+                ],
+                "text": "命宫 2026",
+                "fontFamily": "\"Dense After Regular\", sans-serif",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "lineHeight": "28px",
+                "letterSpacing": "normal",
+                "color": "rgb(36, 52, 62)",
+                "filter": "none",
+                "transform": "none",
+                "opacity": "1",
+                "width": 53.046875,
+                "height": 28,
+                "x": 177,
+                "y": 711.984375,
+                "background": "rgb(241, 244, 238)",
+                "ink_bounds_physical_px": [
+                  17,
+                  42,
+                  122,
+                  69
+                ],
+                "raster_sha256": "a65ccc90b00690896586741ade4700ed90985cfef4eb59c3ffb7bde2ec813889"
+              }
+            },
+            "changed_physical_pixels": 0,
+            "difference_bounds_physical_px": null,
+            "same_css_width": true,
+            "unclipped": true
+          },
+          "four_glyph_rasters_distinct": true
+        },
+        {
+          "theme": "dark",
+          "single_glyphs": [
+            {
+              "selector": ".glyph-pair[data-theme=\"dark\"][data-id=\"u7f81\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "羁",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 73,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    43,
+                    40,
+                    68
+                  ],
+                  "raster_sha256": "b734b995bc3a5bd40ec8e344e2870918e905f30bea7f8a9f3fb9b742de575754"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "羁",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 177,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    43,
+                    40,
+                    68
+                  ],
+                  "raster_sha256": "d09c5bc7a1728ce3962d6227b1a0b38891087ec71b6eab6c7cdc5107fd52b488"
+                }
+              },
+              "changed_physical_pixels": 94,
+              "difference_bounds_physical_px": [
+                19,
+                45,
+                37,
+                64
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "羁",
+              "codepoint": "U+7F81"
+            },
+            {
+              "selector": ".glyph-pair[data-theme=\"dark\"][data-id=\"u87a3\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "螣",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 309,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    16,
+                    42,
+                    41,
+                    69
+                  ],
+                  "raster_sha256": "b2dd6d48489040be41d6ab204b1c0d297035228515538635ad1aba8ffb64271a"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "螣",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 413,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    16,
+                    42,
+                    41,
+                    69
+                  ],
+                  "raster_sha256": "5dc6ffc1f236e1b32188f076ffbfc02691b1ba3fb2392e657ab2b690f9ebbb27"
+                }
+              },
+              "changed_physical_pixels": 85,
+              "difference_bounds_physical_px": [
+                20,
+                45,
+                37,
+                62
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "螣",
+              "codepoint": "U+87A3"
+            },
+            {
+              "selector": ".glyph-pair[data-theme=\"dark\"][data-id=\"u6525\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "攥",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 545,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    41,
+                    68
+                  ],
+                  "raster_sha256": "53824aa234559e3f7e990c554c0674870c3d556cf25b638f1d8a043a9e53f68a"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "攥",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 649,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    41,
+                    68
+                  ],
+                  "raster_sha256": "ae768207b8775bf7458e66dc1433c07d7812203e09572f0ba602394e33a5549c"
+                }
+              },
+              "changed_physical_pixels": 40,
+              "difference_bounds_physical_px": [
+                23,
+                48,
+                37,
+                55
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "攥",
+              "codepoint": "U+6525"
+            },
+            {
+              "selector": ".glyph-pair[data-theme=\"dark\"][data-id=\"u9edb\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "黛",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 781,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    41,
+                    69
+                  ],
+                  "raster_sha256": "3fd87d74e080acefbb34151fca6e7c7405deeb88f21c39e507360a6c29dc6c1b"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "text": "黛",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 885,
+                  "y": 936.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    41,
+                    69
+                  ],
+                  "raster_sha256": "0793a2b556f929aaf5345ff1db89d610dbb2e104c11787b26bbf72e1cb82193b"
+                }
+              },
+              "changed_physical_pixels": 73,
+              "difference_bounds_physical_px": [
+                17,
+                52,
+                41,
+                64
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "character": "黛",
+              "codepoint": "U+9EDB"
+            }
+          ],
+          "phrases": [
+            {
+              "selector": ".phrase-pair[data-theme=\"dark\"][data-id=\"0\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "羁绊",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 73,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    69
+                  ],
+                  "raster_sha256": "d995708dfadf7f982eea65e6e3ced4a6ecab2bff65976cdba0928b58fff8082a"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "羁绊",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 177,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    69
+                  ],
+                  "raster_sha256": "10e085f304702f7ac98348e7e87b7c8dfba8064021f4cb29ed58b87ced2638f1"
+                }
+              },
+              "changed_physical_pixels": 94,
+              "difference_bounds_physical_px": [
+                19,
+                45,
+                37,
+                64
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "羁绊"
+            },
+            {
+              "selector": ".phrase-pair[data-theme=\"dark\"][data-id=\"1\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "螣蛇",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 309,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    16,
+                    42,
+                    66,
+                    69
+                  ],
+                  "raster_sha256": "a7ec8ec7ff23776741e9954791a8c7795c00034cc0e443fa19b03adb969e7fc6"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "螣蛇",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 413,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    16,
+                    42,
+                    66,
+                    69
+                  ],
+                  "raster_sha256": "e5959230f111222108d94029808fa50b15c155fbb30cff5e35111ad5d4886b30"
+                }
+              },
+              "changed_physical_pixels": 85,
+              "difference_bounds_physical_px": [
+                20,
+                45,
+                37,
+                62
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "螣蛇"
+            },
+            {
+              "selector": ".phrase-pair[data-theme=\"dark\"][data-id=\"2\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "手攥",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 545,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    68
+                  ],
+                  "raster_sha256": "dae77b450711f74710e58dca16fa90feb33a73ff42b08f1eed63d46441726b95"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "手攥",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 649,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    68
+                  ],
+                  "raster_sha256": "93a3f5d1474e79819078d1621493846ba83b769450ddef0073688129eae52904"
+                }
+              },
+              "changed_physical_pixels": 36,
+              "difference_bounds_physical_px": [
+                49,
+                48,
+                62,
+                55
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "手攥"
+            },
+            {
+              "selector": ".phrase-pair[data-theme=\"dark\"][data-id=\"3\"]",
+              "versions": {
+                "before": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "黛色",
+                  "fontFamily": "\"Dense Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 781,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    69
+                  ],
+                  "raster_sha256": "a358369e7c10f59980b67b7f5ec954dca335a7b79db65a2a23a911a9e0752ead"
+                },
+                "after": {
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "text": "黛色",
+                  "fontFamily": "\"Dense After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "filter": "none",
+                  "transform": "none",
+                  "opacity": "1",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 885,
+                  "y": 1111.984375,
+                  "background": "rgb(36, 52, 62)",
+                  "ink_bounds_physical_px": [
+                    17,
+                    42,
+                    66,
+                    69
+                  ],
+                  "raster_sha256": "b2052c87c235218cd4f2d4e2e85db8685ca65152c0bf56dc2bc4a76db3fce9f5"
+                }
+              },
+              "changed_physical_pixels": 73,
+              "difference_bounds_physical_px": [
+                17,
+                52,
+                41,
+                64
+              ],
+              "same_css_width": true,
+              "unclipped": true,
+              "text": "黛色"
+            }
+          ],
+          "control": {
+            "selector": ".control-pair[data-theme=\"dark\"]",
+            "versions": {
+              "before": {
+                "actual_fonts": [
+                  {
+                    "familyName": "Aincrad UI SC",
+                    "postScriptName": "AincradUISC-Regular",
+                    "isCustomFont": true,
+                    "glyphCount": 7
+                  }
+                ],
+                "text": "命宫 2026",
+                "fontFamily": "\"Dense Before Regular\", sans-serif",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "lineHeight": "28px",
+                "letterSpacing": "normal",
+                "color": "rgb(241, 244, 238)",
+                "filter": "none",
+                "transform": "none",
+                "opacity": "1",
+                "width": 53.046875,
+                "height": 28,
+                "x": 73,
+                "y": 1286.984375,
+                "background": "rgb(36, 52, 62)",
+                "ink_bounds_physical_px": [
+                  16,
+                  42,
+                  122,
+                  69
+                ],
+                "raster_sha256": "ac7891d6ddbf43211c854f4f59786dc4272ecfa17eb92f705a7e534c7f88ed5a"
+              },
+              "after": {
+                "actual_fonts": [
+                  {
+                    "familyName": "Aincrad UI SC",
+                    "postScriptName": "AincradUISC-Regular",
+                    "isCustomFont": true,
+                    "glyphCount": 7
+                  }
+                ],
+                "text": "命宫 2026",
+                "fontFamily": "\"Dense After Regular\", sans-serif",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "lineHeight": "28px",
+                "letterSpacing": "normal",
+                "color": "rgb(241, 244, 238)",
+                "filter": "none",
+                "transform": "none",
+                "opacity": "1",
+                "width": 53.046875,
+                "height": 28,
+                "x": 177,
+                "y": 1286.984375,
+                "background": "rgb(36, 52, 62)",
+                "ink_bounds_physical_px": [
+                  16,
+                  42,
+                  122,
+                  69
+                ],
+                "raster_sha256": "ac7891d6ddbf43211c854f4f59786dc4272ecfa17eb92f705a7e534c7f88ed5a"
+              }
+            },
+            "changed_physical_pixels": 0,
+            "difference_bounds_physical_px": null,
+            "same_css_width": true,
+            "unclipped": true
+          },
+          "four_glyph_rasters_distinct": true
+        }
+      ]
+    }
+  ],
+  "native_screenshots": [
+    {
+      "file": "dense-14px-comparison.png",
+      "dpr": 1
+    },
+    {
+      "file": "dense-14px-comparison-dpr2.png",
+      "dpr": 2
+    }
+  ],
+  "focus_sheets": [
+    {
+      "file": "dense-14px-comparison-focus-dpr1.png",
+      "dpr": 1,
+      "method": "nearest-neighbor",
+      "physical_pixel_magnification": 4,
+      "width": 1760,
+      "height": 2108
+    },
+    {
+      "file": "dense-14px-comparison-focus-dpr2.png",
+      "dpr": 2,
+      "method": "nearest-neighbor",
+      "physical_pixel_magnification": 2,
+      "width": 1760,
+      "height": 2108
+    }
+  ],
+  "individual_crops": [
+    {
+      "character": "羁",
+      "theme": "light",
+      "dpr": 1,
+      "native": "dense-14px-u7f81-light-dpr1.png",
+      "zoom": "dense-14px-u7f81-light-dpr1-zoom.png",
+      "physical_pixel_magnification": 4
+    },
+    {
+      "character": "螣",
+      "theme": "light",
+      "dpr": 1,
+      "native": "dense-14px-u87a3-light-dpr1.png",
+      "zoom": "dense-14px-u87a3-light-dpr1-zoom.png",
+      "physical_pixel_magnification": 4
+    },
+    {
+      "character": "攥",
+      "theme": "light",
+      "dpr": 1,
+      "native": "dense-14px-u6525-light-dpr1.png",
+      "zoom": "dense-14px-u6525-light-dpr1-zoom.png",
+      "physical_pixel_magnification": 4
+    },
+    {
+      "character": "黛",
+      "theme": "light",
+      "dpr": 1,
+      "native": "dense-14px-u9edb-light-dpr1.png",
+      "zoom": "dense-14px-u9edb-light-dpr1-zoom.png",
+      "physical_pixel_magnification": 4
+    },
+    {
+      "character": "羁",
+      "theme": "dark",
+      "dpr": 1,
+      "native": "dense-14px-u7f81-dark-dpr1.png",
+      "zoom": "dense-14px-u7f81-dark-dpr1-zoom.png",
+      "physical_pixel_magnification": 4
+    },
+    {
+      "character": "螣",
+      "theme": "dark",
+      "dpr": 1,
+      "native": "dense-14px-u87a3-dark-dpr1.png",
+      "zoom": "dense-14px-u87a3-dark-dpr1-zoom.png",
+      "physical_pixel_magnification": 4
+    },
+    {
+      "character": "攥",
+      "theme": "dark",
+      "dpr": 1,
+      "native": "dense-14px-u6525-dark-dpr1.png",
+      "zoom": "dense-14px-u6525-dark-dpr1-zoom.png",
+      "physical_pixel_magnification": 4
+    },
+    {
+      "character": "黛",
+      "theme": "dark",
+      "dpr": 1,
+      "native": "dense-14px-u9edb-dark-dpr1.png",
+      "zoom": "dense-14px-u9edb-dark-dpr1-zoom.png",
+      "physical_pixel_magnification": 4
+    },
+    {
+      "character": "羁",
+      "theme": "light",
+      "dpr": 2,
+      "native": "dense-14px-u7f81-light-dpr2.png",
+      "zoom": "dense-14px-u7f81-light-dpr2-zoom.png",
+      "physical_pixel_magnification": 2
+    },
+    {
+      "character": "螣",
+      "theme": "light",
+      "dpr": 2,
+      "native": "dense-14px-u87a3-light-dpr2.png",
+      "zoom": "dense-14px-u87a3-light-dpr2-zoom.png",
+      "physical_pixel_magnification": 2
+    },
+    {
+      "character": "攥",
+      "theme": "light",
+      "dpr": 2,
+      "native": "dense-14px-u6525-light-dpr2.png",
+      "zoom": "dense-14px-u6525-light-dpr2-zoom.png",
+      "physical_pixel_magnification": 2
+    },
+    {
+      "character": "黛",
+      "theme": "light",
+      "dpr": 2,
+      "native": "dense-14px-u9edb-light-dpr2.png",
+      "zoom": "dense-14px-u9edb-light-dpr2-zoom.png",
+      "physical_pixel_magnification": 2
+    },
+    {
+      "character": "羁",
+      "theme": "dark",
+      "dpr": 2,
+      "native": "dense-14px-u7f81-dark-dpr2.png",
+      "zoom": "dense-14px-u7f81-dark-dpr2-zoom.png",
+      "physical_pixel_magnification": 2
+    },
+    {
+      "character": "螣",
+      "theme": "dark",
+      "dpr": 2,
+      "native": "dense-14px-u87a3-dark-dpr2.png",
+      "zoom": "dense-14px-u87a3-dark-dpr2-zoom.png",
+      "physical_pixel_magnification": 2
+    },
+    {
+      "character": "攥",
+      "theme": "dark",
+      "dpr": 2,
+      "native": "dense-14px-u6525-dark-dpr2.png",
+      "zoom": "dense-14px-u6525-dark-dpr2-zoom.png",
+      "physical_pixel_magnification": 2
+    },
+    {
+      "character": "黛",
+      "theme": "dark",
+      "dpr": 2,
+      "native": "dense-14px-u9edb-dark-dpr2.png",
+      "zoom": "dense-14px-u9edb-dark-dpr2-zoom.png",
+      "physical_pixel_magnification": 2
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "failed_requests": [],
+  "http_errors": [],
+  "recognizability": {
+    "automated": "Correct Unicode/cmap identities, visible unclipped ink and four distinct glyph rasters.",
+    "human_review": {
+      "status": "reviewed-with-residual-small-size-limitations",
+      "reviewed_at_utc": "2026-10-27T01:16:54.098027+00:00",
+      "rendered_font_sha256": "50d4114e3c11e2ece81775debd2595aed4ee4bd60ef297c706e1a22bc02b90b6",
+      "images_inspected": [
+        "dense-14px-comparison.png",
+        "dense-14px-comparison-compact.png",
+        "small-size-focus-14px-dpr1.png",
+        "small-size-focus-14px-dpr2.png"
+      ],
+      "glyph_observations": {
+        "U+7F81": "The top framed openings are more even/open in the DPR2 after crop. At DPR1 the dense lower structure still relies on very few pixels; the improvement is modest at native size.",
+        "U+87A3": "Framed openings and some internal divisions gain visible space at DPR2. At DPR1 the right/central dense structure remains crowded, especially light-on-dark; this is not fully resolved.",
+        "U+6525": "The middle counter/short horizontal changes are subtle. DPR2 preserves the overall structure, but DPR1 still has a nearly merged dense center. No strong readability improvement is claimed for this glyph.",
+        "U+9EDB": "The central framed area and its separation from adjacent strokes look more open in the DPR2 after crop. DPR1 retains a block-like center; the bottom dots remain present without clipping."
+      },
+      "native_size_conclusion": "The four labeled characters retain distinct intended structures. In familiar phrases the intended words can be followed, but the changes are modest at native 14 CSS px. This was a labeled visual inspection, not a blind recognition study. DPR1 still leaves crowded internal strokes, most notably U+6525 and U+87A3.",
+      "pixel_zoom_conclusion": "The compact sheet uses original browser glyph-surface pixels with shared before/after bounds plus one CSS pixel of padding, nearest-neighbor x8 at DPR1 and x4 at DPR2. It helps observe pixel changes; it is not a larger-size rendering or evidence of guaranteed readability.",
+      "scope": "Only the two Regular WOFF2 files were rendered in the A/B. Hashes for the other current formats record file identity, not equivalent raster behavior. This does not establish every TTF counter improved, all small text is readable, or Flutter/Android acceptance."
+    }
+  },
+  "current_font_files": {
+    "AincradUISc-Regular.otf": {
+      "sha256": "2d4770a659b485155fe7781d56fb600dba90063bbdc5125caf79c428957ec3a3",
+      "bytes": 1191780,
+      "browser_rendered_in_this_report": false
+    },
+    "AincradUISc-Regular.ttf": {
+      "sha256": "a5a0bcb9ff7f8fa9cc3a8085c1bb64fd74cbeab075d83ad7bde62494b441320b",
+      "bytes": 1353696,
+      "browser_rendered_in_this_report": false
+    },
+    "AincradUISc-Regular.woff2": {
+      "sha256": "50d4114e3c11e2ece81775debd2595aed4ee4bd60ef297c706e1a22bc02b90b6",
+      "bytes": 661424,
+      "browser_rendered_in_this_report": true
+    },
+    "AincradUISc-Display.otf": {
+      "sha256": "868b97adfafb1250eb949ce6d1710a7e6a0c5b2b07478d34ed5cb808ba927e33",
+      "bytes": 1148644,
+      "browser_rendered_in_this_report": false
+    },
+    "AincradUISc-Display.ttf": {
+      "sha256": "bce479fe78f66867de817b46d6de0fd8934e58ba635ddf75bb90157c8afba9e2",
+      "bytes": 1331776,
+      "browser_rendered_in_this_report": false
+    },
+    "AincradUISc-Display.woff2": {
+      "sha256": "0b748aaf0473d702355b712308f41c824f930846cd6e4441a4e5a413935f3d28",
+      "bytes": 665980,
+      "browser_rendered_in_this_report": false
+    }
+  },
+  "browser_version": "151.0.7922.34",
+  "compact_sheet": {
+    "file": "dense-14px-comparison-compact.png",
+    "method": "shared ink-bounds crop, nearest-neighbor",
+    "source": "Real 14 CSS px glyph-surface screenshots",
+    "crops": [
+      {
+        "character": "羁",
+        "dpr": 1,
+        "theme": "light",
+        "shared_source_crop_physical_px": [
+          7,
+          20,
+          22,
+          35
+        ],
+        "physical_pixel_magnification": 8
+      },
+      {
+        "character": "螣",
+        "dpr": 1,
+        "theme": "light",
+        "shared_source_crop_physical_px": [
+          7,
+          20,
+          22,
+          36
+        ],
+        "physical_pixel_magnification": 8
+      },
+      {
+        "character": "攥",
+        "dpr": 1,
+        "theme": "light",
+        "shared_source_crop_physical_px": [
+          7,
+          20,
+          22,
+          35
+        ],
+        "physical_pixel_magnification": 8
+      },
+      {
+        "character": "黛",
+        "dpr": 1,
+        "theme": "light",
+        "shared_source_crop_physical_px": [
+          7,
+          20,
+          22,
+          35
+        ],
+        "physical_pixel_magnification": 8
+      },
+      {
+        "character": "羁",
+        "dpr": 1,
+        "theme": "dark",
+        "shared_source_crop_physical_px": [
+          7,
+          20,
+          22,
+          35
+        ],
+        "physical_pixel_magnification": 8
+      },
+      {
+        "character": "螣",
+        "dpr": 1,
+        "theme": "dark",
+        "shared_source_crop_physical_px": [
+          7,
+          20,
+          22,
+          36
+        ],
+        "physical_pixel_magnification": 8
+      },
+      {
+        "character": "攥",
+        "dpr": 1,
+        "theme": "dark",
+        "shared_source_crop_physical_px": [
+          7,
+          20,
+          22,
+          35
+        ],
+        "physical_pixel_magnification": 8
+      },
+      {
+        "character": "黛",
+        "dpr": 1,
+        "theme": "dark",
+        "shared_source_crop_physical_px": [
+          7,
+          20,
+          22,
+          35
+        ],
+        "physical_pixel_magnification": 8
+      },
+      {
+        "character": "羁",
+        "dpr": 2,
+        "theme": "light",
+        "shared_source_crop_physical_px": [
+          15,
+          41,
+          42,
+          70
+        ],
+        "physical_pixel_magnification": 4
+      },
+      {
+        "character": "螣",
+        "dpr": 2,
+        "theme": "light",
+        "shared_source_crop_physical_px": [
+          15,
+          40,
+          43,
+          71
+        ],
+        "physical_pixel_magnification": 4
+      },
+      {
+        "character": "攥",
+        "dpr": 2,
+        "theme": "light",
+        "shared_source_crop_physical_px": [
+          15,
+          40,
+          43,
+          70
+        ],
+        "physical_pixel_magnification": 4
+      },
+      {
+        "character": "黛",
+        "dpr": 2,
+        "theme": "light",
+        "shared_source_crop_physical_px": [
+          15,
+          40,
+          43,
+          71
+        ],
+        "physical_pixel_magnification": 4
+      },
+      {
+        "character": "羁",
+        "dpr": 2,
+        "theme": "dark",
+        "shared_source_crop_physical_px": [
+          15,
+          41,
+          42,
+          70
+        ],
+        "physical_pixel_magnification": 4
+      },
+      {
+        "character": "螣",
+        "dpr": 2,
+        "theme": "dark",
+        "shared_source_crop_physical_px": [
+          14,
+          40,
+          43,
+          71
+        ],
+        "physical_pixel_magnification": 4
+      },
+      {
+        "character": "攥",
+        "dpr": 2,
+        "theme": "dark",
+        "shared_source_crop_physical_px": [
+          15,
+          40,
+          43,
+          70
+        ],
+        "physical_pixel_magnification": 4
+      },
+      {
+        "character": "黛",
+        "dpr": 2,
+        "theme": "dark",
+        "shared_source_crop_physical_px": [
+          15,
+          40,
+          43,
+          71
+        ],
+        "physical_pixel_magnification": 4
+      }
+    ],
+    "width": 1360,
+    "height": 910
+  },
+  "artifact_hashes": {
+    "dense-14px-comparison.html": "2ea721cc3be8ef1aa9fb64b2040ecc8df38903f6b415bfe7c92b801abb2436ec",
+    "dense-14px-comparison-compact.png": "99871a80a35c38bf0c8b02743274c18c72d39cd9ed7407be50c99bd40f57e93b",
+    "dense-14px-comparison.png": "dd8fdda9002375c96d032dd0c08a2e5b944c20d4974603fed5d8d6a59bde618f",
+    "dense-14px-comparison-dpr2.png": "7ba4cdd8f6b014ffae0d26cc1065af783a0d66d640354cffc33dcdbbadeac908",
+    "dense-14px-comparison-focus-dpr1.png": "4347be9776eaafe74d4e391a0a1fd6ff70a7a398c1e45bca1ca009f5f702af1b",
+    "dense-14px-comparison-focus-dpr2.png": "e1192866ed7d8451cf249a871bf2e08d6676ee03e2c50ca626cc031a6b16b4c7",
+    "dense-14px-u7f81-light-dpr1.png": "ae8209ee9aa05229f206496208feb4717b3d10018116edd8e0ab3098e921f4e5",
+    "dense-14px-u7f81-light-dpr1-zoom.png": "f6313c6bdf6602e8eb6f151a03409789fdf05571e6c2709204c624923d0f0427",
+    "dense-14px-u87a3-light-dpr1.png": "0fdc2099b18ad79fd1bb2d7e8203a9e0cc1240656225f92ffb878c20508e69b4",
+    "dense-14px-u87a3-light-dpr1-zoom.png": "43295ee389fa371b0890c19d595629b2748a7aea7a3120cf37ce30dc03a874fa",
+    "dense-14px-u6525-light-dpr1.png": "72b0521490f5268895d334f10f3e604b255c39f02df5bf66862d42fc1adf520b",
+    "dense-14px-u6525-light-dpr1-zoom.png": "4e7097eaeaedbbf4ac4895973840b971218b7d25e3115c5d94ac402e98909a58",
+    "dense-14px-u9edb-light-dpr1.png": "247482cb5fe1b355abcfbbd3dbbc6719225bda25a4e43a1393862bc95d378d14",
+    "dense-14px-u9edb-light-dpr1-zoom.png": "01f22e40e4dad6384d01173208a37c482b2a0ef45ca29fae6719aada9187436c",
+    "dense-14px-u7f81-dark-dpr1.png": "75feca4ac9b2d49016ffc21d4fc0cfc3d765e721036f2f8a24772af4f155027e",
+    "dense-14px-u7f81-dark-dpr1-zoom.png": "21cde7aaa050266c182cf1be50a1f07ad886541572f754915979b277854d786b",
+    "dense-14px-u87a3-dark-dpr1.png": "dce094d4b2a4f75622bf32ee5aa8461c8f906dc1a76e635c0cabc1f0b224ea4d",
+    "dense-14px-u87a3-dark-dpr1-zoom.png": "52af070cb9e2762a8aa5a4ffd313cbbf6197c1745dd7fbc81600c22e78dd7d73",
+    "dense-14px-u6525-dark-dpr1.png": "908043987268008b653555424abe94126e2507b8ce02d47af229c7e3486b032b",
+    "dense-14px-u6525-dark-dpr1-zoom.png": "b8be00c2769747bf5f5b69dd501b9bcfa909fe25fccbe33f022c71b395caaade",
+    "dense-14px-u9edb-dark-dpr1.png": "7eeece4af89e2d1cad34654e191835c56f9a8b9c92cb9e2154970048f8711f4b",
+    "dense-14px-u9edb-dark-dpr1-zoom.png": "0908f553e0f7a47df3a06c1f4d687d7c99b4dd3d1e79097bd27e581289bec5cc",
+    "dense-14px-u7f81-light-dpr2.png": "631decdcbf9ffff8cbb1188c8a7757a427847f87075cff00eec7fbc388830325",
+    "dense-14px-u7f81-light-dpr2-zoom.png": "0109c0d409c92742a9fce01c5d0f5bbb0af6f9e24d03d33a2caf2b7fcaa5a7e4",
+    "dense-14px-u87a3-light-dpr2.png": "81040a1642b5a8e28aee93095575c4df064eace567638a7fdbed127f3c7a6fe8",
+    "dense-14px-u87a3-light-dpr2-zoom.png": "720fd443d4721599ef2a283445ad03df16d085abff693be6fe49726518e27389",
+    "dense-14px-u6525-light-dpr2.png": "e14430e9035f7ba60e3b00d406db0865a641ec39d945283505d4134a20f305e7",
+    "dense-14px-u6525-light-dpr2-zoom.png": "dc3e94efcb603c8b36ad0748ec19b28d363eb1da4887496fde57707dcd4bac40",
+    "dense-14px-u9edb-light-dpr2.png": "9aa22f761fc44a318e2c5f7e556fc30213310f74a6a74980364841d08681634c",
+    "dense-14px-u9edb-light-dpr2-zoom.png": "0d50cc1e2bde8c8e37357f124b8c25541d96438ee758fbff5171ba23592a1800",
+    "dense-14px-u7f81-dark-dpr2.png": "655355e998356184f8bdd712d3b288e03fed72b2e6222ce48c7ae5da54697736",
+    "dense-14px-u7f81-dark-dpr2-zoom.png": "fe0bb6542282006e9b02e2bd59375f37d7037217b8c71e79074333a501dfb403",
+    "dense-14px-u87a3-dark-dpr2.png": "c22ea5f723d07348038cb07e217043bf38e5d230775c01c03a8a173accc3367b",
+    "dense-14px-u87a3-dark-dpr2-zoom.png": "ef32c9e6eb5c90dc3d1305f27f83ea30a5b3dcf5a8da518b435c5ac3353d448f",
+    "dense-14px-u6525-dark-dpr2.png": "7494b12bf16d583c80d477eb91c37c318ecbed111bde4af67edbb55f273e6fe0",
+    "dense-14px-u6525-dark-dpr2-zoom.png": "76d1d04b0a51675a827a043c3cf22fc8057120c3734521446f0c981144771a82",
+    "dense-14px-u9edb-dark-dpr2.png": "3470758e2f6e60814430a081d8b6cb8eb2c69324334cccd56a40918c2bac5ac3",
+    "dense-14px-u9edb-dark-dpr2-zoom.png": "a6f664dae5c85b87aac22a2ede20d14ffb70eca11a46f3eb185dd8827c9db826"
+  },
+  "passed": true,
+  "historical_fixture_freeze": {
+    "frozen_from_archive": "Aincrad-UI-SC-v0.3-dense14-hexagrams.zip",
+    "archive_sha256": "fbb334a39f97a16426198bda98242e5cde04a237b415184c7be15569cfe5fd1d",
+    "archive_member": "Aincrad-UI-SC-v0.3-dense14-hexagrams/fonts/AincradUISc-Regular.woff2",
+    "font_file": "fonts/AincradUISc-v030-before-ttf14-Regular.woff2",
+    "font_sha256": "50d4114e3c11e2ece81775debd2595aed4ee4bd60ef297c706e1a22bc02b90b6",
+    "font_bytes": 661424,
+    "html_sha256_before": "f9222a13bceefbfaebe8b84fb34b2263bb385d696c32f1182c82178d64436315",
+    "html_sha256_after": "2ea721cc3be8ef1aa9fb64b2040ecc8df38903f6b415bfe7c92b801abb2436ec",
+    "only_font_url_changed": true,
+    "font_bytes_match_original_render": true,
+    "historical_evidence_rerun": false,
+    "original_render_timestamp_utc": "2026-10-27T01:15:00.513549+00:00",
+    "note": "Only the Dense After Regular @font-face URL was redirected to the same-byte historical font. Existing screenshots, original rendering time, measurements, browser results and historical current_font_files are preserved. This is a fixture binding freeze; the historical evidence was not rerun."
+  }
+}

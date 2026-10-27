@@ -1,0 +1,5270 @@
+{
+  "timestamp_utc": "2026-10-27T02:16:58.398442+00:00",
+  "mode": "comparison",
+  "scope": "Desktop Chromium, actual Regular TTF; primary DPR1, DPR2 regression; not Flutter/Android acceptance",
+  "baseline": {
+    "archive": "Aincrad-UI-SC-v0.3-dense14-hexagrams.zip",
+    "archive_sha256": "fbb334a39f97a16426198bda98242e5cde04a237b415184c7be15569cfe5fd1d",
+    "member": "Aincrad-UI-SC-v0.3-dense14-hexagrams/fonts/AincradUISc-Regular.ttf",
+    "file": "fonts/AincradUISc-v030-before-ttf14-Regular.ttf",
+    "sha256": "a5a0bcb9ff7f8fa9cc3a8085c1bb64fd74cbeab075d83ad7bde62494b441320b",
+    "bytes": 1353696,
+    "archive_preserved": true
+  },
+  "sources": {
+    "before": {
+      "file": "fonts/AincradUISc-v030-before-ttf14-Regular.ttf",
+      "sha256": "a5a0bcb9ff7f8fa9cc3a8085c1bb64fd74cbeab075d83ad7bde62494b441320b",
+      "bytes": 1353696,
+      "css_alias": "TTF14 Before Regular",
+      "internal_family": "Aincrad UI SC",
+      "postscript_name": "AincradUISC-Regular",
+      "version": "Version 0.300; common Chinese UI vocabulary",
+      "format": "TrueType sfnt/glyf",
+      "upm": 1000,
+      "hhea": {
+        "ascent": 1160,
+        "descent": -320,
+        "lineGap": 0
+      },
+      "os2_line_metrics": {
+        "sTypoAscender": 1160,
+        "sTypoDescender": -320,
+        "sTypoLineGap": 0,
+        "usWinAscent": 1160,
+        "usWinDescent": 320
+      },
+      "advances": {
+        "0": 450,
+        "2": 450,
+        "6": 450,
+        "命": 900,
+        "宫": 900,
+        "攥": 900,
+        "紧": 900,
+        "羁": 900,
+        "蛇": 900,
+        "螣": 900,
+        "黛": 900
+      }
+    },
+    "after": {
+      "file": "fonts/AincradUISc-v030-before-structure14-Regular.ttf",
+      "sha256": "b5c0733fdb47c077768966a54b4e6c7d27b6484263230af461b562a07759a03e",
+      "bytes": 1353696,
+      "css_alias": "TTF14 After Regular",
+      "internal_family": "Aincrad UI SC",
+      "postscript_name": "AincradUISC-Regular",
+      "version": "Version 0.300; common Chinese UI vocabulary",
+      "format": "TrueType sfnt/glyf",
+      "upm": 1000,
+      "hhea": {
+        "ascent": 1160,
+        "descent": -320,
+        "lineGap": 0
+      },
+      "os2_line_metrics": {
+        "sTypoAscender": 1160,
+        "sTypoDescender": -320,
+        "sTypoLineGap": 0,
+        "usWinAscent": 1160,
+        "usWinDescent": 320
+      },
+      "advances": {
+        "0": 450,
+        "2": 450,
+        "6": 450,
+        "命": 900,
+        "宫": 900,
+        "攥": 900,
+        "紧": 900,
+        "羁": 900,
+        "蛇": 900,
+        "螣": 900,
+        "黛": 900
+      }
+    }
+  },
+  "runs": [
+    {
+      "dpr": 1,
+      "font_faces": [
+        {
+          "family": "TTF14 Before Regular",
+          "status": "loaded"
+        },
+        {
+          "family": "TTF14 After Regular",
+          "status": "loaded"
+        }
+      ],
+      "font_face_rules": [
+        {
+          "family": "\"TTF14 Before Regular\"",
+          "src": "url(\"fonts/AincradUISc-v030-before-ttf14-Regular.ttf\") format(\"truetype\")"
+        },
+        {
+          "family": "\"TTF14 After Regular\"",
+          "src": "url(\"fonts/AincradUISc-Regular.ttf\") format(\"truetype\")"
+        }
+      ],
+      "themes": [
+        {
+          "theme": "light",
+          "targets": [
+            {
+              "selector": ".pair[data-theme=\"light\"][data-kind=\"target\"][data-index=\"0\"]",
+              "versions": {
+                "before": {
+                  "text": "攥",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 91,
+                  "y": 383.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    21,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "bca41f08a348692da7d831689b5b11d7ecab72c553758e220128fdf9bac0268f"
+                },
+                "after": {
+                  "text": "攥",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 231,
+                  "y": 383.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    21,
+                    34
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "fb26c822de5ce70a3305950941e83cba12c853ab21db0fb74cdd2f8739d68b6f"
+                }
+              },
+              "changed_physical_pixels": 99,
+              "difference_bounds_physical_px": [
+                11,
+                20,
+                21,
+                34
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "攥"
+            },
+            {
+              "selector": ".pair[data-theme=\"light\"][data-kind=\"target\"][data-index=\"1\"]",
+              "versions": {
+                "before": {
+                  "text": "螣",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 409,
+                  "y": 383.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    21,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "67c60b6135f7ca6d97d1d90c65186c7f52bed0eb9414ea1e81778cb1b1ccb73b"
+                },
+                "after": {
+                  "text": "螣",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 549,
+                  "y": 383.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    21,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "615b5c117deb4d52280f3f93e13730294afb46fc2dcef1e6b717fdfe45004209"
+                }
+              },
+              "changed_physical_pixels": 11,
+              "difference_bounds_physical_px": [
+                16,
+                30,
+                21,
+                33
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "螣"
+            }
+          ],
+          "phrases": [
+            {
+              "selector": ".pair[data-theme=\"light\"][data-kind=\"phrase\"][data-index=\"0\"]",
+              "versions": {
+                "before": {
+                  "text": "攥紧",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 91,
+                  "y": 548.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    33,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "ee4005d0e403a30b11ca02c25dbbcb21188f6a9201b4ada634fe13bce8b2950c"
+                },
+                "after": {
+                  "text": "攥紧",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 231,
+                  "y": 548.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    33,
+                    34
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "353b82f4bf4ed8dca2bebd9a936069c5e2b39c61967f66d68ce487cc338b8a3a"
+                }
+              },
+              "changed_physical_pixels": 99,
+              "difference_bounds_physical_px": [
+                11,
+                20,
+                21,
+                34
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "攥紧"
+            },
+            {
+              "selector": ".pair[data-theme=\"light\"][data-kind=\"phrase\"][data-index=\"1\"]",
+              "versions": {
+                "before": {
+                  "text": "螣蛇",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 409,
+                  "y": 548.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    33,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "62f882c84c40912e52b6d640eb5893a6a334a08a2ca25ba326cbd2ca9238f8af"
+                },
+                "after": {
+                  "text": "螣蛇",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 549,
+                  "y": 548.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    33,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "f16c479ee2894a002f09913f64606ac7eded6aff60a683b1216022215b44df04"
+                }
+              },
+              "changed_physical_pixels": 11,
+              "difference_bounds_physical_px": [
+                16,
+                30,
+                21,
+                33
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "螣蛇"
+            }
+          ],
+          "controls": [
+            {
+              "selector": ".pair[data-theme=\"light\"][data-kind=\"control\"][data-index=\"0\"]",
+              "versions": {
+                "before": {
+                  "text": "羁黛",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 91,
+                  "y": 713.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    33,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "305c13d1a22dcb2b0553bbbf9416821c084321dc4183a4f15bb19de5c180c4fb"
+                },
+                "after": {
+                  "text": "羁黛",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 231,
+                  "y": 713.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    33,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "305c13d1a22dcb2b0553bbbf9416821c084321dc4183a4f15bb19de5c180c4fb"
+                }
+              },
+              "changed_physical_pixels": 0,
+              "difference_bounds_physical_px": null,
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "羁黛"
+            },
+            {
+              "selector": ".pair[data-theme=\"light\"][data-kind=\"control\"][data-index=\"1\"]",
+              "versions": {
+                "before": {
+                  "text": "命宫2026",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 50.40625,
+                  "height": 28,
+                  "x": 409,
+                  "y": 713.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 6
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    58,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "d5f21501a4bb639998a21ba68bb2d316bcba2456aff54588e56949d7650d002b"
+                },
+                "after": {
+                  "text": "命宫2026",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 50.40625,
+                  "height": 28,
+                  "x": 549,
+                  "y": 713.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 6
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    58,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "d5f21501a4bb639998a21ba68bb2d316bcba2456aff54588e56949d7650d002b"
+                }
+              },
+              "changed_physical_pixels": 0,
+              "difference_bounds_physical_px": null,
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "命宫2026"
+            }
+          ]
+        },
+        {
+          "theme": "dark",
+          "targets": [
+            {
+              "selector": ".pair[data-theme=\"dark\"][data-kind=\"target\"][data-index=\"0\"]",
+              "versions": {
+                "before": {
+                  "text": "攥",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 91,
+                  "y": 962.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    21,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "9dfe5542a59067015e0cf34dde6a4c4fcebac29eeb0c50630693e946e0e12b65"
+                },
+                "after": {
+                  "text": "攥",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 231,
+                  "y": 962.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    21,
+                    34
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "0d32e1fb3404a9c47d026fb3e40ff5c6910b76d1c7a77957fc1dd6d46d7a9f72"
+                }
+              },
+              "changed_physical_pixels": 105,
+              "difference_bounds_physical_px": [
+                11,
+                20,
+                21,
+                34
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "攥"
+            },
+            {
+              "selector": ".pair[data-theme=\"dark\"][data-kind=\"target\"][data-index=\"1\"]",
+              "versions": {
+                "before": {
+                  "text": "螣",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 409,
+                  "y": 962.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    21,
+                    34
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "6fb260564163c03c4fc43cfbe9e5fc2ab9c05661a33f1e4c42be6815d340cb70"
+                },
+                "after": {
+                  "text": "螣",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 549,
+                  "y": 962.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    21,
+                    34
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "1c4515ed3acdb9fb398e625f6c5f3e9d929e8d2a42b861b01720f20a5f0a42b2"
+                }
+              },
+              "changed_physical_pixels": 10,
+              "difference_bounds_physical_px": [
+                16,
+                30,
+                21,
+                33
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "螣"
+            }
+          ],
+          "phrases": [
+            {
+              "selector": ".pair[data-theme=\"dark\"][data-kind=\"phrase\"][data-index=\"0\"]",
+              "versions": {
+                "before": {
+                  "text": "攥紧",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 91,
+                  "y": 1127.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    33,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "22ba60f817a860e5b97781790bcf38e6411c0cabf2f864e6bbf8e808aec15bbd"
+                },
+                "after": {
+                  "text": "攥紧",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 231,
+                  "y": 1127.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    33,
+                    34
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "149c6202c811cb37fccc373d5c9d0de82d038f5eca42241c773f124d4e66fa0c"
+                }
+              },
+              "changed_physical_pixels": 105,
+              "difference_bounds_physical_px": [
+                11,
+                20,
+                21,
+                34
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "攥紧"
+            },
+            {
+              "selector": ".pair[data-theme=\"dark\"][data-kind=\"phrase\"][data-index=\"1\"]",
+              "versions": {
+                "before": {
+                  "text": "螣蛇",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 409,
+                  "y": 1127.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    33,
+                    34
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "abdfc7a010a14fcd596f3456f247c4d1f83823efdb9dbe3c533cd48cbb53fdcf"
+                },
+                "after": {
+                  "text": "螣蛇",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 549,
+                  "y": 1127.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    33,
+                    34
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "7a806e3ff84e316415b29817b65522b1a357b1c5a7546b792ebe04937f4adfd6"
+                }
+              },
+              "changed_physical_pixels": 10,
+              "difference_bounds_physical_px": [
+                16,
+                30,
+                21,
+                33
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "螣蛇"
+            }
+          ],
+          "controls": [
+            {
+              "selector": ".pair[data-theme=\"dark\"][data-kind=\"control\"][data-index=\"0\"]",
+              "versions": {
+                "before": {
+                  "text": "羁黛",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 91,
+                  "y": 1292.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    33,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "524609f27fcc50e4e693d49044679c6912ee206ccc278ef66bbaa2aa6b33bc0c"
+                },
+                "after": {
+                  "text": "羁黛",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 231,
+                  "y": 1292.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    33,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "524609f27fcc50e4e693d49044679c6912ee206ccc278ef66bbaa2aa6b33bc0c"
+                }
+              },
+              "changed_physical_pixels": 0,
+              "difference_bounds_physical_px": null,
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "羁黛"
+            },
+            {
+              "selector": ".pair[data-theme=\"dark\"][data-kind=\"control\"][data-index=\"1\"]",
+              "versions": {
+                "before": {
+                  "text": "命宫2026",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 50.40625,
+                  "height": 28,
+                  "x": 409,
+                  "y": 1292.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 6
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    58,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "2dd7b8378fa3819f1fe7402b2dace92b991b4ce1899b4a9c4558ba33e5fe7561"
+                },
+                "after": {
+                  "text": "命宫2026",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 50.40625,
+                  "height": 28,
+                  "x": 549,
+                  "y": 1292.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 6
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    8,
+                    20,
+                    58,
+                    33
+                  ],
+                  "surface_size_physical_px": [
+                    122,
+                    53
+                  ],
+                  "raster_sha256": "2dd7b8378fa3819f1fe7402b2dace92b991b4ce1899b4a9c4558ba33e5fe7561"
+                }
+              },
+              "changed_physical_pixels": 0,
+              "difference_bounds_physical_px": null,
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "命宫2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "font_faces": [
+        {
+          "family": "TTF14 Before Regular",
+          "status": "loaded"
+        },
+        {
+          "family": "TTF14 After Regular",
+          "status": "loaded"
+        }
+      ],
+      "font_face_rules": [
+        {
+          "family": "\"TTF14 Before Regular\"",
+          "src": "url(\"fonts/AincradUISc-v030-before-ttf14-Regular.ttf\") format(\"truetype\")"
+        },
+        {
+          "family": "\"TTF14 After Regular\"",
+          "src": "url(\"fonts/AincradUISc-Regular.ttf\") format(\"truetype\")"
+        }
+      ],
+      "themes": [
+        {
+          "theme": "light",
+          "targets": [
+            {
+              "selector": ".pair[data-theme=\"light\"][data-kind=\"target\"][data-index=\"0\"]",
+              "versions": {
+                "before": {
+                  "text": "攥",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 91,
+                  "y": 383.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    40,
+                    66
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "ba1da2b45b24786569a5407d81f71f222de430c0ff08ec31402ac8b5a8d86a10"
+                },
+                "after": {
+                  "text": "攥",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 231,
+                  "y": 383.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    40,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "78f26f1ed5111d3cc29b5e700252dff0a807ff60e5a2bed5d2673ff4bc6eee35"
+                }
+              },
+              "changed_physical_pixels": 305,
+              "difference_bounds_physical_px": [
+                22,
+                40,
+                41,
+                67
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "攥"
+            },
+            {
+              "selector": ".pair[data-theme=\"light\"][data-kind=\"target\"][data-index=\"1\"]",
+              "versions": {
+                "before": {
+                  "text": "螣",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 409,
+                  "y": 383.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    41,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "06c15d5fd744cccf3ed461ad9d7ae6ac2ada36d8525b00cbea1d5961853bf22a"
+                },
+                "after": {
+                  "text": "螣",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 549,
+                  "y": 383.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    41,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "4bd92009e54e0e2091c17ab5c4e8208e5d323527eaa032368c44f749df3b3c7d"
+                }
+              },
+              "changed_physical_pixels": 25,
+              "difference_bounds_physical_px": [
+                29,
+                61,
+                41,
+                67
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "螣"
+            }
+          ],
+          "phrases": [
+            {
+              "selector": ".pair[data-theme=\"light\"][data-kind=\"phrase\"][data-index=\"0\"]",
+              "versions": {
+                "before": {
+                  "text": "攥紧",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 91,
+                  "y": 548.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    65,
+                    66
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "e1de4fa32bd24b6bcc2573477880dbb557e978800c096e46b70f2180aa24185d"
+                },
+                "after": {
+                  "text": "攥紧",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 231,
+                  "y": 548.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    65,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "1e4cb41e7436854d07ee20b0131420a23b8b615be086e372391e5cc06e8021aa"
+                }
+              },
+              "changed_physical_pixels": 305,
+              "difference_bounds_physical_px": [
+                22,
+                40,
+                41,
+                67
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "攥紧"
+            },
+            {
+              "selector": ".pair[data-theme=\"light\"][data-kind=\"phrase\"][data-index=\"1\"]",
+              "versions": {
+                "before": {
+                  "text": "螣蛇",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 409,
+                  "y": 548.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    66,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "190ba8ad8f386ec4042135e38c9f46487c715b6be339159ddb576811799240b9"
+                },
+                "after": {
+                  "text": "螣蛇",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 549,
+                  "y": 548.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    66,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "512e7e0908004f193fcd00c44952247f2f3545ad5b96bb589f3da1fa8e99b8a2"
+                }
+              },
+              "changed_physical_pixels": 25,
+              "difference_bounds_physical_px": [
+                29,
+                61,
+                41,
+                67
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "螣蛇"
+            }
+          ],
+          "controls": [
+            {
+              "selector": ".pair[data-theme=\"light\"][data-kind=\"control\"][data-index=\"0\"]",
+              "versions": {
+                "before": {
+                  "text": "羁黛",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 91,
+                  "y": 713.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    66,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "d44efd37a872a4abec6e48bad60b5eb4e6b5b7de76c12779b6ae6465e4152105"
+                },
+                "after": {
+                  "text": "羁黛",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 231,
+                  "y": 713.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    66,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "d44efd37a872a4abec6e48bad60b5eb4e6b5b7de76c12779b6ae6465e4152105"
+                }
+              },
+              "changed_physical_pixels": 0,
+              "difference_bounds_physical_px": null,
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "羁黛"
+            },
+            {
+              "selector": ".pair[data-theme=\"light\"][data-kind=\"control\"][data-index=\"1\"]",
+              "versions": {
+                "before": {
+                  "text": "命宫2026",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 50.40625,
+                  "height": 28,
+                  "x": 409,
+                  "y": 713.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 6
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    117,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "37236015f8d0e1288e52406acba414e023d02c34c7fb5ec5526b80723da5af2f"
+                },
+                "after": {
+                  "text": "命宫2026",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(36, 52, 62)",
+                  "background": "rgb(241, 244, 238)",
+                  "width": 50.40625,
+                  "height": 28,
+                  "x": 549,
+                  "y": 713.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 6
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    117,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "37236015f8d0e1288e52406acba414e023d02c34c7fb5ec5526b80723da5af2f"
+                }
+              },
+              "changed_physical_pixels": 0,
+              "difference_bounds_physical_px": null,
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "命宫2026"
+            }
+          ]
+        },
+        {
+          "theme": "dark",
+          "targets": [
+            {
+              "selector": ".pair[data-theme=\"dark\"][data-kind=\"target\"][data-index=\"0\"]",
+              "versions": {
+                "before": {
+                  "text": "攥",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 91,
+                  "y": 962.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    41,
+                    66
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "aaea26ea921726a05174387a4374dbb5a65ec378e8341eabcda97ae6c9ca7828"
+                },
+                "after": {
+                  "text": "攥",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 231,
+                  "y": 962.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    41,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "e05d20646c670ab1e30be8179361662c999a66e38e6b8e372e19e595c7326cbb"
+                }
+              },
+              "changed_physical_pixels": 311,
+              "difference_bounds_physical_px": [
+                22,
+                40,
+                41,
+                67
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "攥"
+            },
+            {
+              "selector": ".pair[data-theme=\"dark\"][data-kind=\"target\"][data-index=\"1\"]",
+              "versions": {
+                "before": {
+                  "text": "螣",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 409,
+                  "y": 962.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    16,
+                    40,
+                    41,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "cc8cd8a4621f9ebda6923d3c9a271c45721e13b9722d6ae257524ffdecae4e81"
+                },
+                "after": {
+                  "text": "螣",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 12.609375,
+                  "height": 28,
+                  "x": 549,
+                  "y": 962.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 1
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    16,
+                    40,
+                    41,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "e699b9037945128c24b2b9b73e19ac375895fd4d03bf3ad00103e049a8cdc01a"
+                }
+              },
+              "changed_physical_pixels": 27,
+              "difference_bounds_physical_px": [
+                29,
+                61,
+                41,
+                67
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "螣"
+            }
+          ],
+          "phrases": [
+            {
+              "selector": ".pair[data-theme=\"dark\"][data-kind=\"phrase\"][data-index=\"0\"]",
+              "versions": {
+                "before": {
+                  "text": "攥紧",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 91,
+                  "y": 1127.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    65,
+                    66
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "eab6ac54ed7af314d48473b5df8b8bcab30bd01388055d3f34ec282c517bf01c"
+                },
+                "after": {
+                  "text": "攥紧",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 231,
+                  "y": 1127.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    65,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "420448b2808cd8e70b42a34effcef1217e307e76c0cba283615cfa0d2ab5f920"
+                }
+              },
+              "changed_physical_pixels": 311,
+              "difference_bounds_physical_px": [
+                22,
+                40,
+                41,
+                67
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "攥紧"
+            },
+            {
+              "selector": ".pair[data-theme=\"dark\"][data-kind=\"phrase\"][data-index=\"1\"]",
+              "versions": {
+                "before": {
+                  "text": "螣蛇",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 409,
+                  "y": 1127.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    16,
+                    40,
+                    66,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "b5dbe6bef619e0a528c3cb01f12cf778d57d10b75dadda55ff1494bdbe68d26b"
+                },
+                "after": {
+                  "text": "螣蛇",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 549,
+                  "y": 1127.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    16,
+                    40,
+                    66,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "ff04027eb945ed7132911ecbe378261a0a990b99e9da1b68df7b769eb75dfd67"
+                }
+              },
+              "changed_physical_pixels": 27,
+              "difference_bounds_physical_px": [
+                29,
+                61,
+                41,
+                67
+              ],
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "螣蛇"
+            }
+          ],
+          "controls": [
+            {
+              "selector": ".pair[data-theme=\"dark\"][data-kind=\"control\"][data-index=\"0\"]",
+              "versions": {
+                "before": {
+                  "text": "羁黛",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 91,
+                  "y": 1292.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    66,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "3c1592f6f91ada15b2ec0c4794761e05e2e8e62d4a01a899603d863e181b93c8"
+                },
+                "after": {
+                  "text": "羁黛",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 25.203125,
+                  "height": 28,
+                  "x": 231,
+                  "y": 1292.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 2
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    17,
+                    40,
+                    66,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "3c1592f6f91ada15b2ec0c4794761e05e2e8e62d4a01a899603d863e181b93c8"
+                }
+              },
+              "changed_physical_pixels": 0,
+              "difference_bounds_physical_px": null,
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "羁黛"
+            },
+            {
+              "selector": ".pair[data-theme=\"dark\"][data-kind=\"control\"][data-index=\"1\"]",
+              "versions": {
+                "before": {
+                  "text": "命宫2026",
+                  "fontFamily": "\"TTF14 Before Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 50.40625,
+                  "height": 28,
+                  "x": 409,
+                  "y": 1292.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 6
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    16,
+                    40,
+                    117,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "c3456cef495a881aaef322c1914b49956ee6a9d17f6fa8f3774d1dd89e47f26b"
+                },
+                "after": {
+                  "text": "命宫2026",
+                  "fontFamily": "\"TTF14 After Regular\", sans-serif",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "28px",
+                  "letterSpacing": "normal",
+                  "color": "rgb(241, 244, 238)",
+                  "background": "rgb(36, 52, 62)",
+                  "width": 50.40625,
+                  "height": 28,
+                  "x": 549,
+                  "y": 1292.375,
+                  "ancestors": [
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    },
+                    {
+                      "transform": "none",
+                      "filter": "none",
+                      "zoom": "1",
+                      "opacity": "1"
+                    }
+                  ],
+                  "actual_fonts": [
+                    {
+                      "familyName": "Aincrad UI SC",
+                      "postScriptName": "AincradUISC-Regular",
+                      "isCustomFont": true,
+                      "glyphCount": 6
+                    }
+                  ],
+                  "ink_bounds_physical_px": [
+                    16,
+                    40,
+                    117,
+                    67
+                  ],
+                  "surface_size_physical_px": [
+                    244,
+                    106
+                  ],
+                  "raster_sha256": "c3456cef495a881aaef322c1914b49956ee6a9d17f6fa8f3774d1dd89e47f26b"
+                }
+              },
+              "changed_physical_pixels": 0,
+              "difference_bounds_physical_px": null,
+              "same_width_line_y_phase": true,
+              "unclipped": true,
+              "text": "命宫2026"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "font_resources": [
+    {
+      "dpr": 1,
+      "file": "AincradUISc-v030-before-ttf14-Regular.ttf",
+      "resource_type": "font",
+      "status": 200,
+      "mime": "application/octet-stream",
+      "response_sha256": "a5a0bcb9ff7f8fa9cc3a8085c1bb64fd74cbeab075d83ad7bde62494b441320b"
+    },
+    {
+      "dpr": 1,
+      "file": "AincradUISc-Regular.ttf",
+      "resource_type": "font",
+      "status": 200,
+      "mime": "application/octet-stream",
+      "response_sha256": "b5c0733fdb47c077768966a54b4e6c7d27b6484263230af461b562a07759a03e"
+    },
+    {
+      "dpr": 2,
+      "file": "AincradUISc-v030-before-ttf14-Regular.ttf",
+      "resource_type": "font",
+      "status": 200,
+      "mime": "application/octet-stream",
+      "response_sha256": "a5a0bcb9ff7f8fa9cc3a8085c1bb64fd74cbeab075d83ad7bde62494b441320b"
+    },
+    {
+      "dpr": 2,
+      "file": "AincradUISc-Regular.ttf",
+      "resource_type": "font",
+      "status": 200,
+      "mime": "application/octet-stream",
+      "response_sha256": "b5c0733fdb47c077768966a54b4e6c7d27b6484263230af461b562a07759a03e"
+    }
+  ],
+  "native_screenshots": [
+    {
+      "file": "ttf14-comparison.png",
+      "dpr": 1
+    },
+    {
+      "file": "ttf14-comparison-dpr2.png",
+      "dpr": 2
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "failed_requests": [],
+  "http_errors": [],
+  "css_font_size": 14,
+  "letter_spacing": 0,
+  "dprs": [
+    1,
+    2
+  ],
+  "visual_review": {
+    "status": "reviewed-localized-improvement-with-residual-density",
+    "reviewed_at_utc": "2026-10-27T02:18:59.559760+00:00",
+    "rendered_current_ttf_sha256": "b5c0733fdb47c077768966a54b4e6c7d27b6484263230af461b562a07759a03e",
+    "images_inspected": [
+      "ttf14-comparison.png",
+      "ttf14-comparison-compact.png"
+    ],
+    "glyph_observations": {
+      "U+6525": "At DPR1 the middle framed area develops more horizontal separation instead of one uniform dense gray block. It remains crowded at native 14px, and the three counters are not claimed to be independently obvious in every native rendering. DPR2 shows the three framed spaces more clearly. The bamboo top and overall balance do not look conspicuously displaced or distorted.",
+      "U+87A3": "The lower internal opening/terminal-dot region is slightly less crowded. The change is smaller than the U+6525 change; DPR1 still has tightly packed central and lower strokes. Dot and lower-stroke weight are retained, with no observed broken structure or clipping. DPR2 shows no obvious structural regression in the reviewed sample."
+    },
+    "native_size_conclusion": "Localized, conservative improvement in the labeled 14 CSS px Regular TTF comparison. The effect is easier to inspect in the pixel zoom than in the native PNG; dense DPR1 text remains difficult. This is not a blind recognition experiment or a guarantee of small-size readability.",
+    "fairness": "Both versions use actual sfnt/glyf TTF resources, same size, width, line height, y position, foreground/background and physical sampling phase. Target/phrase pixels change while both unchanged control texts have zero changed pixels in every theme/DPR.",
+    "limits": "Desktop Chromium TTF only, DPR1 primary with DPR2 regression. It does not prove all counters improve on every rasterizer, alter WOFF2 behavior, or establish Flutter/Android real-chart acceptance."
+  },
+  "charset_summary": {
+    "version": "0.3.0",
+    "han_count": 3814,
+    "character_count": 4041
+  },
+  "browser_version": "151.0.7922.34",
+  "compact_sheet": {
+    "file": "ttf14-comparison-compact.png",
+    "method": "shared crop / nearest-neighbor",
+    "crops": [
+      {
+        "character": "攥",
+        "dpr": 1,
+        "theme": "light",
+        "shared_crop_physical_px": [
+          7,
+          19,
+          22,
+          35
+        ],
+        "magnification": 8
+      },
+      {
+        "character": "螣",
+        "dpr": 1,
+        "theme": "light",
+        "shared_crop_physical_px": [
+          7,
+          19,
+          22,
+          34
+        ],
+        "magnification": 8
+      },
+      {
+        "character": "攥",
+        "dpr": 1,
+        "theme": "dark",
+        "shared_crop_physical_px": [
+          7,
+          19,
+          22,
+          35
+        ],
+        "magnification": 8
+      },
+      {
+        "character": "螣",
+        "dpr": 1,
+        "theme": "dark",
+        "shared_crop_physical_px": [
+          7,
+          19,
+          22,
+          35
+        ],
+        "magnification": 8
+      },
+      {
+        "character": "攥",
+        "dpr": 2,
+        "theme": "light",
+        "shared_crop_physical_px": [
+          15,
+          38,
+          42,
+          69
+        ],
+        "magnification": 4
+      },
+      {
+        "character": "螣",
+        "dpr": 2,
+        "theme": "light",
+        "shared_crop_physical_px": [
+          15,
+          38,
+          43,
+          69
+        ],
+        "magnification": 4
+      },
+      {
+        "character": "攥",
+        "dpr": 2,
+        "theme": "dark",
+        "shared_crop_physical_px": [
+          15,
+          38,
+          43,
+          69
+        ],
+        "magnification": 4
+      },
+      {
+        "character": "螣",
+        "dpr": 2,
+        "theme": "dark",
+        "shared_crop_physical_px": [
+          14,
+          38,
+          43,
+          69
+        ],
+        "magnification": 4
+      }
+    ],
+    "width": 1360,
+    "height": 530
+  },
+  "artifact_hashes": {
+    "ttf14-comparison.html": "32fe511d2831dce0e62ae7591eafc6276af914a926a05deb09aebf28f369cdbe",
+    "ttf14-comparison.png": "3619ca2d2657e03b110e2ece8850387b435db0874c78eee3dc4adfce630db7e8",
+    "ttf14-comparison-dpr2.png": "bc25367650045171d7d4338a2c97d8229c88b7ae197fa69cd99335966e64ca2a",
+    "ttf14-comparison-compact.png": "800922f91c8cee4ee6218cedc6b769e0ba993464cba7c6e89e6a4e27cef44908"
+  },
+  "comparison_performed": true,
+  "passed": true,
+  "historical_fixture_freeze": {
+    "frozen_at_utc": "2026-10-27T12:30:05.884168+00:00",
+    "reason": "Preserve the recorded round2 fixture when the main font filename is expanded to GB2312 Han levels 1 and 2.",
+    "html_change": "URL-only byte replacement; all other HTML bytes preserved",
+    "old_html_sha256": "eef355a3ba4831b4fbd8c9ae1be2cc44b9243f24e897c0c14ed6356adb8f4740",
+    "new_html_sha256": "32fe511d2831dce0e62ae7591eafc6276af914a926a05deb09aebf28f369cdbe",
+    "after_font_url_before": "fonts/AincradUISc-Regular.ttf",
+    "after_font_url_after": "fonts/AincradUISc-v030-before-structure14-Regular.ttf",
+    "recorded_after_font_sha256": "b5c0733fdb47c077768966a54b4e6c7d27b6484263230af461b562a07759a03e",
+    "frozen_font_sha256": "b5c0733fdb47c077768966a54b4e6c7d27b6484263230af461b562a07759a03e",
+    "font_bytes_same": true,
+    "baseline_archive": "Aincrad-UI-SC-v0.3-ttf14-round2.zip",
+    "baseline_archive_sha256": "1149aab3b8f95a3c3d3335f0afde88e06397f3e283e0f4df31e9c445df49d650",
+    "baseline_archive_member": "Aincrad-UI-SC-v0.3-ttf14-round2/fonts/AincradUISc-Regular.ttf",
+    "original_evidence_timestamp_utc": "2026-10-27T02:16:58.398442+00:00",
+    "original_timestamp_preserved": true,
+    "images_preserved": {
+      "ttf14-comparison.png": "3619ca2d2657e03b110e2ece8850387b435db0874c78eee3dc4adfce630db7e8",
+      "ttf14-comparison-dpr2.png": "bc25367650045171d7d4338a2c97d8229c88b7ae197fa69cd99335966e64ca2a",
+      "ttf14-comparison-compact.png": "800922f91c8cee4ee6218cedc6b769e0ba993464cba7c6e89e6a4e27cef44908"
+    },
+    "measurements_preserved": true,
+    "original_http_resource_log_preserved": true,
+    "original_http_resource_log_note": "Resource filenames describe the original capture. The replay URL now points to byte-identical archived TTF; the original requests are not rewritten.",
+    "historical_evidence_rerun": false
+  }
+}

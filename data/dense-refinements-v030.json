@@ -1,0 +1,1244 @@
+{
+  "version": "0.3.0",
+  "coordinate_space": "Original 1000 UPM source before condensation and global corner styling.",
+  "target_css_px": 14,
+  "characters": "羁螣攥黛",
+  "scope": "Only Regular outlines for these four characters. Display, advances, line metrics and all other old glyphs must be preserved.",
+  "source_sha256_by_weight": {
+    "Regular": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b"
+  },
+  "glyphs": {
+    "羁": {
+      "issue": "Dense counters crowd at 14 CSS px; enlarge selected internal spaces and lighten specified interior bars without scaling the full glyph.",
+      "Regular": {
+        "expected_contour_nodes": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          36,
+          4,
+          19
+        ],
+        "source_outline_sha256": "78c5ecdac948bf9d6ce64bf706d8d488a17086805e75f7cab094ca3299f5367e",
+        "node_deltas": [
+          {
+            "contour": 0,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              6.0,
+              -6.0
+            ]
+          },
+          {
+            "contour": 0,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              -6.0,
+              -6.0
+            ]
+          },
+          {
+            "contour": 0,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              -6.0,
+              6.0
+            ]
+          },
+          {
+            "contour": 0,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              6.0,
+              -6.0
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              -6.0,
+              -6.0
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              -6.0,
+              6.0
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              6.0,
+              -6.0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              -6.0,
+              -6.0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              -6.0,
+              6.0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "contour": 4,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              7.0,
+              -8.0
+            ]
+          },
+          {
+            "contour": 4,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              -7.0,
+              -8.0
+            ]
+          },
+          {
+            "contour": 4,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              -7.0,
+              8.0
+            ]
+          },
+          {
+            "contour": 4,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              7.0,
+              8.0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              6.0,
+              8.0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              6.0,
+              -8.0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              -6.0,
+              -8.0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              -6.0,
+              8.0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              -6.0,
+              -8.0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              -6.0,
+              8.0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              6.0,
+              8.0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              6.0,
+              -8.0
+            ]
+          },
+          {
+            "contour": 8,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              0,
+              -6
+            ]
+          },
+          {
+            "contour": 8,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              0,
+              -6
+            ]
+          },
+          {
+            "contour": 8,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              0,
+              6
+            ]
+          },
+          {
+            "contour": 8,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              0,
+              6
+            ]
+          }
+        ],
+        "control_deltas": [],
+        "edge_replacements": [],
+        "edge_path_replacements": [],
+        "rules": [
+          "manual_dense_counter_opening_14px",
+          "manual_horse_internal_bar_lightening"
+        ],
+        "counter_expansions": [
+          {
+            "contour": 0,
+            "source_node_bounds": [
+              649,
+              665,
+              824,
+              745
+            ],
+            "expanded_node_bounds": [
+              643,
+              659,
+              830,
+              751
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          },
+          {
+            "contour": 1,
+            "source_node_bounds": [
+              408,
+              665,
+              580,
+              745
+            ],
+            "expanded_node_bounds": [
+              402,
+              659,
+              586,
+              751
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          },
+          {
+            "contour": 2,
+            "source_node_bounds": [
+              173,
+              665,
+              339,
+              745
+            ],
+            "expanded_node_bounds": [
+              167,
+              659,
+              345,
+              751
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          },
+          {
+            "contour": 4,
+            "source_node_bounds": [
+              206,
+              428,
+              337,
+              480
+            ],
+            "expanded_node_bounds": [
+              199,
+              420,
+              344,
+              488
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          },
+          {
+            "contour": 5,
+            "source_node_bounds": [
+              302,
+              210,
+              402,
+              279
+            ],
+            "expanded_node_bounds": [
+              296,
+              202,
+              408,
+              287
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          },
+          {
+            "contour": 6,
+            "source_node_bounds": [
+              143,
+              210,
+              238,
+              279
+            ],
+            "expanded_node_bounds": [
+              137,
+              202,
+              244,
+              287
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          }
+        ]
+      }
+    },
+    "螣": {
+      "issue": "Dense counters crowd at 14 CSS px; enlarge selected internal spaces and lighten specified interior bars without scaling the full glyph.",
+      "Regular": {
+        "expected_contour_nodes": [
+          4,
+          4,
+          5,
+          4,
+          4,
+          8,
+          5,
+          4,
+          48
+        ],
+        "source_outline_sha256": "7202aadc572f5c7e93cb9170d011f5a63a59735413674b548e52dd441338b7ad",
+        "node_deltas": [
+          {
+            "contour": 3,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              -6.0,
+              -7.0
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              -6.0,
+              7.0
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              6.0,
+              -7.0
+            ]
+          },
+          {
+            "contour": 4,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              6.0,
+              -7.0
+            ]
+          },
+          {
+            "contour": 4,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              -6.0,
+              -7.0
+            ]
+          },
+          {
+            "contour": 4,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              -6.0,
+              7.0
+            ]
+          },
+          {
+            "contour": 4,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              2.9257,
+              6.0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              5.0,
+              -6.0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              0.8514,
+              -6.0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              0.8514,
+              1.6262
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              4
+            ],
+            "delta": [
+              -1.161,
+              1.6262
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              5
+            ],
+            "delta": [
+              -1.161,
+              -6.0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              6
+            ],
+            "delta": [
+              -5.0,
+              -6.0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              7
+            ],
+            "delta": [
+              -2.8328,
+              6.0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              -6.0,
+              -7.0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              -5.8033,
+              1.9634
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              -5.8033,
+              7.0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              4
+            ],
+            "delta": [
+              6.0,
+              -7.0
+            ]
+          },
+          {
+            "contour": 7,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "contour": 7,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              6.0,
+              -7.0
+            ]
+          },
+          {
+            "contour": 7,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              -6.0,
+              -7.0
+            ]
+          },
+          {
+            "contour": 7,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              -6.0,
+              7.0
+            ]
+          }
+        ],
+        "control_deltas": [
+          {
+            "contour": 5,
+            "edge": 0,
+            "controls": [
+              0
+            ],
+            "delta": [
+              3.5139,
+              1.8505
+            ]
+          },
+          {
+            "contour": 5,
+            "edge": 0,
+            "controls": [
+              1
+            ],
+            "delta": [
+              4.195,
+              -2.2991
+            ]
+          },
+          {
+            "contour": 5,
+            "edge": 6,
+            "controls": [
+              0
+            ],
+            "delta": [
+              -4.1641,
+              -2.4112
+            ]
+          },
+          {
+            "contour": 5,
+            "edge": 6,
+            "controls": [
+              1
+            ],
+            "delta": [
+              -3.452,
+              1.6262
+            ]
+          },
+          {
+            "contour": 6,
+            "edge": 0,
+            "controls": [
+              0
+            ],
+            "delta": [
+              -5.8033,
+              -3.8415
+            ]
+          },
+          {
+            "contour": 6,
+            "edge": 0,
+            "controls": [
+              1
+            ],
+            "delta": [
+              -5.8033,
+              -0.7683
+            ]
+          }
+        ],
+        "edge_replacements": [],
+        "edge_path_replacements": [],
+        "rules": [
+          "manual_dense_counter_opening_14px"
+        ],
+        "counter_expansions": [
+          {
+            "contour": 3,
+            "source_node_bounds": [
+              517,
+              159,
+              630,
+              266
+            ],
+            "expanded_node_bounds": [
+              511,
+              152,
+              636,
+              273
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          },
+          {
+            "contour": 4,
+            "source_node_bounds": [
+              695,
+              159,
+              813,
+              266
+            ],
+            "expanded_node_bounds": [
+              689,
+              152,
+              819,
+              273
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          },
+          {
+            "contour": 5,
+            "source_node_bounds": [
+              506,
+              319,
+              829,
+              426
+            ],
+            "expanded_node_bounds": [
+              501,
+              313,
+              834,
+              432
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          },
+          {
+            "contour": 6,
+            "source_node_bounds": [
+              166,
+              329,
+              288,
+              493
+            ],
+            "expanded_node_bounds": [
+              160,
+              322,
+              294,
+              500
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          },
+          {
+            "contour": 7,
+            "source_node_bounds": [
+              168,
+              561,
+              288,
+              721
+            ],
+            "expanded_node_bounds": [
+              162,
+              554,
+              294,
+              728
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          }
+        ]
+      }
+    },
+    "攥": {
+      "issue": "Dense counters crowd at 14 CSS px; enlarge selected internal spaces and lighten specified interior bars without scaling the full glyph.",
+      "Regular": {
+        "expected_contour_nodes": [
+          12,
+          12,
+          24,
+          4,
+          4,
+          4,
+          4,
+          4,
+          50
+        ],
+        "source_outline_sha256": "24d826cdf43150488524eabbde8cce8fb01d0053a540aad4e913651d33db8e7e",
+        "node_deltas": [
+          {
+            "contour": 5,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              -6.0,
+              5.0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              6.0,
+              5.0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              6.0,
+              -5.0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              -6.0,
+              -5.0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              -6.0,
+              5.0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              6.0,
+              5.0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              6.0,
+              -5.0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              -6.0,
+              -5.0
+            ]
+          },
+          {
+            "contour": 7,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              -6.0,
+              5.0
+            ]
+          },
+          {
+            "contour": 7,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              6.0,
+              5.0
+            ]
+          },
+          {
+            "contour": 7,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              6.0,
+              -5.0
+            ]
+          },
+          {
+            "contour": 7,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              -6.0,
+              -5.0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              4,
+              5
+            ],
+            "delta": [
+              -14,
+              0
+            ]
+          }
+        ],
+        "control_deltas": [],
+        "edge_replacements": [],
+        "edge_path_replacements": [],
+        "rules": [
+          "manual_dense_counter_opening_14px",
+          "manual_hand_terminal_shortening"
+        ],
+        "counter_expansions": [
+          {
+            "contour": 5,
+            "source_node_bounds": [
+              452,
+              423,
+              818,
+              462
+            ],
+            "expanded_node_bounds": [
+              446,
+              418,
+              824,
+              467
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          },
+          {
+            "contour": 6,
+            "source_node_bounds": [
+              452,
+              499,
+              818,
+              538
+            ],
+            "expanded_node_bounds": [
+              446,
+              494,
+              824,
+              543
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          },
+          {
+            "contour": 7,
+            "source_node_bounds": [
+              452,
+              576,
+              818,
+              612
+            ],
+            "expanded_node_bounds": [
+              446,
+              571,
+              824,
+              617
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          }
+        ],
+        "minimum_remaining_internal_horizontal_stems_upm": [
+          27,
+          28
+        ],
+        "review_note": "Conservative vertical expansion: 5 UPM per edge rather than the initial 7 UPM candidate, to avoid excessively thinning the two internal horizontal stems."
+      }
+    },
+    "黛": {
+      "issue": "Dense counters crowd at 14 CSS px; enlarge selected internal spaces and lighten specified interior bars without scaling the full glyph.",
+      "Regular": {
+        "expected_contour_nodes": [
+          8,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          40
+        ],
+        "source_outline_sha256": "1dfafbabbe5921746382574674f73edb07d235738864f42303dddf6e8a2b12ec",
+        "node_deltas": [
+          {
+            "contour": 7,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              -7.0,
+              -8.0
+            ]
+          },
+          {
+            "contour": 7,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              -7.0,
+              8.0
+            ]
+          },
+          {
+            "contour": 7,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              7.0,
+              8.0
+            ]
+          },
+          {
+            "contour": 7,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              7.0,
+              -8.0
+            ]
+          },
+          {
+            "contour": 8,
+            "nodes": [
+              0
+            ],
+            "delta": [
+              7.0,
+              -8.0
+            ]
+          },
+          {
+            "contour": 8,
+            "nodes": [
+              1
+            ],
+            "delta": [
+              -7.0,
+              -8.0
+            ]
+          },
+          {
+            "contour": 8,
+            "nodes": [
+              2
+            ],
+            "delta": [
+              -7.0,
+              8.0
+            ]
+          },
+          {
+            "contour": 8,
+            "nodes": [
+              3
+            ],
+            "delta": [
+              7.0,
+              8.0
+            ]
+          },
+          {
+            "contour": 9,
+            "nodes": [
+              0,
+              1,
+              32,
+              33
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 9,
+            "nodes": [
+              2,
+              3,
+              30,
+              31
+            ],
+            "delta": [
+              0,
+              -4
+            ]
+          },
+          {
+            "contour": 9,
+            "nodes": [
+              34,
+              35,
+              38,
+              39
+            ],
+            "delta": [
+              0,
+              -4
+            ]
+          },
+          {
+            "contour": 9,
+            "nodes": [
+              36,
+              37
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          }
+        ],
+        "control_deltas": [],
+        "edge_replacements": [],
+        "edge_path_replacements": [],
+        "rules": [
+          "manual_dense_counter_opening_14px",
+          "manual_black_radical_internal_bar_lightening"
+        ],
+        "counter_expansions": [
+          {
+            "contour": 7,
+            "source_node_bounds": [
+              238,
+              330,
+              460,
+              473
+            ],
+            "expanded_node_bounds": [
+              231,
+              322,
+              467,
+              481
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          },
+          {
+            "contour": 8,
+            "source_node_bounds": [
+              532,
+              330,
+              759,
+              473
+            ],
+            "expanded_node_bounds": [
+              525,
+              322,
+              766,
+              481
+            ],
+            "scope": "Only this enclosed counter; surrounding character coordinates and advance stay fixed."
+          }
+        ]
+      }
+    }
+  }
+}

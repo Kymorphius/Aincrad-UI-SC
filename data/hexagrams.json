@@ -1,0 +1,1338 @@
+{
+  "version": "0.3.0",
+  "title": "六十四卦 · 通行周易次序（King Wen order）",
+  "order": "King Wen / received Zhouyi sequence; number 1 maps to U+4DC0, number 64 to U+4DFF",
+  "line_order": "top_to_bottom; the first three lines are the upper trigram; 1 = solid yang, 0 = broken yin. This drawing order is distinct from traditional bottom-to-top line numbering.",
+  "naming_note": "name/full_name 使用简体界面文本；通行全名按上卦物象、下卦物象及卦名组合，八纯卦用“卦名为物象”。第33卦保留原文正字“遯”，另列常用写法“遁”；这不是把“遯”误作繁体转换。第29卦另列原文常称“习坎”。不收录卦辞、爻辞或占断文案。",
+  "primary_sources": [
+    {
+      "url": "https://www.unicode.org/charts/PDF/U4DC0.pdf",
+      "role": "Official U+4DC0–U+4DFF codepoint identities and received order; no chart font outlines copied."
+    },
+    {
+      "url": "https://zh.wikisource.org/wiki/周易正義",
+      "role": "Primary-text transcription index: 64 classical titles in received order, linked to individual original-text chapters."
+    },
+    {
+      "url": "https://zh.wikisource.org/wiki/周易",
+      "role": "Primary-text collection with all 64 upper/lower trigram combinations and conventional full-name table; independently checked against Unicode order."
+    },
+    {
+      "url": "https://zh.wikisource.org/wiki/易傳/說卦",
+      "role": "Primary text for trigram names and nature correspondences (heaven, earth, thunder, wind, water, fire, mountain, lake)."
+    },
+    {
+      "url": "https://zh.wikisource.org/wiki/周易_(四部叢刊本)/卷一",
+      "role": "Primary-text edition explicitly annotating lower/upper trigrams; sampled alongside received-order index."
+    },
+    {
+      "url": "https://zh.wikisource.org/wiki/周易正義/04遯",
+      "role": "Original title 遯, number 33; lower 艮 and upper 乾."
+    }
+  ],
+  "trigrams": {
+    "乾": {
+      "character": "☰",
+      "codepoint": "U+2630",
+      "element": "天",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        1
+      ]
+    },
+    "兑": {
+      "character": "☱",
+      "codepoint": "U+2631",
+      "element": "泽",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        1
+      ]
+    },
+    "离": {
+      "character": "☲",
+      "codepoint": "U+2632",
+      "element": "火",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        1
+      ]
+    },
+    "震": {
+      "character": "☳",
+      "codepoint": "U+2633",
+      "element": "雷",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        1
+      ]
+    },
+    "巽": {
+      "character": "☴",
+      "codepoint": "U+2634",
+      "element": "风",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        0
+      ]
+    },
+    "坎": {
+      "character": "☵",
+      "codepoint": "U+2635",
+      "element": "水",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        0
+      ]
+    },
+    "艮": {
+      "character": "☶",
+      "codepoint": "U+2636",
+      "element": "山",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        0
+      ]
+    },
+    "坤": {
+      "character": "☷",
+      "codepoint": "U+2637",
+      "element": "地",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "records": [
+    {
+      "number": 1,
+      "character": "䷀",
+      "codepoint": "U+4DC0",
+      "name": "乾",
+      "full_name": "乾为天",
+      "aliases": [],
+      "upper_trigram": "乾",
+      "lower_trigram": "乾",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/01乾"
+    },
+    {
+      "number": 2,
+      "character": "䷁",
+      "codepoint": "U+4DC1",
+      "name": "坤",
+      "full_name": "坤为地",
+      "aliases": [],
+      "upper_trigram": "坤",
+      "lower_trigram": "坤",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/01坤"
+    },
+    {
+      "number": 3,
+      "character": "䷂",
+      "codepoint": "U+4DC2",
+      "name": "屯",
+      "full_name": "水雷屯",
+      "aliases": [],
+      "upper_trigram": "坎",
+      "lower_trigram": "震",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/01屯"
+    },
+    {
+      "number": 4,
+      "character": "䷃",
+      "codepoint": "U+4DC3",
+      "name": "蒙",
+      "full_name": "山水蒙",
+      "aliases": [],
+      "upper_trigram": "艮",
+      "lower_trigram": "坎",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/01蒙"
+    },
+    {
+      "number": 5,
+      "character": "䷄",
+      "codepoint": "U+4DC4",
+      "name": "需",
+      "full_name": "水天需",
+      "aliases": [],
+      "upper_trigram": "坎",
+      "lower_trigram": "乾",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/02需"
+    },
+    {
+      "number": 6,
+      "character": "䷅",
+      "codepoint": "U+4DC5",
+      "name": "讼",
+      "full_name": "天水讼",
+      "aliases": [],
+      "upper_trigram": "乾",
+      "lower_trigram": "坎",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/02訟"
+    },
+    {
+      "number": 7,
+      "character": "䷆",
+      "codepoint": "U+4DC6",
+      "name": "师",
+      "full_name": "地水师",
+      "aliases": [],
+      "upper_trigram": "坤",
+      "lower_trigram": "坎",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/02師"
+    },
+    {
+      "number": 8,
+      "character": "䷇",
+      "codepoint": "U+4DC7",
+      "name": "比",
+      "full_name": "水地比",
+      "aliases": [],
+      "upper_trigram": "坎",
+      "lower_trigram": "坤",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/02比"
+    },
+    {
+      "number": 9,
+      "character": "䷈",
+      "codepoint": "U+4DC8",
+      "name": "小畜",
+      "full_name": "风天小畜",
+      "aliases": [],
+      "upper_trigram": "巽",
+      "lower_trigram": "乾",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/02小畜"
+    },
+    {
+      "number": 10,
+      "character": "䷉",
+      "codepoint": "U+4DC9",
+      "name": "履",
+      "full_name": "天泽履",
+      "aliases": [],
+      "upper_trigram": "乾",
+      "lower_trigram": "兑",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/02履"
+    },
+    {
+      "number": 11,
+      "character": "䷊",
+      "codepoint": "U+4DCA",
+      "name": "泰",
+      "full_name": "地天泰",
+      "aliases": [],
+      "upper_trigram": "坤",
+      "lower_trigram": "乾",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/02泰"
+    },
+    {
+      "number": 12,
+      "character": "䷋",
+      "codepoint": "U+4DCB",
+      "name": "否",
+      "full_name": "天地否",
+      "aliases": [],
+      "upper_trigram": "乾",
+      "lower_trigram": "坤",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/02否"
+    },
+    {
+      "number": 13,
+      "character": "䷌",
+      "codepoint": "U+4DCC",
+      "name": "同人",
+      "full_name": "天火同人",
+      "aliases": [],
+      "upper_trigram": "乾",
+      "lower_trigram": "离",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/02同人"
+    },
+    {
+      "number": 14,
+      "character": "䷍",
+      "codepoint": "U+4DCD",
+      "name": "大有",
+      "full_name": "火天大有",
+      "aliases": [],
+      "upper_trigram": "离",
+      "lower_trigram": "乾",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/02大有"
+    },
+    {
+      "number": 15,
+      "character": "䷎",
+      "codepoint": "U+4DCE",
+      "name": "谦",
+      "full_name": "地山谦",
+      "aliases": [],
+      "upper_trigram": "坤",
+      "lower_trigram": "艮",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/02謙"
+    },
+    {
+      "number": 16,
+      "character": "䷏",
+      "codepoint": "U+4DCF",
+      "name": "豫",
+      "full_name": "雷地豫",
+      "aliases": [],
+      "upper_trigram": "震",
+      "lower_trigram": "坤",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/02豫"
+    },
+    {
+      "number": 17,
+      "character": "䷐",
+      "codepoint": "U+4DD0",
+      "name": "随",
+      "full_name": "泽雷随",
+      "aliases": [],
+      "upper_trigram": "兑",
+      "lower_trigram": "震",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03隨"
+    },
+    {
+      "number": 18,
+      "character": "䷑",
+      "codepoint": "U+4DD1",
+      "name": "蛊",
+      "full_name": "山风蛊",
+      "aliases": [],
+      "upper_trigram": "艮",
+      "lower_trigram": "巽",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03蠱"
+    },
+    {
+      "number": 19,
+      "character": "䷒",
+      "codepoint": "U+4DD2",
+      "name": "临",
+      "full_name": "地泽临",
+      "aliases": [],
+      "upper_trigram": "坤",
+      "lower_trigram": "兑",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03臨"
+    },
+    {
+      "number": 20,
+      "character": "䷓",
+      "codepoint": "U+4DD3",
+      "name": "观",
+      "full_name": "风地观",
+      "aliases": [],
+      "upper_trigram": "巽",
+      "lower_trigram": "坤",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03觀"
+    },
+    {
+      "number": 21,
+      "character": "䷔",
+      "codepoint": "U+4DD4",
+      "name": "噬嗑",
+      "full_name": "火雷噬嗑",
+      "aliases": [],
+      "upper_trigram": "离",
+      "lower_trigram": "震",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03噬嗑"
+    },
+    {
+      "number": 22,
+      "character": "䷕",
+      "codepoint": "U+4DD5",
+      "name": "贲",
+      "full_name": "山火贲",
+      "aliases": [],
+      "upper_trigram": "艮",
+      "lower_trigram": "离",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03賁"
+    },
+    {
+      "number": 23,
+      "character": "䷖",
+      "codepoint": "U+4DD6",
+      "name": "剥",
+      "full_name": "山地剥",
+      "aliases": [],
+      "upper_trigram": "艮",
+      "lower_trigram": "坤",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03剝"
+    },
+    {
+      "number": 24,
+      "character": "䷗",
+      "codepoint": "U+4DD7",
+      "name": "复",
+      "full_name": "地雷复",
+      "aliases": [],
+      "upper_trigram": "坤",
+      "lower_trigram": "震",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03復"
+    },
+    {
+      "number": 25,
+      "character": "䷘",
+      "codepoint": "U+4DD8",
+      "name": "无妄",
+      "full_name": "天雷无妄",
+      "aliases": [],
+      "upper_trigram": "乾",
+      "lower_trigram": "震",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03無妄"
+    },
+    {
+      "number": 26,
+      "character": "䷙",
+      "codepoint": "U+4DD9",
+      "name": "大畜",
+      "full_name": "山天大畜",
+      "aliases": [],
+      "upper_trigram": "艮",
+      "lower_trigram": "乾",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03大畜"
+    },
+    {
+      "number": 27,
+      "character": "䷚",
+      "codepoint": "U+4DDA",
+      "name": "颐",
+      "full_name": "山雷颐",
+      "aliases": [],
+      "upper_trigram": "艮",
+      "lower_trigram": "震",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03頤"
+    },
+    {
+      "number": 28,
+      "character": "䷛",
+      "codepoint": "U+4DDB",
+      "name": "大过",
+      "full_name": "泽风大过",
+      "aliases": [],
+      "upper_trigram": "兑",
+      "lower_trigram": "巽",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03大過"
+    },
+    {
+      "number": 29,
+      "character": "䷜",
+      "codepoint": "U+4DDC",
+      "name": "坎",
+      "full_name": "坎为水",
+      "aliases": [
+        "习坎"
+      ],
+      "upper_trigram": "坎",
+      "lower_trigram": "坎",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03坎"
+    },
+    {
+      "number": 30,
+      "character": "䷝",
+      "codepoint": "U+4DDD",
+      "name": "离",
+      "full_name": "离为火",
+      "aliases": [],
+      "upper_trigram": "离",
+      "lower_trigram": "离",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/03離"
+    },
+    {
+      "number": 31,
+      "character": "䷞",
+      "codepoint": "U+4DDE",
+      "name": "咸",
+      "full_name": "泽山咸",
+      "aliases": [],
+      "upper_trigram": "兑",
+      "lower_trigram": "艮",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/04咸"
+    },
+    {
+      "number": 32,
+      "character": "䷟",
+      "codepoint": "U+4DDF",
+      "name": "恒",
+      "full_name": "雷风恒",
+      "aliases": [],
+      "upper_trigram": "震",
+      "lower_trigram": "巽",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/04恒"
+    },
+    {
+      "number": 33,
+      "character": "䷠",
+      "codepoint": "U+4DE0",
+      "name": "遯",
+      "full_name": "天山遯",
+      "aliases": [
+        "遁",
+        "天山遁"
+      ],
+      "upper_trigram": "乾",
+      "lower_trigram": "艮",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/04遯"
+    },
+    {
+      "number": 34,
+      "character": "䷡",
+      "codepoint": "U+4DE1",
+      "name": "大壮",
+      "full_name": "雷天大壮",
+      "aliases": [],
+      "upper_trigram": "震",
+      "lower_trigram": "乾",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/04大壯"
+    },
+    {
+      "number": 35,
+      "character": "䷢",
+      "codepoint": "U+4DE2",
+      "name": "晋",
+      "full_name": "火地晋",
+      "aliases": [],
+      "upper_trigram": "离",
+      "lower_trigram": "坤",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/04晉"
+    },
+    {
+      "number": 36,
+      "character": "䷣",
+      "codepoint": "U+4DE3",
+      "name": "明夷",
+      "full_name": "地火明夷",
+      "aliases": [],
+      "upper_trigram": "坤",
+      "lower_trigram": "离",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/04明夷"
+    },
+    {
+      "number": 37,
+      "character": "䷤",
+      "codepoint": "U+4DE4",
+      "name": "家人",
+      "full_name": "风火家人",
+      "aliases": [],
+      "upper_trigram": "巽",
+      "lower_trigram": "离",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/04家人"
+    },
+    {
+      "number": 38,
+      "character": "䷥",
+      "codepoint": "U+4DE5",
+      "name": "睽",
+      "full_name": "火泽睽",
+      "aliases": [],
+      "upper_trigram": "离",
+      "lower_trigram": "兑",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/04睽"
+    },
+    {
+      "number": 39,
+      "character": "䷦",
+      "codepoint": "U+4DE6",
+      "name": "蹇",
+      "full_name": "水山蹇",
+      "aliases": [],
+      "upper_trigram": "坎",
+      "lower_trigram": "艮",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/04蹇"
+    },
+    {
+      "number": 40,
+      "character": "䷧",
+      "codepoint": "U+4DE7",
+      "name": "解",
+      "full_name": "雷水解",
+      "aliases": [],
+      "upper_trigram": "震",
+      "lower_trigram": "坎",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/04解"
+    },
+    {
+      "number": 41,
+      "character": "䷨",
+      "codepoint": "U+4DE8",
+      "name": "损",
+      "full_name": "山泽损",
+      "aliases": [],
+      "upper_trigram": "艮",
+      "lower_trigram": "兑",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/04損"
+    },
+    {
+      "number": 42,
+      "character": "䷩",
+      "codepoint": "U+4DE9",
+      "name": "益",
+      "full_name": "风雷益",
+      "aliases": [],
+      "upper_trigram": "巽",
+      "lower_trigram": "震",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/04益"
+    },
+    {
+      "number": 43,
+      "character": "䷪",
+      "codepoint": "U+4DEA",
+      "name": "夬",
+      "full_name": "泽天夬",
+      "aliases": [],
+      "upper_trigram": "兑",
+      "lower_trigram": "乾",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/05夬"
+    },
+    {
+      "number": 44,
+      "character": "䷫",
+      "codepoint": "U+4DEB",
+      "name": "姤",
+      "full_name": "天风姤",
+      "aliases": [],
+      "upper_trigram": "乾",
+      "lower_trigram": "巽",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/05姤"
+    },
+    {
+      "number": 45,
+      "character": "䷬",
+      "codepoint": "U+4DEC",
+      "name": "萃",
+      "full_name": "泽地萃",
+      "aliases": [],
+      "upper_trigram": "兑",
+      "lower_trigram": "坤",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/05萃"
+    },
+    {
+      "number": 46,
+      "character": "䷭",
+      "codepoint": "U+4DED",
+      "name": "升",
+      "full_name": "地风升",
+      "aliases": [],
+      "upper_trigram": "坤",
+      "lower_trigram": "巽",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/05升"
+    },
+    {
+      "number": 47,
+      "character": "䷮",
+      "codepoint": "U+4DEE",
+      "name": "困",
+      "full_name": "泽水困",
+      "aliases": [],
+      "upper_trigram": "兑",
+      "lower_trigram": "坎",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/05困"
+    },
+    {
+      "number": 48,
+      "character": "䷯",
+      "codepoint": "U+4DEF",
+      "name": "井",
+      "full_name": "水风井",
+      "aliases": [],
+      "upper_trigram": "坎",
+      "lower_trigram": "巽",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/05井"
+    },
+    {
+      "number": 49,
+      "character": "䷰",
+      "codepoint": "U+4DF0",
+      "name": "革",
+      "full_name": "泽火革",
+      "aliases": [],
+      "upper_trigram": "兑",
+      "lower_trigram": "离",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/05革"
+    },
+    {
+      "number": 50,
+      "character": "䷱",
+      "codepoint": "U+4DF1",
+      "name": "鼎",
+      "full_name": "火风鼎",
+      "aliases": [],
+      "upper_trigram": "离",
+      "lower_trigram": "巽",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/05鼎"
+    },
+    {
+      "number": 51,
+      "character": "䷲",
+      "codepoint": "U+4DF2",
+      "name": "震",
+      "full_name": "震为雷",
+      "aliases": [],
+      "upper_trigram": "震",
+      "lower_trigram": "震",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/05震"
+    },
+    {
+      "number": 52,
+      "character": "䷳",
+      "codepoint": "U+4DF3",
+      "name": "艮",
+      "full_name": "艮为山",
+      "aliases": [],
+      "upper_trigram": "艮",
+      "lower_trigram": "艮",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/05艮"
+    },
+    {
+      "number": 53,
+      "character": "䷴",
+      "codepoint": "U+4DF4",
+      "name": "渐",
+      "full_name": "风山渐",
+      "aliases": [],
+      "upper_trigram": "巽",
+      "lower_trigram": "艮",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/05漸"
+    },
+    {
+      "number": 54,
+      "character": "䷵",
+      "codepoint": "U+4DF5",
+      "name": "归妹",
+      "full_name": "雷泽归妹",
+      "aliases": [],
+      "upper_trigram": "震",
+      "lower_trigram": "兑",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/05歸妹"
+    },
+    {
+      "number": 55,
+      "character": "䷶",
+      "codepoint": "U+4DF6",
+      "name": "丰",
+      "full_name": "雷火丰",
+      "aliases": [],
+      "upper_trigram": "震",
+      "lower_trigram": "离",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/06豐"
+    },
+    {
+      "number": 56,
+      "character": "䷷",
+      "codepoint": "U+4DF7",
+      "name": "旅",
+      "full_name": "火山旅",
+      "aliases": [],
+      "upper_trigram": "离",
+      "lower_trigram": "艮",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/06旅"
+    },
+    {
+      "number": 57,
+      "character": "䷸",
+      "codepoint": "U+4DF8",
+      "name": "巽",
+      "full_name": "巽为风",
+      "aliases": [],
+      "upper_trigram": "巽",
+      "lower_trigram": "巽",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/06巽"
+    },
+    {
+      "number": 58,
+      "character": "䷹",
+      "codepoint": "U+4DF9",
+      "name": "兑",
+      "full_name": "兑为泽",
+      "aliases": [],
+      "upper_trigram": "兑",
+      "lower_trigram": "兑",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/06兌"
+    },
+    {
+      "number": 59,
+      "character": "䷺",
+      "codepoint": "U+4DFA",
+      "name": "涣",
+      "full_name": "风水涣",
+      "aliases": [],
+      "upper_trigram": "巽",
+      "lower_trigram": "坎",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/06渙"
+    },
+    {
+      "number": 60,
+      "character": "䷻",
+      "codepoint": "U+4DFB",
+      "name": "节",
+      "full_name": "水泽节",
+      "aliases": [],
+      "upper_trigram": "坎",
+      "lower_trigram": "兑",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/06節"
+    },
+    {
+      "number": 61,
+      "character": "䷼",
+      "codepoint": "U+4DFC",
+      "name": "中孚",
+      "full_name": "风泽中孚",
+      "aliases": [],
+      "upper_trigram": "巽",
+      "lower_trigram": "兑",
+      "lines_top_to_bottom": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/06中孚"
+    },
+    {
+      "number": 62,
+      "character": "䷽",
+      "codepoint": "U+4DFD",
+      "name": "小过",
+      "full_name": "雷山小过",
+      "aliases": [],
+      "upper_trigram": "震",
+      "lower_trigram": "艮",
+      "lines_top_to_bottom": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/06小過"
+    },
+    {
+      "number": 63,
+      "character": "䷾",
+      "codepoint": "U+4DFE",
+      "name": "既济",
+      "full_name": "水火既济",
+      "aliases": [],
+      "upper_trigram": "坎",
+      "lower_trigram": "离",
+      "lines_top_to_bottom": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/06既濟"
+    },
+    {
+      "number": 64,
+      "character": "䷿",
+      "codepoint": "U+4DFF",
+      "name": "未济",
+      "full_name": "火水未济",
+      "aliases": [],
+      "upper_trigram": "离",
+      "lower_trigram": "坎",
+      "lines_top_to_bottom": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "primary_text_url": "https://zh.wikisource.org/wiki/周易正義/06未濟"
+    }
+  ]
+}

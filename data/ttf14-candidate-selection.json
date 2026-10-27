@@ -1,0 +1,20 @@
+{
+  "edition": "ttf14-round2",
+  "selected_candidate": "D",
+  "selection_scope": "Exploratory full-font TTF comparison, DPR1 primary, light/dark; final acceptance uses ttf14-comparison.json, not these research candidates.",
+  "candidate_study_passed": true,
+  "candidate_comparison_count": 72,
+  "selected_dpr2_regression_passed": true,
+  "selected_plan_file": "data/ttf14-refinements-v030.json",
+  "selected_plan_sha256": "310dde67bed3fc20850b2f2838814cbfcabd557444a1b8dcde1bf493395fbd12",
+  "candidates": {
+    "A": "Conservative eye frame for U+6525; crown-only adjustment for U+87A3 had little visible benefit.",
+    "B": "Stronger U+6525 frame expansion produced less balanced counter spacing.",
+    "C": "Larger U+87A3 crown trim did not materially open the important lower space.",
+    "D": "Selected: conservative U+6525 frame; U+87A3 terminal dot and matching inner wedge shift right, retain stroke weight.",
+    "E": "Thinner lower U+87A3 rail did not improve default TTF lower fixed ROI.",
+    "F": "Combined rail/dot thinning did not outperform D in default TTF lower fixed ROI."
+  },
+  "research_cleanup": "Temporary candidate fonts and layout-specific study pages were removed after final full-build outlines and hmtx matched selected D for all glyphs. The selected guarded source plan and final production-font A/B are retained.",
+  "limits": "No claim of universal ROI improvement, recognition accuracy, or cross-platform readability."
+}

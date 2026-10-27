@@ -1,0 +1,662 @@
+{
+  "timestamp_utc": "2026-10-27T12:31:17.006139+00:00",
+  "scope": "Add GB2312 two-level Han characters while retaining the old4041 release glyphs and metrics in both styles and all three formats.",
+  "scope_limits": [
+    "The Python codec Han-zone enumeration verifies the declared character scope; this is not full GB2312 non-Han, GBK or unrestricted Unicode coverage.",
+    "One native32px grayscale raster per added glyph/form checks visible renderability and the line cell, not small-size readability or manual design quality.",
+    "Pillow FreeType rendering differs from browser, DirectWrite, Flutter and device rendering.",
+    "No old-font regression success is claimed without the hash-verified immutable previous ZIP."
+  ],
+  "baseline": {
+    "file": "D:\\333.开发\\SAO\\design\\aincrad-ui-sc\\Aincrad-UI-SC-v0.3-ttf14-round2.zip",
+    "available": true,
+    "expected_sha256": "1149aab3b8f95a3c3d3335f0afde88e06397f3e283e0f4df31e9c445df49d650",
+    "sha256": "1149aab3b8f95a3c3d3335f0afde88e06397f3e283e0f4df31e9c445df49d650"
+  },
+  "environment": {
+    "pillow": "12.3.0",
+    "freetype": "2.14.3"
+  },
+  "input_hashes": {
+    "data/gb2312-han-extension.json": "d5b9cba1ba6b1912d7b4b0059eb2e97aedaf1a9173505a486f6d85025e6d501e",
+    "data/charset.json": "292ff794910adb4b34b057e11cbca0f50806816836df472de2e07cc589630f2c",
+    "data/provenance.json": "2c61eb5301cc4ee785c52cacd22beb531e20de50f1b64f4692018e53229394ba",
+    "data/refinements-v030.json": "94402fa80bd8bd1e947b6ea786fde8c847eaf1b294934f8fbe0673a3a0ee5115",
+    "data/dense-refinements-v030.json": "198a0d5b37f4d5fd30a6a0c65e683734b7ad697064a874b61531b7aa97bcb9aa",
+    "data/ttf14-refinements-v030.json": "310dde67bed3fc20850b2f2838814cbfcabd557444a1b8dcde1bf493395fbd12",
+    "data/symbols-v030.json": "3568b057e3390f49a7c9a620adeed2e6ae126c43bc744a3a5ca7c76b89e81798",
+    "data/hexagram-outlines-v030.json": "c28bc019e4ef830fbd8b882b87d024eb31365a85dad4b17d45c68d1816af69eb",
+    "sources/AincradSeed-v030-Regular.otf": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+    "data/hexagrams.json": "3e51d1a4226e9f48dbbcb0d32e34d8efadd0698dacd98ce26d97bfdd5360bc48",
+    "data/charset-extensions.json": "569e1b06ec2f550014fd43132ca6893ca01147688c88f446d4d9e4094aa4aa09",
+    "data/symbol-extensions.json": "f687bf730906d5179ba892e0265c882dfc67eb3fa826f16973d0834d771f1576",
+    "sources/AincradSeed-gb2312-Regular.otf": "66c3e8774b8419d4deb69bcd357edb3968c2354dffda642da40c75d03ddf2e1b",
+    "sources/AincradSeed-v030-Medium.otf": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+    "sources/AincradSeed-gb2312-Medium.otf": "d3002691a4829c1599ecd9e66bd227f1e35b84a58baa0aac4c5d732d3fc66aa9",
+    "fonts/AincradUISc-Regular.otf": "9ac18818b962f5951f53ca648c8e3c188f5fadbf56268c5b19755604943220b8",
+    "fonts/AincradUISc-Regular.ttf": "6ecc68467221b93d5e84fec89b865eaf889d990ef305f6cda9b983b12150c1b6",
+    "fonts/AincradUISc-Regular.woff2": "923b6be9f3619b760c9e74eff34df2aeab78103da80e45243c5eb952ad74da39",
+    "fonts/AincradUISc-Display.otf": "1c8a368e2f7265e4cae3a8a0c22e9fa5d3624cd375e53e61d8f2ae25b2a7b3f9",
+    "fonts/AincradUISc-Display.ttf": "c990915f7cbfc47f09092a55163465a7b10552a9e40dcfe525dcd617174aa832",
+    "fonts/AincradUISc-Display.woff2": "62796932f610f8d7713a84217f9cac4203b998bfe8a00710dd2e5a41caf1c93a",
+    "fonts/SourceHanSansSC-Baseline.woff2": "25562e55401b43096707b67c7531b3b4c260017e6d09505550bbaa10aed67e45"
+  },
+  "formats": {
+    "Regular": {
+      "otf": {
+        "file": "AincradUISc-Regular.otf",
+        "sha256": "9ac18818b962f5951f53ca648c8e3c188f5fadbf56268c5b19755604943220b8",
+        "bytes": 2211364,
+        "family": "Aincrad UI SC",
+        "version": "Version 0.300; common Chinese UI vocabulary",
+        "units_per_em": 1000,
+        "glyphs": 6995,
+        "mapped_characters": 6994,
+        "expected_characters": 6994,
+        "missing_characters": 0,
+        "han_characters": 6767,
+        "line_metrics": {
+          "ascent": 1160,
+          "descent": -320,
+          "line_gap": 0,
+          "typo_ascent": 1160,
+          "typo_descent": -320,
+          "typo_line_gap": 0,
+          "win_ascent": 1160,
+          "win_descent": 320
+        },
+        "embedding_flags": 0,
+        "ok": true,
+        "tabular_digits": {
+          "advances": {
+            "0": 450,
+            "1": 450,
+            "2": 450,
+            "3": 450,
+            "4": 450,
+            "5": 450,
+            "6": 450,
+            "7": 450,
+            "8": 450,
+            "9": 450
+          },
+          "expected_preserved_width": 450
+        },
+        "previous_release_regression": {
+          "encoded_characters_compared": 4041,
+          "added_characters": 2953,
+          "removed_characters": "",
+          "old_outline_changes": "",
+          "old_hmtx_changes": "",
+          "old_mapping_changes": "",
+          "old_quadratic_point_flag_endpoint_changes": "",
+          "old_outline_sha256": "8ded68607b26a6c256e5624a83088840f111ca38f5917fc79fc064c34880d6e4",
+          "preserved_outline_sha256": "8ded68607b26a6c256e5624a83088840f111ca38f5917fc79fc064c34880d6e4",
+          "old_character_hmtx_sha256": "8b558982c6f8c3bb7b968b6597b83ecfbe8cdb8a458d3f1392cb246bb7af57a2",
+          "line_metrics_equal": true,
+          ".notdef_preserved": true,
+          "preserved_special_subset_count": 229,
+          "preserved_special_subset_equal": true,
+          "global_hint_table_changes": [],
+          "old_glyph_hint_changes": ""
+        },
+        "added_glyph_raster": {
+          "size_physical_px": 32,
+          "glyphs_checked": 2953,
+          "empty_characters": "",
+          "outside_line_characters": "",
+          "gray_ink_sums_sha256": "25b056565ce4efbca04137ee2f057e6feec2f387c35a1e22f2d74b7fd84ca3ec",
+          "minimum_gray_ink_sum": 10000,
+          "method": "Actual declared font, native FreeType BASIC L alpha mask, anchor=ls; no fallback, scaling or postprocessing."
+        },
+        "old_control_raster": {
+          "text": "角色装备技能确认羁螣攥黛2026☰䷀䷿",
+          "size_physical_px": 32,
+          "mask_and_offset_identical": true
+        }
+      },
+      "ttf": {
+        "file": "AincradUISc-Regular.ttf",
+        "sha256": "6ecc68467221b93d5e84fec89b865eaf889d990ef305f6cda9b983b12150c1b6",
+        "bytes": 2511648,
+        "family": "Aincrad UI SC",
+        "version": "Version 0.300; common Chinese UI vocabulary",
+        "units_per_em": 1000,
+        "glyphs": 6995,
+        "mapped_characters": 6994,
+        "expected_characters": 6994,
+        "missing_characters": 0,
+        "han_characters": 6767,
+        "line_metrics": {
+          "ascent": 1160,
+          "descent": -320,
+          "line_gap": 0,
+          "typo_ascent": 1160,
+          "typo_descent": -320,
+          "typo_line_gap": 0,
+          "win_ascent": 1160,
+          "win_descent": 320
+        },
+        "embedding_flags": 0,
+        "ok": true,
+        "tabular_digits": {
+          "advances": {
+            "0": 450,
+            "1": 450,
+            "2": 450,
+            "3": 450,
+            "4": 450,
+            "5": 450,
+            "6": 450,
+            "7": 450,
+            "8": 450,
+            "9": 450
+          },
+          "expected_preserved_width": 450
+        },
+        "previous_release_regression": {
+          "encoded_characters_compared": 4041,
+          "added_characters": 2953,
+          "removed_characters": "",
+          "old_outline_changes": "",
+          "old_hmtx_changes": "",
+          "old_mapping_changes": "",
+          "old_quadratic_point_flag_endpoint_changes": "",
+          "old_outline_sha256": "94dd2feba29c8bd5a87eb05c22dcfc18e5eabc266e24bb2fe6a3da6aff4bb8dd",
+          "preserved_outline_sha256": "94dd2feba29c8bd5a87eb05c22dcfc18e5eabc266e24bb2fe6a3da6aff4bb8dd",
+          "old_character_hmtx_sha256": "cf1bc93795c621a2d70ab31e0b9abec909fe20891e2bb715bfc8181f6cc8e562",
+          "line_metrics_equal": true,
+          ".notdef_preserved": true,
+          "preserved_special_subset_count": 229,
+          "preserved_special_subset_equal": true,
+          "global_hint_table_changes": [],
+          "old_glyph_hint_changes": ""
+        },
+        "added_glyph_raster": {
+          "size_physical_px": 32,
+          "glyphs_checked": 2953,
+          "empty_characters": "",
+          "outside_line_characters": "",
+          "gray_ink_sums_sha256": "788d4a02d90580c8421b6cf018c8fbf825db74bdc1b7550f29b7bde0366f338b",
+          "minimum_gray_ink_sum": 9989,
+          "method": "Actual declared font, native FreeType BASIC L alpha mask, anchor=ls; no fallback, scaling or postprocessing."
+        },
+        "old_control_raster": {
+          "text": "角色装备技能确认羁螣攥黛2026☰䷀䷿",
+          "size_physical_px": 32,
+          "mask_and_offset_identical": true
+        }
+      },
+      "woff2": {
+        "file": "AincradUISc-Regular.woff2",
+        "sha256": "923b6be9f3619b760c9e74eff34df2aeab78103da80e45243c5eb952ad74da39",
+        "bytes": 1181040,
+        "family": "Aincrad UI SC",
+        "version": "Version 0.300; common Chinese UI vocabulary",
+        "units_per_em": 1000,
+        "glyphs": 6995,
+        "mapped_characters": 6994,
+        "expected_characters": 6994,
+        "missing_characters": 0,
+        "han_characters": 6767,
+        "line_metrics": {
+          "ascent": 1160,
+          "descent": -320,
+          "line_gap": 0,
+          "typo_ascent": 1160,
+          "typo_descent": -320,
+          "typo_line_gap": 0,
+          "win_ascent": 1160,
+          "win_descent": 320
+        },
+        "embedding_flags": 0,
+        "ok": true,
+        "tabular_digits": {
+          "advances": {
+            "0": 450,
+            "1": 450,
+            "2": 450,
+            "3": 450,
+            "4": 450,
+            "5": 450,
+            "6": 450,
+            "7": 450,
+            "8": 450,
+            "9": 450
+          },
+          "expected_preserved_width": 450
+        },
+        "previous_release_regression": {
+          "encoded_characters_compared": 4041,
+          "added_characters": 2953,
+          "removed_characters": "",
+          "old_outline_changes": "",
+          "old_hmtx_changes": "",
+          "old_mapping_changes": "",
+          "old_quadratic_point_flag_endpoint_changes": "",
+          "old_outline_sha256": "8ded68607b26a6c256e5624a83088840f111ca38f5917fc79fc064c34880d6e4",
+          "preserved_outline_sha256": "8ded68607b26a6c256e5624a83088840f111ca38f5917fc79fc064c34880d6e4",
+          "old_character_hmtx_sha256": "8b558982c6f8c3bb7b968b6597b83ecfbe8cdb8a458d3f1392cb246bb7af57a2",
+          "line_metrics_equal": true,
+          ".notdef_preserved": true,
+          "preserved_special_subset_count": 229,
+          "preserved_special_subset_equal": true,
+          "global_hint_table_changes": [],
+          "old_glyph_hint_changes": ""
+        },
+        "added_glyph_raster": {
+          "size_physical_px": 32,
+          "glyphs_checked": 2953,
+          "empty_characters": "",
+          "outside_line_characters": "",
+          "gray_ink_sums_sha256": "25b056565ce4efbca04137ee2f057e6feec2f387c35a1e22f2d74b7fd84ca3ec",
+          "minimum_gray_ink_sum": 10000,
+          "method": "Actual declared font, native FreeType BASIC L alpha mask, anchor=ls; no fallback, scaling or postprocessing."
+        },
+        "old_control_raster": {
+          "text": "角色装备技能确认羁螣攥黛2026☰䷀䷿",
+          "size_physical_px": 32,
+          "mask_and_offset_identical": true
+        }
+      }
+    },
+    "Display": {
+      "otf": {
+        "file": "AincradUISc-Display.otf",
+        "sha256": "1c8a368e2f7265e4cae3a8a0c22e9fa5d3624cd375e53e61d8f2ae25b2a7b3f9",
+        "bytes": 2129224,
+        "family": "Aincrad UI SC Display",
+        "version": "Version 0.300; common Chinese UI vocabulary",
+        "units_per_em": 1000,
+        "glyphs": 6995,
+        "mapped_characters": 6994,
+        "expected_characters": 6994,
+        "missing_characters": 0,
+        "han_characters": 6767,
+        "line_metrics": {
+          "ascent": 1160,
+          "descent": -320,
+          "line_gap": 0,
+          "typo_ascent": 1160,
+          "typo_descent": -320,
+          "typo_line_gap": 0,
+          "win_ascent": 1160,
+          "win_descent": 320
+        },
+        "embedding_flags": 0,
+        "ok": true,
+        "tabular_digits": {
+          "advances": {
+            "0": 434,
+            "1": 434,
+            "2": 434,
+            "3": 434,
+            "4": 434,
+            "5": 434,
+            "6": 434,
+            "7": 434,
+            "8": 434,
+            "9": 434
+          },
+          "expected_preserved_width": 434
+        },
+        "previous_release_regression": {
+          "encoded_characters_compared": 4041,
+          "added_characters": 2953,
+          "removed_characters": "",
+          "old_outline_changes": "",
+          "old_hmtx_changes": "",
+          "old_mapping_changes": "",
+          "old_quadratic_point_flag_endpoint_changes": "",
+          "old_outline_sha256": "d23cedf47eaada6c0839c3fec7908d42b60f7629e247929fb68d8b8db40c56c6",
+          "preserved_outline_sha256": "d23cedf47eaada6c0839c3fec7908d42b60f7629e247929fb68d8b8db40c56c6",
+          "old_character_hmtx_sha256": "7673774e0eafecaaa76631fa48468a0d90a082a092469382f79b4265a6c3d36d",
+          "line_metrics_equal": true,
+          ".notdef_preserved": true,
+          "preserved_special_subset_count": 229,
+          "preserved_special_subset_equal": true,
+          "global_hint_table_changes": [],
+          "old_glyph_hint_changes": ""
+        },
+        "added_glyph_raster": {
+          "size_physical_px": 32,
+          "glyphs_checked": 2953,
+          "empty_characters": "",
+          "outside_line_characters": "",
+          "gray_ink_sums_sha256": "88fe272fa1a88f22ab8081b6458987a3b902a9f0739c26c778ae73724904d2d6",
+          "minimum_gray_ink_sum": 11681,
+          "method": "Actual declared font, native FreeType BASIC L alpha mask, anchor=ls; no fallback, scaling or postprocessing."
+        },
+        "old_control_raster": {
+          "text": "角色装备技能确认羁螣攥黛2026☰䷀䷿",
+          "size_physical_px": 32,
+          "mask_and_offset_identical": true
+        }
+      },
+      "ttf": {
+        "file": "AincradUISc-Display.ttf",
+        "sha256": "c990915f7cbfc47f09092a55163465a7b10552a9e40dcfe525dcd617174aa832",
+        "bytes": 2469880,
+        "family": "Aincrad UI SC Display",
+        "version": "Version 0.300; common Chinese UI vocabulary",
+        "units_per_em": 1000,
+        "glyphs": 6995,
+        "mapped_characters": 6994,
+        "expected_characters": 6994,
+        "missing_characters": 0,
+        "han_characters": 6767,
+        "line_metrics": {
+          "ascent": 1160,
+          "descent": -320,
+          "line_gap": 0,
+          "typo_ascent": 1160,
+          "typo_descent": -320,
+          "typo_line_gap": 0,
+          "win_ascent": 1160,
+          "win_descent": 320
+        },
+        "embedding_flags": 0,
+        "ok": true,
+        "tabular_digits": {
+          "advances": {
+            "0": 434,
+            "1": 434,
+            "2": 434,
+            "3": 434,
+            "4": 434,
+            "5": 434,
+            "6": 434,
+            "7": 434,
+            "8": 434,
+            "9": 434
+          },
+          "expected_preserved_width": 434
+        },
+        "previous_release_regression": {
+          "encoded_characters_compared": 4041,
+          "added_characters": 2953,
+          "removed_characters": "",
+          "old_outline_changes": "",
+          "old_hmtx_changes": "",
+          "old_mapping_changes": "",
+          "old_quadratic_point_flag_endpoint_changes": "",
+          "old_outline_sha256": "2db0919cc22db86457384734dd5631118702224e130de09c123be7ac8569e820",
+          "preserved_outline_sha256": "2db0919cc22db86457384734dd5631118702224e130de09c123be7ac8569e820",
+          "old_character_hmtx_sha256": "a2fd7a13bcc26315643aea43725410c971af85aa4c79b9c0d347c8237a5a3d6f",
+          "line_metrics_equal": true,
+          ".notdef_preserved": true,
+          "preserved_special_subset_count": 229,
+          "preserved_special_subset_equal": true,
+          "global_hint_table_changes": [],
+          "old_glyph_hint_changes": ""
+        },
+        "added_glyph_raster": {
+          "size_physical_px": 32,
+          "glyphs_checked": 2953,
+          "empty_characters": "",
+          "outside_line_characters": "",
+          "gray_ink_sums_sha256": "ceffb8e7fea4e57496fe77d49ffec74d1d1bf90ee694113cc38f1fb9f783dd42",
+          "minimum_gray_ink_sum": 11629,
+          "method": "Actual declared font, native FreeType BASIC L alpha mask, anchor=ls; no fallback, scaling or postprocessing."
+        },
+        "old_control_raster": {
+          "text": "角色装备技能确认羁螣攥黛2026☰䷀䷿",
+          "size_physical_px": 32,
+          "mask_and_offset_identical": true
+        }
+      },
+      "woff2": {
+        "file": "AincradUISc-Display.woff2",
+        "sha256": "62796932f610f8d7713a84217f9cac4203b998bfe8a00710dd2e5a41caf1c93a",
+        "bytes": 1192332,
+        "family": "Aincrad UI SC Display",
+        "version": "Version 0.300; common Chinese UI vocabulary",
+        "units_per_em": 1000,
+        "glyphs": 6995,
+        "mapped_characters": 6994,
+        "expected_characters": 6994,
+        "missing_characters": 0,
+        "han_characters": 6767,
+        "line_metrics": {
+          "ascent": 1160,
+          "descent": -320,
+          "line_gap": 0,
+          "typo_ascent": 1160,
+          "typo_descent": -320,
+          "typo_line_gap": 0,
+          "win_ascent": 1160,
+          "win_descent": 320
+        },
+        "embedding_flags": 0,
+        "ok": true,
+        "tabular_digits": {
+          "advances": {
+            "0": 434,
+            "1": 434,
+            "2": 434,
+            "3": 434,
+            "4": 434,
+            "5": 434,
+            "6": 434,
+            "7": 434,
+            "8": 434,
+            "9": 434
+          },
+          "expected_preserved_width": 434
+        },
+        "previous_release_regression": {
+          "encoded_characters_compared": 4041,
+          "added_characters": 2953,
+          "removed_characters": "",
+          "old_outline_changes": "",
+          "old_hmtx_changes": "",
+          "old_mapping_changes": "",
+          "old_quadratic_point_flag_endpoint_changes": "",
+          "old_outline_sha256": "d23cedf47eaada6c0839c3fec7908d42b60f7629e247929fb68d8b8db40c56c6",
+          "preserved_outline_sha256": "d23cedf47eaada6c0839c3fec7908d42b60f7629e247929fb68d8b8db40c56c6",
+          "old_character_hmtx_sha256": "7673774e0eafecaaa76631fa48468a0d90a082a092469382f79b4265a6c3d36d",
+          "line_metrics_equal": true,
+          ".notdef_preserved": true,
+          "preserved_special_subset_count": 229,
+          "preserved_special_subset_equal": true,
+          "global_hint_table_changes": [],
+          "old_glyph_hint_changes": ""
+        },
+        "added_glyph_raster": {
+          "size_physical_px": 32,
+          "glyphs_checked": 2953,
+          "empty_characters": "",
+          "outside_line_characters": "",
+          "gray_ink_sums_sha256": "88fe272fa1a88f22ab8081b6458987a3b902a9f0739c26c778ae73724904d2d6",
+          "minimum_gray_ink_sum": 11681,
+          "method": "Actual declared font, native FreeType BASIC L alpha mask, anchor=ls; no fallback, scaling or postprocessing."
+        },
+        "old_control_raster": {
+          "text": "角色装备技能确认羁螣攥黛2026☰䷀䷿",
+          "size_physical_px": 32,
+          "mask_and_offset_identical": true
+        }
+      }
+    }
+  },
+  "sources": {
+    "Regular": {
+      "old_file": "sources/AincradSeed-v030-Regular.otf",
+      "expanded_file": "sources/AincradSeed-gb2312-Regular.otf",
+      "old_sha256": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+      "expanded_sha256": "66c3e8774b8419d4deb69bcd357edb3968c2354dffda642da40c75d03ddf2e1b",
+      "old_seed_byte_identical_to_archive": true,
+      "previous_source_characters": 3963,
+      "expanded_source_characters": 6916,
+      "old_outline_changes": "",
+      "old_hmtx_changes": "",
+      "added_source_glyphs_checked": 2953,
+      "empty_added_source_characters": "",
+      "preserved_outline_advance_sha256": "c587a5afa73edd1078d4eedb8a569eb6a4814ed9f7b8e078979d38d9e12f6e45",
+      "build_review_binding_matches": true
+    },
+    "Medium": {
+      "old_file": "sources/AincradSeed-v030-Medium.otf",
+      "expanded_file": "sources/AincradSeed-gb2312-Medium.otf",
+      "old_sha256": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+      "expanded_sha256": "d3002691a4829c1599ecd9e66bd227f1e35b84a58baa0aac4c5d732d3fc66aa9",
+      "old_seed_byte_identical_to_archive": true,
+      "previous_source_characters": 3963,
+      "expanded_source_characters": 6916,
+      "old_outline_changes": "",
+      "old_hmtx_changes": "",
+      "added_source_glyphs_checked": 2953,
+      "empty_added_source_characters": "",
+      "preserved_outline_advance_sha256": "cb00ea3c17712f4bbc1823b443859bf859b01f3a3db28b4b2f8b3e2bcf1fbf3f",
+      "build_review_binding_matches": true
+    }
+  },
+  "cross_format": {
+    "Regular": {
+      "ttf": {
+        "upm": true,
+        "cmap": true,
+        "advances": true,
+        "line_metrics": true,
+        "ink_bounds_tolerance_upm": 3,
+        "out_of_tolerance_characters": ""
+      },
+      "woff2": {
+        "upm": true,
+        "cmap": true,
+        "advances": true,
+        "line_metrics": true,
+        "ink_bounds_tolerance_upm": 3,
+        "out_of_tolerance_characters": ""
+      }
+    },
+    "Display": {
+      "ttf": {
+        "upm": true,
+        "cmap": true,
+        "advances": true,
+        "line_metrics": true,
+        "ink_bounds_tolerance_upm": 3,
+        "out_of_tolerance_characters": ""
+      },
+      "woff2": {
+        "upm": true,
+        "cmap": true,
+        "advances": true,
+        "line_metrics": true,
+        "ink_bounds_tolerance_upm": 3,
+        "out_of_tolerance_characters": ""
+      }
+    }
+  },
+  "failures": [],
+  "character_scope": {
+    "codec": "Python gb2312; only B0-D7/D8-F7 rows x A1-FE columns, invalid byte pairs skipped",
+    "level1_count": 3755,
+    "level2_count": 3008,
+    "gb2312_han_count": 6763,
+    "independent_gb2312_han_sha256": "83c1e168dea77e8bb09a12974b5d4813e03d4806a9a4c7b8a0d8c2ccbcd3cb15",
+    "previous_total": 4041,
+    "previous_han": 3814,
+    "added_han_count": 2953,
+    "added_han_sha256": "2c9eb87877da1c23fba57e0ab36ccba00b14572fb4a56718f0284f6bf4499f17",
+    "expected_total": 6994,
+    "expected_han": 6767,
+    "retained_extra_han_characters": "夬姤螣遯",
+    "unexpected_characters": "",
+    "missing_characters": "",
+    "removed_previous_characters": ""
+  },
+  "historical_preservation": {
+    "data/refinements-v030.json": true,
+    "data/dense-refinements-v030.json": true,
+    "data/ttf14-refinements-v030.json": true,
+    "data/symbols-v030.json": true,
+    "data/hexagram-outlines-v030.json": true,
+    "data/hexagrams.json": true,
+    "data/charset-extensions.json": true,
+    "data/symbol-extensions.json": true
+  },
+  "source_baseline": {
+    "inspection": {
+      "file": "SourceHanSansSC-Baseline.woff2",
+      "sha256": "25562e55401b43096707b67c7531b3b4c260017e6d09505550bbaa10aed67e45",
+      "bytes": 1338340,
+      "family": "Aincrad Baseline SC",
+      "version": "Version 1.004; Aincrad seed subset",
+      "units_per_em": 1000,
+      "glyphs": 6916,
+      "mapped_characters": 6916,
+      "expected_characters": 6916,
+      "missing_characters": 0,
+      "han_characters": 6767,
+      "line_metrics": {
+        "ascent": 1160,
+        "descent": -320,
+        "line_gap": 0,
+        "typo_ascent": 880,
+        "typo_descent": -120,
+        "typo_line_gap": 0,
+        "win_ascent": 1160,
+        "win_descent": 320
+      },
+      "embedding_flags": 0,
+      "ok": true
+    },
+    "scope": {
+      "description": "The Source Han comparison font covers genuine source glyphs only. Declared original symbols are excluded solely from this comparison font; every final OTF, TTF and WOFF2 is still checked against the full charset.",
+      "total_character_count": 6994,
+      "expected_baseline_character_count": 6916,
+      "excluded_characters": "▬☰☱☲☳☴☵☶☷✢✱✶✻❋䷀䷁䷂䷃䷄䷅䷆䷇䷈䷉䷊䷋䷌䷍䷎䷏䷐䷑䷒䷓䷔䷕䷖䷗䷘䷙䷚䷛䷜䷝䷞䷟䷠䷡䷢䷣䷤䷥䷦䷧䷨䷩䷪䷫䷬䷭䷮䷯䷰䷱䷲䷳䷴䷵䷶䷷䷸䷹䷺䷻䷼䷽䷾䷿",
+      "excluded_count": 78,
+      "custom_symbols_declared": true,
+      "provenance_verified": true,
+      "ok": true,
+      "failures": [],
+      "manifest": {
+        "file": "data/symbols-v030.json",
+        "sha256": "3568b057e3390f49a7c9a620adeed2e6ae126c43bc744a3a5ca7c76b89e81798",
+        "version": "0.3.0",
+        "upm": 1000,
+        "origin": "Original geometric outlines created for Aincrad UI SC, 2026; no font outlines extracted from Unicode charts or SAOUI.",
+        "license": "SIL Open Font License 1.1"
+      },
+      "additional_manifests": [
+        {
+          "file": "data/hexagram-outlines-v030.json",
+          "sha256": "c28bc019e4ef830fbd8b882b87d024eb31365a85dad4b17d45c68d1816af69eb",
+          "count": 64
+        }
+      ]
+    },
+    "outline_mismatch_characters": ""
+  },
+  "variant_distinction": {
+    "han_outline_differences": 6767
+  },
+  "windows_private_loading": [
+    {
+      "file": "fonts/AincradUISc-Regular.otf",
+      "faces_loaded": 1,
+      "released": true
+    },
+    {
+      "file": "fonts/AincradUISc-Regular.ttf",
+      "faces_loaded": 1,
+      "released": true
+    },
+    {
+      "file": "fonts/AincradUISc-Display.otf",
+      "faces_loaded": 1,
+      "released": true
+    },
+    {
+      "file": "fonts/AincradUISc-Display.ttf",
+      "faces_loaded": 1,
+      "released": true
+    }
+  ],
+  "regression_performed": true,
+  "ok": true,
+  "status": "passed"
+}

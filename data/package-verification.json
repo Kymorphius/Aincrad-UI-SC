@@ -1,0 +1,251 @@
+{
+  "version": "0.3.0",
+  "edition": "wao-symbols",
+  "status": "passed",
+  "verified_at_utc": "2026-10-27T14:14:39.626332+00:00",
+  "archive_name": "Aincrad-UI-SC-v0.3-wao-symbols.zip",
+  "archive_prefix": "Aincrad-UI-SC-v0.3-wao-symbols",
+  "packaged_file_count": 235,
+  "zip_crc_ok": true,
+  "archive_path_safety_ok": true,
+  "all_archive_members_match_final_workspace_bytes": true,
+  "independent_package_rebuild_identical": true,
+  "rebuilt_font_file_count": 7,
+  "comparison_font_file_count": 8,
+  "all_packaged_font_file_count": 15,
+  "source_seed_count": 10,
+  "rebuild_requires_external_ttc": false,
+  "font_validation_ok": true,
+  "independent_mandatory_requirements_passed": true,
+  "browser_validation_passed": true,
+  "character_count": 30437,
+  "han_count": 30186,
+  "non_han_count": 251,
+  "requested_addition_count": 24,
+  "requested_characters": "◆◇●■□▲▼▶◀‹«»─│┌┐└┘‥⟨⟩※†‖",
+  "new_source_derived_symbols": 16,
+  "new_original_geometries": 8,
+  "source_baseline_characters": 30351,
+  "original_geometry_characters_excluded_from_baseline": 86,
+  "previous_encoded_characters_preserved_in_all_six_formats": 30413,
+  "all_old_outlines_horizontal_and_line_metrics_preserved": true,
+  "all_old_ttf_coordinates_flags_and_contours_preserved": true,
+  "new_manual_han_refinement_plans": 0,
+  "preserved_hexagram_symbols": 64,
+  "structural_trial_adopted": false,
+  "primary_validation": {
+    "font": "AincradUISc-Display.ttf",
+    "size_css_px": 14,
+    "dpr": 1,
+    "regular_and_dpr2_regression": true
+  },
+  "all_sizes_pixel_identity_claimed": false,
+  "wao_flutter_app_test_executed": false,
+  "font_sha256": {
+    "fonts/AincradUISc-Display.otf": "09c4a6f332ab024c7d976995d0187449c03322763c6d3d69e052043ee37b9e63",
+    "fonts/AincradUISc-Display.ttf": "1ad5a28777b814eb336bbaa56514fdd8f1ec2f8e2984c824c75ce20746440c0e",
+    "fonts/AincradUISc-Display.woff2": "bccc229d3ba3d99ee6d80913bdaf1b0ecc1dce432aef78b1cc6a5725d47c8f1f",
+    "fonts/AincradUISc-Regular.otf": "dd78e6b5be5c02ae74a3e28cf8b4f226c4ffe19e02358973f1143e119dd1d99a",
+    "fonts/AincradUISc-Regular.ttf": "12e413327401edd4c1381852f449218e3f7f82967c77cc64ae57083c218287ce",
+    "fonts/AincradUISc-Regular.woff2": "5eb4c0d4ca23b1e4153a5bc9b07b7515125e580e866508a47f26c99b8cd037e7",
+    "fonts/AincradUISc-v010-Display.woff2": "7f2e4fe979e96118db243554c5f0f2294aaf93c1a811aa71bd58d07dc9fa7856",
+    "fonts/AincradUISc-v010-Regular.woff2": "c0b0d8a19387af0687c9170efd27fd1e6c9533fd69ffa748ad3e17e46cebd53f",
+    "fonts/AincradUISc-v020-Display.woff2": "5fbbaeae1dba55418399372c650f71843906e9f9222d56b61b5c7449f02918af",
+    "fonts/AincradUISc-v020-Regular.woff2": "2c7fa346ff9b8852dda57145600cf9e358ad1d1981eac5f0c6cbf2e5214e27db",
+    "fonts/AincradUISc-v030-before-dense-Regular.woff2": "c3a25c0064bd5b435f9b8b45f4f0b64323d05c5441869924f9aed93a1734224e",
+    "fonts/AincradUISc-v030-before-structure14-Regular.ttf": "b5c0733fdb47c077768966a54b4e6c7d27b6484263230af461b562a07759a03e",
+    "fonts/AincradUISc-v030-before-ttf14-Regular.ttf": "a5a0bcb9ff7f8fa9cc3a8085c1bb64fd74cbeab075d83ad7bde62494b441320b",
+    "fonts/AincradUISc-v030-before-ttf14-Regular.woff2": "50d4114e3c11e2ece81775debd2595aed4ee4bd60ef297c706e1a22bc02b90b6",
+    "fonts/SourceHanSansSC-Baseline.woff2": "b6d610939ae9586a6f82d6e936063a271a12b238e7772ee42c31ee94f89eec3e"
+  },
+  "source_seed_sha256": {
+    "sources/AincradSeed-Medium.otf": "cc0b308b0a96eb9ee39dfb699ef956940a8ab3b5f1a400ffe09b35d5a3da8784",
+    "sources/AincradSeed-Regular.otf": "b135434ab873baf7af5d89118e062ecfec1e13664a1cce4b4347a645a1ae9438",
+    "sources/AincradSeed-gb2312-Medium.otf": "d3002691a4829c1599ecd9e66bd227f1e35b84a58baa0aac4c5d732d3fc66aa9",
+    "sources/AincradSeed-gb2312-Regular.otf": "66c3e8774b8419d4deb69bcd357edb3968c2354dffda642da40c75d03ddf2e1b",
+    "sources/AincradSeed-sourcehan-Medium.otf": "cd237d505f80cc37d1c20d933a378d6951773cd2731aed93cdc190fefffa0257",
+    "sources/AincradSeed-sourcehan-Regular.otf": "bf1fb2123a67b5fe966b7309e7d1eb83877caad7284b2ff07fe9e9eab5b406ca",
+    "sources/AincradSeed-v030-Medium.otf": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+    "sources/AincradSeed-v030-Regular.otf": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+    "sources/AincradSeed-wao-Medium.otf": "651fe612e7812539f5b24fbc52ce95603dfa98a682d0242092989c42cc5dcd37",
+    "sources/AincradSeed-wao-Regular.otf": "26640c6aa68e1da04faa4ee8dfe156205c84788328df2dabce46401513b6ff15"
+  },
+  "scripts_sha256": {
+    "scripts/build_aincrad_font.py": "6645300bcb2543dc5632af549156d17769d35af42ceb16c7ee4d7fc9ab18d745",
+    "scripts/prepare_aincrad_font.py": "0b7bdacc79395d3daa06d007aff232d52867cd4cd7ab40c27c7a29c1b8de7deb",
+    "scripts/preview_aincrad_dense_comparison.py": "d1b7401231c074656b0743218b904291cf4e696748ca8e0fb8ec18c11ab4632d",
+    "scripts/preview_aincrad_font.py": "6be64cd6a74a5ce253039ea8650f4fe21be674d06e174c29775b2de7c77f7c36",
+    "scripts/preview_aincrad_small_sizes.py": "5a49fc3ee040d1097cf3810f141de0dd1f4732b562d59e5cbf7fa13d3e316261",
+    "scripts/preview_aincrad_sourcehan_samples.py": "abd569bfc44cb3f5bca15fb7365874fed6f0c96e9290bbed0620be782094718d",
+    "scripts/preview_aincrad_ttf14_comparison.py": "eaa326967ff9a818954b7d480cd999d948683de9461d3a863ce9efbae7a974a8",
+    "scripts/preview_aincrad_wao_symbols.py": "b458337324d16bd28c02a9c5fe03d5be97e6a47336566b60c6be0795d5664bad",
+    "scripts/verify_aincrad_dense_hexagrams.py": "83cce040e63a1367abfee285f2c861b0f510897529b588827656e86a6aae5ca7",
+    "scripts/verify_aincrad_font.py": "f1f7f586df5bc797f7a32524602f8b57b8a28f16c08f7809aa6aa25cde58f901",
+    "scripts/verify_aincrad_gb2312.py": "64a4b6bd335ec8c86256426b2bd89b8f9a8635ec7453e4b4dad0038b21213432",
+    "scripts/verify_aincrad_sourcehan.py": "fe65a7ad5add72b77d9ae06ba694737f069eea72e3d1ce3a5ba1dd2c166522de",
+    "scripts/verify_aincrad_ttf14.py": "f0d0c255d3fca4e6dfb010e180a9189fbf88a65bf7953b3c71057c0e25a9f28c",
+    "scripts/verify_aincrad_wao_symbols.py": "2639ee51878a2fdd1160858809663c9f49cef0b6c4fdf06d6fb62a2196b4e83b"
+  },
+  "charset_sha256": "9e2322278a60f815074d65d7bcf7f39ac10c41d55bb105a474625b9b53bafad5",
+  "reports": {
+    "data/browser-verification.json": {
+      "file": "data/browser-verification.json",
+      "sha256": "1bb30d5836d7e487018b6ec5514e40ea43060d328f7a5c9480cb3dc94d317675"
+    },
+    "data/dense-hexagram-verification.json": {
+      "file": "data/dense-hexagram-verification.json",
+      "sha256": "36269e3be3f30e69d867c82fdf446d4751f7cf5b910b29826b9779dee73b60b7"
+    },
+    "data/gb2312-package-rebuild.json": {
+      "file": "data/gb2312-package-rebuild.json",
+      "sha256": "f9418dedda10dc82e778ded7b1ce75b4a9192601ac55aa42d5b5bd077485249a"
+    },
+    "data/gb2312-source-preparation.json": {
+      "file": "data/gb2312-source-preparation.json",
+      "sha256": "0145832a3c3790bbfb1769458883141c261213919ed30db81dfe999a742767a2"
+    },
+    "data/gb2312-verification.json": {
+      "file": "data/gb2312-verification.json",
+      "sha256": "caa94658b4a5b62c8450da73c10f1a89cb5d8a9cfad4df9c6c9c8943b6bf11b4"
+    },
+    "data/raster-verification.json": {
+      "file": "data/raster-verification.json",
+      "sha256": "a58ecbdd77c83cf929f8ff772380e752782ccbae71ba1d513151e3edf9467649"
+    },
+    "data/refinement-geometry-review.json": {
+      "file": "data/refinement-geometry-review.json",
+      "sha256": "69a44cb7aa02738864e40f0d446f3769702644d99aa345f6284bc26d331b78f0"
+    },
+    "data/refinement-geometry-v030.json": {
+      "file": "data/refinement-geometry-v030.json",
+      "sha256": "3fa86d154a88535a710c15e6e7543e1e28f24da3de0c77808078b754b688eaf8"
+    },
+    "data/small-size-verification.json": {
+      "file": "data/small-size-verification.json",
+      "sha256": "b1d9492642ce80b8aac5b1892cb28fd597dd4e34edf102935d82cc69c88714be"
+    },
+    "data/sourcehan-package-rebuild.json": {
+      "file": "data/sourcehan-package-rebuild.json",
+      "sha256": "b98669516089c4be759defb2ad288bd30186a42aab280d8b95ff79b40eba8075"
+    },
+    "data/sourcehan-sample-verification.json": {
+      "file": "data/sourcehan-sample-verification.json",
+      "sha256": "6e9e7579bca437e651cca621ce8538b417010fe96e06673bca7572a5b35ccadf"
+    },
+    "data/sourcehan-source-preparation.json": {
+      "file": "data/sourcehan-source-preparation.json",
+      "sha256": "7fb30f61c5dea2829773cef3a6ec839df721e5e82d0e15247c2a6163e8c07e74"
+    },
+    "data/sourcehan-verification.json": {
+      "file": "data/sourcehan-verification.json",
+      "sha256": "1dbb728590fe1f79f2edded4185b9ae890ec5023afd0687066737a06a395e109"
+    },
+    "data/ttf14-package-rebuild.json": {
+      "file": "data/ttf14-package-rebuild.json",
+      "sha256": "7161b0c32cf53e994a2ec9f15b625b95c2c382294cb5c6b67b68e9e8eb02ec5e"
+    },
+    "data/ttf14-verification.json": {
+      "file": "data/ttf14-verification.json",
+      "sha256": "659fe804a3a74cd01b7212f5edcb51b169289e637a984424c466f292a79f19ad"
+    },
+    "data/verification.json": {
+      "file": "data/verification.json",
+      "sha256": "30bf24efa6aea599b436080e7111e6c9836207abad44a900d96386179ed62115"
+    },
+    "data/wao-package-rebuild.json": {
+      "file": "data/wao-package-rebuild.json",
+      "sha256": "c499590d4c4a2812aadea42848ceba163111241f6185548c9c0a24bfd675afa6"
+    },
+    "data/wao-source-preparation.json": {
+      "file": "data/wao-source-preparation.json",
+      "sha256": "b95bf9679de58f26196581c6a8ff6e5bc7efbd050fed3dad431e1d0d362e5770"
+    },
+    "data/wao-symbol-browser-verification.json": {
+      "file": "data/wao-symbol-browser-verification.json",
+      "sha256": "ea41a147763fb700b4d0a84ce9fb2a11375c693579f6439e45e57a6c05599062"
+    },
+    "data/wao-symbol-verification.json": {
+      "file": "data/wao-symbol-verification.json",
+      "sha256": "c796ccd7df2db0eef829d3bb765a8449357e0c9319a05410df8e69d651c0aa7c"
+    },
+    "data/xingpan-extension-verification.json": {
+      "file": "data/xingpan-extension-verification.json",
+      "sha256": "a867f06a878796cf77de2e5270b1a9257017f0e36dcbbb946059735e9f8a480e"
+    },
+    "data/xingpan-symbol-verification.json": {
+      "file": "data/xingpan-symbol-verification.json",
+      "sha256": "c4583dc8e9e72dfc390daf0498bac63a9de43b5026d4548e3f0845837f44ddfe"
+    }
+  },
+  "preserved_archives": [
+    {
+      "file": "Aincrad-UI-SC-v0.1.zip",
+      "sha256": "a795e6768691b567bfc3de19a6b5c0b172d0e918665d43939627f66a52edfcb4",
+      "preserved": true
+    },
+    {
+      "file": "Aincrad-UI-SC-v0.2.zip",
+      "sha256": "85e405f86de272d0c12a4e54336f295a5d19e9dddeb58b65a394743ab285ba28",
+      "preserved": true
+    },
+    {
+      "file": "Aincrad-UI-SC-v0.3-dense14-hexagrams.zip",
+      "sha256": "fbb334a39f97a16426198bda98242e5cde04a237b415184c7be15569cfe5fd1d",
+      "preserved": true
+    },
+    {
+      "file": "Aincrad-UI-SC-v0.3-xingpan-48.zip",
+      "sha256": "709919ebe5312c0e1f40ee7f6e715330c7fe0c3bcc7632689bacbdc41db6145a",
+      "preserved": true
+    },
+    {
+      "file": "Aincrad-UI-SC-v0.3-xingpan-symbols.zip",
+      "sha256": "fc81120aac3a657a39d0adda9a41ba2b0533e355f2ec29c03f49f68f75a2b968",
+      "preserved": true
+    },
+    {
+      "file": "Aincrad-UI-SC-v0.3.zip",
+      "sha256": "6258fd3fb90d5156f30ca84e0bce8ed8fe26063e84d5305d086f17abc83ed315",
+      "preserved": true
+    },
+    {
+      "file": "Aincrad-UI-SC-v0.3-ttf14-round2.zip",
+      "sha256": "1149aab3b8f95a3c3d3335f0afde88e06397f3e283e0f4df31e9c445df49d650",
+      "preserved": true
+    },
+    {
+      "file": "Aincrad-UI-SC-v0.3-structure14-trial.zip",
+      "sha256": "7d54d5ef7211da42760e95e62bfb3597201baae6a7b91a84e69bcdfe2319a6f9",
+      "preserved": true
+    },
+    {
+      "file": "archives/structure14-trial/Aincrad-UI-SC-v0.3-structure14-trial.zip",
+      "sha256": "7d54d5ef7211da42760e95e62bfb3597201baae6a7b91a84e69bcdfe2319a6f9",
+      "preserved": true
+    },
+    {
+      "file": "Aincrad-UI-SC-v0.3-gb2312-han.zip",
+      "sha256": "afff0461aa0fcfa5d106e15f85f340d4169f2cc87a9d04f4a3d2787b3b80a3d1",
+      "preserved": true
+    },
+    {
+      "file": "Aincrad-UI-SC-v0.3-sourcehan-han.zip",
+      "sha256": "1a4111fbb49a3300a539cdae6bbb291452d1e2b8698f93b6f030605bd3855be1",
+      "bytes": 142084730
+    }
+  ],
+  "handoff": {
+    "file": "Aincrad-UI-SC-v0.3-wao-handoff.zip",
+    "sha256": "5f60a003997279e1611b8c67412d5e2b0880327753451c2203ce37bb230bc027",
+    "bytes": 14424628,
+    "files": {
+      "assets/fonts/AincradUISc-Regular.ttf": "12e413327401edd4c1381852f449218e3f7f82967c77cc64ae57083c218287ce",
+      "assets/fonts/AincradUISc-Display.ttf": "1ad5a28777b814eb336bbaa56514fdd8f1ec2f8e2984c824c75ce20746440c0e",
+      "assets/fonts/aincrad-ui-sc-charset.json": "9e2322278a60f815074d65d7bcf7f39ac10c41d55bb105a474625b9b53bafad5",
+      "OFL.txt": "8fe173ea7779c11e7375942088d36aa511bf7da954d67f86e9545fe4416cbbbc",
+      "README.zh-CN.md": "8394abced08acdcd1b31b5926fc0064e607360b48467e1b83e9943a0333d0b7d"
+    }
+  },
+  "portable_snapshot_scope": "The independent report binds final fonts, charset and executed core inputs; metadata, documentation and auxiliary preview/checker artifacts are validated against final workspace bytes here.",
+  "excluded": "publication, research, archives, request monitor setup, structure14 trial and all nested ZIP archives/sidecars; fixed historical before-structure14 comparison TTF retained."
+}

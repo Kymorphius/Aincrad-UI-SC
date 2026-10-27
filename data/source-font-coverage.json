@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "timestamp_utc": "2026-10-27T12:27:53.461823+00:00",
+  "scope": "Read-only statistics of the bundled local Source Han Sans v1.004 SC face 2. This does not claim coverage of the latest upstream release.",
+  "han_definition": "Disjoint CJK unified ideograph and compatibility ideograph Unicode blocks; radicals, ideographic marks and other scripts are counted among other cmap characters, not in this Han total.",
+  "faces": {
+    "Regular": {
+      "file": "collected-ui/SAO-Utils-2-Progressive/assets/Fonts/SourceHanSans-Regular.ttc",
+      "bytes": 18751044,
+      "sha256": "f31d0a98b09380c11c72754bb85b74be488d0c5f1d3dbdf056f408c24cc50da3",
+      "face_index": 2,
+      "family": "Source Han Sans SC Regular",
+      "full_name": "Source Han Sans SC Regular",
+      "postscript_name": "SourceHanSansSC-Regular",
+      "version": "Version 1.004;PS 1.004;hotconv 1.0.82;makeotf.lib2.5.63406",
+      "maxp_num_glyphs": 65535,
+      "unicode_cmap_distinct_effective_codepoints": 44683,
+      "effective_han_codepoints": 30186,
+      "nonempty_han_codepoints": 30186,
+      "distinct_mapped_han_glyphs": 30091,
+      "han_by_block": {
+        "basic_U4E00_U9FFF": 20945,
+        "extension_A_U3400_U4DBF": 6582,
+        "extension_B_U20000_U2A6DF": 2051,
+        "extension_C_U2A700_U2B73F": 46,
+        "extension_D_U2B740_U2B81F": 33,
+        "extension_E_U2B820_U2CEAF": 108,
+        "other_supplementary_unified_U2CEB0_U2EE5F_U30000_U3347F": 0,
+        "compatibility_UF900_UFAFF": 366,
+        "compatibility_supplement_U2F800_U2FA1F": 55
+      },
+      "unicode_cmap_tables": [
+        {
+          "platform_id": 0,
+          "encoding_id": 3,
+          "format": 4,
+          "entries": 42188
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 4,
+          "format": 12,
+          "entries": 44683
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "format": 4,
+          "entries": 42188
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 10,
+          "format": 12,
+          "entries": 44683
+        }
+      ],
+      "gsub_features": [
+        "aalt",
+        "calt",
+        "ccmp",
+        "dlig",
+        "fwid",
+        "hist",
+        "hwid",
+        "liga",
+        "ljmo",
+        "locl",
+        "pwid",
+        "tjmo",
+        "vert",
+        "vjmo",
+        "vrt2"
+      ]
+    },
+    "Medium": {
+      "file": "collected-ui/SAO-Utils-2-Progressive/assets/Fonts/SourceHanSans-Medium.ttc",
+      "bytes": 17771128,
+      "sha256": "28e9a792a7d57327c903e4cb70164c4fd093e5d9543265f819d505a6cfc049d5",
+      "face_index": 2,
+      "family": "Source Han Sans SC Medium",
+      "full_name": "Source Han Sans SC Medium",
+      "postscript_name": "SourceHanSansSC-Medium",
+      "version": "Version 1.004;PS 1.004;hotconv 1.0.82;makeotf.lib2.5.63406",
+      "maxp_num_glyphs": 65535,
+      "unicode_cmap_distinct_effective_codepoints": 44683,
+      "effective_han_codepoints": 30186,
+      "nonempty_han_codepoints": 30186,
+      "distinct_mapped_han_glyphs": 30091,
+      "han_by_block": {
+        "basic_U4E00_U9FFF": 20945,
+        "extension_A_U3400_U4DBF": 6582,
+        "extension_B_U20000_U2A6DF": 2051,
+        "extension_C_U2A700_U2B73F": 46,
+        "extension_D_U2B740_U2B81F": 33,
+        "extension_E_U2B820_U2CEAF": 108,
+        "other_supplementary_unified_U2CEB0_U2EE5F_U30000_U3347F": 0,
+        "compatibility_UF900_UFAFF": 366,
+        "compatibility_supplement_U2F800_U2FA1F": 55
+      },
+      "unicode_cmap_tables": [
+        {
+          "platform_id": 0,
+          "encoding_id": 3,
+          "format": 4,
+          "entries": 42188
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 4,
+          "format": 12,
+          "entries": 44683
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "format": 4,
+          "entries": 42188
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 10,
+          "format": 12,
+          "entries": 44683
+        }
+      ],
+      "gsub_features": [
+        "aalt",
+        "calt",
+        "ccmp",
+        "dlig",
+        "fwid",
+        "hist",
+        "hwid",
+        "liga",
+        "ljmo",
+        "locl",
+        "pwid",
+        "tjmo",
+        "vert",
+        "vjmo",
+        "vrt2"
+      ]
+    }
+  },
+  "weights_comparison": {
+    "unicode_intersection": 44683,
+    "Regular_only": 0,
+    "Medium_only": 0,
+    "han_intersection": 30186,
+    "Regular_han_only": 0,
+    "Medium_han_only": 0
+  },
+  "baseline_at_measurement": {
+    "han_count": 3814,
+    "character_count": 4041,
+    "all_baseline_han_supported": true,
+    "source_han_not_in_baseline": 26372
+  },
+  "planned_gb2312_completion": {
+    "han_count": 6767,
+    "character_count": 6994,
+    "all_gb2312_han_supported_by_both": true,
+    "added_han_count": 2953
+  },
+  "interpretation": [
+    "65535 is the number of glyphs, not the number of distinct Chinese characters.",
+    "Each face maps 44683 distinct Unicode codepoints, including other scripts and symbols.",
+    "30186 Han codepoints map to 30091 distinct glyphs; some codepoints share glyphs.",
+    "Han count includes simplified, traditional, shared Chinese/Japanese/Korean ideographs and 421 compatibility ideographs; it is not a count of modern commonly used Chinese characters."
+  ]
+}

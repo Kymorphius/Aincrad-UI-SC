@@ -1,0 +1,1165 @@
+{
+  "timestamp_utc": "2026-10-27T13:12:54.158612+00:00",
+  "edition": "local-sourcehan-all-han",
+  "scope": "Add all Han codepoints actually mapped by the pinned local Source Han Sans SC v1.004 face2, retaining the previous6994-character release.",
+  "scope_limits": [
+    "Han means the declared disjoint unified and compatibility ideograph blocks. Radicals, ideographic marks, IVS sequences and other source glyph variants are outside this count.",
+    "Coverage belongs to these exact local v1.004 TTC snapshots, not the latest upstream release or every Unicode Han character.",
+    "Compatibility codepoints follow the source cmap/glyph identity. No NFKC normalization is used; distinct regional source outlines remain distinct.",
+    "Each added glyph/form receives one actual native32px raster check. This proves visible renderability, not11-14px readability or manual design acceptance.",
+    "Full source-oracle and previous-release conclusions require the original TTCs and the hash-verified GB ZIP; missing inputs yield a partial/null result."
+  ],
+  "environment": {
+    "pillow": "12.3.0",
+    "freetype": "2.14.3"
+  },
+  "baseline": {
+    "file": "D:\\333.开发\\SAO\\design\\aincrad-ui-sc\\Aincrad-UI-SC-v0.3-gb2312-han.zip",
+    "expected_sha256": "afff0461aa0fcfa5d106e15f85f340d4169f2cc87a9d04f4a3d2787b3b80a3d1",
+    "available": true,
+    "sha256": "afff0461aa0fcfa5d106e15f85f340d4169f2cc87a9d04f4a3d2787b3b80a3d1"
+  },
+  "checker": {
+    "file": "scripts/verify_aincrad_sourcehan.py",
+    "sha256": "fe65a7ad5add72b77d9ae06ba694737f069eea72e3d1ce3a5ba1dd2c166522de"
+  },
+  "input_hashes": {
+    "data/sourcehan-han-extension.json": "e94fdebe8d1605fe800befb6b296e6e3e5b0c998ab5b4b723d3a6a56dfa77762",
+    "data/charset.json": "72640af3ac74bbfe8792328558c9cf6759b8347574615320c3c13a845b4f1f77",
+    "data/provenance.json": "72f6764d6a0125d9999a00a755f6ca6b1af56e49762a6178d6c8da5ae73257b6",
+    "data/refinements-v030.json": "94402fa80bd8bd1e947b6ea786fde8c847eaf1b294934f8fbe0673a3a0ee5115",
+    "data/dense-refinements-v030.json": "198a0d5b37f4d5fd30a6a0c65e683734b7ad697064a874b61531b7aa97bcb9aa",
+    "data/ttf14-refinements-v030.json": "310dde67bed3fc20850b2f2838814cbfcabd557444a1b8dcde1bf493395fbd12",
+    "data/symbols-v030.json": "3568b057e3390f49a7c9a620adeed2e6ae126c43bc744a3a5ca7c76b89e81798",
+    "data/hexagram-outlines-v030.json": "c28bc019e4ef830fbd8b882b87d024eb31365a85dad4b17d45c68d1816af69eb",
+    "sources/AincradSeed-gb2312-Regular.otf": "66c3e8774b8419d4deb69bcd357edb3968c2354dffda642da40c75d03ddf2e1b",
+    "data/source-font-coverage.json": "ec9eaf00b589c0cb465627a440c49e525cdee0256cf6e66c21876aa810a07848",
+    "data/gb2312-han-extension.json": "d5b9cba1ba6b1912d7b4b0059eb2e97aedaf1a9173505a486f6d85025e6d501e",
+    "data/hexagrams.json": "3e51d1a4226e9f48dbbcb0d32e34d8efadd0698dacd98ce26d97bfdd5360bc48",
+    "data/charset-extensions.json": "569e1b06ec2f550014fd43132ca6893ca01147688c88f446d4d9e4094aa4aa09",
+    "data/symbol-extensions.json": "f687bf730906d5179ba892e0265c882dfc67eb3fa826f16973d0834d771f1576",
+    "sources/AincradSeed-sourcehan-Regular.otf": "bf1fb2123a67b5fe966b7309e7d1eb83877caad7284b2ff07fe9e9eab5b406ca",
+    "sources/AincradSeed-v030-Regular.otf": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+    "sources/AincradSeed-sourcehan-Medium.otf": "cd237d505f80cc37d1c20d933a378d6951773cd2731aed93cdc190fefffa0257",
+    "sources/AincradSeed-gb2312-Medium.otf": "d3002691a4829c1599ecd9e66bd227f1e35b84a58baa0aac4c5d732d3fc66aa9",
+    "sources/AincradSeed-v030-Medium.otf": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+    "fonts/AincradUISc-Regular.otf": "57b31e3f11b93ca2f27272546066664ea00a1238813329a9bc57117ad910660d",
+    "fonts/AincradUISc-Regular.ttf": "110433c9f4a58c0bff2dde1cb907e1d6bd1771786795fb7fe2bafc72605d3ae5",
+    "fonts/AincradUISc-Regular.woff2": "b31e8cead4b79081e4ecc3926a126d6412a32810b64f45304a4b1cb527f22350",
+    "fonts/AincradUISc-Display.otf": "a2408514a9ba9dcf9c19f02480d2daefff07cb29345ff7f4b2e05f98e098548e",
+    "fonts/AincradUISc-Display.ttf": "6a712cdcff3c3c25d9f1cae36a1e8c394c6591a541975d12208b0e3b39270eb2",
+    "fonts/AincradUISc-Display.woff2": "e419d587650b573e4cf1cfc75b9452f8520c39662dbbd8cc1ef331a3650ac9ba",
+    "fonts/SourceHanSansSC-Baseline.woff2": "2166d5313d214a078c43b7fa8ad990b11daa9210d269ff8300efc18eafb1a79a"
+  },
+  "external_sources": {
+    "Regular": {
+      "file": "D:\\333.开发\\SAO\\collected-ui\\SAO-Utils-2-Progressive\\assets\\Fonts\\SourceHanSans-Regular.ttc",
+      "available": true,
+      "expected_sha256": "f31d0a98b09380c11c72754bb85b74be488d0c5f1d3dbdf056f408c24cc50da3",
+      "face_index": 2,
+      "sha256": "f31d0a98b09380c11c72754bb85b74be488d0c5f1d3dbdf056f408c24cc50da3",
+      "oracle_performed": true,
+      "actual_han_count": 30186,
+      "actual_non_bmp_han_count": 2293,
+      "actual_compatibility_han_count": 421,
+      "actual_han_set_sha256": "237fcd8138c896f03e3a807640bc3c18d9e893ac637f06a4510764eed3933507",
+      "distinct_mapped_han_glyphs": 30091,
+      "alias_groups": 94,
+      "alias_codepoints": 189,
+      "source_outline_hmtx_codepoints_compared": 30335,
+      "source_outline_hmtx_mismatch_codepoints": [],
+      "cmap_audit": {
+        "subtables": [
+          {
+            "platform": 0,
+            "encoding": 3,
+            "format": 4,
+            "entries": 42188,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 0,
+            "encoding": 4,
+            "format": 12,
+            "entries": 44683,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 3,
+            "encoding": 1,
+            "format": 4,
+            "entries": 42188,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 3,
+            "encoding": 10,
+            "format": 12,
+            "entries": 44683,
+            "mapping_exactly_matches_expected_scope": true
+          }
+        ],
+        "non_bmp_codepoints": 2495,
+        "format12_tables": 2,
+        "windows_3_10_format12_present": true
+      }
+    },
+    "Medium": {
+      "file": "D:\\333.开发\\SAO\\collected-ui\\SAO-Utils-2-Progressive\\assets\\Fonts\\SourceHanSans-Medium.ttc",
+      "available": true,
+      "expected_sha256": "28e9a792a7d57327c903e4cb70164c4fd093e5d9543265f819d505a6cfc049d5",
+      "face_index": 2,
+      "sha256": "28e9a792a7d57327c903e4cb70164c4fd093e5d9543265f819d505a6cfc049d5",
+      "oracle_performed": true,
+      "actual_han_count": 30186,
+      "actual_non_bmp_han_count": 2293,
+      "actual_compatibility_han_count": 421,
+      "actual_han_set_sha256": "237fcd8138c896f03e3a807640bc3c18d9e893ac637f06a4510764eed3933507",
+      "distinct_mapped_han_glyphs": 30091,
+      "alias_groups": 94,
+      "alias_codepoints": 189,
+      "source_outline_hmtx_codepoints_compared": 30335,
+      "source_outline_hmtx_mismatch_codepoints": [],
+      "cmap_audit": {
+        "subtables": [
+          {
+            "platform": 0,
+            "encoding": 3,
+            "format": 4,
+            "entries": 42188,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 0,
+            "encoding": 4,
+            "format": 12,
+            "entries": 44683,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 3,
+            "encoding": 1,
+            "format": 4,
+            "entries": 42188,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 3,
+            "encoding": 10,
+            "format": 12,
+            "entries": 44683,
+            "mapping_exactly_matches_expected_scope": true
+          }
+        ],
+        "non_bmp_codepoints": 2495,
+        "format12_tables": 2,
+        "windows_3_10_format12_present": true
+      }
+    }
+  },
+  "source_subsets": {
+    "Regular": {
+      "mapped_characters": 30335,
+      "requested_characters": 30335,
+      "han_characters": 30186,
+      "glyphs": 30240,
+      "family": "Aincrad Baseline SC",
+      "version": "Version 1.004; Aincrad seed subset",
+      "line_metrics": [
+        1000,
+        1160,
+        -320,
+        0,
+        880,
+        -120,
+        0,
+        1160,
+        320
+      ],
+      "missing_codepoints": [],
+      "empty_codepoints": [],
+      "outside_line_codepoints": [],
+      "invalid_advance_codepoints": [],
+      "fsType": 0,
+      "cmap_audit": {
+        "subtables": [
+          {
+            "platform": 0,
+            "encoding": 3,
+            "format": 4,
+            "entries": 28042,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 0,
+            "encoding": 4,
+            "format": 12,
+            "entries": 30335,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 3,
+            "encoding": 1,
+            "format": 4,
+            "entries": 28042,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 3,
+            "encoding": 10,
+            "format": 12,
+            "entries": 30335,
+            "mapping_exactly_matches_expected_scope": true
+          }
+        ],
+        "non_bmp_codepoints": 2293,
+        "format12_tables": 2,
+        "windows_3_10_format12_present": true
+      },
+      "sha256": "bf1fb2123a67b5fe966b7309e7d1eb83877caad7284b2ff07fe9e9eab5b406ca",
+      "bytes": 8590112,
+      "old_seed_bytes_equal_archive": true,
+      "old_gb_source_characters_compared": 6916,
+      "old_source_outline_changes": [],
+      "old_source_hmtx_changes": [],
+      "reviewed_outline_advance_sha256": "c587a5afa73edd1078d4eedb8a569eb6a4814ed9f7b8e078979d38d9e12f6e45",
+      "previous_outline_hmtx_sha256": "0fce12a5f5ff7d967968b3abeb794dbeee0a1f27e2c6297f78399fdd74118d3d",
+      "source_alias_groups": 94,
+      "source_alias_codepoints": 189
+    },
+    "Medium": {
+      "mapped_characters": 30335,
+      "requested_characters": 30335,
+      "han_characters": 30186,
+      "glyphs": 30240,
+      "family": "Aincrad Baseline SC Medium",
+      "version": "Version 1.004; Aincrad seed subset",
+      "line_metrics": [
+        1000,
+        1160,
+        -320,
+        0,
+        880,
+        -120,
+        0,
+        1160,
+        320
+      ],
+      "missing_codepoints": [],
+      "empty_codepoints": [],
+      "outside_line_codepoints": [],
+      "invalid_advance_codepoints": [],
+      "fsType": 0,
+      "cmap_audit": {
+        "subtables": [
+          {
+            "platform": 0,
+            "encoding": 3,
+            "format": 4,
+            "entries": 28042,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 0,
+            "encoding": 4,
+            "format": 12,
+            "entries": 30335,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 3,
+            "encoding": 1,
+            "format": 4,
+            "entries": 28042,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 3,
+            "encoding": 10,
+            "format": 12,
+            "entries": 30335,
+            "mapping_exactly_matches_expected_scope": true
+          }
+        ],
+        "non_bmp_codepoints": 2293,
+        "format12_tables": 2,
+        "windows_3_10_format12_present": true
+      },
+      "sha256": "cd237d505f80cc37d1c20d933a378d6951773cd2731aed93cdc190fefffa0257",
+      "bytes": 8626416,
+      "old_seed_bytes_equal_archive": true,
+      "old_gb_source_characters_compared": 6916,
+      "old_source_outline_changes": [],
+      "old_source_hmtx_changes": [],
+      "reviewed_outline_advance_sha256": "cb00ea3c17712f4bbc1823b443859bf859b01f3a3db28b4b2f8b3e2bcf1fbf3f",
+      "previous_outline_hmtx_sha256": "2032ed890617e47248bf8c070bc703bb1c8d974dc981f6edc82024a69c290b37",
+      "source_alias_groups": 94,
+      "source_alias_codepoints": 189
+    }
+  },
+  "formats": {
+    "Regular": {
+      "otf": {
+        "mapped_characters": 30413,
+        "requested_characters": 30413,
+        "han_characters": 30186,
+        "glyphs": 30414,
+        "family": "Aincrad UI SC",
+        "version": "Version 0.300; common Chinese UI vocabulary",
+        "line_metrics": [
+          1000,
+          1160,
+          -320,
+          0,
+          1160,
+          -320,
+          0,
+          1160,
+          320
+        ],
+        "missing_codepoints": [],
+        "empty_codepoints": [],
+        "outside_line_codepoints": [],
+        "invalid_advance_codepoints": [],
+        "fsType": 0,
+        "cmap_audit": {
+          "subtables": [
+            {
+              "platform": 0,
+              "encoding": 3,
+              "format": 4,
+              "entries": 28120,
+              "mapping_exactly_matches_expected_scope": true
+            },
+            {
+              "platform": 3,
+              "encoding": 1,
+              "format": 4,
+              "entries": 28120,
+              "mapping_exactly_matches_expected_scope": true
+            },
+            {
+              "platform": 3,
+              "encoding": 10,
+              "format": 12,
+              "entries": 30413,
+              "mapping_exactly_matches_expected_scope": true
+            }
+          ],
+          "non_bmp_codepoints": 2293,
+          "format12_tables": 1,
+          "windows_3_10_format12_present": true
+        },
+        "sha256": "57b31e3f11b93ca2f27272546066664ea00a1238813329a9bc57117ad910660d",
+        "bytes": 11177892,
+        "digits": {
+          "advances": {
+            "0": 450,
+            "1": 450,
+            "2": 450,
+            "3": 450,
+            "4": 450,
+            "5": 450,
+            "6": 450,
+            "7": 450,
+            "8": 450,
+            "9": 450
+          },
+          "expected_preserved_width": 450
+        },
+        "shared_source_glyph_aliases": {
+          "groups_checked": 94,
+          "codepoints_checked": 189,
+          "mismatch_groups": [],
+          "inherited_refinements": {
+            "更": "更"
+          },
+          "normalization": "None; only actual original source glyph identity is used."
+        },
+        "previous_release_regression": {
+          "encoded_characters_compared": 6994,
+          "complete_hmtx_entries_compared": 6995,
+          "old_outline_changes": [],
+          "old_mapping_changes": [],
+          "old_hmtx_glyph_changes": [],
+          "line_metrics_equal": true,
+          "old_quadratic_point_flag_endpoint_changes": [],
+          "old_instruction_glyph_changes": [],
+          "global_hint_table_changes": [],
+          "protected_special_character_count": 229,
+          "protected_special_subset_equal": true,
+          "preserved_hmtx_sha256": "00e7cd08daa5da851d24367869b4f8609d1ba8d8bd73b771fc186e28c3d3aca0"
+        },
+        "added_glyph_raster": {
+          "size_physical_px": 32,
+          "glyphs_checked": 23419,
+          "empty_codepoints": [],
+          "outside_line_cell_codepoints": [],
+          "raster_ink_and_bounds_sha256": "52874577028393a46aad74796d4abe129f5e1dd0f4ad1b7f54613530d4cb6820",
+          "minimum_gray_ink_sum": 11335,
+          "method": "Every added codepoint in this actual font; native FreeType BASIC L mask at one32px size, anchor=ls; no fallback/resampling/filter."
+        },
+        "old_control_raster": {
+          "text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+          "size_physical_px": 32,
+          "mask_and_offset_equal": true,
+          "non_gating": true,
+          "policy": "Actual false values are retained as raster diagnostics; old geometry/metrics checks remain mandatory."
+        }
+      },
+      "ttf": {
+        "mapped_characters": 30413,
+        "requested_characters": 30413,
+        "han_characters": 30186,
+        "glyphs": 30414,
+        "family": "Aincrad UI SC",
+        "version": "Version 0.300; common Chinese UI vocabulary",
+        "line_metrics": [
+          1000,
+          1160,
+          -320,
+          0,
+          1160,
+          -320,
+          0,
+          1160,
+          320
+        ],
+        "missing_codepoints": [],
+        "empty_codepoints": [],
+        "outside_line_codepoints": [],
+        "invalid_advance_codepoints": [],
+        "fsType": 0,
+        "cmap_audit": {
+          "subtables": [
+            {
+              "platform": 0,
+              "encoding": 3,
+              "format": 4,
+              "entries": 28120,
+              "mapping_exactly_matches_expected_scope": true
+            },
+            {
+              "platform": 3,
+              "encoding": 1,
+              "format": 4,
+              "entries": 28120,
+              "mapping_exactly_matches_expected_scope": true
+            },
+            {
+              "platform": 3,
+              "encoding": 10,
+              "format": 12,
+              "entries": 30413,
+              "mapping_exactly_matches_expected_scope": true
+            }
+          ],
+          "non_bmp_codepoints": 2293,
+          "format12_tables": 1,
+          "windows_3_10_format12_present": true
+        },
+        "sha256": "110433c9f4a58c0bff2dde1cb907e1d6bd1771786795fb7fe2bafc72605d3ae5",
+        "bytes": 12683512,
+        "digits": {
+          "advances": {
+            "0": 450,
+            "1": 450,
+            "2": 450,
+            "3": 450,
+            "4": 450,
+            "5": 450,
+            "6": 450,
+            "7": 450,
+            "8": 450,
+            "9": 450
+          },
+          "expected_preserved_width": 450
+        },
+        "shared_source_glyph_aliases": {
+          "groups_checked": 94,
+          "codepoints_checked": 189,
+          "mismatch_groups": [],
+          "inherited_refinements": {
+            "更": "更"
+          },
+          "normalization": "None; only actual original source glyph identity is used."
+        },
+        "previous_release_regression": {
+          "encoded_characters_compared": 6994,
+          "complete_hmtx_entries_compared": 6995,
+          "old_outline_changes": [],
+          "old_mapping_changes": [],
+          "old_hmtx_glyph_changes": [],
+          "line_metrics_equal": true,
+          "old_quadratic_point_flag_endpoint_changes": [],
+          "old_instruction_glyph_changes": [],
+          "global_hint_table_changes": [],
+          "protected_special_character_count": 229,
+          "protected_special_subset_equal": true,
+          "preserved_hmtx_sha256": "46f141401cd36f0893ba58a4de96b73b35135dc28e6aabd08ac00f657bc589fd"
+        },
+        "added_glyph_raster": {
+          "size_physical_px": 32,
+          "glyphs_checked": 23419,
+          "empty_codepoints": [],
+          "outside_line_cell_codepoints": [],
+          "raster_ink_and_bounds_sha256": "d25ee3886d5743a532cfb0dde37a6a699b7eca1adb6d3481ee7518fdceade769",
+          "minimum_gray_ink_sum": 11383,
+          "method": "Every added codepoint in this actual font; native FreeType BASIC L mask at one32px size, anchor=ls; no fallback/resampling/filter."
+        },
+        "old_control_raster": {
+          "text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+          "size_physical_px": 32,
+          "mask_and_offset_equal": true,
+          "non_gating": true,
+          "policy": "Actual false values are retained as raster diagnostics; old geometry/metrics checks remain mandatory."
+        }
+      },
+      "woff2": {
+        "mapped_characters": 30413,
+        "requested_characters": 30413,
+        "han_characters": 30186,
+        "glyphs": 30414,
+        "family": "Aincrad UI SC",
+        "version": "Version 0.300; common Chinese UI vocabulary",
+        "line_metrics": [
+          1000,
+          1160,
+          -320,
+          0,
+          1160,
+          -320,
+          0,
+          1160,
+          320
+        ],
+        "missing_codepoints": [],
+        "empty_codepoints": [],
+        "outside_line_codepoints": [],
+        "invalid_advance_codepoints": [],
+        "fsType": 0,
+        "cmap_audit": {
+          "subtables": [
+            {
+              "platform": 0,
+              "encoding": 3,
+              "format": 4,
+              "entries": 28120,
+              "mapping_exactly_matches_expected_scope": true
+            },
+            {
+              "platform": 3,
+              "encoding": 1,
+              "format": 4,
+              "entries": 28120,
+              "mapping_exactly_matches_expected_scope": true
+            },
+            {
+              "platform": 3,
+              "encoding": 10,
+              "format": 12,
+              "entries": 30413,
+              "mapping_exactly_matches_expected_scope": true
+            }
+          ],
+          "non_bmp_codepoints": 2293,
+          "format12_tables": 1,
+          "windows_3_10_format12_present": true
+        },
+        "sha256": "b31e8cead4b79081e4ecc3926a126d6412a32810b64f45304a4b1cb527f22350",
+        "bytes": 5590640,
+        "digits": {
+          "advances": {
+            "0": 450,
+            "1": 450,
+            "2": 450,
+            "3": 450,
+            "4": 450,
+            "5": 450,
+            "6": 450,
+            "7": 450,
+            "8": 450,
+            "9": 450
+          },
+          "expected_preserved_width": 450
+        },
+        "shared_source_glyph_aliases": {
+          "groups_checked": 94,
+          "codepoints_checked": 189,
+          "mismatch_groups": [],
+          "inherited_refinements": {
+            "更": "更"
+          },
+          "normalization": "None; only actual original source glyph identity is used."
+        },
+        "previous_release_regression": {
+          "encoded_characters_compared": 6994,
+          "complete_hmtx_entries_compared": 6995,
+          "old_outline_changes": [],
+          "old_mapping_changes": [],
+          "old_hmtx_glyph_changes": [],
+          "line_metrics_equal": true,
+          "old_quadratic_point_flag_endpoint_changes": [],
+          "old_instruction_glyph_changes": [],
+          "global_hint_table_changes": [],
+          "protected_special_character_count": 229,
+          "protected_special_subset_equal": true,
+          "preserved_hmtx_sha256": "00e7cd08daa5da851d24367869b4f8609d1ba8d8bd73b771fc186e28c3d3aca0"
+        },
+        "added_glyph_raster": {
+          "size_physical_px": 32,
+          "glyphs_checked": 23419,
+          "empty_codepoints": [],
+          "outside_line_cell_codepoints": [],
+          "raster_ink_and_bounds_sha256": "52874577028393a46aad74796d4abe129f5e1dd0f4ad1b7f54613530d4cb6820",
+          "minimum_gray_ink_sum": 11335,
+          "method": "Every added codepoint in this actual font; native FreeType BASIC L mask at one32px size, anchor=ls; no fallback/resampling/filter."
+        },
+        "old_control_raster": {
+          "text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+          "size_physical_px": 32,
+          "mask_and_offset_equal": true,
+          "non_gating": true,
+          "policy": "Actual false values are retained as raster diagnostics; old geometry/metrics checks remain mandatory."
+        }
+      }
+    },
+    "Display": {
+      "otf": {
+        "mapped_characters": 30413,
+        "requested_characters": 30413,
+        "han_characters": 30186,
+        "glyphs": 30414,
+        "family": "Aincrad UI SC Display",
+        "version": "Version 0.300; common Chinese UI vocabulary",
+        "line_metrics": [
+          1000,
+          1160,
+          -320,
+          0,
+          1160,
+          -320,
+          0,
+          1160,
+          320
+        ],
+        "missing_codepoints": [],
+        "empty_codepoints": [],
+        "outside_line_codepoints": [],
+        "invalid_advance_codepoints": [],
+        "fsType": 0,
+        "cmap_audit": {
+          "subtables": [
+            {
+              "platform": 0,
+              "encoding": 3,
+              "format": 4,
+              "entries": 28120,
+              "mapping_exactly_matches_expected_scope": true
+            },
+            {
+              "platform": 3,
+              "encoding": 1,
+              "format": 4,
+              "entries": 28120,
+              "mapping_exactly_matches_expected_scope": true
+            },
+            {
+              "platform": 3,
+              "encoding": 10,
+              "format": 12,
+              "entries": 30413,
+              "mapping_exactly_matches_expected_scope": true
+            }
+          ],
+          "non_bmp_codepoints": 2293,
+          "format12_tables": 1,
+          "windows_3_10_format12_present": true
+        },
+        "sha256": "a2408514a9ba9dcf9c19f02480d2daefff07cb29345ff7f4b2e05f98e098548e",
+        "bytes": 10755588,
+        "digits": {
+          "advances": {
+            "0": 434,
+            "1": 434,
+            "2": 434,
+            "3": 434,
+            "4": 434,
+            "5": 434,
+            "6": 434,
+            "7": 434,
+            "8": 434,
+            "9": 434
+          },
+          "expected_preserved_width": 434
+        },
+        "shared_source_glyph_aliases": {
+          "groups_checked": 94,
+          "codepoints_checked": 189,
+          "mismatch_groups": [],
+          "inherited_refinements": {
+            "更": "更"
+          },
+          "normalization": "None; only actual original source glyph identity is used."
+        },
+        "previous_release_regression": {
+          "encoded_characters_compared": 6994,
+          "complete_hmtx_entries_compared": 6995,
+          "old_outline_changes": [],
+          "old_mapping_changes": [],
+          "old_hmtx_glyph_changes": [],
+          "line_metrics_equal": true,
+          "old_quadratic_point_flag_endpoint_changes": [],
+          "old_instruction_glyph_changes": [],
+          "global_hint_table_changes": [],
+          "protected_special_character_count": 229,
+          "protected_special_subset_equal": true,
+          "preserved_hmtx_sha256": "db7288b778370a8be3d7b0933ce67eca210ad1c6cee400ca0b7dd0727c717a2a"
+        },
+        "added_glyph_raster": {
+          "size_physical_px": 32,
+          "glyphs_checked": 23419,
+          "empty_codepoints": [],
+          "outside_line_cell_codepoints": [],
+          "raster_ink_and_bounds_sha256": "551f466e91bb7b866fe057bffb5331f5ad05e5fbec4f4b73b54c672ac071da4b",
+          "minimum_gray_ink_sum": 13443,
+          "method": "Every added codepoint in this actual font; native FreeType BASIC L mask at one32px size, anchor=ls; no fallback/resampling/filter."
+        },
+        "old_control_raster": {
+          "text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+          "size_physical_px": 32,
+          "mask_and_offset_equal": true,
+          "non_gating": true,
+          "policy": "Actual false values are retained as raster diagnostics; old geometry/metrics checks remain mandatory."
+        }
+      },
+      "ttf": {
+        "mapped_characters": 30413,
+        "requested_characters": 30413,
+        "han_characters": 30186,
+        "glyphs": 30414,
+        "family": "Aincrad UI SC Display",
+        "version": "Version 0.300; common Chinese UI vocabulary",
+        "line_metrics": [
+          1000,
+          1160,
+          -320,
+          0,
+          1160,
+          -320,
+          0,
+          1160,
+          320
+        ],
+        "missing_codepoints": [],
+        "empty_codepoints": [],
+        "outside_line_codepoints": [],
+        "invalid_advance_codepoints": [],
+        "fsType": 0,
+        "cmap_audit": {
+          "subtables": [
+            {
+              "platform": 0,
+              "encoding": 3,
+              "format": 4,
+              "entries": 28120,
+              "mapping_exactly_matches_expected_scope": true
+            },
+            {
+              "platform": 3,
+              "encoding": 1,
+              "format": 4,
+              "entries": 28120,
+              "mapping_exactly_matches_expected_scope": true
+            },
+            {
+              "platform": 3,
+              "encoding": 10,
+              "format": 12,
+              "entries": 30413,
+              "mapping_exactly_matches_expected_scope": true
+            }
+          ],
+          "non_bmp_codepoints": 2293,
+          "format12_tables": 1,
+          "windows_3_10_format12_present": true
+        },
+        "sha256": "6a712cdcff3c3c25d9f1cae36a1e8c394c6591a541975d12208b0e3b39270eb2",
+        "bytes": 12469916,
+        "digits": {
+          "advances": {
+            "0": 434,
+            "1": 434,
+            "2": 434,
+            "3": 434,
+            "4": 434,
+            "5": 434,
+            "6": 434,
+            "7": 434,
+            "8": 434,
+            "9": 434
+          },
+          "expected_preserved_width": 434
+        },
+        "shared_source_glyph_aliases": {
+          "groups_checked": 94,
+          "codepoints_checked": 189,
+          "mismatch_groups": [],
+          "inherited_refinements": {
+            "更": "更"
+          },
+          "normalization": "None; only actual original source glyph identity is used."
+        },
+        "previous_release_regression": {
+          "encoded_characters_compared": 6994,
+          "complete_hmtx_entries_compared": 6995,
+          "old_outline_changes": [],
+          "old_mapping_changes": [],
+          "old_hmtx_glyph_changes": [],
+          "line_metrics_equal": true,
+          "old_quadratic_point_flag_endpoint_changes": [],
+          "old_instruction_glyph_changes": [],
+          "global_hint_table_changes": [],
+          "protected_special_character_count": 229,
+          "protected_special_subset_equal": true,
+          "preserved_hmtx_sha256": "922cf7f97315702c18ff8705fb74e94b45c2471f50f696cbfe22a1a2eb0938ad"
+        },
+        "added_glyph_raster": {
+          "size_physical_px": 32,
+          "glyphs_checked": 23419,
+          "empty_codepoints": [],
+          "outside_line_cell_codepoints": [],
+          "raster_ink_and_bounds_sha256": "9113977de2aa99db80141aa240ddc79efb31fe18fb6784ec5d7053dfdf233425",
+          "minimum_gray_ink_sum": 13407,
+          "method": "Every added codepoint in this actual font; native FreeType BASIC L mask at one32px size, anchor=ls; no fallback/resampling/filter."
+        },
+        "old_control_raster": {
+          "text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+          "size_physical_px": 32,
+          "mask_and_offset_equal": false,
+          "non_gating": true,
+          "policy": "Actual false values are retained as raster diagnostics; old geometry/metrics checks remain mandatory."
+        }
+      },
+      "woff2": {
+        "mapped_characters": 30413,
+        "requested_characters": 30413,
+        "han_characters": 30186,
+        "glyphs": 30414,
+        "family": "Aincrad UI SC Display",
+        "version": "Version 0.300; common Chinese UI vocabulary",
+        "line_metrics": [
+          1000,
+          1160,
+          -320,
+          0,
+          1160,
+          -320,
+          0,
+          1160,
+          320
+        ],
+        "missing_codepoints": [],
+        "empty_codepoints": [],
+        "outside_line_codepoints": [],
+        "invalid_advance_codepoints": [],
+        "fsType": 0,
+        "cmap_audit": {
+          "subtables": [
+            {
+              "platform": 0,
+              "encoding": 3,
+              "format": 4,
+              "entries": 28120,
+              "mapping_exactly_matches_expected_scope": true
+            },
+            {
+              "platform": 3,
+              "encoding": 1,
+              "format": 4,
+              "entries": 28120,
+              "mapping_exactly_matches_expected_scope": true
+            },
+            {
+              "platform": 3,
+              "encoding": 10,
+              "format": 12,
+              "entries": 30413,
+              "mapping_exactly_matches_expected_scope": true
+            }
+          ],
+          "non_bmp_codepoints": 2293,
+          "format12_tables": 1,
+          "windows_3_10_format12_present": true
+        },
+        "sha256": "e419d587650b573e4cf1cfc75b9452f8520c39662dbbd8cc1ef331a3650ac9ba",
+        "bytes": 5642964,
+        "digits": {
+          "advances": {
+            "0": 434,
+            "1": 434,
+            "2": 434,
+            "3": 434,
+            "4": 434,
+            "5": 434,
+            "6": 434,
+            "7": 434,
+            "8": 434,
+            "9": 434
+          },
+          "expected_preserved_width": 434
+        },
+        "shared_source_glyph_aliases": {
+          "groups_checked": 94,
+          "codepoints_checked": 189,
+          "mismatch_groups": [],
+          "inherited_refinements": {
+            "更": "更"
+          },
+          "normalization": "None; only actual original source glyph identity is used."
+        },
+        "previous_release_regression": {
+          "encoded_characters_compared": 6994,
+          "complete_hmtx_entries_compared": 6995,
+          "old_outline_changes": [],
+          "old_mapping_changes": [],
+          "old_hmtx_glyph_changes": [],
+          "line_metrics_equal": true,
+          "old_quadratic_point_flag_endpoint_changes": [],
+          "old_instruction_glyph_changes": [],
+          "global_hint_table_changes": [],
+          "protected_special_character_count": 229,
+          "protected_special_subset_equal": true,
+          "preserved_hmtx_sha256": "db7288b778370a8be3d7b0933ce67eca210ad1c6cee400ca0b7dd0727c717a2a"
+        },
+        "added_glyph_raster": {
+          "size_physical_px": 32,
+          "glyphs_checked": 23419,
+          "empty_codepoints": [],
+          "outside_line_cell_codepoints": [],
+          "raster_ink_and_bounds_sha256": "551f466e91bb7b866fe057bffb5331f5ad05e5fbec4f4b73b54c672ac071da4b",
+          "minimum_gray_ink_sum": 13443,
+          "method": "Every added codepoint in this actual font; native FreeType BASIC L mask at one32px size, anchor=ls; no fallback/resampling/filter."
+        },
+        "old_control_raster": {
+          "text": "角色装备技能确认羁螣攥黛更2026☰䷀䷿",
+          "size_physical_px": 32,
+          "mask_and_offset_equal": true,
+          "non_gating": true,
+          "policy": "Actual false values are retained as raster diagnostics; old geometry/metrics checks remain mandatory."
+        }
+      }
+    }
+  },
+  "cross_format": {
+    "Regular": {
+      "ttf": {
+        "upm": true,
+        "cmap": true,
+        "advances": true,
+        "line_metrics": true,
+        "bounds_tolerance_upm": 3,
+        "out_of_tolerance_codepoints": []
+      },
+      "woff2": {
+        "upm": true,
+        "cmap": true,
+        "advances": true,
+        "line_metrics": true,
+        "bounds_tolerance_upm": 3,
+        "out_of_tolerance_codepoints": []
+      }
+    },
+    "Display": {
+      "ttf": {
+        "upm": true,
+        "cmap": true,
+        "advances": true,
+        "line_metrics": true,
+        "bounds_tolerance_upm": 3,
+        "out_of_tolerance_codepoints": []
+      },
+      "woff2": {
+        "upm": true,
+        "cmap": true,
+        "advances": true,
+        "line_metrics": true,
+        "bounds_tolerance_upm": 3,
+        "out_of_tolerance_codepoints": []
+      }
+    }
+  },
+  "failures": [],
+  "unavailable_inputs": [],
+  "character_scope": {
+    "previous_total": 6994,
+    "previous_han": 6767,
+    "han_count": 30186,
+    "total_character_count": 30413,
+    "added_han_count": 23419,
+    "retained_non_han_count": 227,
+    "compatibility_han_count": 421,
+    "non_bmp_han_count": 2293,
+    "han_codepoint_set_sha256": "237fcd8138c896f03e3a807640bc3c18d9e893ac637f06a4510764eed3933507",
+    "added_codepoint_set_sha256": "ba88a45c374fdb7d518b453b4a46870b1dc47b18b45ac4b42faa464c96c14146",
+    "han_by_block": {
+      "basic": 20945,
+      "extension_A": 6582,
+      "extension_B": 2051,
+      "extension_C": 46,
+      "extension_D": 33,
+      "extension_E": 108,
+      "extension_F": 0,
+      "extension_I": 0,
+      "extension_G": 0,
+      "extension_H": 0,
+      "extension_J": 0,
+      "compatibility": 366,
+      "compatibility_supplement": 55
+    },
+    "removed_previous_codepoints": [],
+    "unexpected_codepoints": [],
+    "missing_codepoints": []
+  },
+  "historical_preservation": {
+    "data/refinements-v030.json": true,
+    "data/dense-refinements-v030.json": true,
+    "data/ttf14-refinements-v030.json": true,
+    "data/gb2312-han-extension.json": true,
+    "data/symbols-v030.json": true,
+    "data/hexagram-outlines-v030.json": true,
+    "data/hexagrams.json": true,
+    "data/charset-extensions.json": true,
+    "data/symbol-extensions.json": true
+  },
+  "source_comparison_baseline": {
+    "inspection": {
+      "mapped_characters": 30335,
+      "requested_characters": 30335,
+      "han_characters": 30186,
+      "glyphs": 30240,
+      "family": "Aincrad Baseline SC",
+      "version": "Version 1.004; Aincrad seed subset",
+      "line_metrics": [
+        1000,
+        1160,
+        -320,
+        0,
+        880,
+        -120,
+        0,
+        1160,
+        320
+      ],
+      "missing_codepoints": [],
+      "empty_codepoints": [],
+      "outside_line_codepoints": [],
+      "invalid_advance_codepoints": [],
+      "fsType": 0,
+      "cmap_audit": {
+        "subtables": [
+          {
+            "platform": 0,
+            "encoding": 3,
+            "format": 4,
+            "entries": 28042,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 0,
+            "encoding": 4,
+            "format": 12,
+            "entries": 30335,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 3,
+            "encoding": 1,
+            "format": 4,
+            "entries": 28042,
+            "mapping_exactly_matches_expected_scope": true
+          },
+          {
+            "platform": 3,
+            "encoding": 10,
+            "format": 12,
+            "entries": 30335,
+            "mapping_exactly_matches_expected_scope": true
+          }
+        ],
+        "non_bmp_codepoints": 2293,
+        "format12_tables": 2,
+        "windows_3_10_format12_present": true
+      }
+    },
+    "scope": {
+      "description": "The Source Han comparison font covers genuine source glyphs only. Declared original symbols are excluded solely from this comparison font; every final OTF, TTF and WOFF2 is still checked against the full charset.",
+      "total_character_count": 30413,
+      "expected_baseline_character_count": 30335,
+      "excluded_characters": "▬☰☱☲☳☴☵☶☷✢✱✶✻❋䷀䷁䷂䷃䷄䷅䷆䷇䷈䷉䷊䷋䷌䷍䷎䷏䷐䷑䷒䷓䷔䷕䷖䷗䷘䷙䷚䷛䷜䷝䷞䷟䷠䷡䷢䷣䷤䷥䷦䷧䷨䷩䷪䷫䷬䷭䷮䷯䷰䷱䷲䷳䷴䷵䷶䷷䷸䷹䷺䷻䷼䷽䷾䷿",
+      "excluded_count": 78,
+      "custom_symbols_declared": true,
+      "provenance_verified": true,
+      "ok": true,
+      "failures": [],
+      "manifest": {
+        "file": "data/symbols-v030.json",
+        "sha256": "3568b057e3390f49a7c9a620adeed2e6ae126c43bc744a3a5ca7c76b89e81798",
+        "version": "0.3.0",
+        "upm": 1000,
+        "origin": "Original geometric outlines created for Aincrad UI SC, 2026; no font outlines extracted from Unicode charts or SAOUI.",
+        "license": "SIL Open Font License 1.1"
+      },
+      "additional_manifests": [
+        {
+          "file": "data/hexagram-outlines-v030.json",
+          "sha256": "c28bc019e4ef830fbd8b882b87d024eb31365a85dad4b17d45c68d1816af69eb",
+          "count": 64
+        }
+      ]
+    },
+    "source_outline_hmtx_mismatch_codepoints": []
+  },
+  "variant_distinction": {
+    "han_outline_differences": 30186
+  },
+  "windows_private_loading": [
+    {
+      "file": "fonts/AincradUISc-Regular.otf",
+      "faces_loaded": 1,
+      "released": true
+    },
+    {
+      "file": "fonts/AincradUISc-Regular.ttf",
+      "faces_loaded": 1,
+      "released": true
+    },
+    {
+      "file": "fonts/AincradUISc-Display.otf",
+      "faces_loaded": 1,
+      "released": true
+    },
+    {
+      "file": "fonts/AincradUISc-Display.ttf",
+      "faces_loaded": 1,
+      "released": true
+    }
+  ],
+  "raster_diagnostics": {
+    "non_gating": true,
+    "policy": "Coverage, exact old outlines/hmtx/points/line, aliases and source preservation are mandatory. Pixel identity across expanded character coverage is an explicit diagnostic, not a mandatory requirement.",
+    "raster_differences_present": true,
+    "different_ttf_control_samples": 7,
+    "total_ttf_control_samples": 10,
+    "artifact": {
+      "file": "design\\aincrad-ui-sc\\data\\sourcehan-raster-diagnostics.json",
+      "sha256": "e5d848e77b979acd6c611e0b7c2cb2c0d2e3b4bf64f58230c045e575a44d8644",
+      "bytes": 69963
+    }
+  },
+  "regression_performed": true,
+  "external_ttc_oracle_performed": true,
+  "mandatory_requirements_passed": true,
+  "ok": true,
+  "status": "passed-with-raster-differences"
+}

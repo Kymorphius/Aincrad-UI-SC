@@ -1,0 +1,1257 @@
+{
+  "timestamp_utc": "2026-10-27T14:06:09.646939+00:00",
+  "transport": "loopback HTTP; server stopped after verification",
+  "console_errors": [],
+  "page_errors": [],
+  "failed_requests": [],
+  "http_errors": [],
+  "font_resources": [
+    {
+      "filename": "AincradUISc-v020-Regular.woff2",
+      "status": 200
+    },
+    {
+      "filename": "SourceHanSansSC-Baseline.woff2",
+      "status": 200
+    },
+    {
+      "filename": "AincradUISc-Regular.woff2",
+      "status": 200
+    },
+    {
+      "filename": "AincradUISc-Display.woff2",
+      "status": 200
+    },
+    {
+      "filename": "AincradUISc-v020-Display.woff2",
+      "status": 200
+    },
+    {
+      "filename": "AincradUISc-Regular.woff2",
+      "status": 200
+    },
+    {
+      "filename": "AincradUISc-v020-Regular.woff2",
+      "status": 200
+    },
+    {
+      "filename": "SourceHanSansSC-Baseline.woff2",
+      "status": 200
+    },
+    {
+      "filename": "AincradUISc-Display.woff2",
+      "status": 200
+    },
+    {
+      "filename": "AincradUISc-v020-Display.woff2",
+      "status": 200
+    }
+  ],
+  "checks": {
+    "font_status": "5 组字体已加载",
+    "font_faces": [
+      {
+        "family": "Aincrad UI SC",
+        "status": "loaded"
+      },
+      {
+        "family": "Aincrad UI SC Display",
+        "status": "loaded"
+      },
+      {
+        "family": "Aincrad Previous UI",
+        "status": "loaded"
+      },
+      {
+        "family": "Aincrad Previous Display",
+        "status": "loaded"
+      },
+      {
+        "family": "Source Han Baseline",
+        "status": "loaded"
+      }
+    ],
+    "regular_actual_fonts": [
+      {
+        "familyName": "Aincrad UI SC",
+        "postScriptName": "AincradUISC-Regular",
+        "isCustomFont": true,
+        "glyphCount": 4
+      }
+    ],
+    "baseline_actual_fonts": [
+      {
+        "familyName": "Aincrad Baseline SC",
+        "postScriptName": "AincradBaselineSC-Regular",
+        "isCustomFont": true,
+        "glyphCount": 9
+      }
+    ],
+    "covered_input": "这一行的字符均在样本字符表中。",
+    "missing_input": "未覆盖 3 字：𫝀 𰻝 🦄。这些字正在使用系统字体。",
+    "slider_size": "40px",
+    "menu_switch": true,
+    "regular_refinement": {
+      "variant": "regular",
+      "cards": [
+        {
+          "background": "rgb(232, 238, 234)",
+          "rows": [
+            {
+              "text": "设置 保存 取消 返回",
+              "fontFamily": "\"Aincrad Previous UI\", \"Microsoft YaHei\", sans-serif",
+              "fontSize": "48px",
+              "fontWeight": "400",
+              "lineHeight": "72px",
+              "letterSpacing": "0.96px",
+              "color": "rgb(67, 91, 99)",
+              "words": [
+                {
+                  "text": "设置",
+                  "x": 93,
+                  "y": 1604.75,
+                  "width": 88.328125,
+                  "height": 72
+                },
+                {
+                  "text": "保存",
+                  "x": 194.765625,
+                  "y": 1604.75,
+                  "width": 88.328125,
+                  "height": 72
+                },
+                {
+                  "text": "取消",
+                  "x": 296.53125,
+                  "y": 1604.75,
+                  "width": 88.328125,
+                  "height": 72
+                },
+                {
+                  "text": "返回",
+                  "x": 398.296875,
+                  "y": 1604.75,
+                  "width": 88.328125,
+                  "height": 72
+                }
+              ]
+            },
+            {
+              "text": "设置 保存 取消 返回",
+              "fontFamily": "\"Aincrad Previous UI\", \"Microsoft YaHei\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "0.32px",
+              "color": "rgb(67, 91, 99)",
+              "words": [
+                {
+                  "text": "设置",
+                  "x": 93,
+                  "y": 1712.75,
+                  "width": 29.453125,
+                  "height": 24
+                },
+                {
+                  "text": "保存",
+                  "x": 126.921875,
+                  "y": 1712.75,
+                  "width": 29.453125,
+                  "height": 24
+                },
+                {
+                  "text": "取消",
+                  "x": 160.84375,
+                  "y": 1712.75,
+                  "width": 29.453125,
+                  "height": 24
+                },
+                {
+                  "text": "返回",
+                  "x": 194.765625,
+                  "y": 1712.75,
+                  "width": 29.453125,
+                  "height": 24
+                }
+              ]
+            }
+          ],
+          "actual_fonts": {
+            "large": [
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ]
+            ],
+            "small": [
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "background": "rgb(232, 238, 234)",
+          "rows": [
+            {
+              "text": "设置 保存 取消 返回",
+              "fontFamily": "\"Aincrad UI SC\", \"Microsoft YaHei\", sans-serif",
+              "fontSize": "48px",
+              "fontWeight": "400",
+              "lineHeight": "72px",
+              "letterSpacing": "0.96px",
+              "color": "rgb(67, 91, 99)",
+              "words": [
+                {
+                  "text": "设置",
+                  "x": 753,
+                  "y": 1604.75,
+                  "width": 88.328125,
+                  "height": 72
+                },
+                {
+                  "text": "保存",
+                  "x": 854.765625,
+                  "y": 1604.75,
+                  "width": 88.328125,
+                  "height": 72
+                },
+                {
+                  "text": "取消",
+                  "x": 956.53125,
+                  "y": 1604.75,
+                  "width": 88.328125,
+                  "height": 72
+                },
+                {
+                  "text": "返回",
+                  "x": 1058.296875,
+                  "y": 1604.75,
+                  "width": 88.328125,
+                  "height": 72
+                }
+              ]
+            },
+            {
+              "text": "设置 保存 取消 返回",
+              "fontFamily": "\"Aincrad UI SC\", \"Microsoft YaHei\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "0.32px",
+              "color": "rgb(67, 91, 99)",
+              "words": [
+                {
+                  "text": "设置",
+                  "x": 753,
+                  "y": 1712.75,
+                  "width": 29.453125,
+                  "height": 24
+                },
+                {
+                  "text": "保存",
+                  "x": 786.921875,
+                  "y": 1712.75,
+                  "width": 29.453125,
+                  "height": 24
+                },
+                {
+                  "text": "取消",
+                  "x": 820.84375,
+                  "y": 1712.75,
+                  "width": 29.453125,
+                  "height": 24
+                },
+                {
+                  "text": "返回",
+                  "x": 854.765625,
+                  "y": 1712.75,
+                  "width": 29.453125,
+                  "height": 24
+                }
+              ]
+            }
+          ],
+          "actual_fonts": {
+            "large": [
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ]
+            ],
+            "small": [
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC",
+                  "postScriptName": "AincradUISC-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "regular_vocabulary": {
+      "variant": "regular",
+      "phrases": [
+        {
+          "text": "系统设置",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "文件管理",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "网络连接",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "账户安全",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "更新下载",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "任务进度",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "背包装备",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "消息通知",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "开始游戏",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "偏好设置",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "崩溃报告",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        }
+      ],
+      "uncovered_vocabulary_characters": [],
+      "category_count": 30,
+      "phrase_count": 1730,
+      "stats": "30186汉字\n30437字符\n30类别\n1730词句",
+      "load_more": true,
+      "category_selection": "common_actions"
+    },
+    "desktop_overflow": {
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "overflowing": []
+    },
+    "display_computed_family": "\"Aincrad UI SC Display\", \"Microsoft YaHei\", sans-serif",
+    "display_actual_fonts": [
+      {
+        "familyName": "Aincrad UI SC Display",
+        "postScriptName": "AincradUISCDisplay-Regular",
+        "isCustomFont": true,
+        "glyphCount": 4
+      }
+    ],
+    "display_refinement": {
+      "variant": "display",
+      "cards": [
+        {
+          "background": "rgb(232, 238, 234)",
+          "rows": [
+            {
+              "text": "设置 保存 取消 返回",
+              "fontFamily": "\"Aincrad Previous Display\", \"Microsoft YaHei\", sans-serif",
+              "fontSize": "48px",
+              "fontWeight": "400",
+              "lineHeight": "72px",
+              "letterSpacing": "0.96px",
+              "color": "rgb(67, 91, 99)",
+              "words": [
+                {
+                  "text": "设置",
+                  "x": 93,
+                  "y": 1670.75,
+                  "width": 83.53125,
+                  "height": 72
+                },
+                {
+                  "text": "保存",
+                  "x": 189.96875,
+                  "y": 1670.75,
+                  "width": 83.53125,
+                  "height": 72
+                },
+                {
+                  "text": "取消",
+                  "x": 286.9375,
+                  "y": 1670.75,
+                  "width": 83.53125,
+                  "height": 72
+                },
+                {
+                  "text": "返回",
+                  "x": 383.90625,
+                  "y": 1670.75,
+                  "width": 83.53125,
+                  "height": 72
+                }
+              ]
+            },
+            {
+              "text": "设置 保存 取消 返回",
+              "fontFamily": "\"Aincrad Previous Display\", \"Microsoft YaHei\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "0.32px",
+              "color": "rgb(67, 91, 99)",
+              "words": [
+                {
+                  "text": "设置",
+                  "x": 93,
+                  "y": 1778.75,
+                  "width": 27.84375,
+                  "height": 24
+                },
+                {
+                  "text": "保存",
+                  "x": 125.3125,
+                  "y": 1778.75,
+                  "width": 27.84375,
+                  "height": 24
+                },
+                {
+                  "text": "取消",
+                  "x": 157.625,
+                  "y": 1778.75,
+                  "width": 27.84375,
+                  "height": 24
+                },
+                {
+                  "text": "返回",
+                  "x": 189.9375,
+                  "y": 1778.75,
+                  "width": 27.84375,
+                  "height": 24
+                }
+              ]
+            }
+          ],
+          "actual_fonts": {
+            "large": [
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ]
+            ],
+            "small": [
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "background": "rgb(232, 238, 234)",
+          "rows": [
+            {
+              "text": "设置 保存 取消 返回",
+              "fontFamily": "\"Aincrad UI SC Display\", \"Microsoft YaHei\", sans-serif",
+              "fontSize": "48px",
+              "fontWeight": "400",
+              "lineHeight": "72px",
+              "letterSpacing": "0.96px",
+              "color": "rgb(67, 91, 99)",
+              "words": [
+                {
+                  "text": "设置",
+                  "x": 753,
+                  "y": 1670.75,
+                  "width": 83.53125,
+                  "height": 72
+                },
+                {
+                  "text": "保存",
+                  "x": 849.96875,
+                  "y": 1670.75,
+                  "width": 83.53125,
+                  "height": 72
+                },
+                {
+                  "text": "取消",
+                  "x": 946.9375,
+                  "y": 1670.75,
+                  "width": 83.53125,
+                  "height": 72
+                },
+                {
+                  "text": "返回",
+                  "x": 1043.90625,
+                  "y": 1670.75,
+                  "width": 83.53125,
+                  "height": 72
+                }
+              ]
+            },
+            {
+              "text": "设置 保存 取消 返回",
+              "fontFamily": "\"Aincrad UI SC Display\", \"Microsoft YaHei\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "0.32px",
+              "color": "rgb(67, 91, 99)",
+              "words": [
+                {
+                  "text": "设置",
+                  "x": 753,
+                  "y": 1778.75,
+                  "width": 27.84375,
+                  "height": 24
+                },
+                {
+                  "text": "保存",
+                  "x": 785.3125,
+                  "y": 1778.75,
+                  "width": 27.84375,
+                  "height": 24
+                },
+                {
+                  "text": "取消",
+                  "x": 817.625,
+                  "y": 1778.75,
+                  "width": 27.84375,
+                  "height": 24
+                },
+                {
+                  "text": "返回",
+                  "x": 849.9375,
+                  "y": 1778.75,
+                  "width": 27.84375,
+                  "height": 24
+                }
+              ]
+            }
+          ],
+          "actual_fonts": {
+            "large": [
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ]
+            ],
+            "small": [
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ],
+              [
+                {
+                  "familyName": "Aincrad UI SC Display",
+                  "postScriptName": "AincradUISCDisplay-Regular",
+                  "isCustomFont": true,
+                  "glyphCount": 2
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "display_vocabulary": {
+      "variant": "display",
+      "phrases": [
+        {
+          "text": "系统设置",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "文件管理",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "网络连接",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "账户安全",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "更新下载",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "任务进度",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "背包装备",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "消息通知",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "开始游戏",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "偏好设置",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "崩溃报告",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC Display",
+              "postScriptName": "AincradUISCDisplay-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        }
+      ],
+      "uncovered_vocabulary_characters": [],
+      "category_count": 30,
+      "phrase_count": 1730,
+      "stats": "30186汉字\n30437字符\n30类别\n1730词句",
+      "load_more": true,
+      "category_selection": "common_actions"
+    },
+    "responsive_layouts": [
+      {
+        "width": 1440,
+        "variant": "regular",
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440,
+        "overflowing": []
+      },
+      {
+        "width": 1440,
+        "variant": "display",
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440,
+        "overflowing": []
+      },
+      {
+        "width": 1000,
+        "variant": "regular",
+        "viewport": 1000,
+        "documentWidth": 1000,
+        "bodyWidth": 1000,
+        "overflowing": []
+      },
+      {
+        "width": 1000,
+        "variant": "display",
+        "viewport": 1000,
+        "documentWidth": 1000,
+        "bodyWidth": 1000,
+        "overflowing": []
+      },
+      {
+        "width": 768,
+        "variant": "regular",
+        "viewport": 768,
+        "documentWidth": 768,
+        "bodyWidth": 768,
+        "overflowing": []
+      },
+      {
+        "width": 768,
+        "variant": "display",
+        "viewport": 768,
+        "documentWidth": 768,
+        "bodyWidth": 768,
+        "overflowing": []
+      },
+      {
+        "width": 390,
+        "variant": "regular",
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390,
+        "overflowing": []
+      },
+      {
+        "width": 390,
+        "variant": "display",
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390,
+        "overflowing": []
+      }
+    ],
+    "file_uri_fonts_and_coverage": true,
+    "file_uri_font_status": "5 组字体已加载",
+    "file_uri_vocabulary": {
+      "variant": "regular",
+      "phrases": [
+        {
+          "text": "系统设置",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "文件管理",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "网络连接",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "账户安全",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "更新下载",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "任务进度",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "背包装备",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "消息通知",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "开始游戏",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "偏好设置",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "text": "崩溃报告",
+          "actual_fonts": [
+            {
+              "familyName": "Aincrad UI SC",
+              "postScriptName": "AincradUISC-Regular",
+              "isCustomFont": true,
+              "glyphCount": 4
+            }
+          ]
+        }
+      ],
+      "uncovered_vocabulary_characters": [],
+      "category_count": 30,
+      "phrase_count": 1730,
+      "stats": "30186汉字\n30437字符\n30类别\n1730词句",
+      "load_more": true,
+      "category_selection": "common_actions"
+    }
+  },
+  "font_files": {
+    "AincradUISc-Regular.otf": {
+      "sha256": "dd78e6b5be5c02ae74a3e28cf8b4f226c4ffe19e02358973f1143e119dd1d99a",
+      "bytes": 11179472,
+      "browser_rendered": false
+    },
+    "AincradUISc-Regular.ttf": {
+      "sha256": "12e413327401edd4c1381852f449218e3f7f82967c77cc64ae57083c218287ce",
+      "bytes": 12685476,
+      "browser_rendered": false
+    },
+    "AincradUISc-Regular.woff2": {
+      "sha256": "5eb4c0d4ca23b1e4153a5bc9b07b7515125e580e866508a47f26c99b8cd037e7",
+      "bytes": 5590552,
+      "browser_rendered": true
+    },
+    "AincradUISc-Display.otf": {
+      "sha256": "09c4a6f332ab024c7d976995d0187449c03322763c6d3d69e052043ee37b9e63",
+      "bytes": 10757156,
+      "browser_rendered": false
+    },
+    "AincradUISc-Display.ttf": {
+      "sha256": "1ad5a28777b814eb336bbaa56514fdd8f1ec2f8e2984c824c75ce20746440c0e",
+      "bytes": 12471868,
+      "browser_rendered": false
+    },
+    "AincradUISc-Display.woff2": {
+      "sha256": "bccc229d3ba3d99ee6d80913bdaf1b0ecc1dce432aef78b1cc6a5725d47c8f1f",
+      "bytes": 5641632,
+      "browser_rendered": true
+    }
+  },
+  "charset_summary": {
+    "version": "0.3.0",
+    "han_count": 30186,
+    "character_count": 30437
+  },
+  "browser_version": "151.0.7922.34",
+  "artifact_hashes": {
+    "specimen.html": "67ab8abf5d520436cf764a13313a85928162d836dc009a612f6ea4ff9e0b50b8",
+    "preview.png": "01b4aa5be8dd3c8b7eb10c1c428334a11e7affafd57bf0506b47ab744937b0e3",
+    "preview-display.png": "47216af7b2f7d9cd9d6fbbb0eb04eb41375f1ad42d70bdefef69f461f6a20628",
+    "preview-mobile.png": "19b1830b962a949e21a71c48f4f1b9e4b7476525894edcb7b396ea27c167b141",
+    "coverage-preview.png": "65bf87b5722a80b8554f7dc3ecca3f94858742d35aae10e93fd9ba8a12058c77",
+    "refinement-comparison.png": "1e7744dae60bf800052e2b315d7c6e15038ae7c7a22334654c2b1b3aa3c9f8bb"
+  },
+  "passed": true,
+  "visual_review": {
+    "status": "reviewed-with-scope-limits",
+    "reviewed_at_utc": "2026-10-27T14:08:40.419231+00:00",
+    "reviewer": "Codex visual inspection",
+    "inspected_artifacts": [
+      "preview.png"
+    ],
+    "observations": [
+      "Current regular preview, menu, vocabulary count 30186 Han / 30437 characters, controls and sample text render without missing-glyph boxes or visible layout overflow."
+    ],
+    "limits": [
+      "This refresh checks current sample rendering and interactions; it is not a new per-character optical review."
+    ]
+  }
+}

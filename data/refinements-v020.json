@@ -1,0 +1,2258 @@
+{
+  "version": "0.2.0",
+  "coordinate_space": "1000 UPM original source outlines before condensation; research/source-outline-map.json original contour.node indices",
+  "source_sha256_by_weight": {
+    "Regular": "b135434ab873baf7af5d89118e062ecfec1e13664a1cce4b4347a645a1ae9438",
+    "Medium": "cc0b308b0a96eb9ee39dfb699ef956940a8ab3b5f1a400ffe09b35d5a3da8784"
+  },
+  "refined_characters": "角色装备技能确认",
+  "glyphs": {
+    "角": {
+      "issue": "四格内白的中横仍显厚，末钩的回锋曲线保留了通用黑体的长尾。优先略开中横两侧留白，并缩短回锋端。",
+      "Regular": {
+        "node_deltas": [
+          {
+            "contour": 0,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              0,
+              -3
+            ]
+          },
+          {
+            "contour": 4,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              0,
+              -3
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              22,
+              23
+            ],
+            "delta": [
+              16,
+              0
+            ]
+          }
+        ],
+        "control_deltas": [
+          {
+            "contour": 1,
+            "edge": 0,
+            "controls": [
+              1
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 5,
+            "edge": 21,
+            "controls": [
+              1
+            ],
+            "delta": [
+              16,
+              0
+            ]
+          },
+          {
+            "contour": 5,
+            "edge": 23,
+            "controls": [
+              0
+            ],
+            "delta": [
+              16,
+              0
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 5,
+            "edge": 22,
+            "operator": "lineTo",
+            "reason": "把末钩回锋端从微弧收尾改成明确斜截；端点仍用变更后的5.23"
+          }
+        ],
+        "expected_effect": "中横65→59 UPM；末钩回锋缩短16 UPM，不移动主体竖钩。",
+        "expected_contour_nodes": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          26
+        ]
+      },
+      "Medium": {
+        "node_deltas": [
+          {
+            "contour": 0,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              0,
+              -4
+            ]
+          },
+          {
+            "contour": 4,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              0,
+              -4
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              22,
+              23
+            ],
+            "delta": [
+              18,
+              0
+            ]
+          }
+        ],
+        "control_deltas": [
+          {
+            "contour": 1,
+            "edge": 0,
+            "controls": [
+              1
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 5,
+            "edge": 21,
+            "controls": [
+              1
+            ],
+            "delta": [
+              18,
+              0
+            ]
+          },
+          {
+            "contour": 5,
+            "edge": 23,
+            "controls": [
+              0
+            ],
+            "delta": [
+              18,
+              0
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 5,
+            "edge": 22,
+            "operator": "lineTo"
+          }
+        ],
+        "expected_effect": "中横80→72 UPM；对较重的Display保留足够笔画厚度。",
+        "expected_contour_nodes": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          26
+        ]
+      }
+    },
+    "色": {
+      "issue": "下部乚左下的大圆弧最容易显得像思源原字；建议仅把这个转弯改为有内外平行边的短斜折，保持顶端斜撇与中部两格原有结构。",
+      "Regular": {
+        "edge_path_replacements": [
+          {
+            "contour": 3,
+            "edge": 0,
+            "start": [
+              373,
+              8
+            ],
+            "end": [
+              244,
+              82
+            ],
+            "new_segments": [
+              [
+                "lineTo",
+                [
+                  285,
+                  8
+                ]
+              ],
+              [
+                "lineTo",
+                [
+                  244,
+                  49
+                ]
+              ],
+              [
+                "lineTo",
+                [
+                  244,
+                  82
+                ]
+              ]
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 17,
+            "start": [
+              172,
+              83
+            ],
+            "end": [
+              378,
+              -60
+            ],
+            "new_segments": [
+              [
+                "lineTo",
+                [
+                  172,
+                  24
+                ]
+              ],
+              [
+                "lineTo",
+                [
+                  256,
+                  -60
+                ]
+              ],
+              [
+                "lineTo",
+                [
+                  378,
+                  -60
+                ]
+              ]
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 20,
+            "start": [
+              959,
+              140
+            ],
+            "end": [
+              888,
+              167
+            ],
+            "new_segments": [
+              [
+                "lineTo",
+                [
+                  888,
+                  167
+                ]
+              ]
+            ]
+          }
+        ],
+        "expected_effect": "左下内外斜折均为45度，法向厚度约69 UPM，与原72 UPM竖笔和68 UPM底横接近；右端只平截帽口，不改钩的承力曲线。",
+        "expected_contour_nodes": [
+          4,
+          4,
+          4,
+          23
+        ]
+      },
+      "Medium": {
+        "edge_path_replacements": [
+          {
+            "contour": 3,
+            "edge": 0,
+            "start": [
+              383,
+              23
+            ],
+            "end": [
+              255,
+              96
+            ],
+            "new_segments": [
+              [
+                "lineTo",
+                [
+                  300,
+                  23
+                ]
+              ],
+              [
+                "lineTo",
+                [
+                  255,
+                  68
+                ]
+              ],
+              [
+                "lineTo",
+                [
+                  255,
+                  96
+                ]
+              ]
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 17,
+            "start": [
+              165,
+              96
+            ],
+            "end": [
+              386,
+              -62
+            ],
+            "new_segments": [
+              [
+                "lineTo",
+                [
+                  165,
+                  34
+                ]
+              ],
+              [
+                "lineTo",
+                [
+                  261,
+                  -62
+                ]
+              ],
+              [
+                "lineTo",
+                [
+                  386,
+                  -62
+                ]
+              ]
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 20,
+            "start": [
+              960,
+              143
+            ],
+            "end": [
+              872,
+              176
+            ],
+            "new_segments": [
+              [
+                "lineTo",
+                [
+                  872,
+                  176
+                ]
+              ]
+            ]
+          }
+        ],
+        "expected_effect": "内外45度斜折的法向厚度约88 UPM，与原90 UPM竖笔和85 UPM底横接近。",
+        "expected_contour_nodes": [
+          4,
+          4,
+          4,
+          23
+        ]
+      },
+      "implementation_note": "替换路径会增加节点数；按原轮廓和原edge索引一次性重放操作，不要逐条插入后继续使用旧node索引。"
+    },
+    "技": {
+      "priority": "highest_readability",
+      "issue": "扌上横右端与支上横左端在相同高度区间只隔14 UPM，窄化后极易黏成连续横线。先打开这处局部空间，再考虑底部捺端造型。",
+      "Regular": {
+        "node_deltas": [
+          {
+            "contour": 0,
+            "nodes": [
+              3,
+              4
+            ],
+            "delta": [
+              -14,
+              0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              10,
+              11
+            ],
+            "delta": [
+              6,
+              0
+            ]
+          },
+          {
+            "contour": 0,
+            "nodes": [
+              18,
+              19
+            ],
+            "delta": [
+              12,
+              0
+            ]
+          }
+        ],
+        "control_deltas": [
+          {
+            "contour": 0,
+            "edge": 17,
+            "controls": [
+              1
+            ],
+            "delta": [
+              12,
+              0
+            ]
+          },
+          {
+            "contour": 0,
+            "edge": 19,
+            "controls": [
+              0
+            ],
+            "delta": [
+              12,
+              0
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 0,
+            "edge": 18,
+            "operator": "lineTo"
+          }
+        ],
+        "expected_effect": "上横组件间距14→34 UPM；左竖钩回锋缩短12 UPM并采用斜截，与角的端部规则呼应。",
+        "expected_contour_nodes": [
+          24,
+          3,
+          26
+        ]
+      },
+      "Medium": {
+        "node_deltas": [
+          {
+            "contour": 0,
+            "nodes": [
+              3,
+              4
+            ],
+            "delta": [
+              -16,
+              0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              10,
+              11
+            ],
+            "delta": [
+              8,
+              0
+            ]
+          },
+          {
+            "contour": 0,
+            "nodes": [
+              18,
+              19
+            ],
+            "delta": [
+              14,
+              0
+            ]
+          }
+        ],
+        "control_deltas": [
+          {
+            "contour": 0,
+            "edge": 17,
+            "controls": [
+              1
+            ],
+            "delta": [
+              14,
+              0
+            ]
+          },
+          {
+            "contour": 0,
+            "edge": 19,
+            "controls": [
+              0
+            ],
+            "delta": [
+              14,
+              0
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 0,
+            "edge": 18,
+            "operator": "lineTo"
+          }
+        ],
+        "expected_effect": "上横组件间距14→38 UPM，Display仍保持明显字重。",
+        "expected_contour_nodes": [
+          24,
+          3,
+          26
+        ]
+      },
+      "do_not_change": "右下交叉点和支的两条主弧当前结构清楚，不建议为追求几何感改成尖锐直线。"
+    },
+    "能": {
+      "issue": "右侧上下两个匕的垂直间隔只有Regular 28 / Medium 26 UPM，小字号容易黏连；左月内白也可略打开。",
+      "Regular": {
+        "node_deltas": [
+          {
+            "contour": 0,
+            "nodes": [
+              0,
+              13
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              6,
+              7
+            ],
+            "delta": [
+              0,
+              -6
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              -3
+            ]
+          }
+        ],
+        "control_deltas": [
+          {
+            "contour": 0,
+            "edge": 0,
+            "controls": [
+              0
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 0,
+            "edge": 12,
+            "controls": [
+              1
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 0,
+            "edge": 1,
+            "operator": "lineTo"
+          },
+          {
+            "contour": 5,
+            "edge": 11,
+            "operator": "lineTo"
+          }
+        ],
+        "expected_effect": "右部上下间距28→38 UPM；左月中横59→53 UPM；两个右钩口改用一致的平截帽口。",
+        "expected_contour_nodes": [
+          14,
+          4,
+          4,
+          12,
+          12,
+          14
+        ]
+      },
+      "Medium": {
+        "node_deltas": [
+          {
+            "contour": 0,
+            "nodes": [
+              0,
+              13
+            ],
+            "delta": [
+              0,
+              5
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              6,
+              7
+            ],
+            "delta": [
+              0,
+              -7
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              -4
+            ]
+          }
+        ],
+        "control_deltas": [
+          {
+            "contour": 0,
+            "edge": 0,
+            "controls": [
+              0
+            ],
+            "delta": [
+              0,
+              5
+            ]
+          },
+          {
+            "contour": 0,
+            "edge": 12,
+            "controls": [
+              1
+            ],
+            "delta": [
+              0,
+              5
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 0,
+            "edge": 1,
+            "operator": "lineTo"
+          },
+          {
+            "contour": 5,
+            "edge": 11,
+            "operator": "lineTo"
+          }
+        ],
+        "expected_effect": "右部上下间距26→38 UPM；左月中横72→64 UPM。",
+        "expected_contour_nodes": [
+          14,
+          4,
+          4,
+          12,
+          12,
+          14
+        ]
+      },
+      "do_not_change": "保留台头的斜势以及匕的主要上挑曲线；不把整字改成机械方框。"
+    },
+    "装": {
+      "Regular": {
+        "node_deltas": [
+          {
+            "contour": 0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "delta": [
+              0,
+              6
+            ]
+          },
+          {
+            "contour": 0,
+            "nodes": [
+              3,
+              4
+            ],
+            "delta": [
+              -8,
+              0
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              6,
+              7
+            ],
+            "delta": [
+              0,
+              6
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              16
+            ],
+            "delta": [
+              14,
+              7
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              17
+            ],
+            "delta": [
+              9,
+              12
+            ]
+          }
+        ],
+        "control_deltas": [
+          {
+            "contour": 3,
+            "edge": 5,
+            "controls": [
+              0
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 5,
+            "controls": [
+              1
+            ],
+            "delta": [
+              0,
+              6
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 7,
+            "controls": [
+              0
+            ],
+            "delta": [
+              0,
+              6
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 7,
+            "controls": [
+              1
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 15,
+            "controls": [
+              0
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 15,
+            "controls": [
+              1
+            ],
+            "delta": [
+              14,
+              11
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 17,
+            "controls": [
+              0
+            ],
+            "delta": [
+              9,
+              10
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 3,
+            "edge": 16,
+            "operator": "lineTo"
+          }
+        ],
+        "expected_effect": "Lift and shorten the upper-right lower bar; lighten the layer transition; shorten the lower-left turn and flatten its terminal.",
+        "expected_contour_nodes": [
+          16,
+          4,
+          8,
+          27
+        ]
+      },
+      "Medium": {
+        "node_deltas": [
+          {
+            "contour": 0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "delta": [
+              0,
+              6
+            ]
+          },
+          {
+            "contour": 0,
+            "nodes": [
+              3,
+              4
+            ],
+            "delta": [
+              -8,
+              0
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              6,
+              7
+            ],
+            "delta": [
+              0,
+              6
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              16
+            ],
+            "delta": [
+              14,
+              7
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              17
+            ],
+            "delta": [
+              9,
+              12
+            ]
+          }
+        ],
+        "control_deltas": [
+          {
+            "contour": 3,
+            "edge": 5,
+            "controls": [
+              0
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 5,
+            "controls": [
+              1
+            ],
+            "delta": [
+              0,
+              6
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 7,
+            "controls": [
+              0
+            ],
+            "delta": [
+              0,
+              6
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 7,
+            "controls": [
+              1
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 15,
+            "controls": [
+              0
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 15,
+            "controls": [
+              1
+            ],
+            "delta": [
+              14,
+              11
+            ]
+          },
+          {
+            "contour": 3,
+            "edge": 17,
+            "controls": [
+              0
+            ],
+            "delta": [
+              9,
+              10
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 3,
+            "edge": 16,
+            "operator": "lineTo"
+          }
+        ],
+        "expected_effect": "Lift and shorten the upper-right lower bar; lighten the layer transition; shorten the lower-left turn and flatten its terminal.",
+        "expected_contour_nodes": [
+          16,
+          4,
+          8,
+          27
+        ]
+      },
+      "issue": "Upper/lower layer density and the sweeping lower-left turn need local adjustment."
+    },
+    "备": {
+      "Regular": {
+        "node_deltas": [
+          {
+            "contour": 0,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              3,
+              0
+            ]
+          },
+          {
+            "contour": 0,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              -2,
+              0
+            ]
+          },
+          {
+            "contour": 0,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 0,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              -3
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              2,
+              0
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              -3,
+              0
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              0,
+              -3
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              -3,
+              0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              2,
+              0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              0,
+              -2
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              -2,
+              0
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              3,
+              0
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              0,
+              -2
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 6,
+            "edge": 9,
+            "operator": "lineTo"
+          },
+          {
+            "contour": 6,
+            "edge": 12,
+            "operator": "lineTo"
+          }
+        ],
+        "expected_effect": "Open all four lower counters toward the middle bars; keep the outer frame fixed; use straight cut faces on the two upper sweeping stroke ends.",
+        "expected_contour_nodes": [
+          4,
+          4,
+          4,
+          4,
+          8,
+          4,
+          16
+        ]
+      },
+      "Medium": {
+        "node_deltas": [
+          {
+            "contour": 0,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              4,
+              0
+            ]
+          },
+          {
+            "contour": 0,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              -2,
+              0
+            ]
+          },
+          {
+            "contour": 0,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 0,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              -4
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              2,
+              0
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              -4,
+              0
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              0,
+              -4
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              -4,
+              0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              2,
+              0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              0,
+              -2
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              -2,
+              0
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              4,
+              0
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              0,
+              -2
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 6,
+            "edge": 9,
+            "operator": "lineTo"
+          },
+          {
+            "contour": 6,
+            "edge": 12,
+            "operator": "lineTo"
+          }
+        ],
+        "expected_effect": "Open all four lower counters toward the middle bars; keep the outer frame fixed; use straight cut faces on the two upper sweeping stroke ends.",
+        "expected_contour_nodes": [
+          4,
+          4,
+          4,
+          4,
+          8,
+          4,
+          16
+        ]
+      },
+      "issue": "The four lower counters are too dense in the condensed shape."
+    },
+    "确": {
+      "Regular": {
+        "contour_translations": [
+          {
+            "contours": [
+              0,
+              1
+            ],
+            "delta": [
+              -8,
+              0
+            ]
+          },
+          {
+            "contours": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "delta": [
+              4,
+              0
+            ]
+          }
+        ],
+        "node_deltas": [
+          {
+            "contour": 2,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              -3,
+              0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              2,
+              0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              0,
+              -3
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              3,
+              0
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              0,
+              4
+            ],
+            "delta": [
+              0,
+              -3
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              -2,
+              0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              3,
+              0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              0,
+              -3
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              2,
+              0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              -3,
+              0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              0,
+              -3
+            ]
+          },
+          {
+            "contour": 7,
+            "nodes": [
+              22,
+              23
+            ],
+            "delta": [
+              10,
+              0
+            ]
+          }
+        ],
+        "control_deltas": [
+          {
+            "contour": 3,
+            "edge": 0,
+            "controls": [
+              0
+            ],
+            "delta": [
+              0,
+              -3
+            ]
+          },
+          {
+            "contour": 7,
+            "edge": 21,
+            "controls": [
+              1
+            ],
+            "delta": [
+              6,
+              0
+            ]
+          },
+          {
+            "contour": 7,
+            "edge": 23,
+            "controls": [
+              0
+            ],
+            "delta": [
+              10,
+              0
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 7,
+            "edge": 22,
+            "operator": "lineTo"
+          }
+        ],
+        "expected_effect": "Separate the stone and horn components by 12 source units without changing advance; open the right counters; shorten and flatten the lower hook return.",
+        "expected_contour_nodes": [
+          4,
+          15,
+          4,
+          5,
+          4,
+          4,
+          4,
+          26
+        ]
+      },
+      "Medium": {
+        "contour_translations": [
+          {
+            "contours": [
+              0,
+              1
+            ],
+            "delta": [
+              -8,
+              0
+            ]
+          },
+          {
+            "contours": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "delta": [
+              4,
+              0
+            ]
+          }
+        ],
+        "node_deltas": [
+          {
+            "contour": 2,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              -4,
+              0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              2,
+              0
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 2,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              0,
+              -4
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              4,
+              0
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 3,
+            "nodes": [
+              0,
+              4
+            ],
+            "delta": [
+              0,
+              -4
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              -2,
+              0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              4,
+              0
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 5,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              0,
+              -4
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              0,
+              3
+            ],
+            "delta": [
+              2,
+              0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              1,
+              2
+            ],
+            "delta": [
+              -4,
+              0
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              2,
+              3
+            ],
+            "delta": [
+              0,
+              4
+            ]
+          },
+          {
+            "contour": 6,
+            "nodes": [
+              0,
+              1
+            ],
+            "delta": [
+              0,
+              -4
+            ]
+          },
+          {
+            "contour": 7,
+            "nodes": [
+              22,
+              23
+            ],
+            "delta": [
+              12,
+              0
+            ]
+          }
+        ],
+        "control_deltas": [
+          {
+            "contour": 3,
+            "edge": 0,
+            "controls": [
+              0
+            ],
+            "delta": [
+              0,
+              -4
+            ]
+          },
+          {
+            "contour": 7,
+            "edge": 21,
+            "controls": [
+              1
+            ],
+            "delta": [
+              6,
+              0
+            ]
+          },
+          {
+            "contour": 7,
+            "edge": 23,
+            "controls": [
+              0
+            ],
+            "delta": [
+              12,
+              0
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 7,
+            "edge": 22,
+            "operator": "lineTo"
+          }
+        ],
+        "expected_effect": "Separate the stone and horn components by 12 source units without changing advance; open the right counters; shorten and flatten the lower hook return.",
+        "expected_contour_nodes": [
+          4,
+          15,
+          4,
+          5,
+          4,
+          4,
+          4,
+          26
+        ]
+      },
+      "issue": "Stone/horn components are close, with a dense right-side grid and long hook return."
+    },
+    "认": {
+      "Regular": {
+        "node_deltas": [
+          {
+            "contour": 1,
+            "nodes": [
+              8,
+              9
+            ],
+            "delta": [
+              -18,
+              0
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              6
+            ],
+            "delta": [
+              10,
+              5
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              7
+            ],
+            "delta": [
+              8,
+              10
+            ]
+          }
+        ],
+        "control_deltas": [
+          {
+            "contour": 1,
+            "edge": 5,
+            "controls": [
+              0
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 1,
+            "edge": 5,
+            "controls": [
+              1
+            ],
+            "delta": [
+              10,
+              5
+            ]
+          },
+          {
+            "contour": 1,
+            "edge": 7,
+            "controls": [
+              0
+            ],
+            "delta": [
+              8,
+              5
+            ]
+          },
+          {
+            "contour": 1,
+            "edge": 8,
+            "controls": [
+              0,
+              1
+            ],
+            "delta": [
+              -18,
+              0
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 0,
+            "edge": 0,
+            "operator": "lineTo"
+          },
+          {
+            "contour": 0,
+            "edge": 2,
+            "operator": "lineTo"
+          },
+          {
+            "contour": 1,
+            "edge": 6,
+            "operator": "lineTo"
+          },
+          {
+            "contour": 2,
+            "edge": 1,
+            "operator": "lineTo"
+          },
+          {
+            "contour": 2,
+            "edge": 4,
+            "operator": "lineTo"
+          }
+        ],
+        "expected_effect": "Straighten the speech dot edges; retract the raised terminal by 18 units and shorten its turn; flatten the two person-foot cut faces, keeping the main curved strokes.",
+        "expected_contour_nodes": [
+          4,
+          10,
+          8
+        ]
+      },
+      "Medium": {
+        "node_deltas": [
+          {
+            "contour": 1,
+            "nodes": [
+              8,
+              9
+            ],
+            "delta": [
+              -18,
+              0
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              6
+            ],
+            "delta": [
+              10,
+              5
+            ]
+          },
+          {
+            "contour": 1,
+            "nodes": [
+              7
+            ],
+            "delta": [
+              8,
+              10
+            ]
+          }
+        ],
+        "control_deltas": [
+          {
+            "contour": 1,
+            "edge": 5,
+            "controls": [
+              0
+            ],
+            "delta": [
+              0,
+              3
+            ]
+          },
+          {
+            "contour": 1,
+            "edge": 5,
+            "controls": [
+              1
+            ],
+            "delta": [
+              10,
+              5
+            ]
+          },
+          {
+            "contour": 1,
+            "edge": 7,
+            "controls": [
+              0
+            ],
+            "delta": [
+              8,
+              5
+            ]
+          },
+          {
+            "contour": 1,
+            "edge": 8,
+            "controls": [
+              0,
+              1
+            ],
+            "delta": [
+              -18,
+              0
+            ]
+          }
+        ],
+        "edge_replacements": [
+          {
+            "contour": 0,
+            "edge": 0,
+            "operator": "lineTo"
+          },
+          {
+            "contour": 0,
+            "edge": 2,
+            "operator": "lineTo"
+          },
+          {
+            "contour": 1,
+            "edge": 6,
+            "operator": "lineTo"
+          },
+          {
+            "contour": 2,
+            "edge": 1,
+            "operator": "lineTo"
+          },
+          {
+            "contour": 2,
+            "edge": 4,
+            "operator": "lineTo"
+          }
+        ],
+        "expected_effect": "Straighten the speech dot edges; retract the raised terminal by 18 units and shorten its turn; flatten the two person-foot cut faces, keeping the main curved strokes.",
+        "expected_contour_nodes": [
+          4,
+          10,
+          8
+        ]
+      },
+      "issue": "The speech dot and raised hook have soft sweeping terminals which can be made more definite."
+    }
+  }
+}

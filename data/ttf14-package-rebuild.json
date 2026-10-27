@@ -1,0 +1,944 @@
+{
+  "schema_version": "1.0",
+  "version": "0.3.0",
+  "timestamp_utc": "2026-10-27T02:23:16.459201+00:00",
+  "snapshot_captured_utc": "2026-10-27T02:22:30.253238+00:00",
+  "started_utc": "2026-10-27T02:22:30.034471+00:00",
+  "scope": "Independent portable rebuild of one immutable workspace snapshot only. This report does not verify or identify the final distribution ZIP, final documentation, or later-added reports.",
+  "workspace_snapshot": {
+    "project": "D:\\333.开发\\SAO\\design\\aincrad-ui-sc",
+    "file_count": 139,
+    "total_uncompressed_bytes": 38726655,
+    "manifest_sha256": "bfeb13e7bbf80af3c8a71b3723bdcd70f8a7ba3b4fe56fdc3e64ebf19bb2a6f2",
+    "manifest": {
+      "coverage-preview.png": {
+        "bytes": 96589,
+        "sha256": "658cfd91a542a2a06f0d2d1ffcf5e5347ed9cfb3ea4801525a620fe45505e75a"
+      },
+      "coverage-sheet-Display-02.png": {
+        "bytes": 928464,
+        "sha256": "85f8cf51cb1bfdf84c6d99f751c08c312a04aa136e23fe1a82bc238bf65492dd"
+      },
+      "coverage-sheet-Display-03.png": {
+        "bytes": 931025,
+        "sha256": "526752a93a8aa0a18a7344c6713519f8eed6066513d26c906c8948da4dc965a0"
+      },
+      "coverage-sheet-Display-04.png": {
+        "bytes": 673975,
+        "sha256": "e3de93d70ed0c0a3f1d3ae8847f0f22c298f4342bd3f56b0ef880b4f11ba1a3a"
+      },
+      "coverage-sheet-Display.png": {
+        "bytes": 770295,
+        "sha256": "55b271f4583b93da158435a7107e666bff07d4072be69055fff6c4cba7d4704e"
+      },
+      "coverage-sheet-Regular-02.png": {
+        "bytes": 930975,
+        "sha256": "45e5314f67397f09491f1c9f9868b36fc50a56bb83fa24cce98f4fdf737c11e7"
+      },
+      "coverage-sheet-Regular-03.png": {
+        "bytes": 935298,
+        "sha256": "a43139546e2406947d9089458924e8dd73e68598efd1c16756b3e2062c3a2b66"
+      },
+      "coverage-sheet-Regular-04.png": {
+        "bytes": 674378,
+        "sha256": "8022090d1379733339ede9761161825684520f53069265711c9646cb594142a9"
+      },
+      "coverage-sheet-Regular.png": {
+        "bytes": 771457,
+        "sha256": "dc7bcfcc0ff028cf1696aa56d0680ba4594e90d6ee103a737bb6ca0ac616554b"
+      },
+      "data/browser-verification.json": {
+        "bytes": 37030,
+        "sha256": "39233ddb19351ce0904d5f38983c61bdb68544c1bf18e245574412d9638df6ca"
+      },
+      "data/charset-extensions.json": {
+        "bytes": 435,
+        "sha256": "569e1b06ec2f550014fd43132ca6893ca01147688c88f446d4d9e4094aa4aa09"
+      },
+      "data/charset.json": {
+        "bytes": 36724,
+        "sha256": "40b0846bf42e47d6634c470332ea130bc221f70de473d4b63069731b5e6ed199"
+      },
+      "data/dense-14px-comparison.json": {
+        "bytes": 127655,
+        "sha256": "38f54b88ab003ed5ea1ca553f7e829b316b3218d60fd934f4f402b2b4349c698"
+      },
+      "data/dense-hexagram-verification.json": {
+        "bytes": 875691,
+        "sha256": "36269e3be3f30e69d867c82fdf446d4751f7cf5b910b29826b9779dee73b60b7"
+      },
+      "data/dense-refinements-v030.json": {
+        "bytes": 27167,
+        "sha256": "198a0d5b37f4d5fd30a6a0c65e683734b7ad697064a874b61531b7aa97bcb9aa"
+      },
+      "data/expansion-preservation.json": {
+        "bytes": 221,
+        "sha256": "cba36b10027624c0fd85599f49bf1e58e078ea74fea072af1879d3cea9f9d2b1"
+      },
+      "data/font-catalog.js": {
+        "bytes": 61996,
+        "sha256": "1dba5aaf8daad6b5b45440a9e935f910d7fcd3164dd46caec13f6b6e79bf228c"
+      },
+      "data/hexagram-outlines-v030.json": {
+        "bytes": 947881,
+        "sha256": "c28bc019e4ef830fbd8b882b87d024eb31365a85dad4b17d45c68d1816af69eb"
+      },
+      "data/hexagrams.json": {
+        "bytes": 29467,
+        "sha256": "3e51d1a4226e9f48dbbcb0d32e34d8efadd0698dacd98ce26d97bfdd5360bc48"
+      },
+      "data/package-verification.json": {
+        "bytes": 6005,
+        "sha256": "5c9f031727764e3c8e014aa2bd7d08da1ca4bd08fc44a0a2c528227237aae234"
+      },
+      "data/provenance.json": {
+        "bytes": 6819,
+        "sha256": "1bdf41778c2827493af63fea4e4708fd08dc7d2a324d5b098a1d60952e880586"
+      },
+      "data/raster-verification.json": {
+        "bytes": 656,
+        "sha256": "c9a3a73cb3e9e2104d301e89f2b6bc21743c33d1dbf11ac784258d64dd783de2"
+      },
+      "data/refinement-geometry-review.json": {
+        "bytes": 7002,
+        "sha256": "69a44cb7aa02738864e40f0d446f3769702644d99aa345f6284bc26d331b78f0"
+      },
+      "data/refinement-geometry-v030.json": {
+        "bytes": 617267,
+        "sha256": "c0a793f11fca5cc44a50e9defd77ad9600bd6ca947e89ae3769374145dbbb251"
+      },
+      "data/refinements-v020.json": {
+        "bytes": 46524,
+        "sha256": "15e2a6d8a3c0556c8683ff381ba12f2b3a2e769a77ab3ebcc13f4522ff29b40b"
+      },
+      "data/refinements-v030.json": {
+        "bytes": 501339,
+        "sha256": "94402fa80bd8bd1e947b6ea786fde8c847eaf1b294934f8fbe0673a3a0ee5115"
+      },
+      "data/small-size-verification.json": {
+        "bytes": 327165,
+        "sha256": "b58756ac6c87b8a3ee182cb311c0b2061ae2491c4398e7bab604f982b6f3acb2"
+      },
+      "data/source-v030.json": {
+        "bytes": 1371,
+        "sha256": "26175036948816e0c41c9f16974d1dadfc060762cc6fdd83dc5216cf4781c21b"
+      },
+      "data/symbol-extensions.json": {
+        "bytes": 421,
+        "sha256": "f687bf730906d5179ba892e0265c882dfc67eb3fa826f16973d0834d771f1576"
+      },
+      "data/symbols-v030.json": {
+        "bytes": 124677,
+        "sha256": "3568b057e3390f49a7c9a620adeed2e6ae126c43bc744a3a5ca7c76b89e81798"
+      },
+      "data/ttf14-comparison-load.json": {
+        "bytes": 13799,
+        "sha256": "7f0f7e51fbeaf0a2950f527f836999e7dcc4648d34bb574d39ef2133e21eabcb"
+      },
+      "data/ttf14-comparison.json": {
+        "bytes": 183513,
+        "sha256": "ae2929e92f1ff6055ff02b03eb3954b2688cec99e271072ba309a7372419bbac"
+      },
+      "data/ttf14-refinements-v030.json": {
+        "bytes": 39746,
+        "sha256": "310dde67bed3fc20850b2f2838814cbfcabd557444a1b8dcde1bf493395fbd12"
+      },
+      "data/ui-vocabulary.json": {
+        "bytes": 42833,
+        "sha256": "313be97acb3a78892fbae769833fee2b069fcdb868fc68f7526e7f64a17509be"
+      },
+      "data/verification.json": {
+        "bytes": 148186,
+        "sha256": "e37c627ed0b67de0c4387327e4dcebe18e26a45e2e03fb42830cc5655ef90b5b"
+      },
+      "data/xingpan-extension-verification.json": {
+        "bytes": 700138,
+        "sha256": "a867f06a878796cf77de2e5270b1a9257017f0e36dcbbb946059735e9f8a480e"
+      },
+      "data/xingpan-symbol-verification.json": {
+        "bytes": 434608,
+        "sha256": "c4583dc8e9e72dfc390daf0498bac63a9de43b5026d4548e3f0845837f44ddfe"
+      },
+      "dense-14px-comparison-compact.png": {
+        "bytes": 56768,
+        "sha256": "99871a80a35c38bf0c8b02743274c18c72d39cd9ed7407be50c99bd40f57e93b"
+      },
+      "dense-14px-comparison-dpr2.png": {
+        "bytes": 339150,
+        "sha256": "7ba4cdd8f6b014ffae0d26cc1065af783a0d66d640354cffc33dcdbbadeac908"
+      },
+      "dense-14px-comparison-focus-dpr1.png": {
+        "bytes": 49353,
+        "sha256": "4347be9776eaafe74d4e391a0a1fd6ff70a7a398c1e45bca1ca009f5f702af1b"
+      },
+      "dense-14px-comparison-focus-dpr2.png": {
+        "bytes": 87735,
+        "sha256": "e1192866ed7d8451cf249a871bf2e08d6676ee03e2c50ca626cc031a6b16b4c7"
+      },
+      "dense-14px-comparison.html": {
+        "bytes": 14844,
+        "sha256": "2ea721cc3be8ef1aa9fb64b2040ecc8df38903f6b415bfe7c92b801abb2436ec"
+      },
+      "dense-14px-comparison.png": {
+        "bytes": 102039,
+        "sha256": "dd8fdda9002375c96d032dd0c08a2e5b944c20d4974603fed5d8d6a59bde618f"
+      },
+      "dense-14px-u6525-dark-dpr1-zoom.png": {
+        "bytes": 6032,
+        "sha256": "b8be00c2769747bf5f5b69dd501b9bcfa909fe25fccbe33f022c71b395caaade"
+      },
+      "dense-14px-u6525-dark-dpr1.png": {
+        "bytes": 2828,
+        "sha256": "908043987268008b653555424abe94126e2507b8ce02d47af229c7e3486b032b"
+      },
+      "dense-14px-u6525-dark-dpr2-zoom.png": {
+        "bytes": 10617,
+        "sha256": "76d1d04b0a51675a827a043c3cf22fc8057120c3734521446f0c981144771a82"
+      },
+      "dense-14px-u6525-dark-dpr2.png": {
+        "bytes": 7131,
+        "sha256": "7494b12bf16d583c80d477eb91c37c318ecbed111bde4af67edbb55f273e6fe0"
+      },
+      "dense-14px-u6525-light-dpr1-zoom.png": {
+        "bytes": 6037,
+        "sha256": "4e7097eaeaedbbf4ac4895973840b971218b7d25e3115c5d94ac402e98909a58"
+      },
+      "dense-14px-u6525-light-dpr1.png": {
+        "bytes": 2819,
+        "sha256": "72b0521490f5268895d334f10f3e604b255c39f02df5bf66862d42fc1adf520b"
+      },
+      "dense-14px-u6525-light-dpr2-zoom.png": {
+        "bytes": 10653,
+        "sha256": "dc3e94efcb603c8b36ad0748ec19b28d363eb1da4887496fde57707dcd4bac40"
+      },
+      "dense-14px-u6525-light-dpr2.png": {
+        "bytes": 7121,
+        "sha256": "e14430e9035f7ba60e3b00d406db0865a641ec39d945283505d4134a20f305e7"
+      },
+      "dense-14px-u7f81-dark-dpr1-zoom.png": {
+        "bytes": 5962,
+        "sha256": "21cde7aaa050266c182cf1be50a1f07ad886541572f754915979b277854d786b"
+      },
+      "dense-14px-u7f81-dark-dpr1.png": {
+        "bytes": 2821,
+        "sha256": "75feca4ac9b2d49016ffc21d4fc0cfc3d765e721036f2f8a24772af4f155027e"
+      },
+      "dense-14px-u7f81-dark-dpr2-zoom.png": {
+        "bytes": 9451,
+        "sha256": "fe0bb6542282006e9b02e2bd59375f37d7037217b8c71e79074333a501dfb403"
+      },
+      "dense-14px-u7f81-dark-dpr2.png": {
+        "bytes": 6369,
+        "sha256": "655355e998356184f8bdd712d3b288e03fed72b2e6222ce48c7ae5da54697736"
+      },
+      "dense-14px-u7f81-light-dpr1-zoom.png": {
+        "bytes": 5942,
+        "sha256": "f6313c6bdf6602e8eb6f151a03409789fdf05571e6c2709204c624923d0f0427"
+      },
+      "dense-14px-u7f81-light-dpr1.png": {
+        "bytes": 2786,
+        "sha256": "ae8209ee9aa05229f206496208feb4717b3d10018116edd8e0ab3098e921f4e5"
+      },
+      "dense-14px-u7f81-light-dpr2-zoom.png": {
+        "bytes": 9461,
+        "sha256": "0109c0d409c92742a9fce01c5d0f5bbb0af6f9e24d03d33a2caf2b7fcaa5a7e4"
+      },
+      "dense-14px-u7f81-light-dpr2.png": {
+        "bytes": 6335,
+        "sha256": "631decdcbf9ffff8cbb1188c8a7757a427847f87075cff00eec7fbc388830325"
+      },
+      "dense-14px-u87a3-dark-dpr1-zoom.png": {
+        "bytes": 6201,
+        "sha256": "52af070cb9e2762a8aa5a4ffd313cbbf6197c1745dd7fbc81600c22e78dd7d73"
+      },
+      "dense-14px-u87a3-dark-dpr1.png": {
+        "bytes": 2964,
+        "sha256": "dce094d4b2a4f75622bf32ee5aa8461c8f906dc1a76e635c0cabc1f0b224ea4d"
+      },
+      "dense-14px-u87a3-dark-dpr2-zoom.png": {
+        "bytes": 10774,
+        "sha256": "ef32c9e6eb5c90dc3d1305f27f83ea30a5b3dcf5a8da518b435c5ac3353d448f"
+      },
+      "dense-14px-u87a3-dark-dpr2.png": {
+        "bytes": 7252,
+        "sha256": "c22ea5f723d07348038cb07e217043bf38e5d230775c01c03a8a173accc3367b"
+      },
+      "dense-14px-u87a3-light-dpr1-zoom.png": {
+        "bytes": 6173,
+        "sha256": "43295ee389fa371b0890c19d595629b2748a7aea7a3120cf37ce30dc03a874fa"
+      },
+      "dense-14px-u87a3-light-dpr1.png": {
+        "bytes": 2948,
+        "sha256": "0fdc2099b18ad79fd1bb2d7e8203a9e0cc1240656225f92ffb878c20508e69b4"
+      },
+      "dense-14px-u87a3-light-dpr2-zoom.png": {
+        "bytes": 10817,
+        "sha256": "720fd443d4721599ef2a283445ad03df16d085abff693be6fe49726518e27389"
+      },
+      "dense-14px-u87a3-light-dpr2.png": {
+        "bytes": 7242,
+        "sha256": "81040a1642b5a8e28aee93095575c4df064eace567638a7fdbed127f3c7a6fe8"
+      },
+      "dense-14px-u9edb-dark-dpr1-zoom.png": {
+        "bytes": 6098,
+        "sha256": "0908f553e0f7a47df3a06c1f4d687d7c99b4dd3d1e79097bd27e581289bec5cc"
+      },
+      "dense-14px-u9edb-dark-dpr1.png": {
+        "bytes": 2947,
+        "sha256": "7eeece4af89e2d1cad34654e191835c56f9a8b9c92cb9e2154970048f8711f4b"
+      },
+      "dense-14px-u9edb-dark-dpr2-zoom.png": {
+        "bytes": 10315,
+        "sha256": "a6f664dae5c85b87aac22a2ede20d14ffb70eca11a46f3eb185dd8827c9db826"
+      },
+      "dense-14px-u9edb-dark-dpr2.png": {
+        "bytes": 6862,
+        "sha256": "3470758e2f6e60814430a081d8b6cb8eb2c69324334cccd56a40918c2bac5ac3"
+      },
+      "dense-14px-u9edb-light-dpr1-zoom.png": {
+        "bytes": 6059,
+        "sha256": "01f22e40e4dad6384d01173208a37c482b2a0ef45ca29fae6719aada9187436c"
+      },
+      "dense-14px-u9edb-light-dpr1.png": {
+        "bytes": 2890,
+        "sha256": "247482cb5fe1b355abcfbbd3dbbc6719225bda25a4e43a1393862bc95d378d14"
+      },
+      "dense-14px-u9edb-light-dpr2-zoom.png": {
+        "bytes": 10317,
+        "sha256": "0d50cc1e2bde8c8e37357f124b8c25541d96438ee758fbff5171ba23592a1800"
+      },
+      "dense-14px-u9edb-light-dpr2.png": {
+        "bytes": 6779,
+        "sha256": "9aa22f761fc44a318e2c5f7e556fc30213310f74a6a74980364841d08681634c"
+      },
+      "DENSE14-HEXAGRAMS.md": {
+        "bytes": 9671,
+        "sha256": "639ae3c3c74cafdca6c2734fca332034708d4961b2ba1f19925a4308dcb21c95"
+      },
+      "fonts/AincradUISc-Display.otf": {
+        "bytes": 1148644,
+        "sha256": "868b97adfafb1250eb949ce6d1710a7e6a0c5b2b07478d34ed5cb808ba927e33"
+      },
+      "fonts/AincradUISc-Display.ttf": {
+        "bytes": 1331776,
+        "sha256": "bce479fe78f66867de817b46d6de0fd8934e58ba635ddf75bb90157c8afba9e2"
+      },
+      "fonts/AincradUISc-Display.woff2": {
+        "bytes": 665980,
+        "sha256": "0b748aaf0473d702355b712308f41c824f930846cd6e4441a4e5a413935f3d28"
+      },
+      "fonts/AincradUISc-Regular.otf": {
+        "bytes": 1191784,
+        "sha256": "2694469b79ef9c58fd7733e9b4fdc7762ea1efac70783aa8d82cc980af21ed2f"
+      },
+      "fonts/AincradUISc-Regular.ttf": {
+        "bytes": 1353696,
+        "sha256": "b5c0733fdb47c077768966a54b4e6c7d27b6484263230af461b562a07759a03e"
+      },
+      "fonts/AincradUISc-Regular.woff2": {
+        "bytes": 661260,
+        "sha256": "2a25805c29e9a3abc9344b56149464d7f22b0b53b0f9cc0a5d19e21d4f5de1d4"
+      },
+      "fonts/AincradUISc-v010-Display.woff2": {
+        "bytes": 29952,
+        "sha256": "7f2e4fe979e96118db243554c5f0f2294aaf93c1a811aa71bd58d07dc9fa7856"
+      },
+      "fonts/AincradUISc-v010-Regular.woff2": {
+        "bytes": 29724,
+        "sha256": "c0b0d8a19387af0687c9170efd27fd1e6c9533fd69ffa748ad3e17e46cebd53f"
+      },
+      "fonts/AincradUISc-v020-Display.woff2": {
+        "bytes": 30000,
+        "sha256": "5fbbaeae1dba55418399372c650f71843906e9f9222d56b61b5c7449f02918af"
+      },
+      "fonts/AincradUISc-v020-Regular.woff2": {
+        "bytes": 29812,
+        "sha256": "2c7fa346ff9b8852dda57145600cf9e358ad1d1981eac5f0c6cbf2e5214e27db"
+      },
+      "fonts/AincradUISc-v030-before-dense-Regular.woff2": {
+        "bytes": 659616,
+        "sha256": "c3a25c0064bd5b435f9b8b45f4f0b64323d05c5441869924f9aed93a1734224e"
+      },
+      "fonts/AincradUISc-v030-before-ttf14-Regular.ttf": {
+        "bytes": 1353696,
+        "sha256": "a5a0bcb9ff7f8fa9cc3a8085c1bb64fd74cbeab075d83ad7bde62494b441320b"
+      },
+      "fonts/AincradUISc-v030-before-ttf14-Regular.woff2": {
+        "bytes": 661424,
+        "sha256": "50d4114e3c11e2ece81775debd2595aed4ee4bd60ef297c706e1a22bc02b90b6"
+      },
+      "fonts/SourceHanSansSC-Baseline.woff2": {
+        "bytes": 743428,
+        "sha256": "ee50c82750f6ec92f1f16ad85d8fbbff4d7b33cae952c249bd4163378421f937"
+      },
+      "glyph-study.png": {
+        "bytes": 181962,
+        "sha256": "0d7cd0d5139220d7c271f04c544c4debbe669a0d0a9b40dd0c5a5d6e48ee5255"
+      },
+      "hexagram-study.png": {
+        "bytes": 223645,
+        "sha256": "627778f7a4e19e0bcdff718ad82d93cbd85d094b182376b622eb09bf5c0fd7c9"
+      },
+      "OFL.txt": {
+        "bytes": 5226,
+        "sha256": "8fe173ea7779c11e7375942088d36aa511bf7da954d67f86e9545fe4416cbbbc"
+      },
+      "preview-display.png": {
+        "bytes": 1384075,
+        "sha256": "519d38ffa55c7bc98018fb9a3a60168a31cf245c94b8cd591360be2b4fee5355"
+      },
+      "preview-mobile.png": {
+        "bytes": 766048,
+        "sha256": "50b8b8ba1e8fce48a57d01ecbb14d10ff11c3787188694c748f5e8149a5f8253"
+      },
+      "preview.png": {
+        "bytes": 1386743,
+        "sha256": "f952f33f36ea5f7265691ecec97df9130e228de2faa489df116d8da08218b4c4"
+      },
+      "README.md": {
+        "bytes": 10103,
+        "sha256": "2521424eefd47751f7befbe9afa60e7427623c487abb714fd34ea2f9de87b680"
+      },
+      "refinement-comparison.png": {
+        "bytes": 84566,
+        "sha256": "1e7744dae60bf800052e2b315d7c6e15038ae7c7a22334654c2b1b3aa3c9f8bb"
+      },
+      "refinement-study.png": {
+        "bytes": 231356,
+        "sha256": "8edfa56c91f1cfa1b791b6bc3880494642d141d754bf6ce2d0ca3300c53fa6f8"
+      },
+      "requirements.txt": {
+        "bytes": 40,
+        "sha256": "fcb44fa12583535865fdc2a1cd9a457beaaefb05a1ce74e593e2d6a6fcf507d6"
+      },
+      "small-size-focus-11px-dpr1.png": {
+        "bytes": 109266,
+        "sha256": "7a506c6a5db19fb292408b36fc7364d2bd0dc73a8bdaf5c03c74cce6c1190bb8"
+      },
+      "small-size-focus-11px-dpr2.png": {
+        "bytes": 208641,
+        "sha256": "a003d97e530b0872c860fb485d50daea3936a0a92172ba730b899cc7bddd455c"
+      },
+      "small-size-focus-12px-dpr1.png": {
+        "bytes": 119237,
+        "sha256": "edc2fa14cc8d44dc2d550448948b1156bb2b06954d1dc586c138d331f6711f05"
+      },
+      "small-size-focus-12px-dpr2.png": {
+        "bytes": 222670,
+        "sha256": "9385abae1cd724f7fe28354c1bc1209e5c26a841049bd961702bee96324ffe22"
+      },
+      "small-size-focus-13px-dpr1.png": {
+        "bytes": 130671,
+        "sha256": "8c09aadfa54f992a686a94b538ae20f021433fc1929e2eab06e645c48f69af11"
+      },
+      "small-size-focus-13px-dpr2.png": {
+        "bytes": 237662,
+        "sha256": "06573e9c8805a41ca2395bb7c485f07df03e07bc9d3ebd1b29266c971e513330"
+      },
+      "small-size-focus-14px-dpr1.png": {
+        "bytes": 144477,
+        "sha256": "3ebb0818f9c42aae458138ffae3ab7036e728fb062d554adc824306df6b05953"
+      },
+      "small-size-focus-14px-dpr2.png": {
+        "bytes": 256158,
+        "sha256": "7ff677988e4c5b8cc3eaf1365889cb47abfdb03387b9d85dc87079f681189773"
+      },
+      "small-size-phone-display-dark-dpr1.png": {
+        "bytes": 46822,
+        "sha256": "0b8b7c938e7c558d5152cbb185fbeefbe958501fd690563b32d79bb064114e64"
+      },
+      "small-size-phone-display-dark-dpr2.png": {
+        "bytes": 112568,
+        "sha256": "4f091ab9ea1e167205d20f6dbf979ccd4d7ba4fefadf67dc71089bda6978bc55"
+      },
+      "small-size-phone-display-light-dpr1.png": {
+        "bytes": 46691,
+        "sha256": "5ab3ce3aac0bf4afff81a85e1912c980c002e42436af65cd75895c6417ce3038"
+      },
+      "small-size-phone-display-light-dpr2.png": {
+        "bytes": 113401,
+        "sha256": "43455b01b5568c706b10590c7b658b23b1454e7bcee3777b4de86568e4749024"
+      },
+      "small-size-phone-regular-dark-dpr1.png": {
+        "bytes": 46740,
+        "sha256": "f800bd5828f87a93ff47e381802c9a49dc62f52f023a1f826521a3a814d97ac4"
+      },
+      "small-size-phone-regular-dark-dpr2.png": {
+        "bytes": 112689,
+        "sha256": "22c56c6e3b59e3c59b70083a7c55cc36e4ae562594bc2386d5dc154c5e7ddb1f"
+      },
+      "small-size-phone-regular-light-dpr1.png": {
+        "bytes": 46533,
+        "sha256": "116dd74a95880c56743b0290c83bce141f54fab78db38f5f25155ec6a8c83ba7"
+      },
+      "small-size-phone-regular-light-dpr2.png": {
+        "bytes": 113375,
+        "sha256": "2022a65f8f5d09f7e569134657fda9a2c77aca8e1038cddb613262d75471a351"
+      },
+      "small-size-study-dpr2.png": {
+        "bytes": 1997659,
+        "sha256": "2ef57bb2963aa51cf27d88a41ee67854d6c55d3276c4cac6db302f99e39929af"
+      },
+      "small-size-study.html": {
+        "bytes": 60441,
+        "sha256": "995a67b48a5fd7675551f206d222b4de36425e0d87ea7ad7b139923c09516b9f"
+      },
+      "small-size-study.png": {
+        "bytes": 879403,
+        "sha256": "096d929efa3730b4e4c2579dddc7ed0dba28911666f3c7a86260bbee4b257e09"
+      },
+      "small-size-zoom-dpr1.png": {
+        "bytes": 1402193,
+        "sha256": "536c57d7dc831103abed5af86e5c8f22e86c4bee6a5a81ae274aee568820f652"
+      },
+      "small-size-zoom-dpr2.png": {
+        "bytes": 2551828,
+        "sha256": "48b7fb2fc2a5dfcdc5036a186a7606cb75c30c65ea5f947da902453041e42d13"
+      },
+      "sources/AincradSeed-Medium.otf": {
+        "bytes": 40092,
+        "sha256": "cc0b308b0a96eb9ee39dfb699ef956940a8ab3b5f1a400ffe09b35d5a3da8784"
+      },
+      "sources/AincradSeed-Regular.otf": {
+        "bytes": 40056,
+        "sha256": "b135434ab873baf7af5d89118e062ecfec1e13664a1cce4b4347a645a1ae9438"
+      },
+      "sources/AincradSeed-v030-Medium.otf": {
+        "bytes": 946364,
+        "sha256": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727"
+      },
+      "sources/AincradSeed-v030-Regular.otf": {
+        "bytes": 950576,
+        "sha256": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b"
+      },
+      "specimen.html": {
+        "bytes": 35138,
+        "sha256": "67ab8abf5d520436cf764a13313a85928162d836dc009a612f6ea4ff9e0b50b8"
+      },
+      "symbol-study.png": {
+        "bytes": 44951,
+        "sha256": "3fc8b1b4e1ab2c42e0abf98a06e2a9ec8b54e75c4184f585366d0bb9a3d412be"
+      },
+      "ttf14-comparison-compact.png": {
+        "bytes": 39537,
+        "sha256": "800922f91c8cee4ee6218cedc6b769e0ba993464cba7c6e89e6a4e27cef44908"
+      },
+      "ttf14-comparison-dpr2.png": {
+        "bytes": 238217,
+        "sha256": "bc25367650045171d7d4338a2c97d8229c88b7ae197fa69cd99335966e64ca2a"
+      },
+      "ttf14-comparison.html": {
+        "bytes": 9667,
+        "sha256": "eef355a3ba4831b4fbd8c9ae1be2cc44b9243f24e897c0c14ed6356adb8f4740"
+      },
+      "ttf14-comparison.png": {
+        "bytes": 77018,
+        "sha256": "3619ca2d2657e03b110e2ece8850387b435db0874c78eee3dc4adfce630db7e8"
+      },
+      "scripts/prepare_aincrad_font.py": {
+        "bytes": 9776,
+        "sha256": "0b7bdacc79395d3daa06d007aff232d52867cd4cd7ab40c27c7a29c1b8de7deb"
+      },
+      "scripts/build_aincrad_font.py": {
+        "bytes": 38408,
+        "sha256": "9e0c5b6bd1ee814e3328606dcef2e1e86a69536c328037c4d9d1ab624ddea8f4"
+      },
+      "scripts/verify_aincrad_font.py": {
+        "bytes": 47887,
+        "sha256": "2e940758adef7a0cc0778fe7fb604343064aad6c87af0fc95749cdb36cdc1072"
+      },
+      "scripts/preview_aincrad_font.py": {
+        "bytes": 19875,
+        "sha256": "6be64cd6a74a5ce253039ea8650f4fe21be674d06e174c29775b2de7c77f7c36"
+      },
+      "scripts/preview_aincrad_small_sizes.py": {
+        "bytes": 32645,
+        "sha256": "5a49fc3ee040d1097cf3810f141de0dd1f4732b562d59e5cbf7fa13d3e316261"
+      },
+      "scripts/verify_aincrad_dense_hexagrams.py": {
+        "bytes": 33513,
+        "sha256": "83cce040e63a1367abfee285f2c861b0f510897529b588827656e86a6aae5ca7"
+      },
+      "scripts/preview_aincrad_dense_comparison.py": {
+        "bytes": 29102,
+        "sha256": "d1b7401231c074656b0743218b904291cf4e696748ca8e0fb8ec18c11ab4632d"
+      },
+      "scripts/preview_aincrad_ttf14_comparison.py": {
+        "bytes": 42797,
+        "sha256": "eaa326967ff9a818954b7d480cd999d948683de9461d3a863ce9efbae7a974a8"
+      }
+    },
+    "critical_files_unchanged_during_capture_and_check": true
+  },
+  "temporary_snapshot_archive": {
+    "purpose": "Temporary immutable snapshot container for this independent rebuild; not the final release ZIP.",
+    "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\aincrad-ttf14-portable-q0ezyl2h\\snapshot-container.zip",
+    "top_level_directory": "Aincrad-UI-SC-v0.3-ttf14-round2",
+    "file_count": 139,
+    "bytes": 29868427,
+    "sha256_not_final_release": "5aa1bc788c37f6f99795cb5d16d5a3a351b7ec14b01a3951bfdb2b1f943e6858",
+    "zip_crc_ok": true,
+    "path_safety_ok": true,
+    "single_top_level_directory": true,
+    "extracted_files_match_snapshot": true,
+    "excluded_patterns": [
+      "*.zip",
+      "research/**",
+      "**/__pycache__/**",
+      "*.pyc",
+      "*.pyo",
+      "REQUEST-MONITOR.md",
+      "data/request-monitor-setup.json",
+      "temporary/partial files"
+    ],
+    "excluded_file_count": 33,
+    "excluded_files": [
+      "Aincrad-UI-SC-v0.1.zip",
+      "Aincrad-UI-SC-v0.2.zip",
+      "Aincrad-UI-SC-v0.3-dense14-hexagrams.zip",
+      "Aincrad-UI-SC-v0.3-xingpan-48.zip",
+      "Aincrad-UI-SC-v0.3-xingpan-symbols.zip",
+      "Aincrad-UI-SC-v0.3.zip",
+      "data/request-monitor-setup.json",
+      "REQUEST-MONITOR.md",
+      "research/counter-diagnosis-Regular-four.png",
+      "research/source-outline-map.json",
+      "research/ttf14-candidates/candidate-a.json",
+      "research/ttf14-candidates/candidate-a.ttf",
+      "research/ttf14-candidates/candidate-b.json",
+      "research/ttf14-candidates/candidate-b.ttf",
+      "research/ttf14-candidates/candidate-c.json",
+      "research/ttf14-candidates/candidate-c.ttf",
+      "research/ttf14-candidates/candidate-d.json",
+      "research/ttf14-candidates/candidate-d.ttf",
+      "research/ttf14-candidates/candidate-e.json",
+      "research/ttf14-candidates/candidate-e.ttf",
+      "research/ttf14-candidates/candidate-f.json",
+      "research/ttf14-candidates/candidate-f.ttf",
+      "research/ttf14-candidates/candidates-def-native14-zoom.png",
+      "research/ttf14-candidates/candidates-native14-zoom.png",
+      "research/ttf14-candidates/study-compact.png",
+      "research/ttf14-candidates/study-d-dpr2-dark.png",
+      "research/ttf14-candidates/study-d-dpr2-light.png",
+      "research/ttf14-candidates/study-d-regression-compact.png",
+      "research/ttf14-candidates/study-d-regression.html",
+      "research/ttf14-candidates/study-d-regression.json",
+      "research/ttf14-candidates/study.html",
+      "research/ttf14-candidates/study.json",
+      "research/ttf14-candidates/study.png"
+    ]
+  },
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "fonttools": "4.66.0",
+    "Pillow": "12.3.0",
+    "brotli": "1.2.0",
+    "os": "nt",
+    "original_ttc_files_present": false,
+    "collected_ui_present": false,
+    "external_ttc_required": false,
+    "network_or_dependency_install_used": false,
+    "pythonpath_removed_for_subprocesses": true
+  },
+  "included_scripts": [
+    "prepare_aincrad_font.py",
+    "build_aincrad_font.py",
+    "verify_aincrad_font.py",
+    "preview_aincrad_font.py",
+    "preview_aincrad_small_sizes.py",
+    "verify_aincrad_dense_hexagrams.py",
+    "preview_aincrad_dense_comparison.py",
+    "preview_aincrad_ttf14_comparison.py"
+  ],
+  "optional_scripts_not_present_at_snapshot": [
+    "verify_aincrad_ttf14.py"
+  ],
+  "rebuild_method": {
+    "isolated_project_path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\aincrad-ttf14-portable-q0ezyl2h\\isolated-extract\\Aincrad-UI-SC-v0.3-ttf14-round2",
+    "generated_fonts_and_charset_deleted_before_build": true,
+    "default_portable_project_detection_used": true,
+    "commands": [
+      {
+        "script": "scripts/build_aincrad_font.py",
+        "arguments": [],
+        "exit_code": 0,
+        "elapsed_seconds": 32.125,
+        "stdout_bytes": 1117,
+        "stdout_sha256": "bec73e229e711d06a23c531a7fccf71fe137d40c3c422d49982fc607b778ddc4",
+        "stderr_bytes": 0,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "script": "scripts/verify_aincrad_font.py",
+        "arguments": [
+          "--report",
+          "C:\\Users\\Admin\\AppData\\Local\\Temp\\aincrad-ttf14-portable-q0ezyl2h\\independent-comprehensive-verification.json"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 12.188,
+        "stdout_bytes": 148266,
+        "stdout_sha256": "f817bb017f086af3fcbfc8c73b2ba297f266e355677aa1b76c6c7720a6b1ba5a",
+        "stderr_bytes": 0,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  "counts": {
+    "generated_fonts": 7,
+    "comparison_fonts": 7,
+    "all_fonts": 14,
+    "han": 3814,
+    "characters": 4041
+  },
+  "font_files": {
+    "fonts/AincradUISc-Display.otf": {
+      "role": "generated_rebuilt",
+      "bytes": 1148644,
+      "snapshot_sha256": "868b97adfafb1250eb949ce6d1710a7e6a0c5b2b07478d34ed5cb808ba927e33",
+      "rebuilt_or_preserved_sha256": "868b97adfafb1250eb949ce6d1710a7e6a0c5b2b07478d34ed5cb808ba927e33",
+      "byte_identical": true
+    },
+    "fonts/AincradUISc-Display.ttf": {
+      "role": "generated_rebuilt",
+      "bytes": 1331776,
+      "snapshot_sha256": "bce479fe78f66867de817b46d6de0fd8934e58ba635ddf75bb90157c8afba9e2",
+      "rebuilt_or_preserved_sha256": "bce479fe78f66867de817b46d6de0fd8934e58ba635ddf75bb90157c8afba9e2",
+      "byte_identical": true
+    },
+    "fonts/AincradUISc-Display.woff2": {
+      "role": "generated_rebuilt",
+      "bytes": 665980,
+      "snapshot_sha256": "0b748aaf0473d702355b712308f41c824f930846cd6e4441a4e5a413935f3d28",
+      "rebuilt_or_preserved_sha256": "0b748aaf0473d702355b712308f41c824f930846cd6e4441a4e5a413935f3d28",
+      "byte_identical": true
+    },
+    "fonts/AincradUISc-Regular.otf": {
+      "role": "generated_rebuilt",
+      "bytes": 1191784,
+      "snapshot_sha256": "2694469b79ef9c58fd7733e9b4fdc7762ea1efac70783aa8d82cc980af21ed2f",
+      "rebuilt_or_preserved_sha256": "2694469b79ef9c58fd7733e9b4fdc7762ea1efac70783aa8d82cc980af21ed2f",
+      "byte_identical": true
+    },
+    "fonts/AincradUISc-Regular.ttf": {
+      "role": "generated_rebuilt",
+      "bytes": 1353696,
+      "snapshot_sha256": "b5c0733fdb47c077768966a54b4e6c7d27b6484263230af461b562a07759a03e",
+      "rebuilt_or_preserved_sha256": "b5c0733fdb47c077768966a54b4e6c7d27b6484263230af461b562a07759a03e",
+      "byte_identical": true
+    },
+    "fonts/AincradUISc-Regular.woff2": {
+      "role": "generated_rebuilt",
+      "bytes": 661260,
+      "snapshot_sha256": "2a25805c29e9a3abc9344b56149464d7f22b0b53b0f9cc0a5d19e21d4f5de1d4",
+      "rebuilt_or_preserved_sha256": "2a25805c29e9a3abc9344b56149464d7f22b0b53b0f9cc0a5d19e21d4f5de1d4",
+      "byte_identical": true
+    },
+    "fonts/AincradUISc-v010-Display.woff2": {
+      "role": "historical_comparison_preserved",
+      "bytes": 29952,
+      "snapshot_sha256": "7f2e4fe979e96118db243554c5f0f2294aaf93c1a811aa71bd58d07dc9fa7856",
+      "rebuilt_or_preserved_sha256": "7f2e4fe979e96118db243554c5f0f2294aaf93c1a811aa71bd58d07dc9fa7856",
+      "byte_identical": true
+    },
+    "fonts/AincradUISc-v010-Regular.woff2": {
+      "role": "historical_comparison_preserved",
+      "bytes": 29724,
+      "snapshot_sha256": "c0b0d8a19387af0687c9170efd27fd1e6c9533fd69ffa748ad3e17e46cebd53f",
+      "rebuilt_or_preserved_sha256": "c0b0d8a19387af0687c9170efd27fd1e6c9533fd69ffa748ad3e17e46cebd53f",
+      "byte_identical": true
+    },
+    "fonts/AincradUISc-v020-Display.woff2": {
+      "role": "historical_comparison_preserved",
+      "bytes": 30000,
+      "snapshot_sha256": "5fbbaeae1dba55418399372c650f71843906e9f9222d56b61b5c7449f02918af",
+      "rebuilt_or_preserved_sha256": "5fbbaeae1dba55418399372c650f71843906e9f9222d56b61b5c7449f02918af",
+      "byte_identical": true
+    },
+    "fonts/AincradUISc-v020-Regular.woff2": {
+      "role": "historical_comparison_preserved",
+      "bytes": 29812,
+      "snapshot_sha256": "2c7fa346ff9b8852dda57145600cf9e358ad1d1981eac5f0c6cbf2e5214e27db",
+      "rebuilt_or_preserved_sha256": "2c7fa346ff9b8852dda57145600cf9e358ad1d1981eac5f0c6cbf2e5214e27db",
+      "byte_identical": true
+    },
+    "fonts/AincradUISc-v030-before-dense-Regular.woff2": {
+      "role": "historical_comparison_preserved",
+      "bytes": 659616,
+      "snapshot_sha256": "c3a25c0064bd5b435f9b8b45f4f0b64323d05c5441869924f9aed93a1734224e",
+      "rebuilt_or_preserved_sha256": "c3a25c0064bd5b435f9b8b45f4f0b64323d05c5441869924f9aed93a1734224e",
+      "byte_identical": true
+    },
+    "fonts/AincradUISc-v030-before-ttf14-Regular.ttf": {
+      "role": "historical_comparison_preserved",
+      "bytes": 1353696,
+      "snapshot_sha256": "a5a0bcb9ff7f8fa9cc3a8085c1bb64fd74cbeab075d83ad7bde62494b441320b",
+      "rebuilt_or_preserved_sha256": "a5a0bcb9ff7f8fa9cc3a8085c1bb64fd74cbeab075d83ad7bde62494b441320b",
+      "byte_identical": true
+    },
+    "fonts/AincradUISc-v030-before-ttf14-Regular.woff2": {
+      "role": "historical_comparison_preserved",
+      "bytes": 661424,
+      "snapshot_sha256": "50d4114e3c11e2ece81775debd2595aed4ee4bd60ef297c706e1a22bc02b90b6",
+      "rebuilt_or_preserved_sha256": "50d4114e3c11e2ece81775debd2595aed4ee4bd60ef297c706e1a22bc02b90b6",
+      "byte_identical": true
+    },
+    "fonts/SourceHanSansSC-Baseline.woff2": {
+      "role": "generated_rebuilt",
+      "bytes": 743428,
+      "snapshot_sha256": "ee50c82750f6ec92f1f16ad85d8fbbff4d7b33cae952c249bd4163378421f937",
+      "rebuilt_or_preserved_sha256": "ee50c82750f6ec92f1f16ad85d8fbbff4d7b33cae952c249bd4163378421f937",
+      "byte_identical": true
+    }
+  },
+  "charset": {
+    "file": "data/charset.json",
+    "snapshot_sha256": "40b0846bf42e47d6634c470332ea130bc221f70de473d4b63069731b5e6ed199",
+    "rebuilt_sha256": "40b0846bf42e47d6634c470332ea130bc221f70de473d4b63069731b5e6ed199",
+    "snapshot_bytes": 36724,
+    "rebuilt_bytes": 36724,
+    "byte_identical": true
+  },
+  "core_scripts_sha256": {
+    "scripts/build_aincrad_font.py": "9e0c5b6bd1ee814e3328606dcef2e1e86a69536c328037c4d9d1ab624ddea8f4",
+    "scripts/verify_aincrad_font.py": "2e940758adef7a0cc0778fe7fb604343064aad6c87af0fc95749cdb36cdc1072"
+  },
+  "source_seed_sha256": {
+    "sources/AincradSeed-Medium.otf": "cc0b308b0a96eb9ee39dfb699ef956940a8ab3b5f1a400ffe09b35d5a3da8784",
+    "sources/AincradSeed-Regular.otf": "b135434ab873baf7af5d89118e062ecfec1e13664a1cce4b4347a645a1ae9438",
+    "sources/AincradSeed-v030-Medium.otf": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+    "sources/AincradSeed-v030-Regular.otf": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b"
+  },
+  "local_refinement_plans_sha256": {
+    "data/refinements-v030.json": "94402fa80bd8bd1e947b6ea786fde8c847eaf1b294934f8fbe0673a3a0ee5115",
+    "data/dense-refinements-v030.json": "198a0d5b37f4d5fd30a6a0c65e683734b7ad697064a874b61531b7aa97bcb9aa",
+    "data/ttf14-refinements-v030.json": "310dde67bed3fc20850b2f2838814cbfcabd557444a1b8dcde1bf493395fbd12"
+  },
+  "build_inputs_and_core_hash_readback": {
+    "scripts/build_aincrad_font.py": {
+      "snapshot_sha256": "9e0c5b6bd1ee814e3328606dcef2e1e86a69536c328037c4d9d1ab624ddea8f4",
+      "extracted_after_rebuild_sha256": "9e0c5b6bd1ee814e3328606dcef2e1e86a69536c328037c4d9d1ab624ddea8f4",
+      "byte_identical": true
+    },
+    "scripts/verify_aincrad_font.py": {
+      "snapshot_sha256": "2e940758adef7a0cc0778fe7fb604343064aad6c87af0fc95749cdb36cdc1072",
+      "extracted_after_rebuild_sha256": "2e940758adef7a0cc0778fe7fb604343064aad6c87af0fc95749cdb36cdc1072",
+      "byte_identical": true
+    },
+    "sources/AincradSeed-Medium.otf": {
+      "snapshot_sha256": "cc0b308b0a96eb9ee39dfb699ef956940a8ab3b5f1a400ffe09b35d5a3da8784",
+      "extracted_after_rebuild_sha256": "cc0b308b0a96eb9ee39dfb699ef956940a8ab3b5f1a400ffe09b35d5a3da8784",
+      "byte_identical": true
+    },
+    "sources/AincradSeed-Regular.otf": {
+      "snapshot_sha256": "b135434ab873baf7af5d89118e062ecfec1e13664a1cce4b4347a645a1ae9438",
+      "extracted_after_rebuild_sha256": "b135434ab873baf7af5d89118e062ecfec1e13664a1cce4b4347a645a1ae9438",
+      "byte_identical": true
+    },
+    "sources/AincradSeed-v030-Medium.otf": {
+      "snapshot_sha256": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+      "extracted_after_rebuild_sha256": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+      "byte_identical": true
+    },
+    "sources/AincradSeed-v030-Regular.otf": {
+      "snapshot_sha256": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+      "extracted_after_rebuild_sha256": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+      "byte_identical": true
+    },
+    "data/refinements-v030.json": {
+      "snapshot_sha256": "94402fa80bd8bd1e947b6ea786fde8c847eaf1b294934f8fbe0673a3a0ee5115",
+      "extracted_after_rebuild_sha256": "94402fa80bd8bd1e947b6ea786fde8c847eaf1b294934f8fbe0673a3a0ee5115",
+      "byte_identical": true
+    },
+    "data/dense-refinements-v030.json": {
+      "snapshot_sha256": "198a0d5b37f4d5fd30a6a0c65e683734b7ad697064a874b61531b7aa97bcb9aa",
+      "extracted_after_rebuild_sha256": "198a0d5b37f4d5fd30a6a0c65e683734b7ad697064a874b61531b7aa97bcb9aa",
+      "byte_identical": true
+    },
+    "data/ttf14-refinements-v030.json": {
+      "snapshot_sha256": "310dde67bed3fc20850b2f2838814cbfcabd557444a1b8dcde1bf493395fbd12",
+      "extracted_after_rebuild_sha256": "310dde67bed3fc20850b2f2838814cbfcabd557444a1b8dcde1bf493395fbd12",
+      "byte_identical": true
+    },
+    "data/symbols-v030.json": {
+      "snapshot_sha256": "3568b057e3390f49a7c9a620adeed2e6ae126c43bc744a3a5ca7c76b89e81798",
+      "extracted_after_rebuild_sha256": "3568b057e3390f49a7c9a620adeed2e6ae126c43bc744a3a5ca7c76b89e81798",
+      "byte_identical": true
+    },
+    "data/hexagram-outlines-v030.json": {
+      "snapshot_sha256": "c28bc019e4ef830fbd8b882b87d024eb31365a85dad4b17d45c68d1816af69eb",
+      "extracted_after_rebuild_sha256": "c28bc019e4ef830fbd8b882b87d024eb31365a85dad4b17d45c68d1816af69eb",
+      "byte_identical": true
+    },
+    "data/hexagrams.json": {
+      "snapshot_sha256": "3e51d1a4226e9f48dbbcb0d32e34d8efadd0698dacd98ce26d97bfdd5360bc48",
+      "extracted_after_rebuild_sha256": "3e51d1a4226e9f48dbbcb0d32e34d8efadd0698dacd98ce26d97bfdd5360bc48",
+      "byte_identical": true
+    },
+    "data/ui-vocabulary.json": {
+      "snapshot_sha256": "313be97acb3a78892fbae769833fee2b069fcdb868fc68f7526e7f64a17509be",
+      "extracted_after_rebuild_sha256": "313be97acb3a78892fbae769833fee2b069fcdb868fc68f7526e7f64a17509be",
+      "byte_identical": true
+    },
+    "data/charset-extensions.json": {
+      "snapshot_sha256": "569e1b06ec2f550014fd43132ca6893ca01147688c88f446d4d9e4094aa4aa09",
+      "extracted_after_rebuild_sha256": "569e1b06ec2f550014fd43132ca6893ca01147688c88f446d4d9e4094aa4aa09",
+      "byte_identical": true
+    },
+    "data/symbol-extensions.json": {
+      "snapshot_sha256": "f687bf730906d5179ba892e0265c882dfc67eb3fa826f16973d0834d771f1576",
+      "extracted_after_rebuild_sha256": "f687bf730906d5179ba892e0265c882dfc67eb3fa826f16973d0834d771f1576",
+      "byte_identical": true
+    },
+    "requirements.txt": {
+      "snapshot_sha256": "fcb44fa12583535865fdc2a1cd9a457beaaefb05a1ce74e593e2d6a6fcf507d6",
+      "extracted_after_rebuild_sha256": "fcb44fa12583535865fdc2a1cd9a457beaaefb05a1ce74e593e2d6a6fcf507d6",
+      "byte_identical": true
+    }
+  },
+  "independent_comprehensive_verification": {
+    "ok": true,
+    "report_sha256": "f817bb017f086af3fcbfc8c73b2ba297f266e355677aa1b76c6c7720a6b1ba5a",
+    "report_bytes": 148266,
+    "report_existed_only_in_temporary_directory": true,
+    "top_level_result_keys": [
+      "project_dir",
+      "variants",
+      "failures",
+      "expected_characters",
+      "expected_han_characters",
+      "han_outlines_different_between_variants",
+      "baseline",
+      "baseline_source_scope",
+      "targeted_refinement",
+      "vocabulary_coverage",
+      "basis_coverage",
+      "tabular_digits",
+      "windows_font_engine",
+      "ok"
+    ],
+    "failures": [],
+    "build_counts": {
+      "han": 3814,
+      "total_characters": 4041
+    }
+  },
+  "all_14_font_files_byte_identical": true,
+  "seven_generated_fonts_independently_rebuilt": true,
+  "seven_comparison_font_files_preserved_byte_identical": true,
+  "charset_byte_identical": true,
+  "source_seeds_plans_and_core_hashes_unchanged": true,
+  "workspace_outputs_written": [
+    "data/ttf14-package-rebuild.json"
+  ],
+  "historical_or_current_workspace_fonts_charset_reports_modified": false,
+  "passed": true,
+  "temporary_cleanup": {
+    "exclusive_prefix": "aincrad-ttf14-portable-",
+    "system_temp_root": "C:\\Users\\Admin\\AppData\\Local\\Temp",
+    "resolved_target": "C:\\Users\\Admin\\AppData\\Local\\Temp\\aincrad-ttf14-portable-q0ezyl2h",
+    "resolved_target_is_direct_child_of_system_temp": true,
+    "resolved_target_within_intended_temp_root": true,
+    "performed": true
+  }
+}

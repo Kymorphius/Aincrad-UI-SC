@@ -1,0 +1,7 @@
+{
+  "version": "0.3.0",
+  "description": "Xingpan second-batch Unicode symbol additions; source outlines or original geometric symbols.",
+  "characters": "°±½Δ–•′›−▅▬○★☰☱☲☳☴☵☶☷✢✱✶✻✽❋／［］｜～",
+  "source_request": "xingpan-font-request-2-20261026.md",
+  "source_request_sha256_at_intake": "72e7665502aad996b338b797c3b62f582cb52a39d2327b2317ff8dfa14b09684"
+}

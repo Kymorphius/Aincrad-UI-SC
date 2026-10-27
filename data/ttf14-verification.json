@@ -1,0 +1,3161 @@
+{
+  "timestamp_utc": "2026-10-27T02:25:28.894132+00:00",
+  "baseline": {
+    "file": "D:\\333.开发\\SAO\\design\\aincrad-ui-sc\\Aincrad-UI-SC-v0.3-dense14-hexagrams.zip",
+    "available": true,
+    "expected_sha256": "fbb334a39f97a16426198bda98242e5cde04a237b415184c7be15569cfe5fd1d",
+    "sha256": "fbb334a39f97a16426198bda98242e5cde04a237b415184c7be15569cfe5fd1d"
+  },
+  "scope": "Exact six-font regression plus anchored local source geometry and default-TTF fixed old-ROI grayscale diagnostics.",
+  "scope_limits": [
+    "Gray whitespace is a local density diagnostic; movement changes occupancy of a frozen old window. It does not establish readability or blind recognition.",
+    "Pillow/FreeType native physical pixels are distinct from browser CSS pixels, DirectWrite, Flutter and device rendering.",
+    "Proper intersection checks use adaptive flattening at0.25UPM; endpoint touches and collinear overlap are not classified.",
+    "Some unchanged-source regions can change raster coverage because runtime hint fitting is glyph-dependent. Negative ROI deltas remain in this report."
+  ],
+  "environment": {
+    "pillow": "12.3.0",
+    "freetype": "2.14.3"
+  },
+  "input_hashes": {
+    "data/charset.json": "40b0846bf42e47d6634c470332ea130bc221f70de473d4b63069731b5e6ed199",
+    "data/provenance.json": "1bdf41778c2827493af63fea4e4708fd08dc7d2a324d5b098a1d60952e880586",
+    "data/source-v030.json": "26175036948816e0c41c9f16974d1dadfc060762cc6fdd83dc5216cf4781c21b",
+    "data/refinements-v030.json": "94402fa80bd8bd1e947b6ea786fde8c847eaf1b294934f8fbe0673a3a0ee5115",
+    "data/dense-refinements-v030.json": "198a0d5b37f4d5fd30a6a0c65e683734b7ad697064a874b61531b7aa97bcb9aa",
+    "data/ttf14-refinements-v030.json": "310dde67bed3fc20850b2f2838814cbfcabd557444a1b8dcde1bf493395fbd12",
+    "data/hexagrams.json": "3e51d1a4226e9f48dbbcb0d32e34d8efadd0698dacd98ce26d97bfdd5360bc48",
+    "data/hexagram-outlines-v030.json": "c28bc019e4ef830fbd8b882b87d024eb31365a85dad4b17d45c68d1816af69eb",
+    "sources/AincradSeed-v030-Regular.otf": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+    "sources/AincradSeed-v030-Medium.otf": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727"
+  },
+  "font_hashes": {
+    "AincradUISc-Regular.otf": "2694469b79ef9c58fd7733e9b4fdc7762ea1efac70783aa8d82cc980af21ed2f",
+    "AincradUISc-Regular.ttf": "b5c0733fdb47c077768966a54b4e6c7d27b6484263230af461b562a07759a03e",
+    "AincradUISc-Regular.woff2": "2a25805c29e9a3abc9344b56149464d7f22b0b53b0f9cc0a5d19e21d4f5de1d4",
+    "AincradUISc-Display.otf": "868b97adfafb1250eb949ce6d1710a7e6a0c5b2b07478d34ed5cb808ba927e33",
+    "AincradUISc-Display.ttf": "bce479fe78f66867de817b46d6de0fd8934e58ba635ddf75bb90157c8afba9e2",
+    "AincradUISc-Display.woff2": "0b748aaf0473d702355b712308f41c824f930846cd6e4441a4e5a413935f3d28"
+  },
+  "formats": {
+    "Regular": {
+      "otf": {
+        "baseline_sha256": "2d4770a659b485155fe7781d56fb600dba90063bbdc5125caf79c428957ec3a3",
+        "current_sha256": "2694469b79ef9c58fd7733e9b4fdc7762ea1efac70783aa8d82cc980af21ed2f",
+        "byte_identical": false,
+        "encoded_characters_compared": 4041,
+        "glyphs_compared_including_notdef": 4042,
+        "changed_glyph_names": [
+          "uni6525",
+          "uni87A3"
+        ],
+        "changed_characters": "攥螣",
+        "unchanged_encoded_characters": 4039,
+        "cmap_exactly_equal": true,
+        "complete_hmtx_exactly_equal": true,
+        "hmtx_entries_compared": 4042,
+        "line_metrics_exactly_equal": true,
+        "line_metrics": [
+          1000,
+          1160,
+          -320,
+          0,
+          1160,
+          -320,
+          0,
+          1160,
+          320
+        ],
+        "preserved_original161_plus_羁黛_plus64_count": 227,
+        "preserved_special_subset_equal": true,
+        "unchanged_outline_subset_old_sha256": "3a7df6f2e8394dc7534636e1ac9bd17a70c04d781649cccf2aebd42a10058794",
+        "unchanged_outline_subset_new_sha256": "3a7df6f2e8394dc7534636e1ac9bd17a70c04d781649cccf2aebd42a10058794",
+        "complete_hmtx_sha256": "934d8aea93701b64e4b04b31cfd5c8ac0633b99ffdaa81d2404034750d0e0d4c",
+        "changed_raw_sfnt_tables": [
+          "head",
+          "CFF "
+        ],
+        "normalized_head_exactly_equal": true,
+        "head_normalization": "Exclude only checksumAdjustment and created/modified timestamps; retain all rendering fields.",
+        "hint_audit": {
+          "old_private_dict": {},
+          "current_private_dict": {},
+          "global_subroutines": 0
+        }
+      },
+      "ttf": {
+        "baseline_sha256": "a5a0bcb9ff7f8fa9cc3a8085c1bb64fd74cbeab075d83ad7bde62494b441320b",
+        "current_sha256": "b5c0733fdb47c077768966a54b4e6c7d27b6484263230af461b562a07759a03e",
+        "byte_identical": false,
+        "encoded_characters_compared": 4041,
+        "glyphs_compared_including_notdef": 4042,
+        "changed_glyph_names": [
+          "uni6525",
+          "uni87A3"
+        ],
+        "changed_characters": "攥螣",
+        "unchanged_encoded_characters": 4039,
+        "cmap_exactly_equal": true,
+        "complete_hmtx_exactly_equal": true,
+        "hmtx_entries_compared": 4042,
+        "line_metrics_exactly_equal": true,
+        "line_metrics": [
+          1000,
+          1160,
+          -320,
+          0,
+          1160,
+          -320,
+          0,
+          1160,
+          320
+        ],
+        "preserved_original161_plus_羁黛_plus64_count": 227,
+        "preserved_special_subset_equal": true,
+        "unchanged_outline_subset_old_sha256": "c7a304a98bb87ee79becfd7e7fe4593b8555377608326c2fe43ae553f409b7b1",
+        "unchanged_outline_subset_new_sha256": "c7a304a98bb87ee79becfd7e7fe4593b8555377608326c2fe43ae553f409b7b1",
+        "complete_hmtx_sha256": "ba1bd8522956bf3553436243e6c4dd8e8b426f32963f1a6c8e3da2af0dd31407",
+        "changed_raw_sfnt_tables": [
+          "head",
+          "loca",
+          "glyf"
+        ],
+        "normalized_head_exactly_equal": true,
+        "head_normalization": "Exclude only checksumAdjustment and created/modified timestamps; retain all rendering fields.",
+        "hint_audit": {
+          "hint_tables_present": {
+            "fpgm": false,
+            "prep": false,
+            "cvt ": false,
+            "gasp": false,
+            "LTSH": false,
+            "hdmx": false,
+            "VDMX": false
+          },
+          "old_glyph_instruction_bytes": 0,
+          "current_glyph_instruction_bytes": 0,
+          "changed_instruction_glyphs": []
+        }
+      },
+      "woff2": {
+        "baseline_sha256": "50d4114e3c11e2ece81775debd2595aed4ee4bd60ef297c706e1a22bc02b90b6",
+        "current_sha256": "2a25805c29e9a3abc9344b56149464d7f22b0b53b0f9cc0a5d19e21d4f5de1d4",
+        "byte_identical": false,
+        "encoded_characters_compared": 4041,
+        "glyphs_compared_including_notdef": 4042,
+        "changed_glyph_names": [
+          "uni6525",
+          "uni87A3"
+        ],
+        "changed_characters": "攥螣",
+        "unchanged_encoded_characters": 4039,
+        "cmap_exactly_equal": true,
+        "complete_hmtx_exactly_equal": true,
+        "hmtx_entries_compared": 4042,
+        "line_metrics_exactly_equal": true,
+        "line_metrics": [
+          1000,
+          1160,
+          -320,
+          0,
+          1160,
+          -320,
+          0,
+          1160,
+          320
+        ],
+        "preserved_original161_plus_羁黛_plus64_count": 227,
+        "preserved_special_subset_equal": true,
+        "unchanged_outline_subset_old_sha256": "3a7df6f2e8394dc7534636e1ac9bd17a70c04d781649cccf2aebd42a10058794",
+        "unchanged_outline_subset_new_sha256": "3a7df6f2e8394dc7534636e1ac9bd17a70c04d781649cccf2aebd42a10058794",
+        "complete_hmtx_sha256": "934d8aea93701b64e4b04b31cfd5c8ac0633b99ffdaa81d2404034750d0e0d4c",
+        "changed_raw_sfnt_tables": [
+          "CFF ",
+          "head"
+        ],
+        "normalized_head_exactly_equal": true,
+        "head_normalization": "Exclude only checksumAdjustment and created/modified timestamps; retain all rendering fields.",
+        "hint_audit": {
+          "old_private_dict": {},
+          "current_private_dict": {},
+          "global_subroutines": 0
+        }
+      }
+    },
+    "Display": {
+      "otf": {
+        "baseline_sha256": "868b97adfafb1250eb949ce6d1710a7e6a0c5b2b07478d34ed5cb808ba927e33",
+        "current_sha256": "868b97adfafb1250eb949ce6d1710a7e6a0c5b2b07478d34ed5cb808ba927e33",
+        "byte_identical": true,
+        "encoded_characters_compared": 4041,
+        "glyphs_compared_including_notdef": 4042,
+        "changed_glyph_names": [],
+        "changed_characters": "",
+        "unchanged_encoded_characters": 4041,
+        "cmap_exactly_equal": true,
+        "complete_hmtx_exactly_equal": true,
+        "hmtx_entries_compared": 4042,
+        "line_metrics_exactly_equal": true,
+        "line_metrics": [
+          1000,
+          1160,
+          -320,
+          0,
+          1160,
+          -320,
+          0,
+          1160,
+          320
+        ],
+        "preserved_original161_plus_羁黛_plus64_count": 227,
+        "preserved_special_subset_equal": true,
+        "unchanged_outline_subset_old_sha256": "02f0b95ea0ce7066970d3e03e12f72c3077ef14fa41505251727def0cc21278b",
+        "unchanged_outline_subset_new_sha256": "02f0b95ea0ce7066970d3e03e12f72c3077ef14fa41505251727def0cc21278b",
+        "complete_hmtx_sha256": "79cb2a9501db57719a1fb7845991c1d8934d0b327c5c017638940417355e8bbb",
+        "changed_raw_sfnt_tables": [],
+        "normalized_head_exactly_equal": true,
+        "head_normalization": "Exclude only checksumAdjustment and created/modified timestamps; retain all rendering fields.",
+        "hint_audit": {
+          "old_private_dict": {},
+          "current_private_dict": {},
+          "global_subroutines": 0
+        }
+      },
+      "ttf": {
+        "baseline_sha256": "bce479fe78f66867de817b46d6de0fd8934e58ba635ddf75bb90157c8afba9e2",
+        "current_sha256": "bce479fe78f66867de817b46d6de0fd8934e58ba635ddf75bb90157c8afba9e2",
+        "byte_identical": true,
+        "encoded_characters_compared": 4041,
+        "glyphs_compared_including_notdef": 4042,
+        "changed_glyph_names": [],
+        "changed_characters": "",
+        "unchanged_encoded_characters": 4041,
+        "cmap_exactly_equal": true,
+        "complete_hmtx_exactly_equal": true,
+        "hmtx_entries_compared": 4042,
+        "line_metrics_exactly_equal": true,
+        "line_metrics": [
+          1000,
+          1160,
+          -320,
+          0,
+          1160,
+          -320,
+          0,
+          1160,
+          320
+        ],
+        "preserved_original161_plus_羁黛_plus64_count": 227,
+        "preserved_special_subset_equal": true,
+        "unchanged_outline_subset_old_sha256": "c413caeee16ae17dff16f52191c1022ebeecdd62754e4150d62a1c4ba8f748aa",
+        "unchanged_outline_subset_new_sha256": "c413caeee16ae17dff16f52191c1022ebeecdd62754e4150d62a1c4ba8f748aa",
+        "complete_hmtx_sha256": "1e566a0dcace04ea579492e24b7369cda2429adc55f78cded753e137a450417a",
+        "changed_raw_sfnt_tables": [],
+        "normalized_head_exactly_equal": true,
+        "head_normalization": "Exclude only checksumAdjustment and created/modified timestamps; retain all rendering fields.",
+        "hint_audit": {
+          "hint_tables_present": {
+            "fpgm": false,
+            "prep": false,
+            "cvt ": false,
+            "gasp": false,
+            "LTSH": false,
+            "hdmx": false,
+            "VDMX": false
+          },
+          "old_glyph_instruction_bytes": 0,
+          "current_glyph_instruction_bytes": 0,
+          "changed_instruction_glyphs": []
+        }
+      },
+      "woff2": {
+        "baseline_sha256": "0b748aaf0473d702355b712308f41c824f930846cd6e4441a4e5a413935f3d28",
+        "current_sha256": "0b748aaf0473d702355b712308f41c824f930846cd6e4441a4e5a413935f3d28",
+        "byte_identical": true,
+        "encoded_characters_compared": 4041,
+        "glyphs_compared_including_notdef": 4042,
+        "changed_glyph_names": [],
+        "changed_characters": "",
+        "unchanged_encoded_characters": 4041,
+        "cmap_exactly_equal": true,
+        "complete_hmtx_exactly_equal": true,
+        "hmtx_entries_compared": 4042,
+        "line_metrics_exactly_equal": true,
+        "line_metrics": [
+          1000,
+          1160,
+          -320,
+          0,
+          1160,
+          -320,
+          0,
+          1160,
+          320
+        ],
+        "preserved_original161_plus_羁黛_plus64_count": 227,
+        "preserved_special_subset_equal": true,
+        "unchanged_outline_subset_old_sha256": "02f0b95ea0ce7066970d3e03e12f72c3077ef14fa41505251727def0cc21278b",
+        "unchanged_outline_subset_new_sha256": "02f0b95ea0ce7066970d3e03e12f72c3077ef14fa41505251727def0cc21278b",
+        "complete_hmtx_sha256": "79cb2a9501db57719a1fb7845991c1d8934d0b327c5c017638940417355e8bbb",
+        "changed_raw_sfnt_tables": [],
+        "normalized_head_exactly_equal": true,
+        "head_normalization": "Exclude only checksumAdjustment and created/modified timestamps; retain all rendering fields.",
+        "hint_audit": {
+          "old_private_dict": {},
+          "current_private_dict": {},
+          "global_subroutines": 0
+        }
+      }
+    }
+  },
+  "source_plan_review": {
+    "攥": {
+      "declared_anchor": "e04ff83e205492028651239e38652d53482fba65bb00b583e1ede225067e38e3",
+      "actual_post_dense_anchor": "e04ff83e205492028651239e38652d53482fba65bb00b583e1ede225067e38e3",
+      "expected_node_counts": [
+        12,
+        12,
+        24,
+        4,
+        4,
+        4,
+        4,
+        4,
+        50
+      ],
+      "source_before": {
+        "contour_count": 9,
+        "contour_signed_areas": [
+          26601.15000000001,
+          25966.24999999997,
+          92285.8,
+          9640.6,
+          9318.1,
+          -18522.0,
+          -18522.0,
+          -17388.0,
+          261340.30000000005
+        ],
+        "winding_signs": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "signed_ink_area": 370720.2,
+        "strict_self_crossings_by_contour": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "strict_cross_contour_crossings": [],
+        "contour_bounds": [
+          [
+            601,
+            656,
+            944,
+            849
+          ],
+          [
+            314,
+            636,
+            630,
+            847
+          ],
+          [
+            41,
+            -70,
+            321,
+            836
+          ],
+          [
+            321,
+            -69,
+            547,
+            46
+          ],
+          [
+            734,
+            -66,
+            945,
+            50
+          ],
+          [
+            446.0,
+            418.0,
+            824.0,
+            467.0
+          ],
+          [
+            446.0,
+            494.0,
+            824.0,
+            543.0
+          ],
+          [
+            446.0,
+            571.0,
+            824.0,
+            617.0
+          ],
+          [
+            278,
+            -74.03305785123968,
+            959,
+            655
+          ]
+        ]
+      },
+      "source_after": {
+        "contour_count": 9,
+        "contour_signed_areas": [
+          25933.111500000028,
+          25141.68299999996,
+          92285.8,
+          9640.6,
+          9318.099999999999,
+          -22302.0,
+          -22302.0,
+          -21168.0,
+          276310.30000000005
+        ],
+        "winding_signs": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "signed_ink_area": 372857.59450000006,
+        "strict_self_crossings_by_contour": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "strict_cross_contour_crossings": [],
+        "contour_bounds": [
+          [
+            601,
+            672.48,
+            944,
+            859
+          ],
+          [
+            314,
+            654,
+            630,
+            857
+          ],
+          [
+            41,
+            -70,
+            321,
+            836
+          ],
+          [
+            321,
+            -89,
+            547,
+            26
+          ],
+          [
+            734,
+            -86,
+            945,
+            30
+          ],
+          [
+            446.0,
+            398.0,
+            824.0,
+            457.0
+          ],
+          [
+            446.0,
+            484.0,
+            824.0,
+            543.0
+          ],
+          [
+            446.0,
+            571.0,
+            824.0,
+            627.0
+          ],
+          [
+            278,
+            -94.03305785123968,
+            959,
+            665
+          ]
+        ]
+      },
+      "geometry_safe": true,
+      "node_edits": 90,
+      "control_edits": 88,
+      "eye_budget": {
+        "inner_horizontal_thickness_upm": [
+          27.0,
+          28.0
+        ],
+        "eye_height_upm": 305,
+        "counter_height_increases_upm": [
+          10.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    "螣": {
+      "declared_anchor": "e3c499ccd76e4639faf630f518b1c89ab4c2e8c8ca96a5edfcde2b48fbb4b8ee",
+      "actual_post_dense_anchor": "e3c499ccd76e4639faf630f518b1c89ab4c2e8c8ca96a5edfcde2b48fbb4b8ee",
+      "expected_node_counts": [
+        4,
+        4,
+        5,
+        4,
+        4,
+        8,
+        5,
+        4,
+        48
+      ],
+      "source_before": {
+        "contour_count": 9,
+        "contour_signed_areas": [
+          9352.5,
+          9214.449999999997,
+          -7800.799999999999,
+          -15125.0,
+          -15730.0,
+          -25507.876553113005,
+          -23526.076664432505,
+          -22968.0,
+          468244.9499999999
+        ],
+        "winding_signs": [
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "signed_ink_area": 376154.1467824544,
+        "strict_self_crossings_by_contour": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "strict_cross_contour_crossings": [],
+        "contour_bounds": [
+          [
+            741,
+            671,
+            885,
+            814
+          ],
+          [
+            407,
+            671,
+            547,
+            816
+          ],
+          [
+            695,
+            22,
+            815,
+            107
+          ],
+          [
+            511.0,
+            152.0,
+            636.0,
+            273.0
+          ],
+          [
+            689.0,
+            152.0,
+            819.0,
+            273.0
+          ],
+          [
+            501.0,
+            313.0,
+            834.0,
+            432.0
+          ],
+          [
+            160.0,
+            322.0,
+            294.0,
+            500.0
+          ],
+          [
+            162.0,
+            554.0,
+            294.0,
+            728.0
+          ],
+          [
+            35,
+            -80,
+            969,
+            836
+          ]
+        ]
+      },
+      "source_after": {
+        "contour_count": 9,
+        "contour_signed_areas": [
+          9352.5,
+          9214.449999999997,
+          -9104.8,
+          -15125.0,
+          -15730.0,
+          -25507.876553113005,
+          -23526.076664432505,
+          -22968.0,
+          471031.3499999999
+        ],
+        "winding_signs": [
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "signed_ink_area": 377636.5467824544,
+        "strict_self_crossings_by_contour": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "strict_cross_contour_crossings": [],
+        "contour_bounds": [
+          [
+            741,
+            671,
+            885,
+            814
+          ],
+          [
+            407,
+            671,
+            547,
+            816
+          ],
+          [
+            695,
+            22,
+            831,
+            107
+          ],
+          [
+            511.0,
+            152.0,
+            636.0,
+            273.0
+          ],
+          [
+            689.0,
+            152.0,
+            819.0,
+            273.0
+          ],
+          [
+            501.0,
+            313.0,
+            834.0,
+            432.0
+          ],
+          [
+            160.0,
+            322.0,
+            294.0,
+            500.0
+          ],
+          [
+            162.0,
+            554.0,
+            294.0,
+            728.0
+          ],
+          [
+            35,
+            -80,
+            969,
+            836
+          ]
+        ]
+      },
+      "geometry_safe": true,
+      "node_edits": 2,
+      "control_edits": 3,
+      "dot_boundary_curve_checks": [
+        {
+          "contour": 2,
+          "edge": 3,
+          "all_curve_points_translated_exactly": [
+            16,
+            0
+          ],
+          "verified": true
+        },
+        {
+          "contour": 8,
+          "edge": 45,
+          "all_curve_points_translated_exactly": [
+            16,
+            0
+          ],
+          "verified": true
+        }
+      ],
+      "dot_cap_xmax_source_before_after": [
+        948,
+        964
+      ]
+    }
+  },
+  "target_geometry": {
+    "otf": {
+      "攥": {
+        "baseline": {
+          "contour_count": 9,
+          "contour_signed_areas": [
+            23393.749999999985,
+            22793.15000000001,
+            81280.95000000001,
+            8496.7,
+            8236.8,
+            -16317.0,
+            -16317.0,
+            -15318.0,
+            229889.05
+          ],
+          "winding_signs": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "signed_ink_area": 326138.4,
+          "strict_self_crossings_by_contour": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "strict_cross_contour_crossings": [],
+          "contour_bounds": [
+            [
+              539,
+              656,
+              841,
+              849
+            ],
+            [
+              286,
+              636,
+              564,
+              847
+            ],
+            [
+              46,
+              -70,
+              292,
+              836
+            ],
+            [
+              292,
+              -69,
+              491,
+              46
+            ],
+            [
+              656,
+              -66,
+              842,
+              50
+            ],
+            [
+              402,
+              418,
+              735,
+              467
+            ],
+            [
+              402,
+              494,
+              735,
+              543
+            ],
+            [
+              402,
+              571,
+              735,
+              617
+            ],
+            [
+              255,
+              -74.03305785123968,
+              854,
+              655
+            ]
+          ]
+        },
+        "current": {
+          "contour_count": 9,
+          "contour_signed_areas": [
+            22804.25,
+            22131.29999999999,
+            81280.95000000001,
+            8496.7,
+            8236.8,
+            -19647.0,
+            -19647.0,
+            -18648.0,
+            243059.05
+          ],
+          "winding_signs": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "signed_ink_area": 328067.05,
+          "strict_self_crossings_by_contour": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "strict_cross_contour_crossings": [],
+          "contour_bounds": [
+            [
+              539,
+              672,
+              841,
+              859
+            ],
+            [
+              286,
+              654,
+              564,
+              857
+            ],
+            [
+              46,
+              -70,
+              292,
+              836
+            ],
+            [
+              292,
+              -89,
+              491,
+              26
+            ],
+            [
+              656,
+              -86,
+              842,
+              30
+            ],
+            [
+              402,
+              398,
+              735,
+              457
+            ],
+            [
+              402,
+              484,
+              735,
+              543
+            ],
+            [
+              402,
+              571,
+              735,
+              627
+            ],
+            [
+              255,
+              -94.03305785123968,
+              854,
+              665
+            ]
+          ]
+        },
+        "winding_and_proper_crossings_preserved": true,
+        "ink_area_ratio": 1.0059135937381185
+      },
+      "螣": {
+        "baseline": {
+          "contour_count": 9,
+          "contour_signed_areas": [
+            8264.949999999997,
+            8101.449999999997,
+            -6819.299999999999,
+            -13310.0,
+            -13915.0,
+            -22464.95000000001,
+            -20707.1,
+            -20184.0,
+            411559.30000000005
+          ],
+          "winding_signs": [
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "signed_ink_area": 330525.35000000003,
+          "strict_self_crossings_by_contour": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "strict_cross_contour_crossings": [],
+          "contour_bounds": [
+            [
+              662,
+              671,
+              789,
+              814
+            ],
+            [
+              368,
+              671,
+              491,
+              816
+            ],
+            [
+              622,
+              22,
+              727,
+              107
+            ],
+            [
+              460,
+              152,
+              570,
+              273
+            ],
+            [
+              616,
+              152,
+              731,
+              273
+            ],
+            [
+              451,
+              313,
+              744,
+              432
+            ],
+            [
+              151,
+              322,
+              269,
+              500
+            ],
+            [
+              153,
+              554,
+              269,
+              728
+            ],
+            [
+              41,
+              -80,
+              863,
+              836
+            ]
+          ]
+        },
+        "current": {
+          "contour_count": 9,
+          "contour_signed_areas": [
+            8264.949999999997,
+            8101.449999999997,
+            -7960.299999999999,
+            -13310.0,
+            -13915.0,
+            -22464.95000000001,
+            -20707.1,
+            -20184.0,
+            413998.6500000001
+          ],
+          "winding_signs": [
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "signed_ink_area": 331823.70000000007,
+          "strict_self_crossings_by_contour": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "strict_cross_contour_crossings": [],
+          "contour_bounds": [
+            [
+              662,
+              671,
+              789,
+              814
+            ],
+            [
+              368,
+              671,
+              491,
+              816
+            ],
+            [
+              622,
+              22,
+              741,
+              107
+            ],
+            [
+              460,
+              152,
+              570,
+              273
+            ],
+            [
+              616,
+              152,
+              731,
+              273
+            ],
+            [
+              451,
+              313,
+              744,
+              432
+            ],
+            [
+              151,
+              322,
+              269,
+              500
+            ],
+            [
+              153,
+              554,
+              269,
+              728
+            ],
+            [
+              41,
+              -80,
+              863,
+              836
+            ]
+          ]
+        },
+        "winding_and_proper_crossings_preserved": true,
+        "ink_area_ratio": 1.003928140458818
+      }
+    },
+    "ttf": {
+      "攥": {
+        "baseline": {
+          "contour_count": 9,
+          "contour_signed_areas": [
+            -23447.833333333343,
+            -22841.0,
+            -81246.33333333333,
+            -8499.375,
+            -8172.75,
+            16317.0,
+            16317.0,
+            15318.0,
+            -229853.04166666672
+          ],
+          "winding_signs": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "signed_ink_area": -326108.3333333334,
+          "strict_self_crossings_by_contour": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "strict_cross_contour_crossings": [],
+          "contour_bounds": [
+            [
+              539,
+              656,
+              841,
+              849
+            ],
+            [
+              286,
+              636,
+              564,
+              847
+            ],
+            [
+              46,
+              -70,
+              292,
+              836
+            ],
+            [
+              292,
+              -69,
+              491,
+              46
+            ],
+            [
+              656,
+              -66,
+              842,
+              50
+            ],
+            [
+              402,
+              418,
+              735,
+              467
+            ],
+            [
+              402,
+              494,
+              735,
+              543
+            ],
+            [
+              402,
+              571,
+              735,
+              617
+            ],
+            [
+              255,
+              -74,
+              854,
+              655
+            ]
+          ]
+        },
+        "current": {
+          "contour_count": 9,
+          "contour_signed_areas": [
+            -22865.666666666657,
+            -22137.416666666675,
+            -81246.33333333333,
+            -8469.125,
+            -8226.75,
+            19647.0,
+            19647.0,
+            18648.0,
+            -243023.04166666672
+          ],
+          "winding_signs": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "signed_ink_area": -328026.3333333334,
+          "strict_self_crossings_by_contour": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "strict_cross_contour_crossings": [],
+          "contour_bounds": [
+            [
+              539,
+              672,
+              841,
+              859
+            ],
+            [
+              286,
+              654,
+              564,
+              857
+            ],
+            [
+              46,
+              -70,
+              292,
+              836
+            ],
+            [
+              292,
+              -89,
+              491,
+              26
+            ],
+            [
+              656,
+              -86,
+              842,
+              30
+            ],
+            [
+              402,
+              398,
+              735,
+              457
+            ],
+            [
+              402,
+              484,
+              735,
+              543
+            ],
+            [
+              402,
+              571,
+              735,
+              627
+            ],
+            [
+              255,
+              -94,
+              854,
+              665
+            ]
+          ]
+        },
+        "winding_and_proper_crossings_preserved": true,
+        "ink_area_ratio": 1.0058814811029055
+      },
+      "螣": {
+        "baseline": {
+          "contour_count": 9,
+          "contour_signed_areas": [
+            -8244.5,
+            -8101.708333333335,
+            6820.416666666667,
+            13310.0,
+            13915.0,
+            22437.416666666657,
+            20726.5,
+            20184.0,
+            -411561.58333333326
+          ],
+          "winding_signs": [
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "signed_ink_area": -330514.45833333326,
+          "strict_self_crossings_by_contour": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "strict_cross_contour_crossings": [],
+          "contour_bounds": [
+            [
+              662,
+              671,
+              789,
+              814
+            ],
+            [
+              368,
+              671,
+              491,
+              816
+            ],
+            [
+              622,
+              22,
+              727,
+              107
+            ],
+            [
+              460,
+              152,
+              570,
+              273
+            ],
+            [
+              616,
+              152,
+              731,
+              273
+            ],
+            [
+              451,
+              313,
+              744,
+              432
+            ],
+            [
+              151,
+              322,
+              269,
+              500
+            ],
+            [
+              153,
+              554,
+              269,
+              728
+            ],
+            [
+              41,
+              -80,
+              863,
+              836
+            ]
+          ]
+        },
+        "current": {
+          "contour_count": 9,
+          "contour_signed_areas": [
+            -8244.5,
+            -8101.708333333335,
+            7979.333333333334,
+            13310.0,
+            13915.0,
+            22437.416666666657,
+            20726.5,
+            20184.0,
+            -414022.33333333326
+          ],
+          "winding_signs": [
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          "signed_ink_area": -331816.2916666666,
+          "strict_self_crossings_by_contour": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "strict_cross_contour_crossings": [],
+          "contour_bounds": [
+            [
+              662,
+              671,
+              789,
+              814
+            ],
+            [
+              368,
+              671,
+              491,
+              816
+            ],
+            [
+              622,
+              22,
+              741,
+              107
+            ],
+            [
+              460,
+              152,
+              570,
+              273
+            ],
+            [
+              616,
+              152,
+              731,
+              273
+            ],
+            [
+              451,
+              313,
+              744,
+              432
+            ],
+            [
+              151,
+              322,
+              269,
+              500
+            ],
+            [
+              153,
+              554,
+              269,
+              728
+            ],
+            [
+              41,
+              -80,
+              863,
+              836
+            ]
+          ]
+        },
+        "winding_and_proper_crossings_preserved": true,
+        "ink_area_ratio": 1.0039388090309211
+      }
+    },
+    "woff2": {
+      "攥": {
+        "baseline": {
+          "contour_count": 9,
+          "contour_signed_areas": [
+            23393.749999999985,
+            22793.15000000001,
+            81280.95000000001,
+            8496.7,
+            8236.8,
+            -16317.0,
+            -16317.0,
+            -15318.0,
+            229889.05
+          ],
+          "winding_signs": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "signed_ink_area": 326138.4,
+          "strict_self_crossings_by_contour": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "strict_cross_contour_crossings": [],
+          "contour_bounds": [
+            [
+              539,
+              656,
+              841,
+              849
+            ],
+            [
+              286,
+              636,
+              564,
+              847
+            ],
+            [
+              46,
+              -70,
+              292,
+              836
+            ],
+            [
+              292,
+              -69,
+              491,
+              46
+            ],
+            [
+              656,
+              -66,
+              842,
+              50
+            ],
+            [
+              402,
+              418,
+              735,
+              467
+            ],
+            [
+              402,
+              494,
+              735,
+              543
+            ],
+            [
+              402,
+              571,
+              735,
+              617
+            ],
+            [
+              255,
+              -74.03305785123968,
+              854,
+              655
+            ]
+          ]
+        },
+        "current": {
+          "contour_count": 9,
+          "contour_signed_areas": [
+            22804.25,
+            22131.29999999999,
+            81280.95000000001,
+            8496.7,
+            8236.8,
+            -19647.0,
+            -19647.0,
+            -18648.0,
+            243059.05
+          ],
+          "winding_signs": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "signed_ink_area": 328067.05,
+          "strict_self_crossings_by_contour": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "strict_cross_contour_crossings": [],
+          "contour_bounds": [
+            [
+              539,
+              672,
+              841,
+              859
+            ],
+            [
+              286,
+              654,
+              564,
+              857
+            ],
+            [
+              46,
+              -70,
+              292,
+              836
+            ],
+            [
+              292,
+              -89,
+              491,
+              26
+            ],
+            [
+              656,
+              -86,
+              842,
+              30
+            ],
+            [
+              402,
+              398,
+              735,
+              457
+            ],
+            [
+              402,
+              484,
+              735,
+              543
+            ],
+            [
+              402,
+              571,
+              735,
+              627
+            ],
+            [
+              255,
+              -94.03305785123968,
+              854,
+              665
+            ]
+          ]
+        },
+        "winding_and_proper_crossings_preserved": true,
+        "ink_area_ratio": 1.0059135937381185
+      },
+      "螣": {
+        "baseline": {
+          "contour_count": 9,
+          "contour_signed_areas": [
+            8264.949999999997,
+            8101.449999999997,
+            -6819.299999999999,
+            -13310.0,
+            -13915.0,
+            -22464.95000000001,
+            -20707.1,
+            -20184.0,
+            411559.30000000005
+          ],
+          "winding_signs": [
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "signed_ink_area": 330525.35000000003,
+          "strict_self_crossings_by_contour": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "strict_cross_contour_crossings": [],
+          "contour_bounds": [
+            [
+              662,
+              671,
+              789,
+              814
+            ],
+            [
+              368,
+              671,
+              491,
+              816
+            ],
+            [
+              622,
+              22,
+              727,
+              107
+            ],
+            [
+              460,
+              152,
+              570,
+              273
+            ],
+            [
+              616,
+              152,
+              731,
+              273
+            ],
+            [
+              451,
+              313,
+              744,
+              432
+            ],
+            [
+              151,
+              322,
+              269,
+              500
+            ],
+            [
+              153,
+              554,
+              269,
+              728
+            ],
+            [
+              41,
+              -80,
+              863,
+              836
+            ]
+          ]
+        },
+        "current": {
+          "contour_count": 9,
+          "contour_signed_areas": [
+            8264.949999999997,
+            8101.449999999997,
+            -7960.299999999999,
+            -13310.0,
+            -13915.0,
+            -22464.95000000001,
+            -20707.1,
+            -20184.0,
+            413998.6500000001
+          ],
+          "winding_signs": [
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "signed_ink_area": 331823.70000000007,
+          "strict_self_crossings_by_contour": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "strict_cross_contour_crossings": [],
+          "contour_bounds": [
+            [
+              662,
+              671,
+              789,
+              814
+            ],
+            [
+              368,
+              671,
+              491,
+              816
+            ],
+            [
+              622,
+              22,
+              741,
+              107
+            ],
+            [
+              460,
+              152,
+              570,
+              273
+            ],
+            [
+              616,
+              152,
+              731,
+              273
+            ],
+            [
+              451,
+              313,
+              744,
+              432
+            ],
+            [
+              151,
+              322,
+              269,
+              500
+            ],
+            [
+              153,
+              554,
+              269,
+              728
+            ],
+            [
+              41,
+              -80,
+              863,
+              836
+            ]
+          ]
+        },
+        "winding_and_proper_crossings_preserved": true,
+        "ink_area_ratio": 1.003928140458818
+      }
+    }
+  },
+  "raster_diagnostics": {
+    "攥": [
+      {
+        "size_physical_px": 13,
+        "baseline_mask_offset": [
+          0,
+          -12
+        ],
+        "current_mask_offset": [
+          0,
+          -12
+        ],
+        "baseline_gray_ink_sum": 15313,
+        "current_gray_ink_sum": 14663,
+        "ink_coverage_ratio": 0.9575524064520342,
+        "current_ink_bounds_from_baseline": [
+          0,
+          -12,
+          12,
+          1
+        ],
+        "nonempty_unclipped": true
+      },
+      {
+        "size_physical_px": 14,
+        "baseline_mask_offset": [
+          0,
+          -13
+        ],
+        "current_mask_offset": [
+          0,
+          -13
+        ],
+        "baseline_gray_ink_sum": 17321,
+        "current_gray_ink_sum": 17042,
+        "ink_coverage_ratio": 0.983892384966226,
+        "current_ink_bounds_from_baseline": [
+          0,
+          -13,
+          12,
+          1
+        ],
+        "nonempty_unclipped": true
+      },
+      {
+        "size_physical_px": 15,
+        "baseline_mask_offset": [
+          0,
+          -14
+        ],
+        "current_mask_offset": [
+          0,
+          -14
+        ],
+        "baseline_gray_ink_sum": 19674,
+        "current_gray_ink_sum": 19545,
+        "ink_coverage_ratio": 0.9934431229033241,
+        "current_ink_bounds_from_baseline": [
+          0,
+          -14,
+          13,
+          1
+        ],
+        "nonempty_unclipped": true
+      },
+      {
+        "size_physical_px": 28,
+        "baseline_mask_offset": [
+          0,
+          -25
+        ],
+        "current_mask_offset": [
+          0,
+          -25
+        ],
+        "baseline_gray_ink_sum": 66410,
+        "current_gray_ink_sum": 66734,
+        "ink_coverage_ratio": 1.0048787833157657,
+        "current_ink_bounds_from_baseline": [
+          1,
+          -25,
+          24,
+          3
+        ],
+        "nonempty_unclipped": true
+      }
+    ],
+    "螣": [
+      {
+        "size_physical_px": 13,
+        "baseline_mask_offset": [
+          0,
+          -11
+        ],
+        "current_mask_offset": [
+          0,
+          -11
+        ],
+        "baseline_gray_ink_sum": 14841,
+        "current_gray_ink_sum": 14843,
+        "ink_coverage_ratio": 1.0001347618085035,
+        "current_ink_bounds_from_baseline": [
+          0,
+          -11,
+          11,
+          2
+        ],
+        "nonempty_unclipped": true
+      },
+      {
+        "size_physical_px": 14,
+        "baseline_mask_offset": [
+          0,
+          -12
+        ],
+        "current_mask_offset": [
+          0,
+          -12
+        ],
+        "baseline_gray_ink_sum": 17042,
+        "current_gray_ink_sum": 17048,
+        "ink_coverage_ratio": 1.0003520713531275,
+        "current_ink_bounds_from_baseline": [
+          0,
+          -12,
+          12,
+          2
+        ],
+        "nonempty_unclipped": true
+      },
+      {
+        "size_physical_px": 15,
+        "baseline_mask_offset": [
+          0,
+          -13
+        ],
+        "current_mask_offset": [
+          0,
+          -13
+        ],
+        "baseline_gray_ink_sum": 19985,
+        "current_gray_ink_sum": 19958,
+        "ink_coverage_ratio": 0.9986489867400551,
+        "current_ink_bounds_from_baseline": [
+          0,
+          -13,
+          13,
+          2
+        ],
+        "nonempty_unclipped": true
+      },
+      {
+        "size_physical_px": 28,
+        "baseline_mask_offset": [
+          0,
+          -24
+        ],
+        "current_mask_offset": [
+          0,
+          -24
+        ],
+        "baseline_gray_ink_sum": 66164,
+        "current_gray_ink_sum": 66368,
+        "ink_coverage_ratio": 1.0030832476875642,
+        "current_ink_bounds_from_baseline": [
+          1,
+          -24,
+          25,
+          3
+        ],
+        "nonempty_unclipped": true
+      }
+    ]
+  },
+  "fixed_roi_samples": [
+    {
+      "character": "攥",
+      "region": "eye_frame",
+      "primary": true,
+      "source_box": [
+        387,
+        380,
+        886,
+        655
+      ],
+      "source": "Old source contour8 eye-frame corners.",
+      "size_physical_px": 13,
+      "gray_white_mean_before": 0.4422450823601295,
+      "gray_white_mean_after": 0.5470818763115575,
+      "gray_ink_mean_before": 0.5577549176398705,
+      "gray_ink_mean_after": 0.45291812368844253,
+      "white_increase_percentage_points": 10.483679395142797
+    },
+    {
+      "character": "攥",
+      "region": "eye_lower_counter",
+      "primary": false,
+      "source_box": [
+        446,
+        418,
+        824,
+        467
+      ],
+      "source": "Old dense source contour5 bounds.",
+      "size_physical_px": 13,
+      "gray_white_mean_before": 0.5126394627456592,
+      "gray_white_mean_after": 0.7274348744936981,
+      "gray_ink_mean_before": 0.4873605372543408,
+      "gray_ink_mean_after": 0.27256512550630185,
+      "white_increase_percentage_points": 21.479541174803895
+    },
+    {
+      "character": "攥",
+      "region": "eye_middle_counter",
+      "primary": false,
+      "source_box": [
+        446,
+        494,
+        824,
+        543
+      ],
+      "source": "Old dense source contour6 bounds.",
+      "size_physical_px": 13,
+      "gray_white_mean_before": 0.2600344932323884,
+      "gray_white_mean_after": 0.6805234497634526,
+      "gray_ink_mean_before": 0.7399655067676116,
+      "gray_ink_mean_after": 0.3194765502365474,
+      "white_increase_percentage_points": 42.04889565310641
+    },
+    {
+      "character": "攥",
+      "region": "eye_upper_counter",
+      "primary": false,
+      "source_box": [
+        446,
+        571,
+        824,
+        617
+      ],
+      "source": "Old dense source contour7 bounds.",
+      "size_physical_px": 13,
+      "gray_white_mean_before": 0.6266739621451402,
+      "gray_white_mean_after": 0.23188709447808445,
+      "gray_ink_mean_before": 0.37332603785485985,
+      "gray_ink_mean_after": 0.7681129055219156,
+      "white_increase_percentage_points": -39.47868676670557
+    },
+    {
+      "character": "攥",
+      "region": "bamboo_eye_neck",
+      "primary": false,
+      "source_box": [
+        470,
+        645,
+        840,
+        690
+      ],
+      "source": "Frozen diagnosis window across the old bamboo/eye joint.",
+      "size_physical_px": 13,
+      "gray_white_mean_before": 0.17506346329875744,
+      "gray_white_mean_after": 0.5271052212228682,
+      "gray_ink_mean_before": 0.8249365367012426,
+      "gray_ink_mean_after": 0.4728947787771318,
+      "white_increase_percentage_points": 35.20417579241107
+    },
+    {
+      "character": "攥",
+      "region": "eye_silk_neck",
+      "primary": false,
+      "source_box": [
+        450,
+        341,
+        850,
+        380
+      ],
+      "source": "Frozen diagnosis window between old eye and lower component.",
+      "size_physical_px": 13,
+      "gray_white_mean_before": 0.18680926916221033,
+      "gray_white_mean_after": 0.20249554367201425,
+      "gray_ink_mean_before": 0.8131907308377897,
+      "gray_ink_mean_after": 0.7975044563279857,
+      "white_increase_percentage_points": 1.5686274509803921
+    },
+    {
+      "character": "螣",
+      "region": "lower_dot_counter",
+      "primary": true,
+      "source_box": [
+        695,
+        22,
+        815,
+        107
+      ],
+      "source": "Old source contour2 bounds; moving inner/right dot boundary.",
+      "size_physical_px": 13,
+      "gray_white_mean_before": 0.5008667953464334,
+      "gray_white_mean_after": 0.536107015156789,
+      "gray_ink_mean_before": 0.4991332046535666,
+      "gray_ink_mean_after": 0.46389298484321095,
+      "white_increase_percentage_points": 3.5240219810355633
+    },
+    {
+      "character": "螣",
+      "region": "lower_dot_root",
+      "primary": true,
+      "source_box": [
+        630,
+        -27,
+        880,
+        107
+      ],
+      "source": "Frozen candidate-selection window around dot/root and lower stroke.",
+      "size_physical_px": 13,
+      "gray_white_mean_before": 0.3595029740076,
+      "gray_white_mean_after": 0.38060043798978066,
+      "gray_ink_mean_before": 0.6404970259924,
+      "gray_ink_mean_after": 0.6193995620102193,
+      "white_increase_percentage_points": 2.109746398218065
+    },
+    {
+      "character": "螣",
+      "region": "central_stem_crown",
+      "primary": false,
+      "source_box": [
+        630,
+        388.6262,
+        695,
+        432
+      ],
+      "source": "Old dense contour5 crown; retained to expose local tradeoffs.",
+      "size_physical_px": 13,
+      "gray_white_mean_before": 0.19488656140239846,
+      "gray_white_mean_after": 0.19488656140239846,
+      "gray_ink_mean_before": 0.8051134385976015,
+      "gray_ink_mean_after": 0.8051134385976015,
+      "white_increase_percentage_points": 0.0
+    },
+    {
+      "character": "螣",
+      "region": "moon_lower_counter",
+      "primary": false,
+      "source_box": [
+        166,
+        329,
+        288,
+        493
+      ],
+      "source": "Original source contour6 bounds; geometry unchanged this round.",
+      "size_physical_px": 13,
+      "gray_white_mean_before": 0.616937861124259,
+      "gray_white_mean_after": 0.616937861124259,
+      "gray_ink_mean_before": 0.38306213887574103,
+      "gray_ink_mean_after": 0.38306213887574103,
+      "white_increase_percentage_points": 0.0
+    },
+    {
+      "character": "螣",
+      "region": "worm_left_counter",
+      "primary": false,
+      "source_box": [
+        517,
+        159,
+        630,
+        266
+      ],
+      "source": "Original source contour3 bounds.",
+      "size_physical_px": 13,
+      "gray_white_mean_before": 0.6165110483232747,
+      "gray_white_mean_after": 0.6165110483232747,
+      "gray_ink_mean_before": 0.38348895167672525,
+      "gray_ink_mean_after": 0.38348895167672525,
+      "white_increase_percentage_points": 0.0
+    },
+    {
+      "character": "螣",
+      "region": "worm_right_counter",
+      "primary": false,
+      "source_box": [
+        695,
+        159,
+        813,
+        266
+      ],
+      "source": "Original source contour4 bounds; previous quantization-sensitive window.",
+      "size_physical_px": 13,
+      "gray_white_mean_before": 0.571171787257964,
+      "gray_white_mean_after": 0.571171787257964,
+      "gray_ink_mean_before": 0.428828212742036,
+      "gray_ink_mean_after": 0.428828212742036,
+      "white_increase_percentage_points": 0.0
+    },
+    {
+      "character": "攥",
+      "region": "eye_frame",
+      "primary": true,
+      "source_box": [
+        387,
+        380,
+        886,
+        655
+      ],
+      "source": "Old source contour8 eye-frame corners.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.3710646988883826,
+      "gray_white_mean_after": 0.46362393434493304,
+      "gray_ink_mean_before": 0.6289353011116174,
+      "gray_ink_mean_after": 0.5363760656550669,
+      "white_increase_percentage_points": 9.255923545655042
+    },
+    {
+      "character": "攥",
+      "region": "eye_lower_counter",
+      "primary": false,
+      "source_box": [
+        446,
+        418,
+        824,
+        467
+      ],
+      "source": "Old dense source contour5 bounds.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.2818935382066756,
+      "gray_white_mean_after": 0.28938886290643306,
+      "gray_ink_mean_before": 0.7181064617933244,
+      "gray_ink_mean_after": 0.7106111370935669,
+      "white_increase_percentage_points": 0.7495324699757444
+    },
+    {
+      "character": "攥",
+      "region": "eye_middle_counter",
+      "primary": false,
+      "source_box": [
+        446,
+        494,
+        824,
+        543
+      ],
+      "source": "Old dense source contour6 bounds.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.6005033388329567,
+      "gray_white_mean_after": 0.5630362472756576,
+      "gray_ink_mean_before": 0.3994966611670433,
+      "gray_ink_mean_after": 0.4369637527243424,
+      "white_increase_percentage_points": -3.7467091557299104
+    },
+    {
+      "character": "攥",
+      "region": "eye_upper_counter",
+      "primary": false,
+      "source_box": [
+        446,
+        571,
+        824,
+        617
+      ],
+      "source": "Old dense source contour7 bounds.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.23013545380927145,
+      "gray_white_mean_after": 0.7086626046784023,
+      "gray_ink_mean_before": 0.7698645461907285,
+      "gray_ink_mean_after": 0.29133739532159775,
+      "white_increase_percentage_points": 47.85271508691308
+    },
+    {
+      "character": "攥",
+      "region": "bamboo_eye_neck",
+      "primary": false,
+      "source_box": [
+        470,
+        645,
+        840,
+        690
+      ],
+      "source": "Frozen diagnosis window across the old bamboo/eye joint.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.6317056552350669,
+      "gray_white_mean_after": 0.48418915477739005,
+      "gray_ink_mean_before": 0.36829434476493306,
+      "gray_ink_mean_after": 0.51581084522261,
+      "white_increase_percentage_points": -14.75165004576769
+    },
+    {
+      "character": "攥",
+      "region": "eye_silk_neck",
+      "primary": false,
+      "source_box": [
+        450,
+        341,
+        850,
+        380
+      ],
+      "source": "Frozen diagnosis window between old eye and lower component.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.35094355924187887,
+      "gray_white_mean_after": 0.3698984255706948,
+      "gray_ink_mean_before": 0.6490564407581212,
+      "gray_ink_mean_after": 0.6301015744293053,
+      "white_increase_percentage_points": 1.8954866328815934
+    },
+    {
+      "character": "螣",
+      "region": "lower_dot_counter",
+      "primary": true,
+      "source_box": [
+        695,
+        22,
+        815,
+        107
+      ],
+      "source": "Old source contour2 bounds; moving inner/right dot boundary.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.4154543029332944,
+      "gray_white_mean_after": 0.4721724910998264,
+      "gray_ink_mean_before": 0.5845456970667056,
+      "gray_ink_mean_after": 0.5278275089001736,
+      "white_increase_percentage_points": 5.671818816653201
+    },
+    {
+      "character": "螣",
+      "region": "lower_dot_root",
+      "primary": true,
+      "source_box": [
+        630,
+        -27,
+        880,
+        107
+      ],
+      "source": "Frozen candidate-selection window around dot/root and lower stroke.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.30532535510812214,
+      "gray_white_mean_after": 0.32354402276514427,
+      "gray_ink_mean_before": 0.6946746448918779,
+      "gray_ink_mean_after": 0.6764559772348557,
+      "white_increase_percentage_points": 1.8218667657022125
+    },
+    {
+      "character": "螣",
+      "region": "central_stem_crown",
+      "primary": false,
+      "source_box": [
+        630,
+        388.6262,
+        695,
+        432
+      ],
+      "source": "Old dense contour5 crown; retained to expose local tradeoffs.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.9219073360184067,
+      "gray_white_mean_after": 0.9029005385769031,
+      "gray_ink_mean_before": 0.07809266398159331,
+      "gray_ink_mean_after": 0.09709946142309689,
+      "white_increase_percentage_points": -1.9006797441503576
+    },
+    {
+      "character": "螣",
+      "region": "moon_lower_counter",
+      "primary": false,
+      "source_box": [
+        166,
+        329,
+        288,
+        493
+      ],
+      "source": "Original source contour6 bounds; geometry unchanged this round.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.8378986980637917,
+      "gray_white_mean_after": 0.8378986980637917,
+      "gray_ink_mean_before": 0.1621013019362083,
+      "gray_ink_mean_after": 0.1621013019362083,
+      "white_increase_percentage_points": 0.0
+    },
+    {
+      "character": "螣",
+      "region": "worm_left_counter",
+      "primary": false,
+      "source_box": [
+        517,
+        159,
+        630,
+        266
+      ],
+      "source": "Original source contour3 bounds.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.8010127301121572,
+      "gray_white_mean_after": 0.8010127301121572,
+      "gray_ink_mean_before": 0.19898726988784277,
+      "gray_ink_mean_after": 0.19898726988784277,
+      "white_increase_percentage_points": 0.0
+    },
+    {
+      "character": "螣",
+      "region": "worm_right_counter",
+      "primary": false,
+      "source_box": [
+        695,
+        159,
+        813,
+        266
+      ],
+      "source": "Original source contour4 bounds; previous quantization-sensitive window.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.7711016713757488,
+      "gray_white_mean_after": 0.7711016713757488,
+      "gray_ink_mean_before": 0.2288983286242512,
+      "gray_ink_mean_after": 0.2288983286242512,
+      "white_increase_percentage_points": 0.0
+    },
+    {
+      "character": "攥",
+      "region": "eye_frame",
+      "primary": true,
+      "source_box": [
+        387,
+        380,
+        886,
+        655
+      ],
+      "source": "Old source contour8 eye-frame corners.",
+      "size_physical_px": 15,
+      "gray_white_mean_before": 0.4499332318465773,
+      "gray_white_mean_after": 0.47102390452234516,
+      "gray_ink_mean_before": 0.5500667681534227,
+      "gray_ink_mean_after": 0.5289760954776548,
+      "white_increase_percentage_points": 2.109067267576786
+    },
+    {
+      "character": "攥",
+      "region": "eye_lower_counter",
+      "primary": false,
+      "source_box": [
+        446,
+        418,
+        824,
+        467
+      ],
+      "source": "Old dense source contour5 bounds.",
+      "size_physical_px": 15,
+      "gray_white_mean_before": 0.7338041667417867,
+      "gray_white_mean_after": 0.8809569939888743,
+      "gray_ink_mean_before": 0.2661958332582133,
+      "gray_ink_mean_after": 0.11904300601112572,
+      "white_increase_percentage_points": 14.715282724708755
+    },
+    {
+      "character": "攥",
+      "region": "eye_middle_counter",
+      "primary": false,
+      "source_box": [
+        446,
+        494,
+        824,
+        543
+      ],
+      "source": "Old dense source contour6 bounds.",
+      "size_physical_px": 15,
+      "gray_white_mean_before": 0.31673186831250044,
+      "gray_white_mean_after": 0.32257766555930256,
+      "gray_ink_mean_before": 0.6832681316874996,
+      "gray_ink_mean_after": 0.6774223344406974,
+      "white_increase_percentage_points": 0.584579724680212
+    },
+    {
+      "character": "攥",
+      "region": "eye_upper_counter",
+      "primary": false,
+      "source_box": [
+        446,
+        571,
+        824,
+        617
+      ],
+      "source": "Old dense source contour7 bounds.",
+      "size_physical_px": 15,
+      "gray_white_mean_before": 0.49765823569460954,
+      "gray_white_mean_after": 0.5147828574654376,
+      "gray_ink_mean_before": 0.5023417643053905,
+      "gray_ink_mean_after": 0.4852171425345624,
+      "white_increase_percentage_points": 1.7124621770828075
+    },
+    {
+      "character": "攥",
+      "region": "bamboo_eye_neck",
+      "primary": false,
+      "source_box": [
+        470,
+        645,
+        840,
+        690
+      ],
+      "source": "Frozen diagnosis window across the old bamboo/eye joint.",
+      "size_physical_px": 15,
+      "gray_white_mean_before": 0.4337032814156998,
+      "gray_white_mean_after": 0.46764601797281546,
+      "gray_ink_mean_before": 0.5662967185843002,
+      "gray_ink_mean_after": 0.5323539820271845,
+      "white_increase_percentage_points": 3.394273655711566
+    },
+    {
+      "character": "攥",
+      "region": "eye_silk_neck",
+      "primary": false,
+      "source_box": [
+        450,
+        341,
+        850,
+        380
+      ],
+      "source": "Frozen diagnosis window between old eye and lower component.",
+      "size_physical_px": 15,
+      "gray_white_mean_before": 0.5165329768270943,
+      "gray_white_mean_after": 0.3842691622103385,
+      "gray_ink_mean_before": 0.4834670231729057,
+      "gray_ink_mean_after": 0.6157308377896615,
+      "white_increase_percentage_points": -13.22638146167558
+    },
+    {
+      "character": "螣",
+      "region": "lower_dot_counter",
+      "primary": true,
+      "source_box": [
+        695,
+        22,
+        815,
+        107
+      ],
+      "source": "Old source contour2 bounds; moving inner/right dot boundary.",
+      "size_physical_px": 15,
+      "gray_white_mean_before": 0.46153565644915157,
+      "gray_white_mean_after": 0.5460505089340155,
+      "gray_ink_mean_before": 0.5384643435508485,
+      "gray_ink_mean_after": 0.4539494910659845,
+      "white_increase_percentage_points": 8.451485248486396
+    },
+    {
+      "character": "螣",
+      "region": "lower_dot_root",
+      "primary": true,
+      "source_box": [
+        630,
+        -27,
+        880,
+        107
+      ],
+      "source": "Frozen candidate-selection window around dot/root and lower stroke.",
+      "size_physical_px": 15,
+      "gray_white_mean_before": 0.3500429108172741,
+      "gray_white_mean_after": 0.383419048548109,
+      "gray_ink_mean_before": 0.6499570891827259,
+      "gray_ink_mean_after": 0.616580951451891,
+      "white_increase_percentage_points": 3.3376137730834863
+    },
+    {
+      "character": "螣",
+      "region": "central_stem_crown",
+      "primary": false,
+      "source_box": [
+        630,
+        388.6262,
+        695,
+        432
+      ],
+      "source": "Old dense contour5 crown; retained to expose local tradeoffs.",
+      "size_physical_px": 15,
+      "gray_white_mean_before": 0.31298152753680397,
+      "gray_white_mean_after": 0.30786138689608744,
+      "gray_ink_mean_before": 0.687018472463196,
+      "gray_ink_mean_after": 0.6921386131039126,
+      "white_increase_percentage_points": -0.5120140640716531
+    },
+    {
+      "character": "螣",
+      "region": "moon_lower_counter",
+      "primary": false,
+      "source_box": [
+        166,
+        329,
+        288,
+        493
+      ],
+      "source": "Original source contour6 bounds; geometry unchanged this round.",
+      "size_physical_px": 15,
+      "gray_white_mean_before": 0.8505862063968231,
+      "gray_white_mean_after": 0.8505862063968231,
+      "gray_ink_mean_before": 0.14941379360317686,
+      "gray_ink_mean_after": 0.14941379360317686,
+      "white_increase_percentage_points": 0.0
+    },
+    {
+      "character": "螣",
+      "region": "worm_left_counter",
+      "primary": false,
+      "source_box": [
+        517,
+        159,
+        630,
+        266
+      ],
+      "source": "Original source contour3 bounds.",
+      "size_physical_px": 15,
+      "gray_white_mean_before": 0.7608400506890876,
+      "gray_white_mean_after": 0.7608400506890876,
+      "gray_ink_mean_before": 0.23915994931091245,
+      "gray_ink_mean_after": 0.23915994931091245,
+      "white_increase_percentage_points": 0.0
+    },
+    {
+      "character": "螣",
+      "region": "worm_right_counter",
+      "primary": false,
+      "source_box": [
+        695,
+        159,
+        813,
+        266
+      ],
+      "source": "Original source contour4 bounds; previous quantization-sensitive window.",
+      "size_physical_px": 15,
+      "gray_white_mean_before": 0.9999999999999998,
+      "gray_white_mean_after": 0.9999999999999998,
+      "gray_ink_mean_before": 2.220446049250313e-16,
+      "gray_ink_mean_after": 2.220446049250313e-16,
+      "white_increase_percentage_points": 0.0
+    },
+    {
+      "character": "攥",
+      "region": "eye_frame",
+      "primary": true,
+      "source_box": [
+        387,
+        380,
+        886,
+        655
+      ],
+      "source": "Old source contour8 eye-frame corners.",
+      "size_physical_px": 28,
+      "gray_white_mean_before": 0.4251733848112853,
+      "gray_white_mean_after": 0.5409907092070501,
+      "gray_ink_mean_before": 0.5748266151887147,
+      "gray_ink_mean_after": 0.45900929079294994,
+      "white_increase_percentage_points": 11.581732439576475
+    },
+    {
+      "character": "攥",
+      "region": "eye_lower_counter",
+      "primary": false,
+      "source_box": [
+        446,
+        418,
+        824,
+        467
+      ],
+      "source": "Old dense source contour5 bounds.",
+      "size_physical_px": 28,
+      "gray_white_mean_before": 0.7061229725960926,
+      "gray_white_mean_after": 0.8991443195059337,
+      "gray_ink_mean_before": 0.2938770274039074,
+      "gray_ink_mean_after": 0.10085568049406635,
+      "white_increase_percentage_points": 19.302134690984108
+    },
+    {
+      "character": "攥",
+      "region": "eye_middle_counter",
+      "primary": false,
+      "source_box": [
+        446,
+        494,
+        824,
+        543
+      ],
+      "source": "Old dense source contour6 bounds.",
+      "size_physical_px": 28,
+      "gray_white_mean_before": 0.7450964239785891,
+      "gray_white_mean_after": 0.7450964239785891,
+      "gray_ink_mean_before": 0.2549035760214109,
+      "gray_ink_mean_after": 0.2549035760214109,
+      "white_increase_percentage_points": 0.0
+    },
+    {
+      "character": "攥",
+      "region": "eye_upper_counter",
+      "primary": false,
+      "source_box": [
+        446,
+        571,
+        824,
+        617
+      ],
+      "source": "Old dense source contour7 bounds.",
+      "size_physical_px": 28,
+      "gray_white_mean_before": 0.7425496823151533,
+      "gray_white_mean_after": 0.9342668309350628,
+      "gray_ink_mean_before": 0.2574503176848467,
+      "gray_ink_mean_after": 0.0657331690649372,
+      "white_increase_percentage_points": 19.171714861990953
+    },
+    {
+      "character": "攥",
+      "region": "bamboo_eye_neck",
+      "primary": false,
+      "source_box": [
+        470,
+        645,
+        840,
+        690
+      ],
+      "source": "Frozen diagnosis window across the old bamboo/eye joint.",
+      "size_physical_px": 28,
+      "gray_white_mean_before": 0.6480737968132926,
+      "gray_white_mean_after": 0.18034299714971974,
+      "gray_ink_mean_before": 0.3519262031867074,
+      "gray_ink_mean_after": 0.8196570028502803,
+      "white_increase_percentage_points": -46.77307996635729
+    },
+    {
+      "character": "攥",
+      "region": "eye_silk_neck",
+      "primary": false,
+      "source_box": [
+        450,
+        341,
+        850,
+        380
+      ],
+      "source": "Frozen diagnosis window between old eye and lower component.",
+      "size_physical_px": 28,
+      "gray_white_mean_before": 0.6299635122114117,
+      "gray_white_mean_after": 0.33722906411981945,
+      "gray_ink_mean_before": 0.37003648778858833,
+      "gray_ink_mean_after": 0.6627709358801805,
+      "white_increase_percentage_points": -29.273444809159223
+    },
+    {
+      "character": "螣",
+      "region": "lower_dot_counter",
+      "primary": true,
+      "source_box": [
+        695,
+        22,
+        815,
+        107
+      ],
+      "source": "Old source contour2 bounds; moving inner/right dot boundary.",
+      "size_physical_px": 28,
+      "gray_white_mean_before": 0.612999948642558,
+      "gray_white_mean_after": 0.6769422992013198,
+      "gray_ink_mean_before": 0.387000051357442,
+      "gray_ink_mean_after": 0.32305770079868024,
+      "white_increase_percentage_points": 6.394235055876174
+    },
+    {
+      "character": "螣",
+      "region": "lower_dot_root",
+      "primary": true,
+      "source_box": [
+        630,
+        -27,
+        880,
+        107
+      ],
+      "source": "Frozen candidate-selection window around dot/root and lower stroke.",
+      "size_physical_px": 28,
+      "gray_white_mean_before": 0.31468118210649254,
+      "gray_white_mean_after": 0.3325878954023943,
+      "gray_ink_mean_before": 0.6853188178935075,
+      "gray_ink_mean_after": 0.6674121045976057,
+      "white_increase_percentage_points": 1.7906713295901766
+    },
+    {
+      "character": "螣",
+      "region": "central_stem_crown",
+      "primary": false,
+      "source_box": [
+        630,
+        388.6262,
+        695,
+        432
+      ],
+      "source": "Old dense contour5 crown; retained to expose local tradeoffs.",
+      "size_physical_px": 28,
+      "gray_white_mean_before": 0.8556405932056814,
+      "gray_white_mean_after": 0.81231178498964,
+      "gray_ink_mean_before": 0.14435940679431858,
+      "gray_ink_mean_after": 0.18768821501036004,
+      "white_increase_percentage_points": -4.332880821604146
+    },
+    {
+      "character": "螣",
+      "region": "moon_lower_counter",
+      "primary": false,
+      "source_box": [
+        166,
+        329,
+        288,
+        493
+      ],
+      "source": "Original source contour6 bounds; geometry unchanged this round.",
+      "size_physical_px": 28,
+      "gray_white_mean_before": 0.8682649127405679,
+      "gray_white_mean_after": 0.8682649127405679,
+      "gray_ink_mean_before": 0.13173508725943206,
+      "gray_ink_mean_after": 0.13173508725943206,
+      "white_increase_percentage_points": 0.0
+    },
+    {
+      "character": "螣",
+      "region": "worm_left_counter",
+      "primary": false,
+      "source_box": [
+        517,
+        159,
+        630,
+        266
+      ],
+      "source": "Original source contour3 bounds.",
+      "size_physical_px": 28,
+      "gray_white_mean_before": 0.8871592353906097,
+      "gray_white_mean_after": 0.8871592353906097,
+      "gray_ink_mean_before": 0.1128407646093903,
+      "gray_ink_mean_after": 0.1128407646093903,
+      "white_increase_percentage_points": 0.0
+    },
+    {
+      "character": "螣",
+      "region": "worm_right_counter",
+      "primary": false,
+      "source_box": [
+        695,
+        159,
+        813,
+        266
+      ],
+      "source": "Original source contour4 bounds; previous quantization-sensitive window.",
+      "size_physical_px": 28,
+      "gray_white_mean_before": 0.8066997142880307,
+      "gray_white_mean_after": 0.8066997142880307,
+      "gray_ink_mean_before": 0.19330028571196933,
+      "gray_ink_mean_after": 0.19330028571196933,
+      "white_increase_percentage_points": 0.0
+    }
+  ],
+  "controls": [
+    {
+      "text": "羁黛",
+      "size_physical_px": 13,
+      "mask_and_offset_exactly_equal": true
+    },
+    {
+      "text": "命宫2026",
+      "size_physical_px": 13,
+      "mask_and_offset_exactly_equal": true
+    },
+    {
+      "text": "羁黛",
+      "size_physical_px": 14,
+      "mask_and_offset_exactly_equal": true
+    },
+    {
+      "text": "命宫2026",
+      "size_physical_px": 14,
+      "mask_and_offset_exactly_equal": true
+    },
+    {
+      "text": "羁黛",
+      "size_physical_px": 15,
+      "mask_and_offset_exactly_equal": true
+    },
+    {
+      "text": "命宫2026",
+      "size_physical_px": 15,
+      "mask_and_offset_exactly_equal": true
+    },
+    {
+      "text": "羁黛",
+      "size_physical_px": 28,
+      "mask_and_offset_exactly_equal": true
+    },
+    {
+      "text": "命宫2026",
+      "size_physical_px": 28,
+      "mask_and_offset_exactly_equal": true
+    }
+  ],
+  "problems": [],
+  "diagnostics": [
+    {
+      "kind": "local_white_fraction_decreased",
+      "character": "攥",
+      "region": "eye_upper_counter",
+      "size_physical_px": 13,
+      "change_percentage_points": -39.47868676670557
+    },
+    {
+      "kind": "local_white_fraction_decreased",
+      "character": "攥",
+      "region": "eye_middle_counter",
+      "size_physical_px": 14,
+      "change_percentage_points": -3.7467091557299104
+    },
+    {
+      "kind": "local_white_fraction_decreased",
+      "character": "攥",
+      "region": "bamboo_eye_neck",
+      "size_physical_px": 14,
+      "change_percentage_points": -14.75165004576769
+    },
+    {
+      "kind": "local_white_fraction_decreased",
+      "character": "螣",
+      "region": "central_stem_crown",
+      "size_physical_px": 14,
+      "change_percentage_points": -1.9006797441503576
+    },
+    {
+      "kind": "local_white_fraction_decreased",
+      "character": "攥",
+      "region": "eye_silk_neck",
+      "size_physical_px": 15,
+      "change_percentage_points": -13.22638146167558
+    },
+    {
+      "kind": "local_white_fraction_decreased",
+      "character": "螣",
+      "region": "central_stem_crown",
+      "size_physical_px": 15,
+      "change_percentage_points": -0.5120140640716531
+    },
+    {
+      "kind": "local_white_fraction_decreased",
+      "character": "攥",
+      "region": "bamboo_eye_neck",
+      "size_physical_px": 28,
+      "change_percentage_points": -46.77307996635729
+    },
+    {
+      "kind": "local_white_fraction_decreased",
+      "character": "攥",
+      "region": "eye_silk_neck",
+      "size_physical_px": 28,
+      "change_percentage_points": -29.273444809159223
+    },
+    {
+      "kind": "local_white_fraction_decreased",
+      "character": "螣",
+      "region": "central_stem_crown",
+      "size_physical_px": 28,
+      "change_percentage_points": -4.332880821604146
+    }
+  ],
+  "preserved_plan_data": {
+    "data/refinements-v030.json": true,
+    "data/dense-refinements-v030.json": true,
+    "data/hexagrams.json": true,
+    "data/hexagram-outlines-v030.json": true
+  },
+  "original_161_source_preservation": {
+    "Regular": {
+      "source_subset_byte_identical": true,
+      "characters_preserved": 161
+    },
+    "Display": {
+      "source_subset_byte_identical": true,
+      "characters_preserved": 161
+    }
+  },
+  "fixed_roi_method": {
+    "coordinate_space": "Frozen old post-dense source design coordinates; x=.88*x+10, y unchanged.",
+    "sampling": "Pillow/FreeType default native grayscale, BASIC layout, common baseline; mean1-alpha/255 weighted by exact fractional pixel overlap. No resampling, filters, bbox-top alignment or moving/enlarging ROI.",
+    "grayscale_threshold": null,
+    "threshold_explanation": "Continuous alpha mean, not a binarized pass criterion.",
+    "sizes_physical_px": [
+      13,
+      14,
+      15,
+      28
+    ],
+    "unique_regions": 12,
+    "sample_count": 48,
+    "monotonic_increase_required": false,
+    "increased_samples": 25,
+    "decreased_samples": 9
+  },
+  "primary_14px_results": [
+    {
+      "character": "攥",
+      "region": "eye_frame",
+      "primary": true,
+      "source_box": [
+        387,
+        380,
+        886,
+        655
+      ],
+      "source": "Old source contour8 eye-frame corners.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.3710646988883826,
+      "gray_white_mean_after": 0.46362393434493304,
+      "gray_ink_mean_before": 0.6289353011116174,
+      "gray_ink_mean_after": 0.5363760656550669,
+      "white_increase_percentage_points": 9.255923545655042
+    },
+    {
+      "character": "螣",
+      "region": "lower_dot_counter",
+      "primary": true,
+      "source_box": [
+        695,
+        22,
+        815,
+        107
+      ],
+      "source": "Old source contour2 bounds; moving inner/right dot boundary.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.4154543029332944,
+      "gray_white_mean_after": 0.4721724910998264,
+      "gray_ink_mean_before": 0.5845456970667056,
+      "gray_ink_mean_after": 0.5278275089001736,
+      "white_increase_percentage_points": 5.671818816653201
+    },
+    {
+      "character": "螣",
+      "region": "lower_dot_root",
+      "primary": true,
+      "source_box": [
+        630,
+        -27,
+        880,
+        107
+      ],
+      "source": "Frozen candidate-selection window around dot/root and lower stroke.",
+      "size_physical_px": 14,
+      "gray_white_mean_before": 0.30532535510812214,
+      "gray_white_mean_after": 0.32354402276514427,
+      "gray_ink_mean_before": 0.6946746448918779,
+      "gray_ink_mean_after": 0.6764559772348557,
+      "white_increase_percentage_points": 1.8218667657022125
+    }
+  ],
+  "regression_performed": true,
+  "ok": true,
+  "status": "passed_with_local_raster_diagnostics"
+}

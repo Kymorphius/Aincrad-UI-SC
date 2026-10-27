@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "version": "0.3.0",
+  "started_utc": "2026-10-27T13:48:39.801626+00:00",
+  "timestamp_utc": "2026-10-27T13:57:32.672630+00:00",
+  "scope": "Prepare new source subsets and explicit final-unit glyph plans for all twenty-four requested WAO symbols. Previous30,335 source outlines/CFF widths/full horizontal metrics are preserved.",
+  "characters": "◆◇●■□▲▼▶◀‹«»─│┌┐└┘‥⟨⟩※†‖",
+  "source_characters": "◆◇●■□▲▼▶◀‹«»‥※†‖",
+  "original_characters": "─│┌┐└┘⟨⟩",
+  "counts": {
+    "previous_total": 30413,
+    "previous_source_characters": 30335,
+    "added_source_characters": 16,
+    "added_original_symbols": 8,
+    "target_total": 30437,
+    "target_han": 30186,
+    "target_source_characters": 30351,
+    "target_original_symbols": 86
+  },
+  "sources": {
+    "Regular": {
+      "file": "sources/AincradSeed-wao-Regular.otf",
+      "sha256": "26640c6aa68e1da04faa4ee8dfe156205c84788328df2dabce46401513b6ff15",
+      "bytes": 8591040,
+      "character_count": 30351,
+      "reviewed_seed_file": "sources/AincradSeed-v030-Regular.otf",
+      "reviewed_seed_sha256": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+      "previous_gb2312_seed_file": "sources/AincradSeed-gb2312-Regular.otf",
+      "previous_gb2312_seed_sha256": "66c3e8774b8419d4deb69bcd357edb3968c2354dffda642da40c75d03ddf2e1b",
+      "previous_sourcehan_seed_file": "sources/AincradSeed-sourcehan-Regular.otf",
+      "previous_sourcehan_seed_sha256": "bf1fb2123a67b5fe966b7309e7d1eb83877caad7284b2ff07fe9e9eab5b406ca",
+      "source_ttc_file": "collected-ui/SAO-Utils-2-Progressive/assets/Fonts/SourceHanSans-Regular.ttc",
+      "source_ttc_sha256": "f31d0a98b09380c11c72754bb85b74be488d0c5f1d3dbdf056f408c24cc50da3",
+      "face_index": 2,
+      "preserved_previous_source_characters": 30335,
+      "preserved_previous_outline_hmtx_sha256": "5d5aea5e09cf01f5982cf1f3c628a48fb8fc077156bea6619374f6ec60d57b14",
+      "all_previous_outlines_and_horizontal_metrics_identical": true
+    },
+    "Medium": {
+      "file": "sources/AincradSeed-wao-Medium.otf",
+      "sha256": "651fe612e7812539f5b24fbc52ce95603dfa98a682d0242092989c42cc5dcd37",
+      "bytes": 8627136,
+      "character_count": 30351,
+      "reviewed_seed_file": "sources/AincradSeed-v030-Medium.otf",
+      "reviewed_seed_sha256": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+      "previous_gb2312_seed_file": "sources/AincradSeed-gb2312-Medium.otf",
+      "previous_gb2312_seed_sha256": "d3002691a4829c1599ecd9e66bd227f1e35b84a58baa0aac4c5d732d3fc66aa9",
+      "previous_sourcehan_seed_file": "sources/AincradSeed-sourcehan-Medium.otf",
+      "previous_sourcehan_seed_sha256": "cd237d505f80cc37d1c20d933a378d6951773cd2731aed93cdc190fefffa0257",
+      "source_ttc_file": "collected-ui/SAO-Utils-2-Progressive/assets/Fonts/SourceHanSans-Medium.ttc",
+      "source_ttc_sha256": "28e9a792a7d57327c903e4cb70164c4fd093e5d9543265f819d505a6cfc049d5",
+      "face_index": 2,
+      "preserved_previous_source_characters": 30335,
+      "preserved_previous_outline_hmtx_sha256": "c16715388c29ffd88f989a538f012b228691c53fbb07c1eabbf4118ae0b87c3e",
+      "all_previous_outlines_and_horizontal_metrics_identical": true
+    }
+  },
+  "protected_old_input_sha256": {
+    "sources/AincradSeed-gb2312-Medium.otf": "d3002691a4829c1599ecd9e66bd227f1e35b84a58baa0aac4c5d732d3fc66aa9",
+    "sources/AincradSeed-gb2312-Regular.otf": "66c3e8774b8419d4deb69bcd357edb3968c2354dffda642da40c75d03ddf2e1b",
+    "sources/AincradSeed-Medium.otf": "cc0b308b0a96eb9ee39dfb699ef956940a8ab3b5f1a400ffe09b35d5a3da8784",
+    "sources/AincradSeed-Regular.otf": "b135434ab873baf7af5d89118e062ecfec1e13664a1cce4b4347a645a1ae9438",
+    "sources/AincradSeed-sourcehan-Medium.otf": "cd237d505f80cc37d1c20d933a378d6951773cd2731aed93cdc190fefffa0257",
+    "sources/AincradSeed-sourcehan-Regular.otf": "bf1fb2123a67b5fe966b7309e7d1eb83877caad7284b2ff07fe9e9eab5b406ca",
+    "sources/AincradSeed-v030-Medium.otf": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+    "sources/AincradSeed-v030-Regular.otf": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+    "data/refinements-v030.json": "94402fa80bd8bd1e947b6ea786fde8c847eaf1b294934f8fbe0673a3a0ee5115",
+    "data/dense-refinements-v030.json": "198a0d5b37f4d5fd30a6a0c65e683734b7ad697064a874b61531b7aa97bcb9aa",
+    "data/ttf14-refinements-v030.json": "310dde67bed3fc20850b2f2838814cbfcabd557444a1b8dcde1bf493395fbd12",
+    "data/sourcehan-han-extension.json": "e94fdebe8d1605fe800befb6b296e6e3e5b0c998ab5b4b723d3a6a56dfa77762",
+    "data/gb2312-han-extension.json": "d5b9cba1ba6b1912d7b4b0059eb2e97aedaf1a9173505a486f6d85025e6d501e"
+  },
+  "all_old_input_bytes_preserved": true,
+  "comparison_method": "Exact RecordingPen.value, CFF glyph width and complete hmtx pair for every previous source cmap codepoint. Subsets originate from the same hash-verified original SC face2 TTC.",
+  "main_font_build_performed": false,
+  "passed": true,
+  "geometry": {
+    "file": "data/wao-symbols-v030.json",
+    "sha256": "963d9629536f2b7ffadb297dbc1f7dbd0d02bd834cb69de83d8c6c560177cffd",
+    "upm": 1000,
+    "glyph_count": 24,
+    "source_derived_count": 16,
+    "original_geometry_count": 8,
+    "version": "0.3.0",
+    "license": "SIL Open Font License 1.1"
+  },
+  "extension": {
+    "file": "data/wao-symbol-extension.json",
+    "sha256": "0ba0a1f470e1aa2d1c50c33427f73033dbdb36ac33f18b912a542c8adfe91d25"
+  },
+  "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "OFL.txt",
+    "sha256": "8fe173ea7779c11e7375942088d36aa511bf7da954d67f86e9545fe4416cbbbc",
+    "source_font_license_ids": [
+      13,
+      14
+    ],
+    "reserved_source_names_replaced": true,
+    "original_geometries_license": "SIL Open Font License 1.1"
+  },
+  "controls": {
+    "file_sha256": {
+      "fonts/AincradUISc-Regular.otf": "57b31e3f11b93ca2f27272546066664ea00a1238813329a9bc57117ad910660d",
+      "fonts/AincradUISc-Display.otf": "a2408514a9ba9dcf9c19f02480d2daefff07cb29345ff7f4b2e05f98e098548e"
+    },
+    "left_single_guillemet": "Exact mirror of each current final U+203A outline at identical advance and y positions.",
+    "two_dot_ellipsis": "Source dot size and vertical positions retained, matching existing U+2026 in each style."
+  },
+  "box_connection_contract": {
+    "characters": "─│┌┐└┘",
+    "line_center_y": 380,
+    "ascent": 1160,
+    "descent": -320,
+    "line_gap": 0,
+    "baseline_step": 1480,
+    "Regular": {
+      "advance": 900,
+      "stroke_width": 64
+    },
+    "Display": {
+      "advance": 850,
+      "stroke_width": 72
+    },
+    "horizontal_edges": [
+      0,
+      "advance"
+    ],
+    "vertical_edges": [
+      -320,
+      1160
+    ],
+    "all_six_advance_values_identical_per_style": true,
+    "all_exact_endpoint_assertions_passed": true
+  },
+  "visual_self_review": {
+    "file": "research/wao-symbol-source-candidate.png",
+    "sha256": "836ccca4891d1bc37d4498aa1f932acf6b46f03b8b28cbd74704eb798c089740",
+    "kind": "Internal small-font native14px TrueType raster, light/dark, equal-axis nearest-neighbour inspection and64px contour inspection. Formal full-font browser acceptance is a separate step.",
+    "native_size_px": 14,
+    "dpr": 1,
+    "output_used_existing_final_controls": true,
+    "main_font_build_performed": false
+  }
+}

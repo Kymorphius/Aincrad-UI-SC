@@ -1,0 +1,230 @@
+{
+  "schema_version": "1.0",
+  "version": "0.3.0",
+  "timestamp_utc": "2026-10-27T12:48:06.544631+00:00",
+  "started_utc": "2026-10-27T12:46:26.209015+00:00",
+  "scope": "Independent preparation of new all-local-Source-Han source subsets only. Main output fonts, charset, provenance, previous source subsets and previous reports are not modified.",
+  "manifest": {
+    "file": "data/sourcehan-han-extension.json",
+    "sha256": "e94fdebe8d1605fe800befb6b296e6e3e5b0c998ab5b4b723d3a6a56dfa77762"
+  },
+  "coverage_reference": {
+    "file": "data/source-font-coverage.json",
+    "sha256": "ec9eaf00b589c0cb465627a440c49e525cdee0256cf6e66c21876aa810a07848"
+  },
+  "counts": {
+    "baseline_han": 6767,
+    "baseline_total": 6994,
+    "baseline_source": 6916,
+    "all_local_han": 30186,
+    "added_han": 23419,
+    "target_total": 30413,
+    "target_source": 30335,
+    "preserved_non_han": 227,
+    "original_symbols": 78,
+    "non_bmp_han": 2293,
+    "compatibility_han": 421
+  },
+  "frozen_acquire_seed_helper": {
+    "file": "scripts/build_aincrad_font.py",
+    "sha256": "918bcfe9fda57893a5f61694a2a3814e38857f1178c6a5fe1d03ed1d070f7ea4",
+    "call": "acquire_seed(isolated_project, weight, target_characters, refresh=True)",
+    "isolated_project_had_no_expansion_markers": true
+  },
+  "comparison_method": "Compare exact RecordingPen.value, CFF glyph.width, and complete hmtx (advance, LSB) by original Unicode cmap codepoint, ignoring renamed subset glyph IDs. Then replay all three old plans against old and new source outlines with strict anchors.",
+  "sources": {
+    "Regular": {
+      "new_seed_file": "sources/AincradSeed-sourcehan-Regular.otf",
+      "new_seed_sha256": "bf1fb2123a67b5fe966b7309e7d1eb83877caad7284b2ff07fe9e9eab5b406ca",
+      "source_character_count": 30335,
+      "han_codepoints_checked_nonempty": 30186,
+      "added_han_codepoints_checked_nonempty": 23419,
+      "distinct_mapped_han_glyphs": 30091,
+      "empty_han_outlines": [],
+      "original_source": {
+        "file": "collected-ui/SAO-Utils-2-Progressive/assets/Fonts/SourceHanSans-Regular.ttc",
+        "sha256": "f31d0a98b09380c11c72754bb85b74be488d0c5f1d3dbdf056f408c24cc50da3",
+        "bytes": 18751044,
+        "face_index": 2,
+        "family": "Source Han Sans SC Regular",
+        "version": "Version 1.004;PS 1.004;hotconv 1.0.82;makeotf.lib2.5.63406",
+        "han_count": 30186,
+        "han_by_block": {
+          "basic_U4E00_U9FFF": 20945,
+          "extension_A_U3400_U4DBF": 6582,
+          "extension_B_U20000_U2A6DF": 2051,
+          "extension_C_U2A700_U2B73F": 46,
+          "extension_D_U2B740_U2B81F": 33,
+          "extension_E_U2B820_U2CEAF": 108,
+          "other_supplementary_unified_U2CEB0_U2EE5F_U30000_U3347F": 0,
+          "compatibility_UF900_UFAFF": 366,
+          "compatibility_supplement_U2F800_U2FA1F": 55
+        },
+        "unicode_cmap_effective_codepoints": 44683,
+        "maxp_num_glyphs": 65535
+      },
+      "preservation_comparisons": {
+        "previous_gb2312": {
+          "file": "sources/AincradSeed-gb2312-Regular.otf",
+          "sha256": "66c3e8774b8419d4deb69bcd357edb3968c2354dffda642da40c75d03ddf2e1b",
+          "codepoints_checked": 6916,
+          "all_recording_pen_values_exact": true,
+          "all_cff_advances_exact": true,
+          "all_hmtx_advance_and_lsb_pairs_exact": true,
+          "old_recordings_widths_hmtx_sha256": "7674f81ab2d0bb0040c46777db58311482cb42aa90e4759ed91338a17564fe97",
+          "new_seed_matching_old_subset_sha256": "7674f81ab2d0bb0040c46777db58311482cb42aa90e4759ed91338a17564fe97"
+        },
+        "reviewed_v030": {
+          "file": "sources/AincradSeed-v030-Regular.otf",
+          "sha256": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+          "codepoints_checked": 3963,
+          "all_recording_pen_values_exact": true,
+          "all_cff_advances_exact": true,
+          "all_hmtx_advance_and_lsb_pairs_exact": true,
+          "old_recordings_widths_hmtx_sha256": "79912cb068e019380d8e6357afc729cd6a23563e9690293c7f6fd3fa3e9f568b",
+          "new_seed_matching_old_subset_sha256": "79912cb068e019380d8e6357afc729cd6a23563e9690293c7f6fd3fa3e9f568b"
+        }
+      },
+      "old_refinement_pipeline_checks": {
+        "data/refinements-v030.json": {
+          "glyphs_checked": 161,
+          "exact_recordings_match_after_plan": true,
+          "strict_anchors_passed": true
+        },
+        "data/dense-refinements-v030.json": {
+          "glyphs_checked": 4,
+          "exact_recordings_match_after_plan": true,
+          "strict_anchors_passed": true
+        },
+        "data/ttf14-refinements-v030.json": {
+          "glyphs_checked": 2,
+          "exact_recordings_match_after_plan": true,
+          "strict_anchors_passed": true
+        }
+      }
+    },
+    "Medium": {
+      "new_seed_file": "sources/AincradSeed-sourcehan-Medium.otf",
+      "new_seed_sha256": "cd237d505f80cc37d1c20d933a378d6951773cd2731aed93cdc190fefffa0257",
+      "source_character_count": 30335,
+      "han_codepoints_checked_nonempty": 30186,
+      "added_han_codepoints_checked_nonempty": 23419,
+      "distinct_mapped_han_glyphs": 30091,
+      "empty_han_outlines": [],
+      "original_source": {
+        "file": "collected-ui/SAO-Utils-2-Progressive/assets/Fonts/SourceHanSans-Medium.ttc",
+        "sha256": "28e9a792a7d57327c903e4cb70164c4fd093e5d9543265f819d505a6cfc049d5",
+        "bytes": 17771128,
+        "face_index": 2,
+        "family": "Source Han Sans SC Medium",
+        "version": "Version 1.004;PS 1.004;hotconv 1.0.82;makeotf.lib2.5.63406",
+        "han_count": 30186,
+        "han_by_block": {
+          "basic_U4E00_U9FFF": 20945,
+          "extension_A_U3400_U4DBF": 6582,
+          "extension_B_U20000_U2A6DF": 2051,
+          "extension_C_U2A700_U2B73F": 46,
+          "extension_D_U2B740_U2B81F": 33,
+          "extension_E_U2B820_U2CEAF": 108,
+          "other_supplementary_unified_U2CEB0_U2EE5F_U30000_U3347F": 0,
+          "compatibility_UF900_UFAFF": 366,
+          "compatibility_supplement_U2F800_U2FA1F": 55
+        },
+        "unicode_cmap_effective_codepoints": 44683,
+        "maxp_num_glyphs": 65535
+      },
+      "preservation_comparisons": {
+        "previous_gb2312": {
+          "file": "sources/AincradSeed-gb2312-Medium.otf",
+          "sha256": "d3002691a4829c1599ecd9e66bd227f1e35b84a58baa0aac4c5d732d3fc66aa9",
+          "codepoints_checked": 6916,
+          "all_recording_pen_values_exact": true,
+          "all_cff_advances_exact": true,
+          "all_hmtx_advance_and_lsb_pairs_exact": true,
+          "old_recordings_widths_hmtx_sha256": "b59893220ddf200597329e4a3cc76ab39258c0d4417abad724518fc64fc4b8a3",
+          "new_seed_matching_old_subset_sha256": "b59893220ddf200597329e4a3cc76ab39258c0d4417abad724518fc64fc4b8a3"
+        },
+        "reviewed_v030": {
+          "file": "sources/AincradSeed-v030-Medium.otf",
+          "sha256": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+          "codepoints_checked": 3963,
+          "all_recording_pen_values_exact": true,
+          "all_cff_advances_exact": true,
+          "all_hmtx_advance_and_lsb_pairs_exact": true,
+          "old_recordings_widths_hmtx_sha256": "2f9d3b0c6570fd34c87eab81ab4baed1899923adb10ca16a27e495ef0842b716",
+          "new_seed_matching_old_subset_sha256": "2f9d3b0c6570fd34c87eab81ab4baed1899923adb10ca16a27e495ef0842b716"
+        }
+      },
+      "old_refinement_pipeline_checks": {
+        "data/refinements-v030.json": {
+          "glyphs_checked": 161,
+          "exact_recordings_match_after_plan": true,
+          "strict_anchors_passed": true
+        },
+        "data/dense-refinements-v030.json": {
+          "glyphs_checked": 0,
+          "exact_recordings_match_after_plan": true,
+          "strict_anchors_passed": true
+        },
+        "data/ttf14-refinements-v030.json": {
+          "glyphs_checked": 0,
+          "exact_recordings_match_after_plan": true,
+          "strict_anchors_passed": true
+        }
+      }
+    }
+  },
+  "protected_old_input_sha256": {
+    "data/charset.json": "292ff794910adb4b34b057e11cbca0f50806816836df472de2e07cc589630f2c",
+    "data/provenance.json": "2c61eb5301cc4ee785c52cacd22beb531e20de50f1b64f4692018e53229394ba",
+    "data/source-v030.json": "26175036948816e0c41c9f16974d1dadfc060762cc6fdd83dc5216cf4781c21b",
+    "data/source-font-coverage.json": "ec9eaf00b589c0cb465627a440c49e525cdee0256cf6e66c21876aa810a07848",
+    "data/gb2312-han-extension.json": "d5b9cba1ba6b1912d7b4b0059eb2e97aedaf1a9173505a486f6d85025e6d501e",
+    "data/gb2312-source-preparation.json": "0145832a3c3790bbfb1769458883141c261213919ed30db81dfe999a742767a2",
+    "data/refinements-v030.json": "94402fa80bd8bd1e947b6ea786fde8c847eaf1b294934f8fbe0673a3a0ee5115",
+    "data/dense-refinements-v030.json": "198a0d5b37f4d5fd30a6a0c65e683734b7ad697064a874b61531b7aa97bcb9aa",
+    "data/ttf14-refinements-v030.json": "310dde67bed3fc20850b2f2838814cbfcabd557444a1b8dcde1bf493395fbd12",
+    "data/symbols-v030.json": "3568b057e3390f49a7c9a620adeed2e6ae126c43bc744a3a5ca7c76b89e81798",
+    "data/hexagram-outlines-v030.json": "c28bc019e4ef830fbd8b882b87d024eb31365a85dad4b17d45c68d1816af69eb",
+    "data/symbol-extensions.json": "f687bf730906d5179ba892e0265c882dfc67eb3fa826f16973d0834d771f1576",
+    "data/hexagrams.json": "3e51d1a4226e9f48dbbcb0d32e34d8efadd0698dacd98ce26d97bfdd5360bc48",
+    "data/ui-vocabulary.json": "313be97acb3a78892fbae769833fee2b069fcdb868fc68f7526e7f64a17509be",
+    "data/charset-extensions.json": "569e1b06ec2f550014fd43132ca6893ca01147688c88f446d4d9e4094aa4aa09",
+    "sources/AincradSeed-Regular.otf": "b135434ab873baf7af5d89118e062ecfec1e13664a1cce4b4347a645a1ae9438",
+    "sources/AincradSeed-Medium.otf": "cc0b308b0a96eb9ee39dfb699ef956940a8ab3b5f1a400ffe09b35d5a3da8784",
+    "sources/AincradSeed-v030-Regular.otf": "b1be5fc6e992d3f773f4104919da48b9ea086eb38b6e31096b7b509664bbad7b",
+    "sources/AincradSeed-v030-Medium.otf": "63abfdf6ff6e5f5f70dff10ff969732f2d2a3ce9d7424db87757a04f37908727",
+    "sources/AincradSeed-gb2312-Regular.otf": "66c3e8774b8419d4deb69bcd357edb3968c2354dffda642da40c75d03ddf2e1b",
+    "sources/AincradSeed-gb2312-Medium.otf": "d3002691a4829c1599ecd9e66bd227f1e35b84a58baa0aac4c5d732d3fc66aa9"
+  },
+  "preserved_current_font_sha256": {
+    "fonts/AincradUISc-Display.otf": "1c8a368e2f7265e4cae3a8a0c22e9fa5d3624cd375e53e61d8f2ae25b2a7b3f9",
+    "fonts/AincradUISc-Display.ttf": "c990915f7cbfc47f09092a55163465a7b10552a9e40dcfe525dcd617174aa832",
+    "fonts/AincradUISc-Display.woff2": "62796932f610f8d7713a84217f9cac4203b998bfe8a00710dd2e5a41caf1c93a",
+    "fonts/AincradUISc-Regular.otf": "9ac18818b962f5951f53ca648c8e3c188f5fadbf56268c5b19755604943220b8",
+    "fonts/AincradUISc-Regular.ttf": "6ecc68467221b93d5e84fec89b865eaf889d990ef305f6cda9b983b12150c1b6",
+    "fonts/AincradUISc-Regular.woff2": "923b6be9f3619b760c9e74eff34df2aeab78103da80e45243c5eb952ad74da39",
+    "fonts/AincradUISc-Structure14-Regular.ttf": "43dd9328cf991bde1a2a81b3530ae50cc0015f4a1616494472097f21d2ef3526",
+    "fonts/AincradUISc-v010-Display.woff2": "7f2e4fe979e96118db243554c5f0f2294aaf93c1a811aa71bd58d07dc9fa7856",
+    "fonts/AincradUISc-v010-Regular.woff2": "c0b0d8a19387af0687c9170efd27fd1e6c9533fd69ffa748ad3e17e46cebd53f",
+    "fonts/AincradUISc-v020-Display.woff2": "5fbbaeae1dba55418399372c650f71843906e9f9222d56b61b5c7449f02918af",
+    "fonts/AincradUISc-v020-Regular.woff2": "2c7fa346ff9b8852dda57145600cf9e358ad1d1981eac5f0c6cbf2e5214e27db",
+    "fonts/AincradUISc-v030-before-dense-Regular.woff2": "c3a25c0064bd5b435f9b8b45f4f0b64323d05c5441869924f9aed93a1734224e",
+    "fonts/AincradUISc-v030-before-structure14-Regular.ttf": "b5c0733fdb47c077768966a54b4e6c7d27b6484263230af461b562a07759a03e",
+    "fonts/AincradUISc-v030-before-ttf14-Regular.ttf": "a5a0bcb9ff7f8fa9cc3a8085c1bb64fd74cbeab075d83ad7bde62494b441320b",
+    "fonts/AincradUISc-v030-before-ttf14-Regular.woff2": "50d4114e3c11e2ece81775debd2595aed4ee4bd60ef297c706e1a22bc02b90b6",
+    "fonts/SourceHanSansSC-Baseline.woff2": "25562e55401b43096707b67c7531b3b4c260017e6d09505550bbaa10aed67e45"
+  },
+  "all_old_inputs_and_current_fonts_byte_identical": true,
+  "all_3963_reviewed_and_6916_gb2312_source_records_exact": true,
+  "old_refinement_pipeline_anchors_preserved": true,
+  "all_30186_han_outlines_nonempty": true,
+  "main_font_build_performed": false,
+  "new_output_files": [
+    "data/sourcehan-han-extension.json",
+    "data/sourcehan-source-preparation.json",
+    "sources/AincradSeed-sourcehan-Regular.otf",
+    "sources/AincradSeed-sourcehan-Medium.otf"
+  ],
+  "passed": true
+}
