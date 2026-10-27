@@ -1,12 +1,12 @@
-# Aincrad UI SC
+# 艾恩葛朗特字体 · Aincrad UI SC
 
 **保留 SAO 窄长气质的中文界面字体。**
 
 [English](README.en.md) · 简体中文 · [下载 v0.3.0](https://github.com/kymorphius/Aincrad-UI-SC/releases/tag/v0.3.0)
 
-![Aincrad UI SC 界面字样](media/preview.png)
+![艾恩葛朗特字体界面字样](media/preview.png)
 
-Aincrad UI SC 派生自 **Source Han Sans SC v1.004**，沿用窄长比例、克制的圆角与切角，提供适合正文的 **Regular** 和适合标题的 **Display** 两档。当前收录 **30,437 个字符**：本地思源来源实际映射的全部 **30,186 个汉字码位**，以及 **251 个英文、数字、标点及其他符号**。
+艾恩葛朗特字体（Aincrad UI SC）派生自 **Source Han Sans SC v1.004**，沿用窄长比例、克制的圆角与切角，提供适合正文的 **Regular** 和适合标题的 **Display** 两档。当前收录 **30,437 个字符**：本地思源来源实际映射的全部 **30,186 个汉字码位**，以及 **251 个英文、数字、标点及其他符号**。
 
 本次 **`wao-symbols`** 版补齐 WAO 界面需求中的全部 24 个符号，包括六个制表线符号：
 
